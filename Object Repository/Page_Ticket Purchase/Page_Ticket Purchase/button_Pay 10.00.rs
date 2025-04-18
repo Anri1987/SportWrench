@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Pay 10.00</name>
+   <tag></tag>
+   <elementGuidId>59b2de7a-40e8-41e2-a8bd-d42276279bfc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.StyledBtn-sc-pvli5u-0.hrMGIa</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>dc4eea47-e8da-4e26-8727-bab7b939c65c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>f3d8130a-171a-411f-ad57-79fa627831fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>StyledBtn-sc-pvli5u-0 hrMGIa</value>
+      <webElementGuid>d93d49c0-0d90-4fbf-abb6-3e14d09c9486</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pay $10.00</value>
+      <webElementGuid>e0820be3-142e-4c7c-897f-f882618ada1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MainLayout__Wrapper-sc-793hpp-0 dXZwFX&quot;]/div[@class=&quot;ContainerStyled-sc-1ie1ara-0 cXdKMP&quot;]/form[1]/div[@class=&quot;StyledPurchaseTicketsStepControlsWrapper-sc-1ede9ov-1 eMTxnX&quot;]/div[@class=&quot;StyledButtonContainer-sc-kuyu8x-0 hlYPdD&quot;]/button[@class=&quot;StyledBtn-sc-pvli5u-0 hrMGIa&quot;]</value>
+      <webElementGuid>aa4ad918-4ced-4cf1-9674-f367e31ca9b3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>176f1c1b-bc9e-48c4-a2b9-2f39eb26c604</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/form/div/div[2]/button[2]</value>
+      <webElementGuid>25773efb-c3e7-4b50-99a3-0f78900b5728</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/following::button[1]</value>
+      <webElementGuid>ba7095a9-3875-4ccc-9ed3-3cfebf2dbff4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$10.00'])[1]/following::button[2]</value>
+      <webElementGuid>5299e08e-7708-4be5-b52f-abf8a19df9f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pay $10.00']/parent::*</value>
+      <webElementGuid>6c2fd219-08a8-41b4-8e35-a5d54e97176d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>c7409a2e-5bfe-43d1-a06c-ea213425fd3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Pay $10.00' or . = 'Pay $10.00')]</value>
+      <webElementGuid>759ad88f-bc97-45ef-9cc7-393c71d2d268</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

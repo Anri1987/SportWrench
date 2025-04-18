@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_123Test EventSW Fee for TeamsSW Fee for_3418be</name>
+   <tag></tag>
+   <elementGuidId>dee57ac2-2fba-46f1-8b67-36a70136120d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.modal.fade.in</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9ff59c68-eae9-497d-aea1-bba7ca7fc43b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>modal-render</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>51da8312-c15f-4274-a314-8f9044a05f32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>fedae6b3-e686-4524-870e-416bde63c5c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>dialog</value>
+      <webElementGuid>93241128-f019-4a59-8cd7-82be0462007e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>modal fade in</value>
+      <webElementGuid>cd938fcc-d97a-4cbe-ae5b-489428abe21e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>uib-modal-animation-class</name>
+      <type>Main</type>
+      <value>fade</value>
+      <webElementGuid>0926a56e-4bd2-4b98-b7e0-91a0d04e39fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>modal-in-class</name>
+      <type>Main</type>
+      <value>in</value>
+      <webElementGuid>2ee11e8c-c9f4-4d9b-94d8-8fed9c1d61d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-style</name>
+      <type>Main</type>
+      <value>{'z-index': 1050 + index*10, display: 'block'}</value>
+      <webElementGuid>6d2fe5a2-fb0e-44a0-b13c-a4d799dfb4f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>uib-modal-window</name>
+      <type>Main</type>
+      <value>modal-window</value>
+      <webElementGuid>2d5e76de-7a4b-44bc-b924-06ce207b774e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>index</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>a012e51a-35ef-433f-b064-7c14d2052156</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>animate</name>
+      <type>Main</type>
+      <value>animate</value>
+      <webElementGuid>30f9dd65-e939-4d54-bfa6-2ceb69a15d67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>modal-animation</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>ecc1f9f0-0a1a-4820-9479-2363c0d858b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+     123Test EventSW Fee for TeamsSW Fee for TicketsEO Stripe % for TeamsEO Stripe % for TicketsSW/Stripe Fees Payer for Tickets Seller BuyerSW Fees Payer for Teams Seller BuyerStripe Fees Payer for Teams Seller BuyerTeams SW Fee Collection Mode Auto Extra Fee Manual ManualSwitch on NCSA APINo Junk Tax PricesSave
+</value>
+      <webElementGuid>731204f2-4600-469b-8eb7-438f57d7eff1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;modal fade in&quot;]</value>
+      <webElementGuid>f99a0e3c-bcb8-4a5c-852b-610acd73444e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div</value>
+      <webElementGuid>88962e5f-4512-4986-9458-e87d7fec204e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '
+     123Test EventSW Fee for TeamsSW Fee for TicketsEO Stripe % for TeamsEO Stripe % for TicketsSW/Stripe Fees Payer for Tickets Seller BuyerSW Fees Payer for Teams Seller BuyerStripe Fees Payer for Teams Seller BuyerTeams SW Fee Collection Mode Auto Extra Fee Manual ManualSwitch on NCSA APINo Junk Tax PricesSave
+' or . = '
+     123Test EventSW Fee for TeamsSW Fee for TicketsEO Stripe % for TeamsEO Stripe % for TicketsSW/Stripe Fees Payer for Tickets Seller BuyerSW Fees Payer for Teams Seller BuyerStripe Fees Payer for Teams Seller BuyerTeams SW Fee Collection Mode Auto Extra Fee Manual ManualSwitch on NCSA APINo Junk Tax PricesSave
+')]</value>
+      <webElementGuid>7da2568d-113c-43d3-b891-e6a884a732ff</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

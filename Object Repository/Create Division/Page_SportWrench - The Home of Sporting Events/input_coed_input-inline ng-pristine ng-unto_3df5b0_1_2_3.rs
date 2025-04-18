@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2_3</name>
+   <tag></tag>
+   <elementGuidId>5f9b1593-154b-4424-8349-6bfa34edfd56</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>label.pointer > input.input-inline.ng-pristine.ng-untouched.ng-valid.ng-empty</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='checkbox'])[7]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>a35c6664-0b67-4950-b131-0c26cb4f72f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>9eef5764-a1ad-488e-9cb1-37b93186afcd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input-inline ng-pristine ng-untouched ng-valid ng-empty</value>
+      <webElementGuid>2ccb509d-679e-4cc6-a6ac-43e4a2d03196</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>selection[age.age]</value>
+      <webElementGuid>8c382b51-a995-4f35-afea-895beeb4e43a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-change</name>
+      <type>Main</type>
+      <value>dataChanged()</value>
+      <webElementGuid>60a3e507-21ab-4367-a6b3-a6cc4afac6bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;modal fade in&quot;]/div[@class=&quot;modal-dialog modal-lg&quot;]/div[@class=&quot;modal-content&quot;]/divisions-wirard[1]/form[@class=&quot;form-horizontal row-space ng-valid ng-valid-maxlength ng-dirty ng-valid-parse&quot;]/div[@class=&quot;row rowm0&quot;]/div[@class=&quot;col-xs-3 divisions--border&quot;]/wizard-ages[1]/div[@class=&quot;row row-space--small age-row&quot;]/div[@class=&quot;col-xs-6&quot;]/label[@class=&quot;pointer&quot;]/input[@class=&quot;input-inline ng-pristine ng-untouched ng-valid ng-empty&quot;]</value>
+      <webElementGuid>10e6e87a-c30e-4434-8822-a913e91b7366</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='checkbox'])[7]</value>
+      <webElementGuid>31efbab2-4532-43c8-86dc-cf2e14273350</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/label/input</value>
+      <webElementGuid>56851603-075d-45ca-8f78-9e8f64feca4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'checkbox']</value>
+      <webElementGuid>fddcce23-c07d-456a-b8a4-e2566448eed5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

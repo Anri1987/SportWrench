@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Pay</name>
+   <tag></tag>
+   <elementGuidId>cf9f5fe3-82e5-43a6-a285-588f27462954</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Event Roster'])[1]/following::button[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>48af4856-3669-4fec-91f4-3f3e0e38f043</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-if</name>
+      <type>Main</type>
+      <value>!event.past</value>
+      <webElementGuid>49dd5761-50b6-4c7b-87dd-65739fbbcca3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary</value>
+      <webElementGuid>dac247d3-0da9-47d0-ab7a-038c1d1e026c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>paymentMenu();</value>
+      <webElementGuid>a8079caf-2f27-413f-a46b-635f03fe337a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-disabled</name>
+      <type>Main</type>
+      <value>teams.length === 0</value>
+      <webElementGuid>a03f3031-f6b2-4ac3-b03b-cda8ba73d4e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pay</value>
+      <webElementGuid>3afd352a-8b83-48bc-8336-3275f179246f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/div[@class=&quot;container club-menu-container&quot;]/div[@class=&quot;tab-content clubownermenucontent&quot;]/div[@class=&quot;tab-pane active&quot;]/div[1]/div[@class=&quot;container row-space&quot;]/div[@class=&quot;tab-content clubownermenucontent&quot;]/div[@class=&quot;tab-pane active&quot;]/div[1]/fieldset[1]/form[@class=&quot;form-inline form-indent row-space ng-pristine ng-valid&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
+      <webElementGuid>bc5f74c3-f462-4eb3-b987-1a472a213094</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Event Roster'])[1]/following::button[1]</value>
+      <webElementGuid>82c9f0c5-3c1e-4dee-8836-c5c741491567</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Teams Entry'])[1]/following::button[1]</value>
+      <webElementGuid>15bec778-c4a6-429b-b877-0d487540c977</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show:'])[1]/preceding::button[1]</value>
+      <webElementGuid>04eeb8ee-b8b2-40e0-9099-a223fd2d85f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Age:'])[1]/preceding::button[1]</value>
+      <webElementGuid>1c225717-3b39-43da-822d-75d52d11de85</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pay']/parent::*</value>
+      <webElementGuid>b687e04e-5f20-4064-bd27-d150dcbcbfec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/button</value>
+      <webElementGuid>f0246d4d-be98-484b-bfb7-d02f9a10af07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Pay' or . = 'Pay')]</value>
+      <webElementGuid>c281172c-4b06-4f94-bb0a-32d52e0a0ddd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

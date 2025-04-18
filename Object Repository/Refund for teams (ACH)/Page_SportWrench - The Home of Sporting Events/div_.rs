@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_</name>
+   <tag></tag>
+   <elementGuidId>c1754db6-9a01-4149-99ad-e8a70d5787ec</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='accordiongroup-4270-2864-panel']/div/div/div/partial-refund/table/tbody/tr[3]/td[3]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(3) > td:nth-of-type(3) > div.input-group > div.input-group-addon.addon-sm</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;$1,000.00 $ $ 16 Club Trinity 9 6&quot;i] >> div >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>fe9907eb-01c6-4f8b-9b2c-b1469125c4f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input-group-addon addon-sm</value>
+      <webElementGuid>001172af-6d87-40bc-aa3e-a1410328ac82</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$</value>
+      <webElementGuid>e61bad33-6887-4e57-8ab0-cb6e29363a07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;accordiongroup-4270-2864-panel&quot;)/div[@class=&quot;panel-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/partial-refund[1]/table[@class=&quot;table table-condensed eo-partial-refund&quot;]/tbody[1]/tr[3]/td[3]/div[@class=&quot;input-group&quot;]/div[@class=&quot;input-group-addon addon-sm&quot;]</value>
+      <webElementGuid>d6251350-ac62-42da-91aa-526643c9c422</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='accordiongroup-4270-2864-panel']/div/div/div/partial-refund/table/tbody/tr[3]/td[3]/div/div</value>
+      <webElementGuid>b6c227fa-3767-4c11-8842-fa65550568cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$1,000.00'])[3]/following::div[2]</value>
+      <webElementGuid>30bd4919-039c-4fa8-bd45-175d231dc105</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Trinity 9 5'])[1]/following::div[2]</value>
+      <webElementGuid>56e7ca3e-2972-4045-bb57-a5cdc3b37c1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[6]/preceding::div[1]</value>
+      <webElementGuid>3dddcdda-fe54-4899-b34e-6ce9ba1b71f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Trinity 9 6'])[1]/preceding::div[3]</value>
+      <webElementGuid>03062d45-5fe4-4a00-94d8-ddf65735c94e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[3]/td[3]/div/div</value>
+      <webElementGuid>173987c4-954c-4fe3-973d-1f452422b827</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '$' or . = '$')]</value>
+      <webElementGuid>e75c5cc4-1a36-4964-99aa-d601bb94ce1c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

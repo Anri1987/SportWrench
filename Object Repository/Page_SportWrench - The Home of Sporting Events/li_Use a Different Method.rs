@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Use a Different Method</name>
+   <tag></tag>
+   <elementGuidId>d55ff621-f4a4-43eb-ae7c-3037ac6e8157</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='payment-form']/stripe-card-list/ul/li[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>816063db-180d-43b3-9766-d879760bc383</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>stripe-card</value>
+      <webElementGuid>30101ec6-ff64-41db-8240-092b7e000d83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>$ctrl.resetCard()</value>
+      <webElementGuid>823b7b28-6981-4309-9ed0-caf1252272e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-class</name>
+      <type>Main</type>
+      <value>{'stripe-card-selected': $ctrl.selectedCard === null}</value>
+      <webElementGuid>9d066b77-302c-4e80-8cf3-970f3a86f80a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Use a Different Method</value>
+      <webElementGuid>213c9f8f-46f2-424d-bc58-8bc15bb03a5b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;payment-form&quot;)/stripe-card-list[1]/ul[@class=&quot;stripe-card-list&quot;]/li[@class=&quot;stripe-card&quot;]</value>
+      <webElementGuid>1c3501f1-5cc7-40be-85f9-03deac870814</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='payment-form']/stripe-card-list/ul/li[2]</value>
+      <webElementGuid>d3ec4dc4-df6b-4187-9a83-0069662e4a02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='****4242'])[1]/following::li[1]</value>
+      <webElementGuid>85053dc2-e010-4c54-b1f4-5db11a672191</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VISA'])[1]/following::li[1]</value>
+      <webElementGuid>f563fbe1-63d1-4aa2-bbe8-3d94ce60ddf5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pay $2,000.00'])[1]/preceding::li[1]</value>
+      <webElementGuid>72d26921-2fd5-41bd-a72a-a5fe8fb0cd57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please print a copy of your invoice and mail your check to:'])[1]/preceding::li[1]</value>
+      <webElementGuid>b1ae5028-21f4-44e0-b0b6-9695fc834b0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Use a Different Method']/parent::*</value>
+      <webElementGuid>d4cc0eed-bee0-4459-905e-ac058a513a43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//stripe-card-list/ul/li[2]</value>
+      <webElementGuid>ec8cc212-bad7-40db-8e4f-ab9b2050a710</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Use a Different Method' or . = 'Use a Different Method')]</value>
+      <webElementGuid>4498f876-5083-415e-8d24-a48e4006fd0f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

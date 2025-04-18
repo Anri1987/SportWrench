@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4</name>
+   <tag></tag>
+   <elementGuidId>50a57e02-b21d-4fe3-8afc-8c465621d21f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='checkbox'])[12]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td > input.ng-pristine.ng-untouched.ng-valid.ng-empty</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;✉  Tamara Allen IMPACT OK YES USAV&quot;i] >> internal:role=checkbox</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>5c8ea570-cf40-4d2f-bf7e-ea7a94a1f5e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>4f779fe4-0d75-4f4c-931c-e1110d66e5de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>opts.selection[st.master_staff_id]</value>
+      <webElementGuid>8d5a2427-223b-4844-906f-4eadff6d3141</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-change</name>
+      <type>Main</type>
+      <value>staffCheckedChanged(st.master_staff_id);</value>
+      <webElementGuid>13d69793-af13-4904-b94d-8a43e02abb84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-pristine ng-untouched ng-valid ng-empty</value>
+      <webElementGuid>ed13c817-92d3-4a06-bf72-def038e4a30b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/div[@class=&quot;container club-menu-container&quot;]/div[@class=&quot;tab-content clubownermenucontent&quot;]/div[@class=&quot;tab-pane active&quot;]/div[1]/table[@class=&quot;table table-condensed&quot;]/tbody[@class=&quot;pointer&quot;]/tr[2]/td[1]/input[@class=&quot;ng-pristine ng-untouched ng-valid ng-empty&quot;]</value>
+      <webElementGuid>832d5e92-737f-4297-b160-b6f189f26efa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='checkbox'])[12]</value>
+      <webElementGuid>4d19d492-7d11-45f8-8884-f5be5250f483</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td/input</value>
+      <webElementGuid>486c17ad-ce3f-4955-8f80-2880d8e5ca57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'checkbox']</value>
+      <webElementGuid>797872ec-2db1-40d4-9558-a13cf946bbfd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

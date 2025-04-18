@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_April 2025_btn btn-default btn-sm pu_492a81_1</name>
+   <tag></tag>
+   <elementGuidId>bd5fbd08-6376-4047-8c0a-960452be1d85</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-default.btn-sm.pull-right.uib-right</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>8975a157-054e-4c63-8207-abe7b48859c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>fc822c03-852e-463e-8d2f-a420c69c498d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-default btn-sm pull-right uib-right</value>
+      <webElementGuid>9ffaab01-76c5-43fd-913b-cea3b93cbc78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>move(1)</value>
+      <webElementGuid>01f088a0-231c-462b-8d13-8bde677de06f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>a66d728c-8aad-4094-b718-76e5976132a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/event-settings[1]/div[@class=&quot;container no-animate&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-10 col-sm-offset-1&quot;]/div[1]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;tab-pane active&quot;]/general-settings[1]/div[@class=&quot;row-space&quot;]/uib-accordion[1]/div[@class=&quot;panel-group&quot;]/div[@class=&quot;panel panel-info panel-open&quot;]/div[@class=&quot;in collapse&quot;]/div[@class=&quot;panel-body&quot;]/form[@class=&quot;form-horizontal ng-invalid ng-invalid-required ng-valid-reg_close ng-valid-deadline ng-valid-datetime ng-dirty ng-valid-parse ng-valid-number ng-valid-min ng-valid-date-disabled&quot;]/div[2]/div[@class=&quot;form-group validation-required&quot;]/div[@class=&quot;col-sm-4&quot;]/div[@class=&quot;input-group date-time-control ng-pristine ng-untouched ng-valid ng-empty ng-valid-deadline&quot;]/ul[@class=&quot;dropdown-menu dropdown-menu-left datetime-picker-dropdown ng-pristine ng-untouched ng-valid ng-empty ng-valid-date-disabled&quot;]/li[@class=&quot;date-picker-menu&quot;]/div[1]/div[@class=&quot;uib-datepicker&quot;]/table[@class=&quot;uib-daypicker&quot;]/thead[1]/tr[1]/th[3]/button[@class=&quot;btn btn-default btn-sm pull-right uib-right&quot;]</value>
+      <webElementGuid>e5ca13e8-943b-40df-8eba-3452f24e5f43</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[4]</value>
+      <webElementGuid>5cb8c54a-7ecf-4c92-9171-ee948fd23d30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='April 2025'])[1]/following::button[1]</value>
+      <webElementGuid>f8b8b9d4-dcf3-480b-ac75-7ce880caf464</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Roster Deadline'])[1]/following::button[3]</value>
+      <webElementGuid>71a49307-960c-4b99-a9a8-6f4b44b44eaf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sun'])[1]/preceding::button[1]</value>
+      <webElementGuid>803ec796-0392-4254-a53c-cd9431597d17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mon'])[1]/preceding::button[1]</value>
+      <webElementGuid>80ea5ea2-9830-4c46-9106-b785063a60ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[3]/button</value>
+      <webElementGuid>8080312f-3a00-4c1a-8ea4-865ff6e62b09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button']</value>
+      <webElementGuid>f0697b9f-50da-4690-99d9-95e2de814ad9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

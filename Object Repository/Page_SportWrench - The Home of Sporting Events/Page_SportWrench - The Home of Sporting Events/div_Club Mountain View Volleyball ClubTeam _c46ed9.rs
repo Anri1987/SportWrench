@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Club Mountain View Volleyball ClubTeam _c46ed9</name>
+   <tag></tag>
+   <elementGuidId>21b7aee3-4605-4fc7-b841-3f5113044f00</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.modal.fade.in</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>339324dd-a6dd-4560-8f86-33ec9674aafe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>modal-render</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>86d9d5c9-5110-42d8-b547-0f8f2f9f930a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>495b631c-adf0-4d57-ad7c-ecc0556f8574</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>dialog</value>
+      <webElementGuid>618046b5-2e4b-4591-9881-acfe69d2736b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>modal fade in</value>
+      <webElementGuid>ee71e40e-ed15-4f7f-a3b3-c1f4be28e0b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>uib-modal-animation-class</name>
+      <type>Main</type>
+      <value>fade</value>
+      <webElementGuid>60fe12e4-c0e0-4c99-9042-3e4931a4e676</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>modal-in-class</name>
+      <type>Main</type>
+      <value>in</value>
+      <webElementGuid>b36199da-df71-416e-8efe-65c3a45c40f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-style</name>
+      <type>Main</type>
+      <value>{'z-index': 1050 + index*10, display: 'block'}</value>
+      <webElementGuid>dbdf2561-8b7e-4a18-b67f-224c0752e3f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>uib-modal-window</name>
+      <type>Main</type>
+      <value>modal-window</value>
+      <webElementGuid>efd04f0b-bbf2-4d89-86ba-2d4509875b2d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>index</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>824b511a-c816-4515-8e07-90c22d71bb26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>animate</name>
+      <type>Main</type>
+      <value>animate</value>
+      <webElementGuid>f13a41c0-5089-4177-a8f3-1e6a08364044</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>modal-animation</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>0c14114f-1458-49c0-a7e3-b63042a8ed6c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+    ×Club: Mountain View Volleyball ClubTeam NameUSAV CodeDivivsionxggsg 18 11B18MOUVI11NC18 C C Close
+</value>
+      <webElementGuid>eecbb118-f27f-4435-8f9c-7cebba8f7ba3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;modal fade in&quot;]</value>
+      <webElementGuid>ebda407c-c188-4185-8fe3-e3602aba5943</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div</value>
+      <webElementGuid>3247bb63-730d-451c-a2c3-671c7008687a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '
+    ×Club: Mountain View Volleyball ClubTeam NameUSAV CodeDivivsionxggsg 18 11B18MOUVI11NC18 C C Close
+' or . = '
+    ×Club: Mountain View Volleyball ClubTeam NameUSAV CodeDivivsionxggsg 18 11B18MOUVI11NC18 C C Close
+')]</value>
+      <webElementGuid>a02e0e5a-b5ba-4842-8398-6671bad4df90</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

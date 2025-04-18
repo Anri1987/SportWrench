@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Payments for teams (CARD, ACH, CHECK) - 2</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>79e86e28-7a5d-41ce-a9ca-d8ad720cff24</testCaseGuid>
+</TestCaseEntity>

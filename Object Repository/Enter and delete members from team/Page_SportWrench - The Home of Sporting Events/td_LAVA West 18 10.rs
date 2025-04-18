@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_LAVA West 18 10</name>
+   <tag></tag>
+   <elementGuidId>dc729a40-f4ec-479a-8b35-84bd78943cf3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Webpoint'])[2]/following::td[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.hiding-column-min</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=cell[name=&quot;LAVA West 18 10&quot;i] >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>056c3f3d-0e1d-4cfc-9dc9-2a2b119e397d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-title</name>
+      <type>Main</type>
+      <value>'Team Name'</value>
+      <webElementGuid>e5877179-f595-4e04-b092-248c40e6d9ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>sortable</name>
+      <type>Main</type>
+      <value>'team'</value>
+      <webElementGuid>429f7658-2b12-4669-ade5-e0b5e3a06e09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>hiding-column-min</value>
+      <webElementGuid>8ce775db-342f-449d-94e5-01e51a800fb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>header-class</name>
+      <type>Main</type>
+      <value>'hiding-column-min'</value>
+      <webElementGuid>21c4a4c8-0b26-4018-b73f-96035d606a5b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>openAthleteEditDialog(a.master_athlete_id)</value>
+      <webElementGuid>ee51169a-f305-4d53-8eb7-4f63eccf953e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-title-text</name>
+      <type>Main</type>
+      <value>Team Name</value>
+      <webElementGuid>3d868956-8145-49e4-90d1-99fa63f666fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>LAVA West 18 10</value>
+      <webElementGuid>61667942-3772-4834-8264-7dba3a3a2b49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/div[@class=&quot;container club-menu-container&quot;]/div[@class=&quot;tab-content clubownermenucontent&quot;]/div[@class=&quot;tab-pane active&quot;]/div[1]/div[@class=&quot;loading-container&quot;]/table[@class=&quot;table table-condensed sw-adaptive-grid athletes-table highlihgt-athlete ng-table&quot;]/tbody[1]/tr[1]/td[@class=&quot;hiding-column-min&quot;]</value>
+      <webElementGuid>427155e7-c5dc-43f4-9305-da699ac9827f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Webpoint'])[2]/following::td[4]</value>
+      <webElementGuid>d75cd4bc-e2d4-4d4c-ab0f-98ad7db12bc3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sanctioned body'])[2]/following::td[4]</value>
+      <webElementGuid>727694d2-25f5-4aeb-81a7-108f5a580105</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='N/A'])[1]/preceding::td[1]</value>
+      <webElementGuid>ca484007-9ede-4c1c-88b2-99b84d6633cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='N/A'])[2]/preceding::td[2]</value>
+      <webElementGuid>92bd1431-8ee0-47b5-9378-8df27c6d36ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='LAVA West 18 10']/parent::*</value>
+      <webElementGuid>9784810f-05a4-4270-94a6-6539321b3013</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[4]</value>
+      <webElementGuid>4f543363-ff06-461d-8b0c-11557563def4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'LAVA West 18 10' or . = 'LAVA West 18 10')]</value>
+      <webElementGuid>5ee04f03-338d-4e48-a0c8-a3a19189c980</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

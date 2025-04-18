@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Choose Sanctioning Body .USAVAAUJVA9_9b6f50</name>
+   <tag></tag>
+   <elementGuidId>a34f069f-8557-48db-8c0c-8485c58ee218</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;sanc&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@name='sanc']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>1f51ec9c-c724-4dd8-a3d8-819c3a7e9a67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>tournament.sport_sanctioning_id</value>
+      <webElementGuid>a5f15fee-6149-477e-9fe2-2cf0f81f8ba4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required</value>
+      <webElementGuid>9e7c2a51-9046-488d-8235-1ab229df521c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>sanc</value>
+      <webElementGuid>97f71751-8407-41f0-83a8-4e747b3bc322</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-options</name>
+      <type>Main</type>
+      <value>s.id as s.name for s in utils.sanctionings</value>
+      <webElementGuid>6a309a1a-feab-466e-aedf-ca049169325e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-show</name>
+      <type>Main</type>
+      <value>!utils.sancLoading</value>
+      <webElementGuid>aa50c6c8-a6ce-40d3-b8c7-dc625adfcf86</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Choose Sanctioning Body ...USAVAAUJVA9 ManOther</value>
+      <webElementGuid>b2c62a0b-c5d7-41bf-bdff-53d944577c0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/event-settings[1]/div[@class=&quot;container no-animate&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-10 col-sm-offset-1&quot;]/div[1]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;tab-pane active&quot;]/general-settings[1]/div[@class=&quot;row-space&quot;]/uib-accordion[1]/div[@class=&quot;panel-group&quot;]/div[@class=&quot;panel panel-info panel-open&quot;]/div[@class=&quot;in collapse&quot;]/div[@class=&quot;panel-body&quot;]/form[@class=&quot;form-horizontal ng-invalid ng-invalid-required ng-invalid-min ng-valid-reg_close ng-valid-deadline ng-valid-datetime ng-dirty ng-valid-parse&quot;]/div[2]/div[@class=&quot;form-group validation-required&quot;]/div[@class=&quot;col-sm-4&quot;]/select[@class=&quot;form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required&quot;]</value>
+      <webElementGuid>666fffae-24d5-4f3d-ad43-25a947f20c6f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@name='sanc']</value>
+      <webElementGuid>ce64c09d-f1fb-4fb0-94a0-77f6c32f9371</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sanctioning Body'])[1]/following::select[1]</value>
+      <webElementGuid>2cd9ddb2-7179-4026-9752-3d96d891b76d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Coed'])[1]/following::select[1]</value>
+      <webElementGuid>242b3a48-308b-4f38-8808-c5566217c0ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Event Type'])[1]/preceding::select[1]</value>
+      <webElementGuid>0524e4ca-d2e6-4363-8507-82c2afe0cf5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Entry Region Restriction'])[1]/preceding::select[2]</value>
+      <webElementGuid>a6cf672c-bc96-4943-91f9-3e2c3e39ab68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[7]/div/select</value>
+      <webElementGuid>c205abd0-5dee-4939-a9a2-88694b518eb1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'sanc' and (text() = 'Choose Sanctioning Body ...USAVAAUJVA9 ManOther' or . = 'Choose Sanctioning Body ...USAVAAUJVA9 ManOther')]</value>
+      <webElementGuid>8188668d-268f-4801-b124-4c77031f2768</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

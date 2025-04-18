@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Choose a Timezone .AmericaNew_YorkAm_0bdf4d</name>
+   <tag></tag>
+   <elementGuidId>ad0951a9-24fa-48d9-975d-e30655373b5f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;timezone&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@name='timezone']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>b82ba2f5-d0ac-4091-bf0c-998d030f2bc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required</value>
+      <webElementGuid>920134c6-77ae-480c-b711-ca545f5e0548</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>timezone</value>
+      <webElementGuid>077f4af3-c929-4005-9b12-c72735d0c6a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>tournament.timezone</value>
+      <webElementGuid>83bef696-3893-485d-ac1c-e422915cec6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Choose a Timezone ...America/New_YorkAmerica/Los_AngelesAmerica/ChicagoAmerica/DetroitAmerica/PhoenixAmerica/Indiana/IndianapolisAmerica/DenverHawaii</value>
+      <webElementGuid>03649fb0-190d-47e6-b381-3ae7d08270cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/event-settings[1]/div[@class=&quot;container no-animate&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-10 col-sm-offset-1&quot;]/div[1]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;tab-pane active&quot;]/general-settings[1]/div[@class=&quot;row-space&quot;]/uib-accordion[1]/div[@class=&quot;panel-group&quot;]/div[@class=&quot;panel panel-info panel-open&quot;]/div[@class=&quot;in collapse&quot;]/div[@class=&quot;panel-body&quot;]/form[@class=&quot;form-horizontal ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-date_end ng-valid-datetime ng-invalid-event-dates ng-dirty ng-valid-parse&quot;]/div[@class=&quot;form-group validation-required&quot;]/div[@class=&quot;col-sm-4&quot;]/select[@class=&quot;form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required&quot;]</value>
+      <webElementGuid>f628d0bf-f07b-426a-8004-819d98d90236</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@name='timezone']</value>
+      <webElementGuid>7327f4bf-c51c-4deb-97c4-bba34aa9aab4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Event Time Zone'])[1]/following::select[1]</value>
+      <webElementGuid>9cd9967a-7c62-4fcd-a589-408ac596322e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Online Exhibitors Registration'])[1]/following::select[1]</value>
+      <webElementGuid>5fff8cb3-fe7a-4e72-af77-fd30b05c2a74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sport'])[1]/preceding::select[1]</value>
+      <webElementGuid>974e9372-e6f6-40e5-a122-75a6c3874036</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sport Variation'])[1]/preceding::select[2]</value>
+      <webElementGuid>037bb689-4499-4fc1-9f2f-d47c1c4ce958</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>a7715108-d31a-40ca-b204-7d3661d61400</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'timezone' and (text() = 'Choose a Timezone ...America/New_YorkAmerica/Los_AngelesAmerica/ChicagoAmerica/DetroitAmerica/PhoenixAmerica/Indiana/IndianapolisAmerica/DenverHawaii' or . = 'Choose a Timezone ...America/New_YorkAmerica/Los_AngelesAmerica/ChicagoAmerica/DetroitAmerica/PhoenixAmerica/Indiana/IndianapolisAmerica/DenverHawaii')]</value>
+      <webElementGuid>3469b340-58ec-498a-a9bc-4a017d85ea9b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,219 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Club,Chrome 135.0.7049.96,,,18-04-2025 16:03:44,18-04-2025 16:09:25,"5m - 41,249s",PASSED
+,,,,,,,
+"Test Cases/111Club/CREATE account, club, team, payment",Chrome 135.0.7049.96,,,18-04-2025 16:03:44,18-04-2025 16:04:53,"1m - 9,050s",PASSED
+counter = Math.random() * 100000,Chrome 135.0.7049.96,,,18-04-2025 16:03:44,18-04-2025 16:03:44,"0,022s",PASSED
+"email = counter + ""Test_email_for_club@gmail.com""",Chrome 135.0.7049.96,,,18-04-2025 16:03:44,18-04-2025 16:03:44,"0,004s",PASSED
+"openBrowser(""http://USAV:demo@dev.swstage.com/"")",Chrome 135.0.7049.96,,,18-04-2025 16:03:44,18-04-2025 16:03:49,"5,178s",PASSED
+maximizeWindow(),Chrome 135.0.7049.96,,,18-04-2025 16:03:49,18-04-2025 16:03:49,"0,060s",PASSED
+"navigateToUrl(""http://USAV:demo@my.dev.swstage.com/#/"")",Chrome 135.0.7049.96,,,18-04-2025 16:03:49,18-04-2025 16:03:52,"2,895s",PASSED
+"click(findTestObject(""Object Repository/Create account/Page_SportWrench - The Home of Sporting Events/a_SIGN UP""))",Chrome 135.0.7049.96,,,18-04-2025 16:03:52,18-04-2025 16:03:53,"0,476s",PASSED
+"setText(findTestObject(""Object Repository/Create account/Page_SportWrench - The Home of Sporting Events/input_Registration_first""), ""Tara"")",Chrome 135.0.7049.96,,,18-04-2025 16:03:53,18-04-2025 16:03:54,"1,062s",PASSED
+"setText(findTestObject(""Object Repository/Create account/Page_SportWrench - The Home of Sporting Events/input_false_last""), ""Charles"")",Chrome 135.0.7049.96,,,18-04-2025 16:03:54,18-04-2025 16:03:54,"0,624s",PASSED
+"setText(findTestObject(""Object Repository/Create account/Page_SportWrench - The Home of Sporting Events/input_false_email""), email)",Chrome 135.0.7049.96,,,18-04-2025 16:03:54,18-04-2025 16:03:55,"0,548s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create account/Page_SportWrench - The Home of Sporting Events/input_false_password""), ""SFTQUhjBfIY="")",Chrome 135.0.7049.96,,,18-04-2025 16:03:55,18-04-2025 16:03:55,"0,310s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create account/Page_SportWrench - The Home of Sporting Events/input_false_password_confirmation""), ""SFTQUhjBfIY="")",Chrome 135.0.7049.96,,,18-04-2025 16:03:55,18-04-2025 16:03:56,"0,280s",PASSED
+"setText(findTestObject(""Object Repository/Create account/Page_SportWrench - The Home of Sporting Events/input_1_phone_mob""), ""(855) 555-5555"")",Chrome 135.0.7049.96,,,18-04-2025 16:03:56,18-04-2025 16:03:56,"0,513s",PASSED
+"setText(findTestObject(""Object Repository/Create account/Page_SportWrench - The Home of Sporting Events/input_Will only be used to resolve account _8e33be""), ""12345"")",Chrome 135.0.7049.96,,,18-04-2025 16:03:56,18-04-2025 16:03:57,"0,514s",PASSED
+"click(findTestObject(""Object Repository/Create account/Page_SportWrench - The Home of Sporting Events/input_Spectator_clubDirector""))",Chrome 135.0.7049.96,,,18-04-2025 16:03:57,18-04-2025 16:03:57,"0,278s",PASSED
+delay(1),Chrome 135.0.7049.96,,,18-04-2025 16:03:57,18-04-2025 16:03:58,"1,033s",PASSED
+"click(findTestObject(""Create account/Page_SportWrench - The Home of Sporting Events/button_Sign Up""))",Chrome 135.0.7049.96,,,18-04-2025 16:03:58,18-04-2025 16:03:58,"0,287s",PASSED
+delay(2),Chrome 135.0.7049.96,,,18-04-2025 16:03:58,18-04-2025 16:04:00,"2,009s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Create account/Page_SportWrench - The Home of Sporting Events/h2_Successfully registered""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:04:00,18-04-2025 16:04:01,"0,252s",PASSED
+"newTab("""")",Chrome 135.0.7049.96,,,18-04-2025 16:04:01,18-04-2025 16:04:01,"0,100s",PASSED
+"navigateToUrl(""https://dev.swstage.com/mail"")",Chrome 135.0.7049.96,,,18-04-2025 16:04:01,18-04-2025 16:04:01,"0,589s",PASSED
+refresh(),Chrome 135.0.7049.96,,,18-04-2025 16:04:01,18-04-2025 16:04:02,"0,404s",PASSED
+"click(findTestObject(""Object Repository/Create account/Page_/a_962190""))",Chrome 135.0.7049.96,,,18-04-2025 16:04:02,18-04-2025 16:04:03,"1,053s",PASSED
+"doubleClick(findTestObject(""Object Repository/Create account/Page_SportWrench/a_Activate Account""))",Chrome 135.0.7049.96,,,18-04-2025 16:04:03,18-04-2025 16:04:03,"0,526s",PASSED
+delay(2),Chrome 135.0.7049.96,,,18-04-2025 16:04:03,18-04-2025 16:04:05,"2,008s",PASSED
+closeBrowser(),Chrome 135.0.7049.96,,,18-04-2025 16:04:05,18-04-2025 16:04:05,"0,141s",PASSED
+"openBrowser(""http://USAV:demo@dev.swstage.com/"")",Chrome 135.0.7049.96,,,18-04-2025 16:04:05,18-04-2025 16:04:09,"4,006s",PASSED
+"navigateToUrl(""http://USAV:demo@my.dev.swstage.com/#/"")",Chrome 135.0.7049.96,,,18-04-2025 16:04:09,18-04-2025 16:04:12,"2,659s",PASSED
+"setText(findTestObject(""Object Repository/Create account/Page_SportWrench - The Home of Sporting Events/input_false_email""), email)",Chrome 135.0.7049.96,,,18-04-2025 16:04:12,18-04-2025 16:04:13,"0,737s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create account/Page_SportWrench - The Home of Sporting Events/input_false_password""), ""SFTQUhjBfIY="")",Chrome 135.0.7049.96,,,18-04-2025 16:04:13,18-04-2025 16:04:13,"0,281s",PASSED
+"click(findTestObject(""Object Repository/Create account/Page_SportWrench - The Home of Sporting Events/button_Log In""))",Chrome 135.0.7049.96,,,18-04-2025 16:04:13,18-04-2025 16:04:13,"0,284s",PASSED
+"click(findTestObject(""Object Repository/Create Club/Page_SportWrench - The Home of Sporting Events/a_Enter Club Info""))",Chrome 135.0.7049.96,,,18-04-2025 16:04:13,18-04-2025 16:04:17,"3,248s",PASSED
+"setText(findTestObject(""Object Repository/Create Club/Page_SportWrench - The Home of Sporting Events/input_Club Name_club_name""), ""New Test Club for autotests"")",Chrome 135.0.7049.96,,,18-04-2025 16:04:17,18-04-2025 16:04:18,"1,069s",PASSED
+"setText(findTestObject(""Object Repository/Create Club/Page_SportWrench - The Home of Sporting Events/input_Short Club Name_team_prefix""), ""cfa"")",Chrome 135.0.7049.96,,,18-04-2025 16:04:18,18-04-2025 16:04:18,"0,497s",PASSED
+"click(findTestObject(""Object Repository/Create Club/Page_SportWrench - The Home of Sporting Events/input_Indoor_sport_variations""))",Chrome 135.0.7049.96,,,18-04-2025 16:04:18,18-04-2025 16:04:18,"0,280s",PASSED
+"click(findTestObject(""Object Repository/Create Club/Page_SportWrench - The Home of Sporting Events/input_Doubles_sport_variations""))",Chrome 135.0.7049.96,,,18-04-2025 16:04:18,18-04-2025 16:04:19,"0,265s",PASSED
+"click(findTestObject(""Object Repository/Create Club/Page_SportWrench - The Home of Sporting Events/input_Female_team_genders""))",Chrome 135.0.7049.96,,,18-04-2025 16:04:19,18-04-2025 16:04:19,"0,281s",PASSED
+"click(findTestObject(""Object Repository/Create Club/Page_SportWrench - The Home of Sporting Events/input_Male_team_genders""))",Chrome 135.0.7049.96,,,18-04-2025 16:04:19,18-04-2025 16:04:19,"0,272s",PASSED
+"click(findTestObject(""Object Repository/Create Club/Page_SportWrench - The Home of Sporting Events/input_Coed_team_genders""))",Chrome 135.0.7049.96,,,18-04-2025 16:04:19,18-04-2025 16:04:19,"0,265s",PASSED
+"click(findTestObject(""Object Repository/Create Club/Page_SportWrench - The Home of Sporting Events/input_JVA_sanctioned_by""))",Chrome 135.0.7049.96,,,18-04-2025 16:04:19,18-04-2025 16:04:20,"0,266s",PASSED
+"setText(findTestObject(""Object Repository/Create Club/Page_SportWrench - The Home of Sporting Events/input_Address_address""), ""101 North Atlantic Avenue"")",Chrome 135.0.7049.96,,,18-04-2025 16:04:20,18-04-2025 16:04:20,"0,546s",PASSED
+"setText(findTestObject(""Object Repository/Create Club/Page_SportWrench - The Home of Sporting Events/input_City_city""), ""Daytona Beach"")",Chrome 135.0.7049.96,,,18-04-2025 16:04:20,18-04-2025 16:04:21,"0,508s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create Club/Page_SportWrench - The Home of Sporting Events/select_Select.AlabamaAlaskaArizonaArkansasC_7e0971""), ""string:FL"", true)",Chrome 135.0.7049.96,,,18-04-2025 16:04:21,18-04-2025 16:04:22,"1,259s",PASSED
+"setText(findTestObject(""Object Repository/Create Club/Page_SportWrench - The Home of Sporting Events/input_ZIP_zip""), ""32218"")",Chrome 135.0.7049.96,,,18-04-2025 16:04:22,18-04-2025 16:04:23,"0,506s",PASSED
+"setText(findTestObject(""Object Repository/Create Club/Page_SportWrench - The Home of Sporting Events/input_Administrative Email_administrative_email""), ""fdredv@gmail.com"")",Chrome 135.0.7049.96,,,18-04-2025 16:04:23,18-04-2025 16:04:23,"0,507s",PASSED
+"click(findTestObject(""Object Repository/Create Club/Page_SportWrench - The Home of Sporting Events/input_Female_director_gender""))",Chrome 135.0.7049.96,,,18-04-2025 16:04:23,18-04-2025 16:04:23,"0,266s",PASSED
+"click(findTestObject(""Object Repository/Create Club/Page_SportWrench - The Home of Sporting Events/span_Birthdate_glyphicon glyphicon-calendar""))",Chrome 135.0.7049.96,,,18-04-2025 16:04:23,18-04-2025 16:04:24,"0,291s",PASSED
+"click(findTestObject(""Object Repository/Create Club/Page_SportWrench - The Home of Sporting Events/button_Birthdate_btn btn-default btn-sm pul_bd3ef5""))",Chrome 135.0.7049.96,,,18-04-2025 16:04:24,18-04-2025 16:04:24,"0,553s",PASSED
+"click(findTestObject(""Object Repository/Create Club/Page_SportWrench - The Home of Sporting Events/button_2001""))",Chrome 135.0.7049.96,,,18-04-2025 16:04:24,18-04-2025 16:04:25,"0,482s",PASSED
+"click(findTestObject(""Object Repository/Create Club/Page_SportWrench - The Home of Sporting Events/button_January""))",Chrome 135.0.7049.96,,,18-04-2025 16:04:25,18-04-2025 16:04:25,"0,504s",PASSED
+"click(findTestObject(""Object Repository/Create Club/Page_SportWrench - The Home of Sporting Events/button_15""))",Chrome 135.0.7049.96,,,18-04-2025 16:04:25,18-04-2025 16:04:26,"0,478s",PASSED
+"click(findTestObject(""Object Repository/Create Club/Page_SportWrench - The Home of Sporting Events/input_Birthdate_btn btn-primary pull-right""))",Chrome 135.0.7049.96,,,18-04-2025 16:04:26,18-04-2025 16:04:26,"0,301s",PASSED
+"click(findTestObject(""Object Repository/Create team/Page_SportWrench - The Home of Sporting Events/a_Teams""))",Chrome 135.0.7049.96,,,18-04-2025 16:04:26,18-04-2025 16:04:27,"1,109s",PASSED
+"click(findTestObject(""Object Repository/Create team/Page_SportWrench - The Home of Sporting Events/a_New Team""))",Chrome 135.0.7049.96,,,18-04-2025 16:04:27,18-04-2025 16:04:28,"0,720s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create team/Page_SportWrench - The Home of Sporting Events/select_Select.8  Under9  Under10  Under11  _479ecf""), ""number:18"", true)",Chrome 135.0.7049.96,,,18-04-2025 16:04:28,18-04-2025 16:04:29,"1,060s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create team/Page_SportWrench - The Home of Sporting Events/select_Select.12345678910111213141516171819_9fa821""), ""string:10"", true)",Chrome 135.0.7049.96,,,18-04-2025 16:04:29,18-04-2025 16:04:30,"1,531s",PASSED
+"click(findTestObject(""Object Repository/Create team/Page_SportWrench - The Home of Sporting Events/input_Female_gender""))",Chrome 135.0.7049.96,,,18-04-2025 16:04:30,18-04-2025 16:04:31,"0,276s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create team/Page_SportWrench - The Home of Sporting Events/select_Select.IndoorDoubles""), ""number:1"", true)",Chrome 135.0.7049.96,,,18-04-2025 16:04:31,18-04-2025 16:04:31,"0,738s",PASSED
+"click(findTestObject(""Object Repository/Create team/Page_SportWrench - The Home of Sporting Events/button_Submit""))",Chrome 135.0.7049.96,,,18-04-2025 16:04:31,18-04-2025 16:04:32,"0,256s",PASSED
+"click(findTestObject(""Object Repository/Create team/Page_SportWrench - The Home of Sporting Events/a_Enter Events""))",Chrome 135.0.7049.96,,,18-04-2025 16:04:32,18-04-2025 16:04:33,"0,998s",PASSED
+"click(findTestObject(""Object Repository/Create team/Page_SportWrench - The Home of Sporting Events/button_InfoEnter""))",Chrome 135.0.7049.96,,,18-04-2025 16:04:33,18-04-2025 16:04:33,"0,709s",PASSED
+"click(findTestObject(""Object Repository/Create team/Page_SportWrench - The Home of Sporting Events/button_Enter Event and Manage Teams""))",Chrome 135.0.7049.96,,,18-04-2025 16:04:33,18-04-2025 16:04:34,"0,674s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create team/Page_SportWrench - The Home of Sporting Events/select_18 Club 18 Club Not entered""), ""number:16792011"", true)",Chrome 135.0.7049.96,,,18-04-2025 16:04:34,18-04-2025 16:04:36,"1,588s",PASSED
+"click(findTestObject(""Object Repository/Team payment 22/Page_SportWrench - The Home of Sporting Events/button_Pay""))",Chrome 135.0.7049.96,,,18-04-2025 16:04:36,18-04-2025 16:04:37,"0,981s",PASSED
+"enhancedClick(findTestObject(""Object Repository/Team payment 22/Page_SportWrench - The Home of Sporting Events/div_Proceed to payment""))",Chrome 135.0.7049.96,,,18-04-2025 16:04:37,18-04-2025 16:04:38,"0,944s",PASSED
+"setText(findTestObject(""Object Repository/Team payment 22/Page_SportWrench - The Home of Sporting Events/input_Card number_number""), ""4242 4242 4242 4242"")",Chrome 135.0.7049.96,,,18-04-2025 16:04:38,18-04-2025 16:04:40,"2,153s",PASSED
+"setText(findTestObject(""Object Repository/Team payment 22/Page_SportWrench - The Home of Sporting Events/input_MM  YY_expiry""), ""12 / 27"")",Chrome 135.0.7049.96,,,18-04-2025 16:04:40,18-04-2025 16:04:40,"0,590s",PASSED
+"setText(findTestObject(""Object Repository/Team payment 22/Page_SportWrench - The Home of Sporting Events/input_Security code_cvc""), ""321"")",Chrome 135.0.7049.96,,,18-04-2025 16:04:40,18-04-2025 16:04:41,"0,572s",PASSED
+delay(1),Chrome 135.0.7049.96,,,18-04-2025 16:04:41,18-04-2025 16:04:42,"1,017s",PASSED
+"doubleClick(findTestObject(""Object Repository/Team payment 22/Page_SportWrench - The Home of Sporting Events/button_Pay 1,000.00""))",Chrome 135.0.7049.96,,,18-04-2025 16:04:42,18-04-2025 16:04:42,"0,571s",PASSED
+delay(10),Chrome 135.0.7049.96,,,18-04-2025 16:04:42,18-04-2025 16:04:52,"10,005s",PASSED
+"click(findTestObject(""Object Repository/Team payment 22/Page_SportWrench - The Home of Sporting Events/span_Your Payment of 1,000.00 succeeded""), STOP_ON_FAILURE)",Chrome 135.0.7049.96,,,18-04-2025 16:04:52,18-04-2025 16:04:53,"0,268s",PASSED
+closeBrowser(),Chrome 135.0.7049.96,,,18-04-2025 16:04:53,18-04-2025 16:04:53,"0,263s",PASSED
+,,,,,,,
+Test Cases/111Club/Upload XLS with members,Chrome 135.0.7049.96,,club,18-04-2025 16:04:53,18-04-2025 16:05:21,"28,172s",PASSED
+"DATA BINDING - {""(Default) file"":""C:\\\\Users\\\\LENOVO\\\\Desktop\\\\SCREENS\\\\SportWrench Foreign Team Roster Import(6).xlsx""}",,,,,,,
+"openBrowser(""http://USAV:demo@dev.swstage.com/ "")",Chrome 135.0.7049.96,,,18-04-2025 16:04:53,18-04-2025 16:04:57,"3,566s",PASSED
+"navigateToUrl(""http://USAV:demo@my.dev.swstage.com/#/"")",Chrome 135.0.7049.96,,,18-04-2025 16:04:57,18-04-2025 16:05:00,"2,833s",PASSED
+maximizeWindow(),Chrome 135.0.7049.96,,,18-04-2025 16:05:00,18-04-2025 16:05:00,"0,050s",PASSED
+"setText(findTestObject(""Object Repository/xls/Page_SportWrench - The Home of Sporting Events/input_Log In_email (1)""), ""71856test_email_for_club@gmail.com"")",Chrome 135.0.7049.96,,,18-04-2025 16:05:00,18-04-2025 16:05:00,"0,668s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/xls/Page_SportWrench - The Home of Sporting Events/input_false_password (1)""), ""SFTQUhjBfIY="")",Chrome 135.0.7049.96,,,18-04-2025 16:05:00,18-04-2025 16:05:01,"0,276s",PASSED
+"click(findTestObject(""Object Repository/xls/Page_SportWrench - The Home of Sporting Events/button_Log In (1)""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:01,18-04-2025 16:05:01,"0,278s",PASSED
+"click(findTestObject(""Object Repository/xls/Page_SportWrench - The Home of Sporting Events/a_Athletes (1)""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:01,18-04-2025 16:05:06,"5,303s",PASSED
+delay(1),Chrome 135.0.7049.96,,,18-04-2025 16:05:06,18-04-2025 16:05:07,"1,014s",PASSED
+"click(findTestObject(""Object Repository/xls/Page_SportWrench - The Home of Sporting Events/input_No current season teams found_pull-le_c33dfe (1)""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:07,18-04-2025 16:05:08,"0,498s",PASSED
+delay(1),Chrome 135.0.7049.96,,,18-04-2025 16:05:08,18-04-2025 16:05:09,"1,003s",PASSED
+"click(findTestObject(""Object Repository/xls/Page_SportWrench - The Home of Sporting Events/button_Remove from teams""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:09,18-04-2025 16:05:09,"0,264s",PASSED
+delay(1),Chrome 135.0.7049.96,,,18-04-2025 16:05:09,18-04-2025 16:05:10,"1,010s",PASSED
+"click(findTestObject(""Object Repository/xls/Page_SportWrench - The Home of Sporting Events/a_Staff (1)""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:10,18-04-2025 16:05:10,"0,393s",PASSED
+delay(1),Chrome 135.0.7049.96,,,18-04-2025 16:05:10,18-04-2025 16:05:11,"1,014s",PASSED
+"click(findTestObject(""Object Repository/xls/Page_SportWrench - The Home of Sporting Events/input_No current season teams found_ng-pris_4ffcfd""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:11,18-04-2025 16:05:12,"0,264s",PASSED
+delay(1),Chrome 135.0.7049.96,,,18-04-2025 16:05:12,18-04-2025 16:05:13,"1,009s",PASSED
+"click(findTestObject(""Object Repository/xls/Page_SportWrench - The Home of Sporting Events/button_Remove from teams_1""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:13,18-04-2025 16:05:13,"0,267s",PASSED
+delay(1),Chrome 135.0.7049.96,,,18-04-2025 16:05:13,18-04-2025 16:05:14,"1,014s",PASSED
+"click(findTestObject(""Object Repository/xls/Page_SportWrench - The Home of Sporting Events/a_Athletes (1)""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:14,18-04-2025 16:05:14,"0,308s",PASSED
+delay(1),Chrome 135.0.7049.96,,,18-04-2025 16:05:14,18-04-2025 16:05:15,"1,008s",PASSED
+"click(findTestObject(""Object Repository/xls/Page_SportWrench - The Home of Sporting Events/a_XLSX Import (1)""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:15,18-04-2025 16:05:16,"0,718s",PASSED
+"uploadFile(findTestObject(""Object Repository/xls/Page_SportWrench - The Home of Sporting Events/input_here_roster-list (1)""), file)",Chrome 135.0.7049.96,,,18-04-2025 16:05:16,18-04-2025 16:05:16,"0,468s",PASSED
+"click(findTestObject(""Object Repository/xls/Page_SportWrench - The Home of Sporting Events/button_Import (1)""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:16,18-04-2025 16:05:17,"0,273s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/xls/Page_SportWrench - The Home of Sporting Events/td_cfa 18 10""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:05:17,18-04-2025 16:05:19,"2,593s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/xls/Page_SportWrench - The Home of Sporting Events/td_cfa 18 10_1_2""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:05:19,18-04-2025 16:05:19,"0,232s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/xls/Page_SportWrench - The Home of Sporting Events/td_cfa 18 10_1""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:05:19,18-04-2025 16:05:20,"0,233s",PASSED
+"click(findTestObject(""Object Repository/xls/Page_SportWrench - The Home of Sporting Events/a_Staff (1)""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:20,18-04-2025 16:05:20,"0,276s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/xls/Page_SportWrench - The Home of Sporting Events/span_G185007710XX_1_2""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:05:20,18-04-2025 16:05:21,"0,646s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/xls/Page_SportWrench - The Home of Sporting Events/span_G185007710XX_1""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:05:21,18-04-2025 16:05:21,"0,230s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/xls/Page_SportWrench - The Home of Sporting Events/span_G185007710XX""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:05:21,18-04-2025 16:05:21,"0,234s",PASSED
+closeBrowser(),Chrome 135.0.7049.96,,,18-04-2025 16:05:21,18-04-2025 16:05:21,"0,114s",PASSED
+,,,,,,,
+Test Cases/111Club/Enter and remove members from team,Chrome 135.0.7049.96,,club,18-04-2025 16:05:21,18-04-2025 16:06:03,"41,535s",PASSED
+"openBrowser(""http://USAV:demo@dev.swstage.com/ "")",Chrome 135.0.7049.96,,,18-04-2025 16:05:21,18-04-2025 16:05:25,"3,365s",PASSED
+"navigateToUrl(""http://USAV:demo@my.dev.swstage.com/#/"")",Chrome 135.0.7049.96,,,18-04-2025 16:05:25,18-04-2025 16:05:28,"2,894s",PASSED
+maximizeWindow(),Chrome 135.0.7049.96,,,18-04-2025 16:05:28,18-04-2025 16:05:28,"0,040s",PASSED
+"setText(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_Log In_email""), ""hghh@gmail.com"")",Chrome 135.0.7049.96,,,18-04-2025 16:05:28,18-04-2025 16:05:28,"0,637s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_false_password""), ""ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"")",Chrome 135.0.7049.96,,,18-04-2025 16:05:28,18-04-2025 16:05:28,"0,278s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/button_Log In""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:28,18-04-2025 16:05:29,"0,275s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_My lub""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:29,18-04-2025 16:05:33,"4,381s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Athletes""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:33,18-04-2025 16:05:34,"0,748s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_Webpoint_ng-pristine ng-untouched ng-_67f57a""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:34,18-04-2025 16:05:36,"2,195s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:36,18-04-2025 16:05:36,"0,286s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:36,18-04-2025 16:05:37,"0,276s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:37,18-04-2025 16:05:37,"0,283s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:37,18-04-2025 16:05:37,"0,277s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_Add to Team_caret""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:37,18-04-2025 16:05:37,"0,281s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/div_G18LAVAW10SC""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:37,18-04-2025 16:05:38,"0,930s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_The Athletes Zoey Yu, Ariana Zapata, C_1ab2e4""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:05:38,18-04-2025 16:05:39,"0,668s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Staff""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:39,18-04-2025 16:05:39,"0,376s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_Sanctioned body_ng-pristine ng-untouc_34dc9e""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:39,18-04-2025 16:05:40,"0,928s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:40,18-04-2025 16:05:41,"0,288s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4_5""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:41,18-04-2025 16:05:41,"0,272s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4_5_6""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:41,18-04-2025 16:05:41,"0,262s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4_5_6_7""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:41,18-04-2025 16:05:41,"0,268s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/button_Add to Team""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:41,18-04-2025 16:05:42,"0,268s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/div_G18LAVAW10SC""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:42,18-04-2025 16:05:43,"0,903s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/div_Successful Operation""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:05:43,18-04-2025 16:05:44,"1,148s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_G18LAVAW10SC""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:05:44,18-04-2025 16:05:44,"0,233s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_G18LAVAW10SC_1""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:05:44,18-04-2025 16:05:44,"0,231s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_G18LAVAW10SC_1_2""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:05:44,18-04-2025 16:05:45,"0,340s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_G18LAVAW10SC_1_2_3""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:05:45,18-04-2025 16:05:45,"0,233s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_G18LAVAW10SC_1_2_3_4""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:05:45,18-04-2025 16:05:45,"0,233s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Athletes""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:45,18-04-2025 16:05:45,"0,311s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/td_LAVA West 18 10""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:05:45,18-04-2025 16:05:47,"2,073s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/td_LAVA West 18 10_1""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:05:47,18-04-2025 16:05:48,"0,242s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/td_LAVA West 18 10_1_2""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:05:48,18-04-2025 16:05:48,"0,237s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/td_LAVA West 18 10_1_2_3""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:05:48,18-04-2025 16:05:48,"0,232s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/td_LAVA West 18 10_1_2_3_4""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:05:48,18-04-2025 16:05:48,"0,234s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Teams""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:48,18-04-2025 16:05:49,"0,269s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_LAVA West 18 10""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:49,18-04-2025 16:05:49,"0,689s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Athletes""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:49,18-04-2025 16:05:50,"0,678s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:05:50,18-04-2025 16:05:51,"0,650s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:05:51,18-04-2025 16:05:51,"0,228s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:05:51,18-04-2025 16:05:51,"0,228s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2_3""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:05:51,18-04-2025 16:05:51,"0,231s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2_3_4""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:05:51,18-04-2025 16:05:52,"0,233s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Staff""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:52,18-04-2025 16:05:52,"0,279s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2_3_4_5""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:05:52,18-04-2025 16:05:53,"0,870s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2_3_4_5_6""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:05:53,18-04-2025 16:05:53,"0,232s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2_3_4_5_6_7""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:05:53,18-04-2025 16:05:53,"0,229s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2_3_4_5_6_7_8""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:05:53,18-04-2025 16:05:53,"0,236s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2_3_4_5_6_7_8_9""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:05:53,18-04-2025 16:05:54,"0,233s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/button_Close""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:54,18-04-2025 16:05:54,"0,305s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Athletes""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:54,18-04-2025 16:05:54,"0,325s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_Webpoint_ng-pristine ng-untouched ng-_67f57a""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:54,18-04-2025 16:05:56,"2,093s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:56,18-04-2025 16:05:57,"0,270s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:57,18-04-2025 16:05:57,"0,272s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:57,18-04-2025 16:05:57,"0,272s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:57,18-04-2025 16:05:57,"0,271s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/button_Remove from teams""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:57,18-04-2025 16:05:58,"0,290s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_The Athletes Zoey Yu, Ariana Zapata, C_82d841""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:05:58,18-04-2025 16:05:59,"0,901s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Staff""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:59,18-04-2025 16:05:59,"0,363s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_Sanctioned body_ng-pristine ng-untouc_34dc9e""))",Chrome 135.0.7049.96,,,18-04-2025 16:05:59,18-04-2025 16:06:00,"0,888s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4""))",Chrome 135.0.7049.96,,,18-04-2025 16:06:00,18-04-2025 16:06:00,"0,266s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4_5""))",Chrome 135.0.7049.96,,,18-04-2025 16:06:00,18-04-2025 16:06:00,"0,269s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4_5_6""))",Chrome 135.0.7049.96,,,18-04-2025 16:06:00,18-04-2025 16:06:01,"0,261s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4_5_6_7""))",Chrome 135.0.7049.96,,,18-04-2025 16:06:01,18-04-2025 16:06:01,"0,267s",PASSED
+"click(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/button_Remove from teams_1""))",Chrome 135.0.7049.96,,,18-04-2025 16:06:01,18-04-2025 16:06:01,"0,263s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/div_Successful Operation""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:06:01,18-04-2025 16:06:03,"1,364s",PASSED
+closeBrowser(),Chrome 135.0.7049.96,,,18-04-2025 16:06:03,18-04-2025 16:06:03,"0,108s",PASSED
+,,,,,,,
+Test Cases/111Club/USAV and AAU import,Chrome 135.0.7049.96,,club,18-04-2025 16:07:32,18-04-2025 16:09:25,"1m - 52,755s",PASSED
+"openBrowser(""http://USAV:demo@dev.swstage.com/"")",Chrome 135.0.7049.96,,,18-04-2025 16:07:32,18-04-2025 16:07:36,"3,544s",PASSED
+"navigateToUrl(""http://USAV:demo@my.dev.swstage.com/#/"")",Chrome 135.0.7049.96,,,18-04-2025 16:07:36,18-04-2025 16:07:39,"2,917s",PASSED
+maximizeWindow(),Chrome 135.0.7049.96,,,18-04-2025 16:07:39,18-04-2025 16:07:39,"0,033s",PASSED
+"setText(findTestObject(""Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/input_Log In_email""), ""wendy@mvvclub.com"")",Chrome 135.0.7049.96,,,18-04-2025 16:07:39,18-04-2025 16:07:40,"0,725s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/input_false_password""), ""ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"")",Chrome 135.0.7049.96,,,18-04-2025 16:07:40,18-04-2025 16:07:40,"0,273s",PASSED
+"click(findTestObject(""Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/button_Log In""))",Chrome 135.0.7049.96,,,18-04-2025 16:07:40,18-04-2025 16:07:40,"0,276s",PASSED
+"click(findTestObject(""Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/a_Athletes""))",Chrome 135.0.7049.96,,,18-04-2025 16:07:40,18-04-2025 16:07:43,"3,413s",PASSED
+"click(findTestObject(""Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/a_Import from SportEngine""))",Chrome 135.0.7049.96,,,18-04-2025 16:07:43,18-04-2025 16:07:44,"0,504s",PASSED
+"click(findTestObject(""Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/button_Start Import""))",Chrome 135.0.7049.96,,,18-04-2025 16:07:44,18-04-2025 16:07:46,"1,821s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/div_Import started""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:07:46,18-04-2025 16:07:47,"1,366s",PASSED
+refresh(),Chrome 135.0.7049.96,,,18-04-2025 16:07:47,18-04-2025 16:07:48,"0,464s",PASSED
+"verifyElementPresent(findTestObject(""Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:07:48,18-04-2025 16:07:49,"1,393s",PASSED
+delay(15),Chrome 135.0.7049.96,,,18-04-2025 16:07:49,18-04-2025 16:08:04,"15,005s",PASSED
+refresh(),Chrome 135.0.7049.96,,,18-04-2025 16:08:04,18-04-2025 16:08:04,"0,397s",PASSED
+"click(findTestObject(""Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/a_Import from SportEngine""))",Chrome 135.0.7049.96,,,18-04-2025 16:08:04,18-04-2025 16:08:05,"1,038s",PASSED
+"click(findTestObject(""Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/input_Import New AthleteStaff and Update Cu_a5a4d5""))",Chrome 135.0.7049.96,,,18-04-2025 16:08:05,18-04-2025 16:08:07,"1,970s",PASSED
+"click(findTestObject(""Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/button_Start Import""), STOP_ON_FAILURE)",Chrome 135.0.7049.96,,,18-04-2025 16:08:07,18-04-2025 16:08:08,"0,263s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/div_Import started""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:08:08,18-04-2025 16:08:09,"1,584s",PASSED
+refresh(),Chrome 135.0.7049.96,,,18-04-2025 16:08:09,18-04-2025 16:08:10,"0,935s",PASSED
+"verifyElementPresent(findTestObject(""Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:08:10,18-04-2025 16:08:11,"1,203s",PASSED
+delay(15),Chrome 135.0.7049.96,,,18-04-2025 16:08:11,18-04-2025 16:08:26,"15,013s",PASSED
+refresh(),Chrome 135.0.7049.96,,,18-04-2025 16:08:26,18-04-2025 16:08:27,"0,919s",PASSED
+"click(findTestObject(""Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/a_Import from AAU""))",Chrome 135.0.7049.96,,,18-04-2025 16:08:27,18-04-2025 16:08:28,"0,286s",PASSED
+"click(findTestObject(""Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/button_Start Import""))",Chrome 135.0.7049.96,,,18-04-2025 16:08:28,18-04-2025 16:08:30,"2,082s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/div_Import started""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:08:30,18-04-2025 16:08:37,"7,006s",PASSED
+refresh(),Chrome 135.0.7049.96,,,18-04-2025 16:08:37,18-04-2025 16:08:38,"0,915s",PASSED
+"verifyElementPresent(findTestObject(""Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:08:38,18-04-2025 16:08:39,"1,179s",PASSED
+delay(20),Chrome 135.0.7049.96,,,18-04-2025 16:08:39,18-04-2025 16:08:59,"20,008s",PASSED
+refresh(),Chrome 135.0.7049.96,,,18-04-2025 16:08:59,18-04-2025 16:08:59,"0,399s",PASSED
+"click(findTestObject(""Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/a_Import from AAU""))",Chrome 135.0.7049.96,,,18-04-2025 16:08:59,18-04-2025 16:09:00,"1,128s",PASSED
+"click(findTestObject(""Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/input_Import New AthleteStaff and Update Cu_a5a4d5""))",Chrome 135.0.7049.96,,,18-04-2025 16:09:00,18-04-2025 16:09:02,"1,938s",PASSED
+"click(findTestObject(""Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/button_Start Import""))",Chrome 135.0.7049.96,,,18-04-2025 16:09:02,18-04-2025 16:09:03,"0,264s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/div_Import started""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:09:03,18-04-2025 16:09:06,"3,442s",PASSED
+refresh(),Chrome 135.0.7049.96,,,18-04-2025 16:09:06,18-04-2025 16:09:06,"0,367s",PASSED
+"verifyElementPresent(findTestObject(""Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait""), 0)",Chrome 135.0.7049.96,,,18-04-2025 16:09:06,18-04-2025 16:09:08,"1,534s",PASSED
+delay(17),Chrome 135.0.7049.96,,,18-04-2025 16:09:08,18-04-2025 16:09:25,"17,010s",PASSED
+closeBrowser(),Chrome 135.0.7049.96,,,18-04-2025 16:09:25,18-04-2025 16:09:25,"0,124s",PASSED

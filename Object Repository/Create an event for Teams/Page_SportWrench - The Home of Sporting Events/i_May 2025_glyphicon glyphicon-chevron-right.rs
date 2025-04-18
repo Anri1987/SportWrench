@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_May 2025_glyphicon glyphicon-chevron-right</name>
+   <tag></tag>
+   <elementGuidId>09f16ae3-881e-4cc9-9a54-f4db6766003e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.glyphicon.glyphicon-chevron-right</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//th[3]/button/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>cd29c2cf-682e-4310-8723-6124c579721e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>glyphicon glyphicon-chevron-right</value>
+      <webElementGuid>406c781c-9203-429c-81a8-ef36cc3459c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/event-settings[1]/div[@class=&quot;container no-animate&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-10 col-sm-offset-1&quot;]/div[1]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;tab-pane active&quot;]/general-settings[1]/div[@class=&quot;row-space&quot;]/uib-accordion[1]/div[@class=&quot;panel-group&quot;]/div[@class=&quot;panel panel-info panel-open&quot;]/div[@class=&quot;in collapse&quot;]/div[@class=&quot;panel-body&quot;]/form[@class=&quot;form-horizontal ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-date_end ng-valid-datetime ng-invalid-event-dates ng-dirty ng-valid-parse ng-valid-date-disabled&quot;]/div[@class=&quot;form-group validation-required has-error&quot;]/div[@class=&quot;col-sm-4&quot;]/div[@class=&quot;input-group date-time-control ng-pristine ng-untouched ng-valid ng-empty ng-valid-date_end&quot;]/ul[@class=&quot;dropdown-menu dropdown-menu-left datetime-picker-dropdown ng-pristine ng-untouched ng-valid ng-empty ng-valid-date-disabled&quot;]/li[@class=&quot;date-picker-menu&quot;]/div[1]/div[@class=&quot;uib-datepicker&quot;]/table[@class=&quot;uib-daypicker&quot;]/thead[1]/tr[1]/th[3]/button[@class=&quot;btn btn-default btn-sm pull-right uib-right&quot;]/i[@class=&quot;glyphicon glyphicon-chevron-right&quot;]</value>
+      <webElementGuid>58c94932-a08a-4164-9950-9370cafea76e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[3]/button/i</value>
+      <webElementGuid>48900a2d-f483-415c-abb3-a36815724f35</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

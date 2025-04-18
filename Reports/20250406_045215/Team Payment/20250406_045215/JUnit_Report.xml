@@ -1,0 +1,1358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Team Payment" time="213.516" tests="5" failures="5" errors="0">
+   <testsuite name="Team Payment" tests="5" failures="5" errors="0" time="213.516" skipped="0" timestamp="06-04-2025T04:52:17" hostname="LENOVO - DESKTOP-9MN524E" id="Test Suites/Team Payment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\Katalon Studio\\Payment\\Reports\\20250406_045215\\Team Payment\\20250406_045215"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\Katalon Studio\\Payment\\Reports\\20250406_045215\\Team Payment\\20250406_045215\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\LENOVO\\Katalon Studio\\Payment\\Reports\\20250406_045215\\Team Payment\\20250406_045215\\1743904384452.png, C:\\Users\\LENOVO\\Katalon Studio\\Payment\\Reports\\20250406_045215\\Team Payment\\20250406_045215\\1743904426611.png, C:\\Users\\LENOVO\\Katalon Studio\\Payment\\Reports\\20250406_045215\\Team Payment\\20250406_045215\\1743904468052.png, C:\\Users\\LENOVO\\Katalon Studio\\Payment\\Reports\\20250406_045215\\Team Payment\\20250406_045215\\1743904508470.png, C:\\Users\\LENOVO\\Katalon Studio\\Payment\\Reports\\20250406_045215\\Team Payment\\20250406_045215\\1743904551097.png"/>
+         <property name="hostName" value="LENOVO - DESKTOP-9MN524E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="browser" value="Chrome 134.0.6998.178"/>
+         <property name="hostAddress" value="26.190.180.74"/>
+         <property name="sessionId" value="5558155d2aee8b2c67d093e74054c838"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Create an Event For Teams" time="46.759" classname="Test Cases/Create an Event For Teams" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Create an Event For Teams FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to set text '11949' of object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_ZIP_zip'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:86)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1056)&#xa;	at Create an Event For Teams.run(Create an Event For Teams:178)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1743904335223.run(TempTestSuite1743904335223.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable&#xa;  (Session info: chrome=134.0.6998.178)&#xa;Build info: version: '4.22.0', revision: 'c5f3146703'&#xa;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Command: [5c027f3e0a1e3eb57d361ab9d883ce67, clearElement {id=f.3B6E48B6821368D58408D25D429F943B.d.E7EBEC34FEE17259317C971E5B645707.e.149}]&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62972}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62972/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:20919/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Element: [[CChromeDriver: chrome on windows (5c027f3e0a1e3eb57d361ab9d883ce67)] -> xpath: (//input[@name='zip'])[2]]&#xa;Session ID: 5c027f3e0a1e3eb57d361ab9d883ce67&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)&#xa;	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)&#xa;	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:129)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)&#xa;	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)&#xa;	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$uHNKeG8P.clear(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:55)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[06-04-2025T04:52:17 - [TEST_CASE][FAILED] - Test Cases/Create an Event For Teams: Test Cases/Create an Event For Teams FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '11949' of object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_ZIP_zip'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1056)
+	at Create an Event For Teams.run(Create an Event For Teams:178)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743904335223.run(TempTestSuite1743904335223.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=134.0.6998.178)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [5c027f3e0a1e3eb57d361ab9d883ce67, clearElement {id=f.3B6E48B6821368D58408D25D429F943B.d.E7EBEC34FEE17259317C971E5B645707.e.149}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62972}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62972/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:20919/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (5c027f3e0a1e3eb57d361ab9d883ce67)] -> xpath: (//input[@name='zip'])[2]]
+Session ID: 5c027f3e0a1e3eb57d361ab9d883ce67
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:129)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$uHNKeG8P.clear(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+
+06-04-2025T04:52:18 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/"): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+06-04-2025T04:52:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-04-2025T04:52:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-04-2025T04:52:22 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+06-04-2025T04:52:22 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@my.dev.swstage.com/#/"): Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+06-04-2025T04:52:25 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+06-04-2025T04:52:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Log In_email"), "dcgfcgchfhgvhv@gmail.com"): Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+06-04-2025T04:52:26 - [MESSAGE][PASSED] - Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+06-04-2025T04:52:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_false_password"), "ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"): Text ****** has been set on object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+06-04-2025T04:52:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+06-04-2025T04:52:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Log In")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+06-04-2025T04:52:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+06-04-2025T04:52:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/a_New Event")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/a_New Event' is clicked on
+
+06-04-2025T04:52:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/a_New Event' is clicked on
+
+06-04-2025T04:52:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/span_Event Details")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/span_Event Details' is clicked on
+
+06-04-2025T04:52:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/span_Event Details' is clicked on
+
+06-04-2025T04:52:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Event Name_long_name"), "123Test Event"): Text '123Test Event' is set on object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Event Name_long_name'
+
+06-04-2025T04:52:31 - [MESSAGE][PASSED] - Text '123Test Event' is set on object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Event Name_long_name'
+
+06-04-2025T04:52:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Short Name_name"), "TE"): Text 'TE' is set on object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Short Name_name'
+
+06-04-2025T04:52:31 - [MESSAGE][PASSED] - Text 'TE' is set on object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Short Name_name'
+
+06-04-2025T04:52:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Teams_allow_teams_registration")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Teams_allow_teams_registration' is clicked on
+
+06-04-2025T04:52:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Teams_allow_teams_registration' is clicked on
+
+06-04-2025T04:52:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Ticket Sales_allow_ticket_sales")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Ticket Sales_allow_ticket_sales' is clicked on
+
+06-04-2025T04:52:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Ticket Sales_allow_ticket_sales' is clicked on
+
+06-04-2025T04:52:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/select_Choose a Timezone .AmericaNew_YorkAm_0bdf4d"), "America/New_York", true): All options with value 'America/New_York' are selected in object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/select_Choose a Timezone .AmericaNew_YorkAm_0bdf4d'  using regular expression
+
+06-04-2025T04:52:33 - [MESSAGE][PASSED] - All options with value 'America/New_York' are selected in object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/select_Choose a Timezone .AmericaNew_YorkAm_0bdf4d'  using regular expression
+
+06-04-2025T04:52:33 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/select_Choose Sport .VolleyballBasketballSo_1c54a4"), "2", true): All options with value '2' are selected in object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/select_Choose Sport .VolleyballBasketballSo_1c54a4'  using regular expression
+
+06-04-2025T04:52:34 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/select_Choose Sport .VolleyballBasketballSo_1c54a4'  using regular expression
+
+06-04-2025T04:52:34 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/select_Choose Sport Variation .IndoorDoubles")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/select_Choose Sport Variation .IndoorDoubles' is clicked on
+
+06-04-2025T04:52:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/select_Choose Sport Variation .IndoorDoubles' is clicked on
+
+06-04-2025T04:52:35 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/select_Choose Sport Variation .IndoorDoubles"), "number:1", true): All options with value 'number:1' are selected in object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/select_Choose Sport Variation .IndoorDoubles'  using regular expression
+
+06-04-2025T04:52:35 - [MESSAGE][PASSED] - All options with value 'number:1' are selected in object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/select_Choose Sport Variation .IndoorDoubles'  using regular expression
+
+06-04-2025T04:52:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Date Start_date_start")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Date Start_date_start' is clicked on
+
+06-04-2025T04:52:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Date Start_date_start' is clicked on
+
+06-04-2025T04:52:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81' is clicked on
+
+06-04-2025T04:52:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81' is clicked on
+
+06-04-2025T04:52:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81' is clicked on
+
+06-04-2025T04:52:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81' is clicked on
+
+06-04-2025T04:52:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_18")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_18' is clicked on
+
+06-04-2025T04:52:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_18' is clicked on
+
+06-04-2025T04:52:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Date")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Date' is clicked on
+
+06-04-2025T04:52:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Date' is clicked on
+
+06-04-2025T04:52:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Close")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+06-04-2025T04:52:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+06-04-2025T04:52:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Date End_date_end")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Date End_date_end' is clicked on
+
+06-04-2025T04:52:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Date End_date_end' is clicked on
+
+06-04-2025T04:52:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81' is clicked on
+
+06-04-2025T04:52:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81' is clicked on
+
+06-04-2025T04:52:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81' is clicked on
+
+06-04-2025T04:52:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81' is clicked on
+
+06-04-2025T04:52:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_20")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_20' is clicked on
+
+06-04-2025T04:52:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_20' is clicked on
+
+06-04-2025T04:52:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Date")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Date' is clicked on
+
+06-04-2025T04:52:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Date' is clicked on
+
+06-04-2025T04:52:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Close")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+06-04-2025T04:52:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+06-04-2025T04:52:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Make Event Live to Public_ng-pristine_2d3249")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Make Event Live to Public_ng-pristine_2d3249' is clicked on
+
+06-04-2025T04:52:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Make Event Live to Public_ng-pristine_2d3249' is clicked on
+
+06-04-2025T04:52:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/span_Host Organization Information")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/span_Host Organization Information' is clicked on
+
+06-04-2025T04:52:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/span_Host Organization Information' is clicked on
+
+06-04-2025T04:52:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Organization Name_org_name"), "101 North Atlantic Avenue"): Text '101 North Atlantic Avenue' is set on object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Organization Name_org_name'
+
+06-04-2025T04:52:43 - [MESSAGE][PASSED] - Text '101 North Atlantic Avenue' is set on object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Organization Name_org_name'
+
+06-04-2025T04:52:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Address_host_address"), "101 North Atlantic Avenue"): Text '101 North Atlantic Avenue' is set on object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Address_host_address'
+
+06-04-2025T04:52:44 - [MESSAGE][PASSED] - Text '101 North Atlantic Avenue' is set on object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Address_host_address'
+
+06-04-2025T04:52:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_City_host_city"), "Daytona Beach"): Text 'Daytona Beach' is set on object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_City_host_city'
+
+06-04-2025T04:52:44 - [MESSAGE][PASSED] - Text 'Daytona Beach' is set on object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_City_host_city'
+
+06-04-2025T04:52:44 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/select_Select.AlabamaAlaskaAlbertaArizonaAr_24cd39"), "string:AL", true): All options with value 'string:AL' are selected in object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/select_Select.AlabamaAlaskaAlbertaArizonaAr_24cd39'  using regular expression
+
+06-04-2025T04:52:46 - [MESSAGE][PASSED] - All options with value 'string:AL' are selected in object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/select_Select.AlabamaAlaskaAlbertaArizonaAr_24cd39'  using regular expression
+
+06-04-2025T04:52:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_ZIP_host_zip"), "32218"): Text '32218' is set on object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_ZIP_host_zip'
+
+06-04-2025T04:52:46 - [MESSAGE][PASSED] - Text '32218' is set on object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_ZIP_host_zip'
+
+06-04-2025T04:52:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Phone_org_phone"), "(111) 111-1111"): Text '(111) 111-1111' is set on object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Phone_org_phone'
+
+06-04-2025T04:52:47 - [MESSAGE][PASSED] - Text '(111) 111-1111' is set on object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Phone_org_phone'
+
+06-04-2025T04:52:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Website URL_website"), "http://111fapl.ru"): Text 'http://111fapl.ru' is set on object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Website URL_website'
+
+06-04-2025T04:52:47 - [MESSAGE][PASSED] - Text 'http://111fapl.ru' is set on object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Website URL_website'
+
+06-04-2025T04:52:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Log In_email"), "dhntyjrtjrujtst@gmail.com"): Text 'dhntyjrtjrujtst@gmail.com' is set on object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+06-04-2025T04:52:48 - [MESSAGE][PASSED] - Text 'dhntyjrtjrujtst@gmail.com' is set on object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+06-04-2025T04:52:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/span_Teams Registration Details")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/span_Teams Registration Details' is clicked on
+
+06-04-2025T04:52:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/span_Teams Registration Details' is clicked on
+
+06-04-2025T04:52:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/label_Use Registration")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/label_Use Registration' is clicked on
+
+06-04-2025T04:52:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/label_Use Registration' is clicked on
+
+06-04-2025T04:52:48 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/label_Use Registration")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/label_Use Registration' is double clicked on
+
+06-04-2025T04:52:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/label_Use Registration' is double clicked on
+
+06-04-2025T04:52:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Activate Teams Registration_live_reg")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Activate Teams Registration_live_reg' is clicked on
+
+06-04-2025T04:52:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Activate Teams Registration_live_reg' is clicked on
+
+06-04-2025T04:52:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Open Date_reg_open")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Open Date_reg_open' is clicked on
+
+06-04-2025T04:52:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Open Date_reg_open' is clicked on
+
+06-04-2025T04:52:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_31")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_31' is clicked on
+
+06-04-2025T04:52:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_31' is clicked on
+
+06-04-2025T04:52:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Date")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Date' is clicked on
+
+06-04-2025T04:52:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Date' is clicked on
+
+06-04-2025T04:52:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Close")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+06-04-2025T04:52:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+06-04-2025T04:52:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Close Date_reg_close")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Close Date_reg_close' is clicked on
+
+06-04-2025T04:52:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Close Date_reg_close' is clicked on
+
+06-04-2025T04:52:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81' is clicked on
+
+06-04-2025T04:52:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81' is clicked on
+
+06-04-2025T04:52:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_22")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_22' is clicked on
+
+06-04-2025T04:52:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_22' is clicked on
+
+06-04-2025T04:52:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Date")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Date' is clicked on
+
+06-04-2025T04:52:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Date' is clicked on
+
+06-04-2025T04:52:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Close")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+06-04-2025T04:52:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+06-04-2025T04:52:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Female_female_gender")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Female_female_gender' is clicked on
+
+06-04-2025T04:52:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Female_female_gender' is clicked on
+
+06-04-2025T04:52:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Male_male_gender")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Male_male_gender' is clicked on
+
+06-04-2025T04:52:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Male_male_gender' is clicked on
+
+06-04-2025T04:52:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Coed_coed_gender")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Coed_coed_gender' is clicked on
+
+06-04-2025T04:52:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Coed_coed_gender' is clicked on
+
+06-04-2025T04:52:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/select_Choose Sanctioning Body .USAVAAUJVA9_9b6f50"), "number:3", true): All options with value 'number:3' are selected in object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/select_Choose Sanctioning Body .USAVAAUJVA9_9b6f50'  using regular expression
+
+06-04-2025T04:52:55 - [MESSAGE][PASSED] - All options with value 'number:3' are selected in object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/select_Choose Sanctioning Body .USAVAAUJVA9_9b6f50'  using regular expression
+
+06-04-2025T04:52:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Require USAV Number_usav_req")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Require USAV Number_usav_req' is clicked on
+
+06-04-2025T04:52:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Require USAV Number_usav_req' is clicked on
+
+06-04-2025T04:52:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/select_Choose USAV Region .AlaskaAlohaArizo_c03c28"), "string:AK", true): All options with value 'string:AK' are selected in object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/select_Choose USAV Region .AlaskaAlohaArizo_c03c28'  using regular expression
+
+06-04-2025T04:52:57 - [MESSAGE][PASSED] - All options with value 'string:AK' are selected in object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/select_Choose USAV Region .AlaskaAlohaArizo_c03c28'  using regular expression
+
+06-04-2025T04:52:57 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/select_Choose Event Type .RegionalNationalQ_75cf81"), "string:regional", true): All options with value 'string:regional' are selected in object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/select_Choose Event Type .RegionalNationalQ_75cf81'  using regular expression
+
+06-04-2025T04:52:57 - [MESSAGE][PASSED] - All options with value 'string:regional' are selected in object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/select_Choose Event Type .RegionalNationalQ_75cf81'  using regular expression
+
+06-04-2025T04:52:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Registration Fee_reg_fee"), "1000"): Text '1000' is set on object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Registration Fee_reg_fee'
+
+06-04-2025T04:52:58 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Registration Fee_reg_fee'
+
+06-04-2025T04:52:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Hide Seeds_hide_seeds")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Hide Seeds_hide_seeds' is clicked on
+
+06-04-2025T04:52:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Hide Seeds_hide_seeds' is clicked on
+
+06-04-2025T04:52:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Roster Deadline_deadline")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Roster Deadline_deadline' is clicked on
+
+06-04-2025T04:52:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Roster Deadline_deadline' is clicked on
+
+06-04-2025T04:52:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81_1")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81_1' is clicked on
+
+06-04-2025T04:52:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81_1' is clicked on
+
+06-04-2025T04:52:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_23")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_23' is clicked on
+
+06-04-2025T04:52:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_23' is clicked on
+
+06-04-2025T04:52:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Date_1")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Date_1' is clicked on
+
+06-04-2025T04:53:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Date_1' is clicked on
+
+06-04-2025T04:53:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Close_1")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Close_1' is clicked on
+
+06-04-2025T04:53:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/button_Close_1' is clicked on
+
+06-04-2025T04:53:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/span_Payment Information")): Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/span_Payment Information' is clicked on
+
+06-04-2025T04:53:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/span_Payment Information' is clicked on
+
+06-04-2025T04:53:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Address_address"), "Ut consequatur aliq"): Text 'Ut consequatur aliq' is set on object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Address_address'
+
+06-04-2025T04:53:02 - [MESSAGE][PASSED] - Text 'Ut consequatur aliq' is set on object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_Address_address'
+
+06-04-2025T04:53:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_City_city"), "Eiusmod quo doloribu"): Text 'Eiusmod quo doloribu' is set on object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_City_city'
+
+06-04-2025T04:53:03 - [MESSAGE][PASSED] - Text 'Eiusmod quo doloribu' is set on object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_City_city'
+
+06-04-2025T04:53:03 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/select_Choose a State .AlabamaAlaskaAlberta_e68b6b"), "string:AL", true): All options with value 'string:AL' are selected in object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/select_Choose a State .AlabamaAlaskaAlberta_e68b6b'  using regular expression
+
+06-04-2025T04:53:04 - [MESSAGE][PASSED] - All options with value 'string:AL' are selected in object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/select_Choose a State .AlabamaAlaskaAlberta_e68b6b'  using regular expression
+
+06-04-2025T04:53:04 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_ZIP_zip"), "11949"): Unable to set text '11949' of object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_ZIP_zip' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '11949' of object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_ZIP_zip'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1056)
+	at Create an Event For Teams.run(Create an Event For Teams:178)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743904335223.run(TempTestSuite1743904335223.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=134.0.6998.178)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [5c027f3e0a1e3eb57d361ab9d883ce67, clearElement {id=f.3B6E48B6821368D58408D25D429F943B.d.E7EBEC34FEE17259317C971E5B645707.e.149}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62972}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62972/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:20919/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (5c027f3e0a1e3eb57d361ab9d883ce67)] -> xpath: (//input[@name='zip'])[2]]
+Session ID: 5c027f3e0a1e3eb57d361ab9d883ce67
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:129)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$uHNKeG8P.clear(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1056)
+	at Script1743900265364.run(Script1743900265364.groovy:178)
+	... 15 more
+)
+
+06-04-2025T04:53:04 - [MESSAGE][FAILED] - Unable to set text '11949' of object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_ZIP_zip' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '11949' of object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_ZIP_zip'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1056)
+	at Create an Event For Teams.run(Create an Event For Teams:178)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743904335223.run(TempTestSuite1743904335223.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=134.0.6998.178)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [5c027f3e0a1e3eb57d361ab9d883ce67, clearElement {id=f.3B6E48B6821368D58408D25D429F943B.d.E7EBEC34FEE17259317C971E5B645707.e.149}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62972}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62972/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:20919/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (5c027f3e0a1e3eb57d361ab9d883ce67)] -> xpath: (//input[@name='zip'])[2]]
+Session ID: 5c027f3e0a1e3eb57d361ab9d883ce67
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:129)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$uHNKeG8P.clear(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1056)
+	at Script1743900265364.run(Script1743900265364.groovy:178)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\LENOVO\\Katalon Studio\\Payment\\Reports\\20250406_045215\\Team Payment\\20250406_045215\\1743904384452.png]]]]></system-out>
+         <system-err><![CDATA[06-04-2025T04:52:17 - [TEST_CASE][FAILED] - Test Cases/Create an Event For Teams: Test Cases/Create an Event For Teams FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '11949' of object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_ZIP_zip'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1056)
+	at Create an Event For Teams.run(Create an Event For Teams:178)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743904335223.run(TempTestSuite1743904335223.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=134.0.6998.178)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [5c027f3e0a1e3eb57d361ab9d883ce67, clearElement {id=f.3B6E48B6821368D58408D25D429F943B.d.E7EBEC34FEE17259317C971E5B645707.e.149}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62972}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62972/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:20919/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (5c027f3e0a1e3eb57d361ab9d883ce67)] -> xpath: (//input[@name='zip'])[2]]
+Session ID: 5c027f3e0a1e3eb57d361ab9d883ce67
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:129)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$uHNKeG8P.clear(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Divisions" time="42.134" classname="Test Cases/Create Divisions" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Create Divisions FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/a_Test Event'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)&#xa;	at Create Divisions.run(Create Divisions:35)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1743904335223.run(TempTestSuite1743904335223.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/a_Test Event' located by '//a[contains(text(),'Test Event')]' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[06-04-2025T04:53:04 - [TEST_CASE][FAILED] - Test Cases/Create Divisions: Test Cases/Create Divisions FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/a_Test Event'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Create Divisions.run(Create Divisions:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743904335223.run(TempTestSuite1743904335223.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/a_Test Event' located by '//a[contains(text(),'Test Event')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+
+06-04-2025T04:53:04 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/ "): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/ '
+
+06-04-2025T04:53:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-04-2025T04:53:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-04-2025T04:53:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-04-2025T04:53:08 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/ '
+
+06-04-2025T04:53:08 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@my.dev.swstage.com/#/"): Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+06-04-2025T04:53:10 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+06-04-2025T04:53:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_Log In_email"), "dcgfcgchfhgvhv@gmail.com"): Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+06-04-2025T04:53:11 - [MESSAGE][PASSED] - Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+06-04-2025T04:53:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_false_password"), "ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"): Text ****** has been set on object 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+06-04-2025T04:53:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+06-04-2025T04:53:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/button_Log In")): Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+06-04-2025T04:53:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+06-04-2025T04:53:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox"), "123Test Event"): Text '123Test Event' is set on object 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox'
+
+06-04-2025T04:53:15 - [MESSAGE][PASSED] - Text '123Test Event' is set on object 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox'
+
+06-04-2025T04:53:15 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/a_Test Event")): Unable to click on object 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/a_Test Event' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/a_Test Event'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Create Divisions.run(Create Divisions:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743904335223.run(TempTestSuite1743904335223.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/a_Test Event' located by '//a[contains(text(),'Test Event')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1743887663156.run(Script1743887663156.groovy:35)
+	... 15 more
+)
+
+06-04-2025T04:53:46 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[contains(text(),'Test Event')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+06-04-2025T04:53:46 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/a_Test Event' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/a_Test Event'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Create Divisions.run(Create Divisions:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743904335223.run(TempTestSuite1743904335223.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/a_Test Event' located by '//a[contains(text(),'Test Event')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1743887663156.run(Script1743887663156.groovy:35)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\LENOVO\\Katalon Studio\\Payment\\Reports\\20250406_045215\\Team Payment\\20250406_045215\\1743904426611.png]]]]></system-out>
+         <system-err><![CDATA[06-04-2025T04:53:04 - [TEST_CASE][FAILED] - Test Cases/Create Divisions: Test Cases/Create Divisions FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/a_Test Event'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Create Divisions.run(Create Divisions:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743904335223.run(TempTestSuite1743904335223.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/a_Test Event' located by '//a[contains(text(),'Test Event')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Event Supervisor" time="41.436" classname="Test Cases/Event Supervisor" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Event Supervisor FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Event Supervisor/Page_SportWrench - The Home of Sporting Events/div_Undefined_1'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)&#xa;	at Event Supervisor.run(Event Supervisor:34)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1743904335223.run(TempTestSuite1743904335223.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Event Supervisor/Page_SportWrench - The Home of Sporting Events/div_Undefined_1' located by '(.//*[normalize-space(text()) and normalize-space(.)='Jun, 01'])[2]/following::div[1]' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[06-04-2025T04:53:46 - [TEST_CASE][FAILED] - Test Cases/Event Supervisor: Test Cases/Event Supervisor FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Event Supervisor/Page_SportWrench - The Home of Sporting Events/div_Undefined_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Event Supervisor.run(Event Supervisor:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743904335223.run(TempTestSuite1743904335223.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Event Supervisor/Page_SportWrench - The Home of Sporting Events/div_Undefined_1' located by '(.//*[normalize-space(text()) and normalize-space(.)='Jun, 01'])[2]/following::div[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+
+06-04-2025T04:53:46 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/"): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+06-04-2025T04:53:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-04-2025T04:53:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-04-2025T04:53:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-04-2025T04:53:50 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+06-04-2025T04:53:50 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@my.dev.swstage.com/#/"): Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+06-04-2025T04:53:53 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+06-04-2025T04:53:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Event Supervisor/Page_SportWrench - The Home of Sporting Events/input_Log In_email"), "info@sportwrench.com"): Text 'info@sportwrench.com' is set on object 'Object Repository/Event Supervisor/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+06-04-2025T04:53:53 - [MESSAGE][PASSED] - Text 'info@sportwrench.com' is set on object 'Object Repository/Event Supervisor/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+06-04-2025T04:53:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Event Supervisor/Page_SportWrench - The Home of Sporting Events/input_false_password"), "ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"): Text ****** has been set on object 'Object Repository/Event Supervisor/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+06-04-2025T04:53:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Event Supervisor/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+06-04-2025T04:53:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Event Supervisor/Page_SportWrench - The Home of Sporting Events/button_Log In")): Object: 'Object Repository/Event Supervisor/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+06-04-2025T04:53:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Supervisor/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+06-04-2025T04:53:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Event Supervisor/Page_SportWrench - The Home of Sporting Events/a_Event Supervisor")): Object: 'Object Repository/Event Supervisor/Page_SportWrench - The Home of Sporting Events/a_Event Supervisor' is clicked on
+
+06-04-2025T04:53:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Supervisor/Page_SportWrench - The Home of Sporting Events/a_Event Supervisor' is clicked on
+
+06-04-2025T04:53:56 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Event Supervisor/Page_SportWrench - The Home of Sporting Events/div_Undefined_1")): Unable to click on object 'Object Repository/Event Supervisor/Page_SportWrench - The Home of Sporting Events/div_Undefined_1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Event Supervisor/Page_SportWrench - The Home of Sporting Events/div_Undefined_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Event Supervisor.run(Event Supervisor:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743904335223.run(TempTestSuite1743904335223.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Event Supervisor/Page_SportWrench - The Home of Sporting Events/div_Undefined_1' located by '(.//*[normalize-space(text()) and normalize-space(.)='Jun, 01'])[2]/following::div[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1743891018684.run(Script1743891018684.groovy:34)
+	... 15 more
+)
+
+06-04-2025T04:54:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Jun, 01'])[2]/following::div[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+06-04-2025T04:54:28 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Event Supervisor/Page_SportWrench - The Home of Sporting Events/div_Undefined_1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Event Supervisor/Page_SportWrench - The Home of Sporting Events/div_Undefined_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Event Supervisor.run(Event Supervisor:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743904335223.run(TempTestSuite1743904335223.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Event Supervisor/Page_SportWrench - The Home of Sporting Events/div_Undefined_1' located by '(.//*[normalize-space(text()) and normalize-space(.)='Jun, 01'])[2]/following::div[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1743891018684.run(Script1743891018684.groovy:34)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\LENOVO\\Katalon Studio\\Payment\\Reports\\20250406_045215\\Team Payment\\20250406_045215\\1743904468052.png]]]]></system-out>
+         <system-err><![CDATA[06-04-2025T04:53:46 - [TEST_CASE][FAILED] - Test Cases/Event Supervisor: Test Cases/Event Supervisor FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Event Supervisor/Page_SportWrench - The Home of Sporting Events/div_Undefined_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Event Supervisor.run(Event Supervisor:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743904335223.run(TempTestSuite1743904335223.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Event Supervisor/Page_SportWrench - The Home of Sporting Events/div_Undefined_1' located by '(.//*[normalize-space(text()) and normalize-space(.)='Jun, 01'])[2]/following::div[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Team purchase" time="40.431" classname="Test Cases/Team purchase" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Team purchase FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Team Payment/Page_SportWrench - The Home of Sporting Events/span_123Test Event'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)&#xa;	at Team purchase.run(Team purchase:36)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1743904335223.run(TempTestSuite1743904335223.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Team Payment/Page_SportWrench - The Home of Sporting Events/span_123Test Event' located by '(.//*[normalize-space(text()) and normalize-space(.)='Info/Enter'])[4]/following::span[1]' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[06-04-2025T04:54:28 - [TEST_CASE][FAILED] - Test Cases/Team purchase: Test Cases/Team purchase FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Team Payment/Page_SportWrench - The Home of Sporting Events/span_123Test Event'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Team purchase.run(Team purchase:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743904335223.run(TempTestSuite1743904335223.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Team Payment/Page_SportWrench - The Home of Sporting Events/span_123Test Event' located by '(.//*[normalize-space(text()) and normalize-space(.)='Info/Enter'])[4]/following::span[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+
+06-04-2025T04:54:28 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/ "): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/ '
+
+06-04-2025T04:54:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-04-2025T04:54:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-04-2025T04:54:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-04-2025T04:54:31 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/ '
+
+06-04-2025T04:54:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-04-2025T04:54:32 - [MESSAGE][PASSED] - Current window maximized
+
+06-04-2025T04:54:32 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@my.dev.swstage.com/#/"): Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+06-04-2025T04:54:34 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+06-04-2025T04:54:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Team Payment/Page_SportWrench - The Home of Sporting Events/input_Log In_email"), "wendy@mvvclub.com"): Text 'wendy@mvvclub.com' is set on object 'Object Repository/Team Payment/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+06-04-2025T04:54:35 - [MESSAGE][PASSED] - Text 'wendy@mvvclub.com' is set on object 'Object Repository/Team Payment/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+06-04-2025T04:54:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Team Payment/Page_SportWrench - The Home of Sporting Events/input_false_password"), "ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"): Text ****** has been set on object 'Object Repository/Team Payment/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+06-04-2025T04:54:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Team Payment/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+06-04-2025T04:54:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Team Payment/Page_SportWrench - The Home of Sporting Events/button_Log In")): Object: 'Object Repository/Team Payment/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+06-04-2025T04:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Team Payment/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+06-04-2025T04:54:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Team Payment/Page_SportWrench - The Home of Sporting Events/a_Enter Events")): Object: 'Object Repository/Team Payment/Page_SportWrench - The Home of Sporting Events/a_Enter Events' is clicked on
+
+06-04-2025T04:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Team Payment/Page_SportWrench - The Home of Sporting Events/a_Enter Events' is clicked on
+
+06-04-2025T04:54:37 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Team Payment/Page_SportWrench - The Home of Sporting Events/span_123Test Event")): Unable to click on object 'Object Repository/Team Payment/Page_SportWrench - The Home of Sporting Events/span_123Test Event' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Team Payment/Page_SportWrench - The Home of Sporting Events/span_123Test Event'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Team purchase.run(Team purchase:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743904335223.run(TempTestSuite1743904335223.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Team Payment/Page_SportWrench - The Home of Sporting Events/span_123Test Event' located by '(.//*[normalize-space(text()) and normalize-space(.)='Info/Enter'])[4]/following::span[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1743778891861.run(Script1743778891861.groovy:36)
+	... 15 more
+)
+
+06-04-2025T04:55:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Info/Enter'])[4]/following::span[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+06-04-2025T04:55:08 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Team Payment/Page_SportWrench - The Home of Sporting Events/span_123Test Event' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Team Payment/Page_SportWrench - The Home of Sporting Events/span_123Test Event'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Team purchase.run(Team purchase:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743904335223.run(TempTestSuite1743904335223.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Team Payment/Page_SportWrench - The Home of Sporting Events/span_123Test Event' located by '(.//*[normalize-space(text()) and normalize-space(.)='Info/Enter'])[4]/following::span[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1743778891861.run(Script1743778891861.groovy:36)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\LENOVO\\Katalon Studio\\Payment\\Reports\\20250406_045215\\Team Payment\\20250406_045215\\1743904508470.png]]]]></system-out>
+         <system-err><![CDATA[06-04-2025T04:54:28 - [TEST_CASE][FAILED] - Test Cases/Team purchase: Test Cases/Team purchase FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Team Payment/Page_SportWrench - The Home of Sporting Events/span_123Test Event'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Team purchase.run(Team purchase:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743904335223.run(TempTestSuite1743904335223.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Team Payment/Page_SportWrench - The Home of Sporting Events/span_123Test Event' located by '(.//*[normalize-space(text()) and normalize-space(.)='Info/Enter'])[4]/following::span[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Delete an Event" time="42.611" classname="Test Cases/Delete an Event" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Delete an Event FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/a_123Test Event'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)&#xa;	at Delete an Event.run(Delete an Event:35)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1743904335223.run(TempTestSuite1743904335223.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/a_123Test Event' located by '//a[contains(text(),'123Test Event')]' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[06-04-2025T04:55:08 - [TEST_CASE][FAILED] - Test Cases/Delete an Event: Test Cases/Delete an Event FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/a_123Test Event'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Delete an Event.run(Delete an Event:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743904335223.run(TempTestSuite1743904335223.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/a_123Test Event' located by '//a[contains(text(),'123Test Event')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+
+06-04-2025T04:55:08 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/"): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+06-04-2025T04:55:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-04-2025T04:55:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-04-2025T04:55:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-04-2025T04:55:12 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+06-04-2025T04:55:12 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@my.dev.swstage.com/#/"): Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+06-04-2025T04:55:15 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+06-04-2025T04:55:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/input_Log In_email"), "dcgfcgchfhgvhv@gmail.com"): Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+06-04-2025T04:55:16 - [MESSAGE][PASSED] - Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+06-04-2025T04:55:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/input_false_password"), "ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"): Text ****** has been set on object 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+06-04-2025T04:55:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+06-04-2025T04:55:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/button_Log In")): Object: 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+06-04-2025T04:55:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+06-04-2025T04:55:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox"), "123Test Event"): Text '123Test Event' is set on object 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox'
+
+06-04-2025T04:55:19 - [MESSAGE][PASSED] - Text '123Test Event' is set on object 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox'
+
+06-04-2025T04:55:19 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/a_123Test Event")): Unable to click on object 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/a_123Test Event' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/a_123Test Event'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Delete an Event.run(Delete an Event:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743904335223.run(TempTestSuite1743904335223.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/a_123Test Event' located by '//a[contains(text(),'123Test Event')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1743891712028.run(Script1743891712028.groovy:35)
+	... 15 more
+)
+
+06-04-2025T04:55:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[contains(text(),'123Test Event')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+06-04-2025T04:55:51 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/a_123Test Event' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/a_123Test Event'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Delete an Event.run(Delete an Event:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743904335223.run(TempTestSuite1743904335223.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/a_123Test Event' located by '//a[contains(text(),'123Test Event')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1743891712028.run(Script1743891712028.groovy:35)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\LENOVO\\Katalon Studio\\Payment\\Reports\\20250406_045215\\Team Payment\\20250406_045215\\1743904551097.png]]]]></system-out>
+         <system-err><![CDATA[06-04-2025T04:55:08 - [TEST_CASE][FAILED] - Test Cases/Delete an Event: Test Cases/Delete an Event FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/a_123Test Event'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Delete an Event.run(Delete an Event:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743904335223.run(TempTestSuite1743904335223.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/a_123Test Event' located by '//a[contains(text(),'123Test Event')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-04-2025T04:52:17 - [TEST_SUITE][FAILED] - Team Payment: Test Cases/Create an Event For Teams FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '11949' of object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_ZIP_zip'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1056)
+	at Create an Event For Teams.run(Create an Event For Teams:178)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743904335223.run(TempTestSuite1743904335223.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=134.0.6998.178)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [5c027f3e0a1e3eb57d361ab9d883ce67, clearElement {id=f.3B6E48B6821368D58408D25D429F943B.d.E7EBEC34FEE17259317C971E5B645707.e.149}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62972}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62972/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:20919/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (5c027f3e0a1e3eb57d361ab9d883ce67)] -> xpath: (//input[@name='zip'])[2]]
+Session ID: 5c027f3e0a1e3eb57d361ab9d883ce67
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:129)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$uHNKeG8P.clear(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[06-04-2025T04:52:17 - [TEST_SUITE][FAILED] - Team Payment: Test Cases/Create an Event For Teams FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '11949' of object 'Object Repository/Create an event for Teams/Page_SportWrench - The Home of Sporting Events/input_ZIP_zip'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1056)
+	at Create an Event For Teams.run(Create an Event For Teams:178)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743904335223.run(TempTestSuite1743904335223.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=134.0.6998.178)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [5c027f3e0a1e3eb57d361ab9d883ce67, clearElement {id=f.3B6E48B6821368D58408D25D429F943B.d.E7EBEC34FEE17259317C971E5B645707.e.149}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62972}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62972/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:20919/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (5c027f3e0a1e3eb57d361ab9d883ce67)] -> xpath: (//input[@name='zip'])[2]]
+Session ID: 5c027f3e0a1e3eb57d361ab9d883ce67
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:129)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$uHNKeG8P.clear(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

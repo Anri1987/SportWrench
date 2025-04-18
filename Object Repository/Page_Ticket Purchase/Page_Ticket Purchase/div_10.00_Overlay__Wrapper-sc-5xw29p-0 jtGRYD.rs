@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_10.00_Overlay__Wrapper-sc-5xw29p-0 jtGRYD</name>
+   <tag></tag>
+   <elementGuidId>0f2b8d19-9fef-4797-b9ff-11c90e8c70f2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.Overlay__Wrapper-sc-5xw29p-0.jtGRYD</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/form/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5f9c437c-899a-4f74-9663-762e0bda5d79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Overlay__Wrapper-sc-5xw29p-0 jtGRYD</value>
+      <webElementGuid>5f81a2e0-b5e2-43ed-888d-bf179ed8eeaa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MainLayout__Wrapper-sc-793hpp-0 dXZwFX&quot;]/div[@class=&quot;ContainerStyled-sc-1ie1ara-0 cXdKMP&quot;]/form[1]/div[@class=&quot;StyledPurchaseTicketsStepControlsWrapper-sc-1ede9ov-1 eMTxnX&quot;]/div[@class=&quot;StyledPurchaseTicketsStepControlsContainer-sc-1ede9ov-0 kGVStd MuiBox-root css-0&quot;]/div[@class=&quot;Spectator__Wrapper-sc-gm0qax-0 hyqOCy&quot;]/div[@class=&quot;FormBorderBox__Wrapper-sc-1r6zdse-0 chRKWK&quot;]/div[@class=&quot;StyledSpectatorRow-sc-rrm4q1-0 hpizzU&quot;]/div[@class=&quot;StyledSpectatorDropDownWrapper-sc-rrm4q1-2 cvPQBw&quot;]/div[@class=&quot;CounterDropdown__Wrapper-sc-z8faot-0 JXSvM&quot;]/div[2]/div[@class=&quot;StyledProductListWrapper-sc-mq7iu4-6 fKacqK&quot;]/div[@class=&quot;Overlay__Wrapper-sc-5xw29p-0 jtGRYD&quot;]</value>
+      <webElementGuid>8075ab73-8688-49f0-b819-fe17004f135f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/form/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div[2]</value>
+      <webElementGuid>694d2429-9f4c-4378-a878-b9aaf45c4a26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div[2]/div/div[2]</value>
+      <webElementGuid>cca8a62a-57cc-48fd-8809-88a2598845ce</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

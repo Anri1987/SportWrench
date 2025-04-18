@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_MBOHRSSLBDS_1_2</name>
+   <tag></tag>
+   <elementGuidId>19b78328-1dbf-4f61-8802-f4ea98aa4486</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>select.form-control.form-control-select-small.ng-pristine.ng-untouched.ng-valid.ng-empty</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Sparks, Ben'])[1]/following::select[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;Sparks, Ben&quot;i] >> internal:role=combobox >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>41d0c4a3-cf03-4e06-a811-0c064898952e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-options</name>
+      <type>Main</type>
+      <value>p.id as p.name for p in positions</value>
+      <webElementGuid>d078239e-85fe-477e-ad22-71bc13c428f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>a.sport_position_id</value>
+      <webElementGuid>c652c9fa-5234-4dd1-86b4-c346a734980e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control form-control-select-small ng-pristine ng-untouched ng-valid ng-empty</value>
+      <webElementGuid>14982b23-9e72-4310-aa53-1bc2188128f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-change</name>
+      <type>Main</type>
+      <value>updateAthlete(a.master_athlete_id, {sport_position_id: a.sport_position_id})</value>
+      <webElementGuid>c35b4c70-01b2-4f65-863b-b205f62c1073</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>MBOHRSSLBDS</value>
+      <webElementGuid>845024cf-15b6-452f-b101-9d891fe86e6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;modal fade in&quot;]/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;tab-pane active&quot;]/ng-include[1]/div[@class=&quot;row rowm0&quot;]/div[@class=&quot;col-lg-12&quot;]/table[@class=&quot;table table-condensed&quot;]/tbody[1]/tr[3]/td[3]/select[@class=&quot;form-control form-control-select-small ng-pristine ng-untouched ng-valid ng-empty&quot;]</value>
+      <webElementGuid>6e2c7b9f-ca92-4674-9957-0603e76d45be</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sparks, Ben'])[1]/following::select[1]</value>
+      <webElementGuid>73ceed6a-cc28-449c-9845-75178da24976</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Air, Jane'])[1]/following::select[4]</value>
+      <webElementGuid>e255f64b-9c72-40e9-8f5c-7312b009eac0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[2]/preceding::select[3]</value>
+      <webElementGuid>a5f290fa-538e-4a53-8e4b-b50caf0e309e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Сlub'])[1]/preceding::select[3]</value>
+      <webElementGuid>55317627-31ec-4a87-ac53-f95660f72200</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[3]/td[3]/select</value>
+      <webElementGuid>8514123f-7594-4d2b-bd7e-013ca3c56758</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = 'MBOHRSSLBDS' or . = 'MBOHRSSLBDS')]</value>
+      <webElementGuid>e1788f22-b5fb-43ca-8031-224f36f841e5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

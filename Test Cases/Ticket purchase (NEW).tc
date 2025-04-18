@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Ticket purchase (NEW)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4826af5e-a6df-4eb5-bb52-70bafcbdb480</testCaseGuid>
+</TestCaseEntity>

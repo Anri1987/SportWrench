@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_edit_fa fa-floppy-o</name>
+   <tag></tag>
+   <elementGuidId>ed2f264c-57e5-4e75-a412-1ac533538224</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-floppy-o</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[13]/button/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>66d669be-a88b-4018-8a14-bc1a5ae376d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-floppy-o</value>
+      <webElementGuid>87ba090d-ce3f-4063-9c38-133176cff135</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/div[@class=&quot;row rowm0&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;tab-content eo-dashboard&quot;]/div[@class=&quot;tab-pane active&quot;]/div[1]/tickets-table[1]/div[@class=&quot;row row-mb--20&quot;]/div[@class=&quot;col-md-12&quot;]/table[@class=&quot;table tickets-table&quot;]/tbody[1]/tr[1]/td[13]/button[@class=&quot;btn btn-default btn-short&quot;]/i[@class=&quot;fa fa-floppy-o&quot;]</value>
+      <webElementGuid>ec99bb42-0b1c-4b7e-9806-f920900b4a29</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[13]/button/i</value>
+      <webElementGuid>f5d2774b-db28-4fb3-836f-12adad1f26b8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Tickets_caret</name>
+   <tag></tag>
+   <elementGuidId>99efa276-198e-4efd-9203-069d029cccdd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.pointer.dropdown-toggle > span.caret</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//sw-tabmenu-head/ul/li[3]/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>842dbd0a-aace-497e-b0fc-632285f5d625</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>caret</value>
+      <webElementGuid>0a7a4fe5-1023-41c2-8cb6-d91bfdd7315d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/div[@class=&quot;row rowm0&quot;]/div[@class=&quot;col-lg-12&quot;]/sw-tabmenu-head[1]/ul[@class=&quot;collapse-tabs-sw nav nav-tabs eo-menupanel in collapse&quot;]/li[@class=&quot;dropdown&quot;]/a[@class=&quot;pointer dropdown-toggle&quot;]/span[@class=&quot;caret&quot;]</value>
+      <webElementGuid>03fe7deb-d5d5-4ef6-a4c8-740febd5718b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//sw-tabmenu-head/ul/li[3]/a/span</value>
+      <webElementGuid>629adcd2-0b01-4404-bb1e-3ae3858e0e26</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

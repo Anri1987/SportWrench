@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h4_16822838 - CARD (paid)  0404 118pm 1,000.00_1</name>
+   <tag></tag>
+   <elementGuidId>eadb59b0-404f-4162-8359-5ef9f98a6b49</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h4.panel-title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='accordiongroup-429-5010-tab']/h4</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h4</value>
+      <webElementGuid>feceb629-2c3e-4571-98f8-81332e594521</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>panel-title</value>
+      <webElementGuid>fee1f818-7694-4f4d-9628-a6da25854c93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+      #16822838 - CARD (paid)  04/04 1:18pm $1,000.00  
+    </value>
+      <webElementGuid>683db7a7-ffac-45c0-a9c1-715c30d7f10f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;accordiongroup-429-5010-tab&quot;)/h4[@class=&quot;panel-title&quot;]</value>
+      <webElementGuid>44d8f31f-3ada-46e7-afca-d9e13f4bea99</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='accordiongroup-429-5010-tab']/h4</value>
+      <webElementGuid>c7618a0b-6294-4c02-80f9-06e5faef2f47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Team: xggsg 18 11'])[1]/following::h4[1]</value>
+      <webElementGuid>82e17387-1a1a-4799-a740-e691f9089465</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//uib-accordion/div/div/div/h4</value>
+      <webElementGuid>7e07a884-b4c9-48df-91c9-9bed88b2505e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h4[(text() = '
+      #16822838 - CARD (paid)  04/04 1:18pm $1,000.00  
+    ' or . = '
+      #16822838 - CARD (paid)  04/04 1:18pm $1,000.00  
+    ')]</value>
+      <webElementGuid>05b67c40-b77a-495a-b137-67759ccf497b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

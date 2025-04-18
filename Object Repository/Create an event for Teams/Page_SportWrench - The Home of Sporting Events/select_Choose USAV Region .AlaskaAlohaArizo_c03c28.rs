@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Choose USAV Region .AlaskaAlohaArizo_c03c28</name>
+   <tag></tag>
+   <elementGuidId>55006211-db85-4231-8b46-d438e22e8556</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;region&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@name='region']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>920e4f22-ac31-4fb9-b821-0d5308a95f34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required</value>
+      <webElementGuid>97d34bc2-00f4-401b-a75d-d7082a197eed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>region</value>
+      <webElementGuid>52633fbf-8791-4065-bf06-65694820ebea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>tournament.region</value>
+      <webElementGuid>e7a81af6-f827-4275-8481-0b85beeff250</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-options</name>
+      <type>Main</type>
+      <value>r.region as r.name for r in utils.usavRegions | orderBy:'name'</value>
+      <webElementGuid>d2042b42-bb1d-4039-8a4b-23e566039893</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-show</name>
+      <type>Main</type>
+      <value>!utils.regLoading</value>
+      <webElementGuid>4e645abe-457c-4490-88f8-f65867d014ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Choose USAV Region ...AlaskaAlohaArizonaBadgerBayouCarolinaChesapeakeColumbia EmpireDeltaEvergreenExcelsior EmpireFloridaGarden EmpireGatewayGreat LakesGreat PlainsGulf CoastHeart of AmericaHoosierIntermountainIowaKeystoneLakeshoreLone StarMoku O KeaweNew EnglandNorth CountryNorth TexasNorthern CaliforniaOhio ValleyOklahomaOld DominionPalmettoPioneerPuget SoundRocky MountainSouthernSouthern CaliforniaSun CountryWestern Empire</value>
+      <webElementGuid>b1fab409-c578-445b-9a6c-e0bc558738e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/event-settings[1]/div[@class=&quot;container no-animate&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-10 col-sm-offset-1&quot;]/div[1]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;tab-pane active&quot;]/general-settings[1]/div[@class=&quot;row-space&quot;]/uib-accordion[1]/div[@class=&quot;panel-group&quot;]/div[@class=&quot;panel panel-info panel-open&quot;]/div[@class=&quot;in collapse&quot;]/div[@class=&quot;panel-body&quot;]/form[@class=&quot;form-horizontal ng-invalid ng-invalid-required ng-invalid-min ng-valid-reg_close ng-valid-deadline ng-valid-datetime ng-dirty ng-valid-parse&quot;]/div[2]/div[@class=&quot;form-group validation-required&quot;]/div[@class=&quot;col-sm-4&quot;]/select[@class=&quot;form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required&quot;]</value>
+      <webElementGuid>bf6e44a7-ea48-4015-8f63-c0b3c8049047</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@name='region']</value>
+      <webElementGuid>f5ec4b1a-343d-412c-976f-0a092f72b6ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='USAV Region'])[1]/following::select[1]</value>
+      <webElementGuid>8dd29b88-ea9a-408f-bb41-f5f3e496dec9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Require USAV Number'])[1]/following::select[1]</value>
+      <webElementGuid>ea387ada-f825-46e3-9c26-fcd80bd40d2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Event Type'])[1]/preceding::select[1]</value>
+      <webElementGuid>bb927418-071a-46df-be81-7fc7a08a3e42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Entry Region Restriction'])[1]/preceding::select[2]</value>
+      <webElementGuid>ebb21d40-95bc-44a4-aa9b-fd14d1a7a62e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[9]/div/select</value>
+      <webElementGuid>0a0d324a-ca7d-45fe-8d67-cb165f79f3e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'region' and (text() = 'Choose USAV Region ...AlaskaAlohaArizonaBadgerBayouCarolinaChesapeakeColumbia EmpireDeltaEvergreenExcelsior EmpireFloridaGarden EmpireGatewayGreat LakesGreat PlainsGulf CoastHeart of AmericaHoosierIntermountainIowaKeystoneLakeshoreLone StarMoku O KeaweNew EnglandNorth CountryNorth TexasNorthern CaliforniaOhio ValleyOklahomaOld DominionPalmettoPioneerPuget SoundRocky MountainSouthernSouthern CaliforniaSun CountryWestern Empire' or . = 'Choose USAV Region ...AlaskaAlohaArizonaBadgerBayouCarolinaChesapeakeColumbia EmpireDeltaEvergreenExcelsior EmpireFloridaGarden EmpireGatewayGreat LakesGreat PlainsGulf CoastHeart of AmericaHoosierIntermountainIowaKeystoneLakeshoreLone StarMoku O KeaweNew EnglandNorth CountryNorth TexasNorthern CaliforniaOhio ValleyOklahomaOld DominionPalmettoPioneerPuget SoundRocky MountainSouthernSouthern CaliforniaSun CountryWestern Empire')]</value>
+      <webElementGuid>792c5216-2093-46bc-bb15-dff4f665e022</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

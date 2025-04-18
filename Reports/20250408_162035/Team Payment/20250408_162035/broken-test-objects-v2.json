@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Team Payment/Page_SportWrench - The Home of Sporting Events/iframe_Use a Different Method___privateStri_8b553a",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027payment-element\u0027]/div/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250408_162035/Team Payment/20250408_162035/Object Repository/Team Payment/Page_SportWrench - The Home of Sporting Events/iframe_Use a Different Method___privateStri_8b553a_idRelative.png"
+    }
+  ]
+}

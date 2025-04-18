@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_LOG IN_search svg-inline--fa fa-search fa-w-16</name>
+   <tag></tag>
+   <elementGuidId>365533f2-fc57-4768-9009-ece555588ed8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>svg.search.svg-inline--fa.fa-search.fa-w-16</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='LOG IN'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>52994f1a-5924-4281-9b66-51d3efdac8cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>6d1ce297-3375-48eb-9d15-86b2715ad73d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-prefix</name>
+      <type>Main</type>
+      <value>fas</value>
+      <webElementGuid>df4185b9-b744-4246-afd7-3be4a1ac8253</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-icon</name>
+      <type>Main</type>
+      <value>search</value>
+      <webElementGuid>64632a4c-f716-4caa-9e18-31821b62eb71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>d00b1987-2265-45ad-877a-c480e930b8e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>09674a7c-9307-47d9-9b8d-14cf809ec602</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 512 512</value>
+      <webElementGuid>e31bc04a-16ac-477c-9183-7f5a956a9508</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>search svg-inline--fa fa-search fa-w-16</value>
+      <webElementGuid>b02e167d-d0a3-48a3-91f5-bf2c04bfee33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[1]/div[@class=&quot;content&quot;]/div[1]/div[@class=&quot;container-fluid wrapper-search&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10&quot;]/div[@class=&quot;search-wrapper&quot;]/section[@class=&quot;Search&quot;]/form[1]/div[@class=&quot;input-group input-search&quot;]/div[@class=&quot;input-group-append&quot;]/button[@class=&quot;btn btn-find&quot;]/svg[@class=&quot;search svg-inline--fa fa-search fa-w-16&quot;]</value>
+      <webElementGuid>2b4bf540-8881-4300-8ef8-854589a6294d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LOG IN'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>45656d02-1142-4abc-bc41-a9667f7fe2be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SIGN UP'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>b98096f5-0c3d-4be4-bee3-3e6f58c4bab5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Current Events'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>e8f5a224-46ab-4bfc-bf12-1210ccae8215</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upcoming Events'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>a1d9f790-1470-4c85-90df-97c710efc716</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

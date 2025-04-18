@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create team (Draft)</name>
+   <tag>club</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8834961c-0c19-48db-9949-f9fbbb34b105</testCaseGuid>
+</TestCaseEntity>

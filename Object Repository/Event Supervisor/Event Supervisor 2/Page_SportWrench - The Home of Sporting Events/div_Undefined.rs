@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Undefined</name>
+   <tag></tag>
+   <elementGuidId>336ec5ba-32cd-4b74-ab12-df012f058f14</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(37) > td.pointer > div.text-danger.font-bold</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Jun, 20'])[1]/following::div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7acd6778-4d02-4920-ba34-8a51751aa878</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-class</name>
+      <type>Main</type>
+      <value>$ctrl.swFeeClass(e)</value>
+      <webElementGuid>8794f338-2c1f-43a5-8004-3f57830ff99a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-bind</name>
+      <type>Main</type>
+      <value>$ctrl.getTeamsSWFee(e)</value>
+      <webElementGuid>ef745626-1580-4688-9012-1d4828105c85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-danger font-bold</value>
+      <webElementGuid>2e80e7db-3a74-4675-8cc0-6d45b04f7964</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Undefined</value>
+      <webElementGuid>2f8e811a-5b32-47de-8d44-8a6e54f40639</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/event-supervisor[1]/div[@class=&quot;container supervisor&quot;]/table[@class=&quot;table sw-adaptive-grid events-list table-vertical-align-middle&quot;]/tbody[1]/tr[37]/td[@class=&quot;pointer&quot;]/div[@class=&quot;text-danger font-bold&quot;]</value>
+      <webElementGuid>17ac4897-4424-4b88-934a-3ad77f14942d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jun, 20'])[1]/following::div[1]</value>
+      <webElementGuid>97e82098-ac83-4ecf-930c-169244b36644</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jun, 18'])[1]/following::div[2]</value>
+      <webElementGuid>99320d80-9e65-4a77-80eb-649f340e1376</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$1.10'])[26]/preceding::div[1]</value>
+      <webElementGuid>bd5f18a4-a27d-49ed-81d8-9c7e40062a4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[36]/preceding::div[2]</value>
+      <webElementGuid>34a05a8d-11fa-4f5c-8139-3b05c04b3851</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[37]/td[5]/div</value>
+      <webElementGuid>1407d29b-6325-4e68-b80d-0802554120bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Undefined' or . = 'Undefined')]</value>
+      <webElementGuid>035b1b02-5680-4a2f-acf5-2b104700e436</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_2,970.00</name>
+   <tag></tag>
+   <elementGuidId>848cba0f-0e9f-4317-ad7e-2f70c6119e34</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Net Team entry Profit (unless disputes)'])[1]/following::div[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-xs-2.text-right.font-bold</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;2,970.00&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>26784543-5019-4ef6-b5dc-a66810f529cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-xs-2 text-right font-bold</value>
+      <webElementGuid>66c6f2fa-8a40-4287-b2c2-50e88ef74b71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-bind</name>
+      <type>Main</type>
+      <value>$ctrl.getAmount('', $ctrl.stats.net_profit)</value>
+      <webElementGuid>690ed559-ebe4-4bb8-9e20-ab3bd05f4192</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 2,970.00</value>
+      <webElementGuid>7126d062-1b84-45f1-b6a1-53eccccb147e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/div[@class=&quot;row rowm0&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;tab-content eo-dashboard&quot;]/div[@class=&quot;tab-pane active&quot;]/div[1]/event-transfers[1]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-body panel-smooth showed&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-6&quot;]/accounting-general-stats[1]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-2 text-right font-bold&quot;]</value>
+      <webElementGuid>4674c1a3-0d0c-4e43-8247-d926e409e29c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Net Team entry Profit (unless disputes)'])[1]/following::div[1]</value>
+      <webElementGuid>56062b13-6dcd-4d68-87e2-b2ec6163baee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accepted or Paid Teams SW Team Fee (3*$10.00)'])[1]/following::div[4]</value>
+      <webElementGuid>67819651-f87e-4d62-8b7f-229cc6c04325</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Uncollected SW Teams Fee'])[1]/preceding::div[1]</value>
+      <webElementGuid>28ef2133-5402-4e54-95f8-765ace961276</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Amount You Still Owe to SportWrench'])[1]/preceding::div[4]</value>
+      <webElementGuid>4803fd8d-f177-4397-b289-130c0b2990db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='2,970.00']/parent::*</value>
+      <webElementGuid>9fa324bc-c4da-4f85-b77f-67ae88967e6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div[2]</value>
+      <webElementGuid>00d0ef97-5c71-4814-9560-13d5d2358485</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' 2,970.00' or . = ' 2,970.00')]</value>
+      <webElementGuid>4826d468-83f0-4a46-85d8-a609ff456bda</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

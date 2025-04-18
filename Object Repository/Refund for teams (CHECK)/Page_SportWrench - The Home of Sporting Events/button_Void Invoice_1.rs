@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Void Invoice_1</name>
+   <tag></tag>
+   <elementGuidId>c8b63fef-15ae-4f86-89aa-f2e4ff9c61d7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = 'Void Invoice' or . = 'Void Invoice')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='accordiongroup-8929-4456-panel']/div/div/div/div/div[2]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-danger.pull-right</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Void Invoice&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d0adcf32-c20c-413b-97b3-48161aa2866b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-danger pull-right</value>
+      <webElementGuid>0b88e81d-b14a-420b-9bd6-a03ea6f96375</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-if</name>
+      <type>Main</type>
+      <value>payment.type === 'check' &amp;&amp; !payment.canceled_date</value>
+      <webElementGuid>04fc6460-0364-4a4f-a9e3-8c9e79949269</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>sw-confirm</name>
+      <type>Main</type>
+      <value>Do you really want to cancel this payment?</value>
+      <webElementGuid>03ecf4d3-bb18-40d2-91fa-0b45fddb825f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>sw-confirm-do</name>
+      <type>Main</type>
+      <value>cancel</value>
+      <webElementGuid>1de20054-1600-4846-a1dc-8bd77d262c85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>sw-confirm-args</name>
+      <type>Main</type>
+      <value>payment</value>
+      <webElementGuid>0f39207e-b0de-424b-b952-696b71d7bac2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>sw-confirm-params</name>
+      <type>Main</type>
+      <value>confirmParams</value>
+      <webElementGuid>2a354c78-7546-4795-8377-9d6e3849473d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Void Invoice</value>
+      <webElementGuid>c5ed2e26-eddd-4139-960c-73bbaf250944</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;accordiongroup-8929-4456-panel&quot;)/div[@class=&quot;panel-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-3&quot;]/button[@class=&quot;btn btn-danger pull-right&quot;]</value>
+      <webElementGuid>b06a6d62-5bf4-49a6-8683-b31acdbe77d0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='accordiongroup-8929-4456-panel']/div/div/div/div/div[2]/button</value>
+      <webElementGuid>71606f8c-04a4-4b45-9f65-e4225e1cf6a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='#16823312'])[2]/following::button[1]</value>
+      <webElementGuid>49a4231f-1d4a-4c51-8de5-aaeb2991d13f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invoice:'])[2]/following::button[1]</value>
+      <webElementGuid>0ec84264-124b-45a0-a380-9adda1e0a135</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Received'])[1]/preceding::button[1]</value>
+      <webElementGuid>80a5bc28-e2f2-485e-9e20-a40276454823</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Void Invoice']/parent::*</value>
+      <webElementGuid>87bbec50-97c7-4cad-8f09-9b23cd700581</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div[2]/button</value>
+      <webElementGuid>93be06b0-41f2-48ef-aec3-f03a846c1c8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Void Invoice' or . = 'Void Invoice')]</value>
+      <webElementGuid>a6bb8706-f12e-4338-83ac-60a599b6212a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

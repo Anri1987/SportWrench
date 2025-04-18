@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Select.8  Under9  Under10  Under11  _479ecf</name>
+   <tag></tag>
+   <elementGuidId>b115cdda-18d9-4474-a00e-d3ec789ab647</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;age&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@name='age']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>select[name=&quot;age&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>cddb0ea4-07fd-45ee-8ea5-7f453242d159</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>team.age</value>
+      <webElementGuid>317e9c52-c27f-4846-85db-4c79e76e0a84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>age</value>
+      <webElementGuid>9aee0606-568e-46b7-8aa7-e84f2b28deae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required</value>
+      <webElementGuid>f66e50e9-2a16-4f03-8167-0fdbbf5fdc09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-disabled</name>
+      <type>Main</type>
+      <value>hasEntered() || disableEdit</value>
+      <webElementGuid>6c8995bb-5435-4c58-8b28-f9d1f096e9a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-options</name>
+      <type>Main</type>
+      <value>a.id as a.title for a in data.ages | orderBy:agesOrder</value>
+      <webElementGuid>0419dcf2-94a6-444b-8f21-8a8c8154c2ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select...8 &amp; Under9 &amp; Under10 &amp; Under11 &amp; Under12 &amp; Under13 &amp; Under14 &amp; Under15 &amp; Under16 &amp; Under17 &amp; Under18 &amp; UnderAdult</value>
+      <webElementGuid>503ef804-dac7-4242-ade6-0593a26393de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;modal fade in&quot;]/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/form[@class=&quot;form-horizontal row-space ng-pristine ng-invalid ng-invalid-required&quot;]/div[@class=&quot;form-group validation-required&quot;]/div[@class=&quot;col-sm-7&quot;]/select[@class=&quot;form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required&quot;]</value>
+      <webElementGuid>24839101-7e0f-4d61-9b6a-cd9f5c0aa053</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@name='age']</value>
+      <webElementGuid>f6c78dfb-91a2-4d27-86d8-63c13b4c0f13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Age'])[1]/following::select[1]</value>
+      <webElementGuid>779df273-12a7-4bc9-a679-1152d3aa6d03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create new Team'])[1]/following::select[1]</value>
+      <webElementGuid>402998ef-c7f5-470b-b01e-98918b7b1546</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rank in Сlub'])[1]/preceding::select[1]</value>
+      <webElementGuid>0ca7ae60-64e6-456e-9762-255a2041921b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Team Name'])[1]/preceding::select[2]</value>
+      <webElementGuid>7c122438-714b-4e56-8a80-7e7f22c01f2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>a5ae8b9b-2a80-4c6d-ba0f-ca7a283114f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'age' and (text() = 'Select...8 &amp; Under9 &amp; Under10 &amp; Under11 &amp; Under12 &amp; Under13 &amp; Under14 &amp; Under15 &amp; Under16 &amp; Under17 &amp; Under18 &amp; UnderAdult' or . = 'Select...8 &amp; Under9 &amp; Under10 &amp; Under11 &amp; Under12 &amp; Under13 &amp; Under14 &amp; Under15 &amp; Under16 &amp; Under17 &amp; Under18 &amp; UnderAdult')]</value>
+      <webElementGuid>7fd64e22-7965-4de4-82bf-a16163f13cd2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Partial refund for teams (ACH)</name>
+   <tag>teams, refund</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>782751ee-f28d-481c-ba6d-fe8ac1373684</testCaseGuid>
+</TestCaseEntity>

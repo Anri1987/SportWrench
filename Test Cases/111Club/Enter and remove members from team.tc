@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Enter and remove members from team</name>
+   <tag>club</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2df2564a-ef08-4694-bc9a-4998bda8e1d4</testCaseGuid>
+</TestCaseEntity>

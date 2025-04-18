@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Choose State .AlabamaAlaskaAlbertaAr_76df04_1</name>
+   <tag></tag>
+   <elementGuidId>467ef895-48d3-41bc-ae65-ae4d6c58df9b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-sm-4 > select[name=&quot;state&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//select[@name='state'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>e64a3c48-bc56-416e-ab92-511e48403483</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>state</value>
+      <webElementGuid>4c18717f-cbd8-4995-bd20-233945ca41b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required</value>
+      <webElementGuid>f6bd7aa9-d91b-4ca8-af4f-0d667d19da78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>location.state</value>
+      <webElementGuid>27ea1237-c70a-4c5b-a53b-885456e4dc7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-options</name>
+      <type>Main</type>
+      <value>st.state as st.name for st in utils.states | orderBy:'name'</value>
+      <webElementGuid>7fc956a2-e6e1-467f-bbcf-1a6ed0954203</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-show</name>
+      <type>Main</type>
+      <value>!utils.statesLoading</value>
+      <webElementGuid>247810e1-a68e-4b22-a5de-9616722a1017</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Choose State ...AlabamaAlaskaAlbertaArizonaArkansasBritish ColombiaCaliforniaColoradoConnecticutDelawareDistrict of ColumbiaFloridaGeorgiaHawaiiIdahoIllinoisIndianaIowaKansasKentuckyLouisianaMaineManitobaMarylandMassachusettsMichiganMinnesotaMississippiMissouriMontanaNebraskaNevadaNew BrunswickNew HampshireNew JerseyNew MexicoNew YorkNewfoundland and LabradorNorth CarolinaNorth DakotaNova ScotiaOhioOklahomaOntarioOregonPennsylvaniaPrince Edward IslandQuébecRhode IslandSaskatchewanSouth CarolinaSouth DakotaTennesseeTexasUtahVermontVirginiaWashingtonWest VirginiaWisconsinWyoming</value>
+      <webElementGuid>b4e3686b-e47a-4788-b5b2-566a997aa42b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/event-settings[1]/div[@class=&quot;container no-animate&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-10 col-sm-offset-1&quot;]/div[1]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;tab-pane active&quot;]/general-settings[1]/div[@class=&quot;row-space&quot;]/uib-accordion[1]/div[@class=&quot;panel-group&quot;]/div[@class=&quot;panel panel-info panel-open&quot;]/div[@class=&quot;in collapse&quot;]/div[@class=&quot;panel-body&quot;]/ng-include[1]/form[@class=&quot;form-horizontal ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-usa-zip ng-valid-min ng-valid-max ng-dirty ng-valid-parse&quot;]/div[@class=&quot;form-group validation-required&quot;]/div[@class=&quot;col-sm-4&quot;]/select[@class=&quot;form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required&quot;]</value>
+      <webElementGuid>0c650974-7456-48fa-9ee2-3b53a714bcc9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//select[@name='state'])[2]</value>
+      <webElementGuid>f1ad8123-bab1-4360-b9fd-a380b9383796</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='State'])[2]/following::select[1]</value>
+      <webElementGuid>97ed1fcc-ad2c-4a48-a8e1-3568018cb43f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='City'])[3]/following::select[1]</value>
+      <webElementGuid>50d3e210-13fe-4ad1-8a48-0b62650432a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ZIP'])[2]/preceding::select[1]</value>
+      <webElementGuid>c6918b96-72e6-4a42-a015-2ba6f189dfc3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Courts range'])[1]/preceding::select[1]</value>
+      <webElementGuid>dd50b5d6-134d-4260-92f0-44a9dc1740d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ng-include/form/div[5]/div/select</value>
+      <webElementGuid>c3e3549f-c65a-49c6-adcf-8b35dd71c594</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'state' and (text() = 'Choose State ...AlabamaAlaskaAlbertaArizonaArkansasBritish ColombiaCaliforniaColoradoConnecticutDelawareDistrict of ColumbiaFloridaGeorgiaHawaiiIdahoIllinoisIndianaIowaKansasKentuckyLouisianaMaineManitobaMarylandMassachusettsMichiganMinnesotaMississippiMissouriMontanaNebraskaNevadaNew BrunswickNew HampshireNew JerseyNew MexicoNew YorkNewfoundland and LabradorNorth CarolinaNorth DakotaNova ScotiaOhioOklahomaOntarioOregonPennsylvaniaPrince Edward IslandQuébecRhode IslandSaskatchewanSouth CarolinaSouth DakotaTennesseeTexasUtahVermontVirginiaWashingtonWest VirginiaWisconsinWyoming' or . = 'Choose State ...AlabamaAlaskaAlbertaArizonaArkansasBritish ColombiaCaliforniaColoradoConnecticutDelawareDistrict of ColumbiaFloridaGeorgiaHawaiiIdahoIllinoisIndianaIowaKansasKentuckyLouisianaMaineManitobaMarylandMassachusettsMichiganMinnesotaMississippiMissouriMontanaNebraskaNevadaNew BrunswickNew HampshireNew JerseyNew MexicoNew YorkNewfoundland and LabradorNorth CarolinaNorth DakotaNova ScotiaOhioOklahomaOntarioOregonPennsylvaniaPrince Edward IslandQuébecRhode IslandSaskatchewanSouth CarolinaSouth DakotaTennesseeTexasUtahVermontVirginiaWashingtonWest VirginiaWisconsinWyoming')]</value>
+      <webElementGuid>e678cee8-d219-491b-9219-91b8c90983aa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

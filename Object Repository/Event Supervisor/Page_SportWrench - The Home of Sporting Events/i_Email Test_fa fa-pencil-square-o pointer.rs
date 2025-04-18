@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Email Test_fa fa-pencil-square-o pointer</name>
+   <tag></tag>
+   <elementGuidId>55e2536d-fb5b-4268-bb0c-acd907c22cab</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(37) > td:nth-of-type(2) > div.font-bold > i.fa.fa-pencil-square-o.pointer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[37]/td[2]/div/i[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>25bae12c-61ae-4ea3-8502-ed6e9193cfdd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-pencil-square-o pointer</value>
+      <webElementGuid>dd705048-2317-4362-8be1-85d9cb6f0280</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>$ctrl.openEditPage(e.event_id)</value>
+      <webElementGuid>27fb8d92-ca10-42f7-bf08-4e162a31c41a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/event-supervisor[1]/div[@class=&quot;container supervisor&quot;]/table[@class=&quot;table sw-adaptive-grid events-list table-vertical-align-middle&quot;]/tbody[1]/tr[37]/td[2]/div[@class=&quot;font-bold&quot;]/i[@class=&quot;fa fa-pencil-square-o pointer&quot;]</value>
+      <webElementGuid>099bb3b5-a45a-4b12-8224-b3ef654ac4de</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[37]/td[2]/div/i[2]</value>
+      <webElementGuid>578f8536-8a1d-4504-8c05-683fe1925a5a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

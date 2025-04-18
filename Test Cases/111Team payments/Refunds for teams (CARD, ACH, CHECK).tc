@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Refunds for teams (CARD, ACH, CHECK)</name>
+   <tag>teams, refund</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c9e63c7e-4b78-465e-8a66-bf0a30d524bc</testCaseGuid>
+</TestCaseEntity>

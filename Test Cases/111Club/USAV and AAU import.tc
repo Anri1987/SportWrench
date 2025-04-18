@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>USAV and AAU import</name>
+   <tag>club</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c313d7bd-92fc-4ae7-8f2c-dbe3a9a7cea4</testCaseGuid>
+</TestCaseEntity>

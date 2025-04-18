@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Connect account</name>
+   <tag></tag>
+   <elementGuidId>34aec762-3639-4eea-9485-cd95ab99fffc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div[2]/div[2]/div/div/div/div/footer/div/div[2]/div/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.la-v3-button-label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;select-button&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ab6efa90-5b2d-440c-ace8-3b8fca9e2e5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>la-v3-button-label</value>
+      <webElementGuid>3ea3972d-dd7e-4343-b8be-3d5d707721c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Connect account</value>
+      <webElementGuid>cf0ef499-9f29-4fc3-b03a-2eaaebba937f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;LightboxModal LightboxModal-open LightboxModal-contentLoaded LightboxModal-360x640 LightboxModal-closeHidden LightboxModal-noNestedTargeting LightboxModal-roundedRadius&quot;]/div[@class=&quot;LightboxModalPosition&quot;]/div[@class=&quot;LightboxModalSize&quot;]/div[@class=&quot;LightboxModalContainer&quot;]/div[@class=&quot;LightboxModalBody&quot;]/div[@class=&quot;LightboxModalContent&quot;]/div[@class=&quot;AppContainer la-v3 link-brand base-light-theme&quot;]/div[@class=&quot;la-v3-paneManager&quot;]/div[@class=&quot;la-v3-currentPane&quot;]/div[@class=&quot;la-v3-pane&quot;]/footer[@class=&quot;la-v3-pane-footer-wrapper&quot;]/div[@class=&quot;la-v3-footer&quot;]/div[@class=&quot;la-v3-buttonGroup&quot;]/div[1]/button[@class=&quot;la-v3-button la-v3-button--primary la-v3-button--fullWidth&quot;]/span[@class=&quot;la-v3-button-label&quot;]</value>
+      <webElementGuid>66ed3c89-7a77-40b3-a0bd-01608bcf13ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/iframe_New Payment___privateStripeFrame87928</value>
+      <webElementGuid>9f8d4d8c-441c-49e8-b6c0-511bc056fbf1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div[2]/div[2]/div/div/div/div/footer/div/div[2]/div/button/span</value>
+      <webElementGuid>9360a171-3d9b-46b8-8c67-c98c8f24701b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Learn more'])[1]/following::span[1]</value>
+      <webElementGuid>cd65a309-2910-46ba-8ace-9227e17879e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Connect account']/parent::*</value>
+      <webElementGuid>2e7b7ccf-0cf1-4f80-b8f9-6e158f6c88c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/span</value>
+      <webElementGuid>4c9f0d22-86b4-4ae2-b01d-39249883e569</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Connect account' or . = 'Connect account')]</value>
+      <webElementGuid>ffb83583-536b-40d2-a94f-f24507b6289c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

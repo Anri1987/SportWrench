@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create account (Draft)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>92149579-a024-4fa7-8a25-c923f84ba7e7</testCaseGuid>
+   <variable>
+      <defaultValue>'Test_email_for_club@gmail.com'</defaultValue>
+      <description></description>
+      <id>d0b95f27-d849-480a-9640-093a1a237492</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Refund for teams (Check)</name>
+   <tag>team, refund</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3049684f-bfbe-4dfd-badb-b430eba9500e</testCaseGuid>
+</TestCaseEntity>

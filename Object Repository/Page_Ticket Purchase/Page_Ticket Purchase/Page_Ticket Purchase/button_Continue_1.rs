@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Continue_1</name>
+   <tag></tag>
+   <elementGuidId>80aa81be-b86e-47a8-86c6-24098d1d060b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.StyledBtn-sc-pvli5u-0.dCPkTn</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/following::button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>10469a5c-da4a-45df-a23f-2511f6d455ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>StyledBtn-sc-pvli5u-0 dCPkTn</value>
+      <webElementGuid>60875c95-c6df-4a65-839a-f24b6376c10d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Continue</value>
+      <webElementGuid>01e40f5c-f321-46a8-b173-9d0bac6b7137</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;MuiModal-root css-8ndowl&quot;]/div[@class=&quot;Modal__Wrapper-sc-1ie1ara-9 gaAOZs&quot;]/div[@class=&quot;StyledAdmissionInformationModalWrapper-sc-1hznlyg-3 iFQaMM&quot;]/div[@class=&quot;StyledAdmissionInformationModalButtonWrapper-sc-1hznlyg-8 iccdRQ MuiBox-root css-0&quot;]/button[@class=&quot;StyledBtn-sc-pvli5u-0 dCPkTn&quot;]</value>
+      <webElementGuid>8eb2bb0c-e9be-41dc-90f4-f8ba1f219191</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/following::button[1]</value>
+      <webElementGuid>3d430483-b1f0-4ddb-b5d6-0fa6f1577ba7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='I agree to the Refund and Dispute Policy'])[1]/following::button[2]</value>
+      <webElementGuid>55f1f284-b118-4f1f-ad6e-cc19b1616f3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>8fb95189-ac0e-4d7e-81d0-19ac25fc8d41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Continue' or . = 'Continue')]</value>
+      <webElementGuid>8f7a571e-515b-48d3-befd-b2e2bef81411</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
