@@ -160,7 +160,13 @@ WebUI.click(findTestObject('Object Repository/Create team/Page_SportWrench - The
 
 WebUI.click(findTestObject('Object Repository/Create team/Page_SportWrench - The Home of Sporting Events/a_Enter Events'))
 
-WebUI.click(findTestObject('Object Repository/Create team/Page_SportWrench - The Home of Sporting Events/button_InfoEnter'))
+WebUI.setText(findTestObject('Spy Web/Page_SportWrench - The Home of Sporting Events/input_Invoices_searchbox'), '[AUTOTESTS] JVA Event (do not touch!)')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Spy Web/Page_SportWrench - The Home of Sporting Events/span_AUTOTESTS JVA Event (do not touch)'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Create team/Page_SportWrench - The Home of Sporting Events/button_Enter Event and Manage Teams'))
 

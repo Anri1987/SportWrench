@@ -31,6 +31,14 @@ WebUI.click(findTestObject('Object Repository/Payment for teams (CARD, ACH, CHEC
 
 WebUI.click(findTestObject('Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_Enter Events'))
 
+WebUI.setText(findTestObject('Spy Web/Page_SportWrench - The Home of Sporting Events/input_Invoices_searchbox'), 'ULTIMATE TEAMS REFUND')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Spy Web/Page_SportWrench - The Home of Sporting Events/span_ULTIMATE TEAMS REFUND'))
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Manage Teams'))
 
 WebUI.click(findTestObject('Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay'))

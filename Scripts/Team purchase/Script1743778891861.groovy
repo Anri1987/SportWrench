@@ -32,7 +32,11 @@ WebUI.click(findTestObject('Object Repository/Page_SportWrench - The Home of Spo
 
 WebUI.click(findTestObject('Object Repository/Page_SportWrench - The Home of Sporting Events/a_Enter Events'))
 
-WebUI.click(findTestObject('Object Repository/Page_SportWrench - The Home of Sporting Events/button_InfoEnter'))
+WebUI.setText(findTestObject('Spy Web/Page_SportWrench - The Home of Sporting Events/input_Invoices_searchbox'), '123Test Event')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Spy Web/Page_SportWrench - The Home of Sporting Events/span_123Test Event'))
 
 WebUI.click(findTestObject('Object Repository/Page_SportWrench - The Home of Sporting Events/button_Enter Event and Manage Teams'))
 

@@ -13,8 +13,12 @@
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Teams'])[6]/following::button[1]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/div[@class=&quot;container club-menu-container&quot;]/div[@class=&quot;tab-content clubownermenucontent&quot;]/div[@class=&quot;tab-pane active&quot;]/div[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/table[@class=&quot;table table-condensed events-table fade inin&quot;]/tbody[1]/tr[6]/td[1]/button[@class=&quot;btn btn-warning btn-xs&quot;][count(. | //*[@class = 'btn btn-warning btn-xs' and @ng-show = 'showEnterEventBtn(event)' and @data-ng-click = 'assign(event)' and (text() = 'Info/Enter' or . = 'Info/Enter')]) = count(//*[@class = 'btn btn-warning btn-xs' and @ng-show = 'showEnterEventBtn(event)' and @data-ng-click = 'assign(event)' and (text() = 'Info/Enter' or . = 'Info/Enter')])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,31 +33,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6e0010ea-f37d-4baf-a86e-05c51f615aa4</webElementGuid>
+      <webElementGuid>ed415aed-2826-464a-b229-1231841046a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>btn btn-warning btn-xs</value>
-      <webElementGuid>76abcf53-a33f-47ca-8656-e1058f28a834</webElementGuid>
+      <webElementGuid>1ecac73b-0441-4750-9f62-4650bcc4e9a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-show</name>
       <type>Main</type>
       <value>showEnterEventBtn(event)</value>
-      <webElementGuid>48e351e6-abc5-42a9-87c5-0844004d0a53</webElementGuid>
+      <webElementGuid>4c6fea57-6412-41a4-b940-63ff5d768692</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-ng-click</name>
       <type>Main</type>
       <value>assign(event)</value>
-      <webElementGuid>df496a4b-abca-406c-b2c2-152a94bf13f2</webElementGuid>
+      <webElementGuid>929840af-755d-43ca-b741-c21b6b270fa8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,15 +65,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Info/Enter</value>
-      <webElementGuid>234ff337-dbce-4c37-95d4-5236b181b40a</webElementGuid>
+      <webElementGuid>0d30adcc-c842-4145-b094-e6aa755729e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/div[@class=&quot;container club-menu-container&quot;]/div[@class=&quot;tab-content clubownermenucontent&quot;]/div[@class=&quot;tab-pane active&quot;]/div[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/table[@class=&quot;table table-condensed events-table fade inin&quot;]/tbody[1]/tr[6]/td[1]/button[@class=&quot;btn btn-warning btn-xs&quot;]</value>
-      <webElementGuid>5c0e6a8e-484f-4188-adcc-0eb5d2290fab</webElementGuid>
+      <webElementGuid>5e73bd25-032a-4342-9591-a02b3f5f2bcf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Teams'])[6]/following::button[1]</value>
-      <webElementGuid>5e180985-47f3-4004-8245-b967df20a8c9</webElementGuid>
+      <webElementGuid>2fb1e2ee-09cd-43d6-b876-2859f40a9bae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Website'])[7]/following::button[2]</value>
-      <webElementGuid>c8d74d1d-99b3-46f1-947b-6ba1b0ee3172</webElementGuid>
+      <webElementGuid>8cf5f43d-e339-4db2-bb25-cfa8c4c5f041</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='[AUTOTESTS] JVA Event (do not touch!)'])[1]/preceding::button[1]</value>
-      <webElementGuid>f63de613-5413-4348-b7d6-d7d8298de754</webElementGuid>
+      <webElementGuid>b8f3a67b-7c88-4f67-9732-9cb496449034</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='JVA'])[1]/preceding::button[1]</value>
-      <webElementGuid>3d9d1e1c-6a66-4b68-89b2-355a9eb6634f</webElementGuid>
+      <webElementGuid>77af70d1-1884-46e3-a2c6-fc27a337473e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[6]/td/button[2]</value>
-      <webElementGuid>ef759c59-2854-47b6-bc31-072a58cfdb46</webElementGuid>
+      <webElementGuid>97f648cd-e7a1-4ba4-afbd-3ad7acdbdb08</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +121,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Info/Enter' or . = 'Info/Enter')]</value>
-      <webElementGuid>20ee98d7-daa4-47a5-b557-c8d58a6f5fe1</webElementGuid>
+      <webElementGuid>fded58ee-e7f2-4201-8a28-d87b4d72657d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
