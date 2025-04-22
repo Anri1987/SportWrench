@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create account/Page_/a_962190",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sonja Adams \u003cgtvqamanual@gmail.com\u003e\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250422_224519/Club/20250422_224519/Object Repository/Create account/Page_/a_962190_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Team payment 22/Page_SportWrench - The Home of Sporting Events/iframe_Check___privateStripeFrame0445",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027payment-element\u0027]/div/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250422_224519/Club/20250422_224519/Object Repository/Team payment 22/Page_SportWrench - The Home of Sporting Events/iframe_Check___privateStripeFrame0445_idRelative.png"
+    }
+  ]
+}

@@ -13,7 +13,7 @@
       <variableId>2ba3a74e-f4c1-4a64-a1c1-8babb479250b</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'C:\\\\Users\\\\LENOVO\\\\Desktop\\\\SCREENS\\\\SportWrench Foreign Team Roster Import(6).xlsx'</defaultValue>
+      <defaultValue>'C:\\\\file for autotest\\\\SportWrench Foreign Team Roster Import(6).xlsx'</defaultValue>
       <description></description>
       <id>2ba3a74e-f4c1-4a64-a1c1-8babb479250b</id>
       <masked>false</masked>
