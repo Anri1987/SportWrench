@@ -6,11 +6,12 @@
    <elementGuidId>e29c64e4-f1d9-4948-a50e-b1358aa3185a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='accordiongroup-1305-4115-tab']/h4/a/span/payment-info-accord-heading/span/b/span[3]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'ACH (paid)' or . = 'ACH (paid)')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -32,15 +33,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>67cf41e7-aa93-4bd0-9ac3-14f6c903ab05</webElementGuid>
+      <webElementGuid>8be2e94f-95ae-4047-811a-35caffb2f01a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>ACH (paid)</value>
-      <webElementGuid>c65d9c6b-a616-4fcc-8e3e-eac08847f68c</webElementGuid>
+      <webElementGuid>7064efd1-2de1-4c5c-86cb-a45bc63fb467</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -48,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;accordiongroup-1305-4115-tab&quot;)/h4[@class=&quot;panel-title&quot;]/a[@class=&quot;accordion-toggle&quot;]/span[1]/payment-info-accord-heading[1]/span[@class=&quot;text-success&quot;]/b[1]/span[3]</value>
-      <webElementGuid>8c6ea095-8722-4ae3-b613-e3cdd0d04a5e</webElementGuid>
+      <webElementGuid>2dc166da-93c6-44e9-b02f-bb5150623bb6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -56,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='accordiongroup-1305-4115-tab']/h4/a/span/payment-info-accord-heading/span/b/span[3]</value>
-      <webElementGuid>e95ec03b-9055-4d90-b31c-10a2ce66b54d</webElementGuid>
+      <webElementGuid>0f0ef085-a882-41f5-9b9e-8fe99448ddf9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/following::span[1]</value>
-      <webElementGuid>72c29b63-3cd4-445f-a9d6-a984164593f3</webElementGuid>
+      <webElementGuid>faed0623-34f3-4d14-a137-f89f922fc14f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='#16823168'])[1]/following::span[2]</value>
-      <webElementGuid>700eec21-906f-4dfb-aa49-938be776d5c7</webElementGuid>
+      <webElementGuid>65ec5386-9c89-4c11-b342-4998f7516a7e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$4,000.00'])[1]/preceding::span[3]</value>
-      <webElementGuid>0d950d59-5fae-4d94-9df3-69935c0011e2</webElementGuid>
+      <webElementGuid>beb3b007-c2a3-4160-9774-c45000b393fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Created:'])[1]/preceding::span[4]</value>
-      <webElementGuid>acf152de-f364-4139-9d88-2d22b9c7cfc1</webElementGuid>
+      <webElementGuid>2fe32794-d4ec-479b-8118-a4ceebc47670</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='ACH (paid)']/parent::*</value>
-      <webElementGuid>b96610c6-5f8a-436c-a906-c4f512f453f0</webElementGuid>
+      <webElementGuid>8e2dab9d-a4c3-465f-85a2-8864e63723d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span[3]</value>
-      <webElementGuid>93e4dd1c-4b96-4a0b-8eec-c2a3328d6802</webElementGuid>
+      <webElementGuid>b728678d-aeae-48b8-ac1a-17032179771d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'ACH (paid)' or . = 'ACH (paid)')]</value>
-      <webElementGuid>f912a4a5-2df8-43f1-a180-6297068d8d81</webElementGuid>
+      <webElementGuid>1e40f1cc-1681-4f90-88d2-319ea156e204</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

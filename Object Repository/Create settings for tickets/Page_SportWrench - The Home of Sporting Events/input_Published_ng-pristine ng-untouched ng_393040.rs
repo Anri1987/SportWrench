@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Published_ng-pristine ng-untouched ng_393040</name>
+   <tag></tag>
+   <elementGuidId>29387d1d-be4e-4bfd-a25e-d4cb3fe30ee6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.tickets-settings-form.col-xs-12.col-sm-4 > div.form-group > label > input.ng-pristine.ng-untouched.ng-valid.ng-empty</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='checkbox'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>2b3fb974-dc02-4edd-ae26-2f48275da9cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>8735b025-1461-4b1a-9894-f40a707272ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>event.tickets_published</value>
+      <webElementGuid>c5ddcaa6-06f2-488a-9b93-2accf6b99ef2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-change</name>
+      <type>Main</type>
+      <value>setTicketsPublished()</value>
+      <webElementGuid>403a49fa-0988-4603-bc73-af45a2c12325</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-pristine ng-untouched ng-valid ng-empty</value>
+      <webElementGuid>98b7fcda-a1e5-4ffd-a467-a91ead67b069</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/div[@class=&quot;row rowm0&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;tab-content eo-dashboard&quot;]/div[@class=&quot;tab-pane active&quot;]/div[1]/div[@class=&quot;row row-space rowm0&quot;]/div[@class=&quot;tickets-settings-form col-xs-12 col-sm-4&quot;]/div[@class=&quot;form-group&quot;]/label[1]/input[@class=&quot;ng-pristine ng-untouched ng-valid ng-empty&quot;]</value>
+      <webElementGuid>1743c426-b074-4f1b-bb17-2f0f09257e8d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='checkbox'])[2]</value>
+      <webElementGuid>dfd8fd67-2bd1-4346-910a-d6d4d3e0074c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/label/input</value>
+      <webElementGuid>b04241b6-87dd-42d8-83f5-b7a9603002fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'checkbox']</value>
+      <webElementGuid>876ca0f3-41e5-4fb1-99f9-6034855cc43f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Total</name>
+   <tag></tag>
+   <elementGuidId>25f9d26e-9938-40a0-8724-04ce6ddbfea2</elementGuidId>
+   <imagePath>Screenshots/Targets/Page_SportWrench - The Home of Sporting Events/a_Total.png</imagePath>
+   <selectorCollection>
+      <entry>
+         <key>IMAGE</key>
+         <value>Screenshots/Targets/Page_SportWrench - The Home of Sporting Events/a_Total.png</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Total' or . = 'Total')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='accordiongroup-5961-7287-panel']/div/div/div/div/div[2]/div/ul/li[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.btn-group.dropdown.open > ul.dropdown-menu > li:nth-of-type(2) > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>cbd76a79-4c95-489d-b389-f273a3e57d9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>sw-confirm</name>
+      <type>Main</type>
+      <value>Do you really want to refund this payment?</value>
+      <webElementGuid>b1af9033-9d61-4c7b-b5d4-dca6c458153c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>sw-confirm-do</name>
+      <type>Main</type>
+      <value>refund</value>
+      <webElementGuid>252b0eae-2b0a-4677-b85a-fad49649c8ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>sw-confirm-args</name>
+      <type>Main</type>
+      <value>payment</value>
+      <webElementGuid>e49b4f0e-01da-4479-a642-6fcfb3ee356c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>sw-confirm-params</name>
+      <type>Main</type>
+      <value>confirmParams</value>
+      <webElementGuid>19ae72cb-48ca-43b3-9ad9-18f180f69573</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Total</value>
+      <webElementGuid>d7e56183-8671-4d3d-ad99-49b7b995743d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;accordiongroup-5961-7287-panel&quot;)/div[@class=&quot;panel-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-3&quot;]/div[@class=&quot;btn-group dropdown open&quot;]/ul[@class=&quot;dropdown-menu&quot;]/li[2]/a[1]</value>
+      <webElementGuid>63324e8b-7559-4c24-b072-0b5435eeb47e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='accordiongroup-5961-7287-panel']/div/div/div/div/div[2]/div/ul/li[2]/a</value>
+      <webElementGuid>6d367c08-b704-4363-92bb-3f9d7d1df683</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Total')])[2]</value>
+      <webElementGuid>35eefee1-1416-4eaa-a767-44d71830755d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Partial'])[2]/following::a[1]</value>
+      <webElementGuid>b2537023-6310-4e69-ad78-0f0ce80a235f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Refund'])[2]/following::a[2]</value>
+      <webElementGuid>52e78cd2-090b-4744-b960-6ac27bb48864</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Refunds:'])[1]/preceding::a[1]</value>
+      <webElementGuid>e8b4329e-3123-4670-a6ff-97a78e5d1d59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$2,500.00'])[2]/preceding::a[1]</value>
+      <webElementGuid>f3dfe85b-aaab-40dc-89db-ac50818eb67e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '')])[18]</value>
+      <webElementGuid>bc7b818e-dcf4-4e3b-9c2f-0311cdcd493b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/div/div/div/div[2]/div/ul/li[2]/a</value>
+      <webElementGuid>7178035b-e14a-46ad-beca-eea3a2b26f9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Total' or . = 'Total')]</value>
+      <webElementGuid>2dea33ef-d9eb-468a-8a78-39d1b9522537</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

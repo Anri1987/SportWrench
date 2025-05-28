@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_11949</name>
+   <tag></tag>
+   <elementGuidId>cc3175f6-c7ca-4039-befe-cc3077f63269</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='(111) 111-1111'])[1]/following::td[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td:nth-of-type(10)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>8aab7c83-4174-4520-9fa4-69c478b29515</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-bind</name>
+      <type>Main</type>
+      <value>::p.zip</value>
+      <webElementGuid>49b7a80a-437e-4719-83d9-86a663cafb95</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>11949</value>
+      <webElementGuid>6a326081-c52f-4a14-90e7-4f57813187a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/div[@class=&quot;row rowm0&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;tab-content eo-dashboard&quot;]/div[@class=&quot;tab-pane active&quot;]/div[1]/div[2]/div[@class=&quot;ov-x-auto spacer-sm-b&quot;]/table[@class=&quot;table table-condensed tickets-payments-table&quot;]/tbody[1]/tr[1]/td[10]</value>
+      <webElementGuid>5be4701b-6468-478a-95cf-d93c4b2e3234</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(111) 111-1111'])[1]/following::td[1]</value>
+      <webElementGuid>3b14c086-34e5-4e48-a6e6-a627092a4d75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='aaaa@gmail.com'])[1]/following::td[1]</value>
+      <webElementGuid>af6869b1-c1d4-4c4e-a6cf-95b89f07e44d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='card'])[1]/preceding::td[1]</value>
+      <webElementGuid>2c8f056a-3f0d-45d2-9cd2-4601b16f53dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='paid'])[1]/preceding::td[2]</value>
+      <webElementGuid>084795b2-8ae5-4346-9e0d-12eda23ca818</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='11949']/parent::*</value>
+      <webElementGuid>bb5d6a25-fe59-47f9-ba10-7ef24c6debcb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[10]</value>
+      <webElementGuid>bf17f4e2-7d9e-478c-a262-65e04098012c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '11949' or . = '11949')]</value>
+      <webElementGuid>fc70243f-70a2-4ae8-add2-45783d13db19</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

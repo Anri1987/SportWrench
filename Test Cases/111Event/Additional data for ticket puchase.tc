@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Additional data for ticket puchase</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>514d80e1-83a6-4666-b397-fafaad577ac9</testCaseGuid>
+</TestCaseEntity>

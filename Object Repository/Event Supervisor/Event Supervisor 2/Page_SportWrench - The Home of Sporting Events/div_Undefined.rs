@@ -4,10 +4,19 @@
    <name>div_Undefined</name>
    <tag></tag>
    <elementGuidId>336ec5ba-32cd-4b74-ab12-df012f058f14</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>CSS</key>
          <value>tr:nth-of-type(37) > td.pointer > div.text-danger.font-bold</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/event-supervisor[1]/div[@class=&quot;container supervisor&quot;]/table[@class=&quot;table sw-adaptive-grid events-list table-vertical-align-middle&quot;]/tbody[1]/tr[37]/td[@class=&quot;pointer&quot;]/div[@class=&quot;text-danger font-bold&quot;][count(. | //*[(text() = 'Undefined' or . = 'Undefined')]) = count(//*[(text() = 'Undefined' or . = 'Undefined')])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -23,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>7acd6778-4d02-4920-ba34-8a51751aa878</webElementGuid>
+      <webElementGuid>fc70c8d9-cf6d-4a6f-9134-0fd99c1e2dcd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +40,7 @@
       <name>ng-class</name>
       <type>Main</type>
       <value>$ctrl.swFeeClass(e)</value>
-      <webElementGuid>8794f338-2c1f-43a5-8004-3f57830ff99a</webElementGuid>
+      <webElementGuid>9f9dba53-4f19-4d64-a877-9585217145b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +48,7 @@
       <name>ng-bind</name>
       <type>Main</type>
       <value>$ctrl.getTeamsSWFee(e)</value>
-      <webElementGuid>ef745626-1580-4688-9012-1d4828105c85</webElementGuid>
+      <webElementGuid>049fa0d1-43d2-4f01-a9ce-0ffd428c2cc3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +56,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-danger font-bold</value>
-      <webElementGuid>2e80e7db-3a74-4675-8cc0-6d45b04f7964</webElementGuid>
+      <webElementGuid>dd770adb-91dc-4a15-b750-6cab53252e11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,15 +64,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Undefined</value>
-      <webElementGuid>2f8e811a-5b32-47de-8d44-8a6e54f40639</webElementGuid>
+      <webElementGuid>c4847d7b-7078-4771-ad97-7445baae9777</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/event-supervisor[1]/div[@class=&quot;container supervisor&quot;]/table[@class=&quot;table sw-adaptive-grid events-list table-vertical-align-middle&quot;]/tbody[1]/tr[37]/td[@class=&quot;pointer&quot;]/div[@class=&quot;text-danger font-bold&quot;]</value>
-      <webElementGuid>17ac4897-4424-4b88-934a-3ad77f14942d</webElementGuid>
+      <webElementGuid>0e287e65-fda4-4790-a2e2-a285f00f808a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jun, 20'])[1]/following::div[1]</value>
-      <webElementGuid>97e82098-ac83-4ecf-930c-169244b36644</webElementGuid>
+      <webElementGuid>2e598900-3c33-44a4-bc41-2b48d3ff848d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jun, 18'])[1]/following::div[2]</value>
-      <webElementGuid>99320d80-9e65-4a77-80eb-649f340e1376</webElementGuid>
+      <webElementGuid>88437ee2-6172-4bf1-9bfb-b5925b49d764</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$1.10'])[26]/preceding::div[1]</value>
-      <webElementGuid>bd5f18a4-a27d-49ed-81d8-9c7e40062a4d</webElementGuid>
+      <webElementGuid>6ee924e0-0a02-414d-96d7-65eb5ebd44cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[36]/preceding::div[2]</value>
-      <webElementGuid>34a05a8d-11fa-4f5c-8139-3b05c04b3851</webElementGuid>
+      <webElementGuid>4d00a05e-3f14-40e4-9f3c-94d5455b0879</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +112,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[37]/td[5]/div</value>
-      <webElementGuid>1407d29b-6325-4e68-b80d-0802554120bd</webElementGuid>
+      <webElementGuid>4fa1d008-50fd-4024-86fc-2cb4f1b527db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +120,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Undefined' or . = 'Undefined')]</value>
-      <webElementGuid>035b1b02-5680-4a2f-acf5-2b104700e436</webElementGuid>
+      <webElementGuid>19331c0a-0e53-4a9f-951c-9d7f75bfabaa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

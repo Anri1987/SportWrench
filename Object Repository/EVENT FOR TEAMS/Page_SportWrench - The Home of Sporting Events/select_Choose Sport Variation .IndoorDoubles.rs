@@ -6,15 +6,19 @@
    <elementGuidId>44583a45-7644-46cd-820b-3d4a897fb03b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>select[name=&quot;sport_variation&quot;]</value>
+         <key>BASIC</key>
+         <value>//*[@name = 'sport_variation' and (text() = 'Choose Sport Variation ...IndoorDoubles' or . = 'Choose Sport Variation ...IndoorDoubles')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//select[@name='sport_variation']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;sport_variation&quot;]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>9df273e6-cdd6-4875-b159-bae157abacff</webElementGuid>
+      <webElementGuid>c93268e6-68d3-4e4e-9cce-7a36d35841e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +35,7 @@
       <name>ng-model</name>
       <type>Main</type>
       <value>tournament.sport_variation_id</value>
-      <webElementGuid>51207353-ee49-4cbb-acb5-81807731a269</webElementGuid>
+      <webElementGuid>547beff2-f9e7-4f68-845a-e938d707e700</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +43,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required</value>
-      <webElementGuid>d7474741-f190-470a-9a28-1254347e00e1</webElementGuid>
+      <webElementGuid>00c0deae-30c0-48ba-89f4-d4dc7f68c080</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +51,7 @@
       <name>name</name>
       <type>Main</type>
       <value>sport_variation</value>
-      <webElementGuid>d8788110-686c-450f-ba6b-220cc8226acb</webElementGuid>
+      <webElementGuid>94a1cc6e-18de-4608-b9f9-b363567c51ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +59,7 @@
       <name>ng-options</name>
       <type>Main</type>
       <value>v.id as v.name for v in sportInfo.variations</value>
-      <webElementGuid>2e52bf2a-c661-4aad-ab5b-868e7fe257a1</webElementGuid>
+      <webElementGuid>04038f10-de48-47f8-93fc-5d4a4646f5da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +67,7 @@
       <name>ng-show</name>
       <type>Main</type>
       <value>!utils.variationsLoading</value>
-      <webElementGuid>8243fff5-b26f-4f58-bfb6-08b7bc51c811</webElementGuid>
+      <webElementGuid>12ffefe4-9a79-404f-8ab6-feaf0024d060</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +75,7 @@
       <name>ng-change</name>
       <type>Main</type>
       <value>sportVariationChanged()</value>
-      <webElementGuid>fb335c76-ec99-4904-a7d4-b6658107f9ed</webElementGuid>
+      <webElementGuid>c61e7fea-b162-4c5f-abff-809afb499b46</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -79,7 +83,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Choose Sport Variation ...IndoorDoubles</value>
-      <webElementGuid>6fa60eef-9565-4244-bb83-7ad60c73ff33</webElementGuid>
+      <webElementGuid>3ccb80ef-851d-4d43-b180-add2812da295</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -87,7 +91,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/event-settings[1]/div[@class=&quot;container no-animate&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-10 col-sm-offset-1&quot;]/div[1]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;tab-pane active&quot;]/general-settings[1]/div[@class=&quot;row-space&quot;]/uib-accordion[1]/div[@class=&quot;panel-group&quot;]/div[@class=&quot;panel panel-info panel-open&quot;]/div[@class=&quot;in collapse&quot;]/div[@class=&quot;panel-body&quot;]/form[@class=&quot;form-horizontal ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-date_end ng-valid-datetime ng-invalid-event-dates ng-dirty ng-valid-parse&quot;]/div[@class=&quot;form-group validation-required&quot;]/div[@class=&quot;col-sm-4&quot;]/select[@class=&quot;form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required&quot;]</value>
-      <webElementGuid>575923a6-61cd-4491-af62-4ba68f80afaf</webElementGuid>
+      <webElementGuid>9c400a56-36e4-4836-a336-d28d395c881b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -95,7 +99,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@name='sport_variation']</value>
-      <webElementGuid>85a4e414-a19f-46b5-8730-ae5a0708f0bb</webElementGuid>
+      <webElementGuid>96780c3c-d743-4a52-bcd3-00ef2129a889</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sport Variation'])[1]/following::select[1]</value>
-      <webElementGuid>482f5371-49cc-4748-9c83-0d239b18206e</webElementGuid>
+      <webElementGuid>31ab0947-15e1-495a-88df-7b5f250b5095</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sport'])[1]/following::select[2]</value>
-      <webElementGuid>bbc50602-7d05-4e49-af52-bd713221ec93</webElementGuid>
+      <webElementGuid>8fd333d5-be71-43dd-abc4-dce90cc84120</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +123,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Date Start'])[1]/preceding::select[1]</value>
-      <webElementGuid>0537f0f3-639d-4d82-aba5-c9001935aac5</webElementGuid>
+      <webElementGuid>afa71879-e42d-4822-bf23-89ab7f813718</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +131,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Date End'])[1]/preceding::select[1]</value>
-      <webElementGuid>45e30b68-c7c1-49a1-a829-f1e0963fba90</webElementGuid>
+      <webElementGuid>69279bb0-fbcd-4cd4-8b2d-ca60331d9ee5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +139,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[9]/div/select</value>
-      <webElementGuid>9f92b395-27a5-4d75-bde7-b315f011c304</webElementGuid>
+      <webElementGuid>7fe73658-2701-4653-aa3f-0566731c51d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,6 +147,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@name = 'sport_variation' and (text() = 'Choose Sport Variation ...IndoorDoubles' or . = 'Choose Sport Variation ...IndoorDoubles')]</value>
-      <webElementGuid>22ec3292-0d1c-48d2-9d11-182d37e02e17</webElementGuid>
+      <webElementGuid>d3392604-a6fc-48d8-bb5e-2f303b52c10a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,32 +6,36 @@
    <elementGuidId>36947e29-3b23-4b9f-a532-fcd0809e5381</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;teams_sw_fee&quot;]</value>
+         <key>BASIC</key>
+         <value>//input[@name = 'teams_sw_fee']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@name='teams_sw_fee']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;teams_sw_fee&quot;]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>74c36db0-4877-4f40-b5e5-01102a90955c</webElementGuid>
+      <webElementGuid>1e78be84-c587-49b8-be58-b327acac2ac4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>ee64a533-58bf-4ba8-b918-b04dbc03195c</webElementGuid>
+      <webElementGuid>0bacece7-957d-478e-b400-569c186c126f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +43,7 @@
       <name>name</name>
       <type>Main</type>
       <value>teams_sw_fee</value>
-      <webElementGuid>9b9a7a21-80a5-4ef6-a897-588fbe82fe88</webElementGuid>
+      <webElementGuid>e269fec3-8f05-4f00-b66c-87f5fa6d0ea4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +51,7 @@
       <name>ng-model</name>
       <type>Main</type>
       <value>$ctrl.event.teams_sw_fee</value>
-      <webElementGuid>81a466b5-adf4-4c24-938d-e7f3b156f831</webElementGuid>
+      <webElementGuid>f9a4df94-b149-4a87-9b52-85b11e96b8a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +59,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control ng-untouched ng-valid ng-not-empty ng-valid-min ng-valid-required ng-dirty ng-valid-number</value>
-      <webElementGuid>4944b2c7-fdfd-49a0-baf2-af3daa2f56ea</webElementGuid>
+      <webElementGuid>e0efe638-de26-4cd5-8cae-8659db69f7dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +67,7 @@
       <name>ng-min</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>65ce1d62-430f-4505-bbda-c6d2dd2570b2</webElementGuid>
+      <webElementGuid>feb6aaa2-562f-4b8b-980f-0d3841721aa8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +75,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;no-js&quot;]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;modal fade in&quot;]/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/modal-wrapper[1]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/ng-transclude[1]/event-monetary-edit[1]/form[@class=&quot;form-horizontal ng-valid ng-valid-min ng-valid-required ng-dirty ng-valid-number&quot;]/div[@class=&quot;validation-required form-group&quot;]/div[@class=&quot;col-sm-4&quot;]/input[@class=&quot;form-control ng-untouched ng-valid ng-not-empty ng-valid-min ng-valid-required ng-dirty ng-valid-number&quot;]</value>
-      <webElementGuid>2bac3980-7aac-45b1-abe4-b7781bd4e6f7</webElementGuid>
+      <webElementGuid>ab880a78-8577-4d86-9293-1c9e1b6eaa92</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +83,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='teams_sw_fee']</value>
-      <webElementGuid>1a2e2dcb-e04a-42d5-a2ce-52d6ae839eb0</webElementGuid>
+      <webElementGuid>4fb1f043-acfb-442d-957f-cb17c5bb8a2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +91,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>f3dfccdf-8764-47ad-951d-69b27719c390</webElementGuid>
+      <webElementGuid>ef037e32-dca7-4270-9200-b7287f796155</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +99,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'number' and @name = 'teams_sw_fee']</value>
-      <webElementGuid>babee27b-4344-49fb-8a5c-73f3900ed5e3</webElementGuid>
+      <webElementGuid>4e2cf9be-d602-4ffd-a0ad-f7d550bf37d8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

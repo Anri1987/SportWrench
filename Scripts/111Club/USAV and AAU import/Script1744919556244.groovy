@@ -45,7 +45,8 @@ WebUI.refresh()
 WebUI.verifyElementPresent(findTestObject('Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait'), 
     0)
 
-WebUI.delay(15)
+WebUI.verifyElementNotPresent(findTestObject('Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait'), 
+    30)
 
 WebUI.refresh()
 
@@ -64,7 +65,8 @@ WebUI.refresh()
 WebUI.verifyElementPresent(findTestObject('Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait'), 
     0)
 
-WebUI.delay(15)
+WebUI.verifyElementNotPresent(findTestObject('Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait'), 
+    30)
 
 WebUI.refresh()
 
@@ -80,7 +82,8 @@ WebUI.refresh()
 WebUI.verifyElementPresent(findTestObject('Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait'), 
     0)
 
-WebUI.delay(20)
+WebUI.verifyElementNotPresent(findTestObject('Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait'), 
+    30)
 
 WebUI.refresh()
 
@@ -98,7 +101,8 @@ WebUI.refresh()
 WebUI.verifyElementPresent(findTestObject('Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait'), 
     0)
 
-WebUI.delay(17)
+WebUI.verifyElementNotPresent(findTestObject('Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait'), 
+    30)
 
 WebUI.closeBrowser()
 

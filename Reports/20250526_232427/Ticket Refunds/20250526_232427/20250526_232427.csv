@@ -1,0 +1,97 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Ticket Refunds,Chrome 136.0.7103.114,,,26-05-2025 23:24:31,26-05-2025 23:26:21,"1m - 49,891s",FAILED
+,,,,,,,
+Test Cases/111Ticket refund/Ticket Payment for refund,Chrome 136.0.7103.114,,,26-05-2025 23:24:31,26-05-2025 23:24:53,"21,637s",PASSED
+"openBrowser(""http://USAV:demo@dev.swstage.com/"")",Chrome 136.0.7103.114,,,26-05-2025 23:24:31,26-05-2025 23:24:36,"4,464s",PASSED
+"navigateToUrl(""http://USAV:demo@tickets-dev.swstage.com/"")",Chrome 136.0.7103.114,,,26-05-2025 23:24:36,26-05-2025 23:24:38,"1,848s",PASSED
+maximizeWindow(),Chrome 136.0.7103.114,,,26-05-2025 23:24:38,26-05-2025 23:24:38,"0,137s",PASSED
+"setText(findTestObject(""Object Repository/Ticket purchase/Page_SW  Tickets/input_Available Events_form-control ng-pris_aaf354""), ""[AUTOTESTS] Tickets refunds (do not touch!)"")",Chrome 136.0.7103.114,,,26-05-2025 23:24:38,26-05-2025 23:24:39,"1,285s",PASSED
+"click(findTestObject(""Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SW  Tickets/b_AUTOTESTS Tickets refunds (do not touch)""))",Chrome 136.0.7103.114,,,26-05-2025 23:24:39,26-05-2025 23:24:42,"2,327s",PASSED
+"click(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/div_None""))",Chrome 136.0.7103.114,,,26-05-2025 23:24:42,26-05-2025 23:24:42,"0,316s",PASSED
+"click(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/div_1""))",Chrome 136.0.7103.114,,,26-05-2025 23:24:42,26-05-2025 23:24:42,"0,296s",PASSED
+"click(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Purchaser Info_1""))",Chrome 136.0.7103.114,,,26-05-2025 23:24:42,26-05-2025 23:24:43,"0,507s",PASSED
+"click(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree""))",Chrome 136.0.7103.114,,,26-05-2025 23:24:43,26-05-2025 23:24:43,"0,504s",PASSED
+"setText(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserFirst""), ""Tara"")",Chrome 136.0.7103.114,,,26-05-2025 23:24:43,26-05-2025 23:24:44,"0,758s",PASSED
+"setText(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserLast""), ""Charles"")",Chrome 136.0.7103.114,,,26-05-2025 23:24:44,26-05-2025 23:24:44,"0,553s",PASSED
+"setText(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserEmail""), ""aaaa@gmail.com"")",Chrome 136.0.7103.114,,,26-05-2025 23:24:44,26-05-2025 23:24:45,"0,906s",PASSED
+"executeJavaScript(""document.getElementById('purchaserPhone').focus(); document.execCommand('insertText', false, '(111) 111-1111');"", null)",Chrome 136.0.7103.114,,,26-05-2025 23:24:45,26-05-2025 23:24:45,"0,040s",PASSED
+"setText(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserZipCode""), ""11949"")",Chrome 136.0.7103.114,,,26-05-2025 23:24:45,26-05-2025 23:24:46,"0,537s",PASSED
+"click(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Daily Passes""))",Chrome 136.0.7103.114,,,26-05-2025 23:24:46,26-05-2025 23:24:46,"0,293s",PASSED
+"click(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree""))",Chrome 136.0.7103.114,,,26-05-2025 23:24:46,26-05-2025 23:24:47,"0,489s",PASSED
+"click(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Summary""))",Chrome 136.0.7103.114,,,26-05-2025 23:24:47,26-05-2025 23:24:47,"0,279s",PASSED
+"click(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Payment""))",Chrome 136.0.7103.114,,,26-05-2025 23:24:47,26-05-2025 23:24:48,"0,493s",PASSED
+"click(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Card information""))",Chrome 136.0.7103.114,,,26-05-2025 23:24:48,26-05-2025 23:24:48,"0,954s",PASSED
+"setText(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cardnumber""), ""4242424242424242"")",Chrome 136.0.7103.114,,,26-05-2025 23:24:48,26-05-2025 23:24:49,"0,510s",PASSED
+"setText(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_exp-date""), ""12 / 25"")",Chrome 136.0.7103.114,,,26-05-2025 23:24:49,26-05-2025 23:24:49,"0,377s",PASSED
+"setText(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cvc""), ""454"")",Chrome 136.0.7103.114,,,26-05-2025 23:24:49,26-05-2025 23:24:50,"0,460s",PASSED
+"click(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/div_omplete Purchase""))",Chrome 136.0.7103.114,,,26-05-2025 23:24:50,26-05-2025 23:24:50,"0,287s",PASSED
+"click(findTestObject(""Page_Tickets/div_Buy Anyway""), OPTIONAL)",Chrome 136.0.7103.114,,,26-05-2025 23:24:50,26-05-2025 23:24:51,"1,281s",PASSED
+"verifyElementPresent(findTestObject(""Additional data for ticket puchase/Page_Tickets/div_Successful Payment""), 0)",Chrome 136.0.7103.114,,,26-05-2025 23:24:51,26-05-2025 23:24:52,"0,907s",PASSED
+"verifyElementPresent(findTestObject(""Additional data for ticket puchase/Page_Tickets/div_1 Daily Passes to 123Test Event""), 0)",Chrome 136.0.7103.114,,,26-05-2025 23:24:52,26-05-2025 23:24:53,"0,244s",PASSED
+"verifyElementPresent(findTestObject(""Additional data for ticket puchase/Page_Tickets/div_Payment of 10.00 was successful. A link_c703ef""), 0)",Chrome 136.0.7103.114,,,26-05-2025 23:24:53,26-05-2025 23:24:53,"0,241s",PASSED
+closeBrowser(),Chrome 136.0.7103.114,,,26-05-2025 23:24:53,26-05-2025 23:24:53,"0,137s",PASSED
+,,,,,,,
+Test Cases/111Ticket refund/Full Ticket Refund,Chrome 136.0.7103.114,,,26-05-2025 23:24:53,26-05-2025 23:25:24,"31,258s",PASSED
+"openBrowser(""http://USAV:demo@dev.swstage.com/ "")",Chrome 136.0.7103.114,,,26-05-2025 23:24:53,26-05-2025 23:24:56,"3,436s",PASSED
+"navigateToUrl(""http://USAV:demo@my.dev.swstage.com/#/"")",Chrome 136.0.7103.114,,,26-05-2025 23:24:56,26-05-2025 23:24:59,"2,973s",PASSED
+maximizeWindow(),Chrome 136.0.7103.114,,,26-05-2025 23:24:59,26-05-2025 23:24:59,"0,045s",PASSED
+"setText(findTestObject(""Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Log In_email""), ""dcgfcgchfhgvhv@gmail.com"")",Chrome 136.0.7103.114,,,26-05-2025 23:24:59,26-05-2025 23:25:00,"0,629s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_false_password""), ""ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"")",Chrome 136.0.7103.114,,,26-05-2025 23:25:00,26-05-2025 23:25:00,"0,301s",PASSED
+"click(findTestObject(""Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Log In""))",Chrome 136.0.7103.114,,,26-05-2025 23:25:00,26-05-2025 23:25:01,"0,279s",PASSED
+"setText(findTestObject(""Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox""), ""[AUTOTESTS] Tickets refunds (do not touch!)"")",Chrome 136.0.7103.114,,,26-05-2025 23:25:01,26-05-2025 23:25:10,"8,985s",PASSED
+"click(findTestObject(""Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_AUTOTESTS Tickets refunds (do not touch)""))",Chrome 136.0.7103.114,,,26-05-2025 23:25:10,26-05-2025 23:25:10,"0,499s",PASSED
+"click(findTestObject(""Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Accounting""))",Chrome 136.0.7103.114,,,26-05-2025 23:25:10,26-05-2025 23:25:11,"0,696s",PASSED
+"click(findTestObject(""Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_20.00""))",Chrome 136.0.7103.114,,,26-05-2025 23:25:11,26-05-2025 23:25:12,"1,347s",PASSED
+"click(findTestObject(""Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.88""))",Chrome 136.0.7103.114,,,26-05-2025 23:25:12,26-05-2025 23:25:12,"0,263s",PASSED
+"click(findTestObject(""Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_1.10""))",Chrome 136.0.7103.114,,,26-05-2025 23:25:12,26-05-2025 23:25:13,"0,261s",PASSED
+"click(findTestObject(""Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_18.02""))",Chrome 136.0.7103.114,,,26-05-2025 23:25:13,26-05-2025 23:25:13,"0,258s",PASSED
+"click(findTestObject(""Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Tickets""))",Chrome 136.0.7103.114,,,26-05-2025 23:25:13,26-05-2025 23:25:13,"0,264s",PASSED
+"click(findTestObject(""Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Payments List""))",Chrome 136.0.7103.114,,,26-05-2025 23:25:13,26-05-2025 23:25:13,"0,265s",PASSED
+"click(findTestObject(""Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/td_11949""))",Chrome 136.0.7103.114,,,26-05-2025 23:25:13,26-05-2025 23:25:15,"1,493s",PASSED
+"click(findTestObject(""Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund""))",Chrome 136.0.7103.114,,,26-05-2025 23:25:15,26-05-2025 23:25:16,"0,734s",PASSED
+"click(findTestObject(""Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Make A Full Refund""))",Chrome 136.0.7103.114,,,26-05-2025 23:25:16,26-05-2025 23:25:16,"0,276s",PASSED
+"click(findTestObject(""Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Yes""))",Chrome 136.0.7103.114,,,26-05-2025 23:25:16,26-05-2025 23:25:16,"0,476s",PASSED
+"click(findTestObject(""Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SportWrench - The Home of Sporting Events/Page_SportWrench - The Home of Sporting Events/button_Close""))",Chrome 136.0.7103.114,,,26-05-2025 23:25:16,26-05-2025 23:25:22,"5,484s",PASSED
+"click(findTestObject(""Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Accounting""))",Chrome 136.0.7103.114,,,26-05-2025 23:25:22,26-05-2025 23:25:22,"0,280s",PASSED
+"click(findTestObject(""Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00""))",Chrome 136.0.7103.114,,,26-05-2025 23:25:22,26-05-2025 23:25:24,"1,288s",PASSED
+"click(findTestObject(""Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00_1""))",Chrome 136.0.7103.114,,,26-05-2025 23:25:24,26-05-2025 23:25:24,"0,262s",PASSED
+"click(findTestObject(""Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2""))",Chrome 136.0.7103.114,,,26-05-2025 23:25:24,26-05-2025 23:25:24,"0,257s",PASSED
+closeBrowser(),Chrome 136.0.7103.114,,,26-05-2025 23:25:24,26-05-2025 23:25:24,"0,145s",PASSED
+,,,,,,,
+Test Cases/111Ticket refund/Ticket Payment for refund,Chrome 136.0.7103.114,,,26-05-2025 23:25:24,26-05-2025 23:26:14,"49,438s",PASSED
+"openBrowser(""http://USAV:demo@dev.swstage.com/"")",Chrome 136.0.7103.114,,,26-05-2025 23:25:24,26-05-2025 23:25:28,"3,567s",PASSED
+"navigateToUrl(""http://USAV:demo@tickets-dev.swstage.com/"")",Chrome 136.0.7103.114,,,26-05-2025 23:25:28,26-05-2025 23:25:30,"1,823s",PASSED
+maximizeWindow(),Chrome 136.0.7103.114,,,26-05-2025 23:25:30,26-05-2025 23:25:30,"0,116s",PASSED
+"setText(findTestObject(""Object Repository/Ticket purchase/Page_SW  Tickets/input_Available Events_form-control ng-pris_aaf354""), ""[AUTOTESTS] Tickets refunds (do not touch!)"")",Chrome 136.0.7103.114,,,26-05-2025 23:25:30,26-05-2025 23:25:31,"1,282s",PASSED
+"click(findTestObject(""Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SW  Tickets/b_AUTOTESTS Tickets refunds (do not touch)""))",Chrome 136.0.7103.114,,,26-05-2025 23:25:31,26-05-2025 23:25:33,"2,161s",PASSED
+"click(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/div_None""))",Chrome 136.0.7103.114,,,26-05-2025 23:25:33,26-05-2025 23:25:33,"0,295s",PASSED
+"click(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/div_1""))",Chrome 136.0.7103.114,,,26-05-2025 23:25:33,26-05-2025 23:25:34,"0,282s",PASSED
+"click(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Purchaser Info_1""))",Chrome 136.0.7103.114,,,26-05-2025 23:25:34,26-05-2025 23:25:34,"0,489s",PASSED
+"click(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree""))",Chrome 136.0.7103.114,,,26-05-2025 23:25:34,26-05-2025 23:25:35,"0,495s",PASSED
+"setText(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserFirst""), ""Tara"")",Chrome 136.0.7103.114,,,26-05-2025 23:25:35,26-05-2025 23:25:35,"0,739s",PASSED
+"setText(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserLast""), ""Charles"")",Chrome 136.0.7103.114,,,26-05-2025 23:25:35,26-05-2025 23:25:36,"0,554s",PASSED
+"setText(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserEmail""), ""aaaa@gmail.com"")",Chrome 136.0.7103.114,,,26-05-2025 23:25:36,26-05-2025 23:25:37,"0,566s",PASSED
+"executeJavaScript(""document.getElementById('purchaserPhone').focus(); document.execCommand('insertText', false, '(111) 111-1111');"", null)",Chrome 136.0.7103.114,,,26-05-2025 23:25:37,26-05-2025 23:25:37,"0,024s",PASSED
+"setText(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserZipCode""), ""11949"")",Chrome 136.0.7103.114,,,26-05-2025 23:25:37,26-05-2025 23:25:37,"0,770s",PASSED
+"click(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Daily Passes""))",Chrome 136.0.7103.114,,,26-05-2025 23:25:37,26-05-2025 23:25:38,"0,288s",PASSED
+"click(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree""))",Chrome 136.0.7103.114,,,26-05-2025 23:25:38,26-05-2025 23:25:38,"0,491s",PASSED
+"click(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Summary""))",Chrome 136.0.7103.114,,,26-05-2025 23:25:38,26-05-2025 23:25:38,"0,280s",PASSED
+"click(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Payment""))",Chrome 136.0.7103.114,,,26-05-2025 23:25:38,26-05-2025 23:25:39,"0,490s",PASSED
+"click(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Card information""))",Chrome 136.0.7103.114,,,26-05-2025 23:25:39,26-05-2025 23:25:40,"0,712s",PASSED
+"setText(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cardnumber""), ""4242424242424242"")",Chrome 136.0.7103.114,,,26-05-2025 23:25:40,26-05-2025 23:25:40,"0,405s",PASSED
+"setText(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_exp-date""), ""12 / 25"")",Chrome 136.0.7103.114,,,26-05-2025 23:25:40,26-05-2025 23:25:41,"0,857s",PASSED
+"setText(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cvc""), ""454"")",Chrome 136.0.7103.114,,,26-05-2025 23:25:41,26-05-2025 23:25:41,"0,336s",PASSED
+"click(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/div_omplete Purchase""))",Chrome 136.0.7103.114,,,26-05-2025 23:25:41,26-05-2025 23:25:42,"0,284s",PASSED
+"click(findTestObject(""Page_Tickets/div_Buy Anyway""), OPTIONAL)",Chrome 136.0.7103.114,,,26-05-2025 23:25:42,26-05-2025 23:26:13,"31,285s",PASSED
+"verifyElementPresent(findTestObject(""Additional data for ticket puchase/Page_Tickets/div_Successful Payment""), 0)",Chrome 136.0.7103.114,,,26-05-2025 23:26:13,26-05-2025 23:26:13,"0,245s",PASSED
+"verifyElementPresent(findTestObject(""Additional data for ticket puchase/Page_Tickets/div_1 Daily Passes to 123Test Event""), 0)",Chrome 136.0.7103.114,,,26-05-2025 23:26:13,26-05-2025 23:26:13,"0,228s",PASSED
+"verifyElementPresent(findTestObject(""Additional data for ticket puchase/Page_Tickets/div_Payment of 10.00 was successful. A link_c703ef""), 0)",Chrome 136.0.7103.114,,,26-05-2025 23:26:13,26-05-2025 23:26:13,"0,230s",PASSED
+closeBrowser(),Chrome 136.0.7103.114,,,26-05-2025 23:26:13,26-05-2025 23:26:14,"0,131s",PASSED
+,,,,,,,
+Test Cases/111Ticket refund/Partial Ticket Refund,Chrome 136.0.7103.114,,,26-05-2025 23:26:14,26-05-2025 23:26:21,"7,402s",FAILED
+"openBrowser(""http://USAV:demo@dev.swstage.com/ "")",Chrome 136.0.7103.114,,,26-05-2025 23:26:14,26-05-2025 23:26:17,"3,473s",PASSED
+"navigateToUrl(""http://USAV:demo@my.dev.swstage.com/#/"")",Chrome 136.0.7103.114,,,26-05-2025 23:26:17,26-05-2025 23:26:20,"2,495s",PASSED
+maximizeWindow(),Chrome 136.0.7103.114,,,26-05-2025 23:26:20,26-05-2025 23:26:20,"0,044s",PASSED
+"setText(findTestObject(""Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Log In_email""), ""dcgfcgchfhgvhv@gmail.com"")",Chrome 136.0.7103.114,,,26-05-2025 23:26:20,26-05-2025 23:26:20,"0,720s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_false_password""), ""ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"")",Chrome 136.0.7103.114,,,26-05-2025 23:26:20,26-05-2025 23:26:21,"0,278s",PASSED
+"click(findTestObject(""Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Log In""))",Chrome 136.0.7103.114,,,26-05-2025 23:26:21,26-05-2025 23:26:21,"0,337s",FAILED

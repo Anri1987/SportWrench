@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create settings for tickets</name>
+   <tag>event, tickets</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a9416964-23c3-4408-a82e-b93480b806cb</testCaseGuid>
+</TestCaseEntity>

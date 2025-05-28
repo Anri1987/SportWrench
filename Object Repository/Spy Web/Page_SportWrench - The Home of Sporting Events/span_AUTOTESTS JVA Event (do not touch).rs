@@ -13,8 +13,12 @@
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Info/Enter'])[1]/following::span[1]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '[AUTOTESTS] JVA Event (do not touch!)' or . = '[AUTOTESTS] JVA Event (do not touch!)')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>0bc07368-b093-4d70-accf-0fda465706ca</webElementGuid>
+      <webElementGuid>cba08596-8bf6-4a0f-809a-093d93addf5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>data-ng-click</name>
       <type>Main</type>
       <value>assign(event)</value>
-      <webElementGuid>7d589751-2ce8-4c24-8aeb-4da9525e6db1</webElementGuid>
+      <webElementGuid>8e423d6c-9613-43a5-820b-7ef0ef8a6079</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>[AUTOTESTS] JVA Event (do not touch!)</value>
-      <webElementGuid>fee56d5e-dd81-471e-9f36-5bb54b8e2b3f</webElementGuid>
+      <webElementGuid>19be7848-ed68-4701-b5c0-d41a9076a5cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/div[@class=&quot;container club-menu-container&quot;]/div[@class=&quot;tab-content clubownermenucontent&quot;]/div[@class=&quot;tab-pane active&quot;]/div[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/table[@class=&quot;table table-condensed events-table fade inin&quot;]/tbody[1]/tr[1]/td[3]/span[1]</value>
-      <webElementGuid>5cfccba2-45ea-41b7-874b-3d9d0ee767f6</webElementGuid>
+      <webElementGuid>c2bbcc0f-ff1c-4072-95c4-24d23508505b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Info/Enter'])[1]/following::span[1]</value>
-      <webElementGuid>dba17cc9-c6b7-4b6d-8a63-b09106574ba8</webElementGuid>
+      <webElementGuid>02ecb819-33d3-460f-b0a3-7928053cddda</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Teams'])[1]/following::span[1]</value>
-      <webElementGuid>5d4e8529-c370-4d38-bc74-84ad16525e8e</webElementGuid>
+      <webElementGuid>afb0ab66-4ba2-4b04-a21c-b1bdd808b710</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='JVA'])[1]/preceding::span[1]</value>
-      <webElementGuid>1cf25767-d4b7-4fd9-902d-6d1bb3579b05</webElementGuid>
+      <webElementGuid>11f94f83-8445-48f9-bb95-18e2772548d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[1]/preceding::span[1]</value>
-      <webElementGuid>3e7f881e-b340-4faa-a4a4-bcf4dcadde14</webElementGuid>
+      <webElementGuid>d1b57896-f05a-46cc-83b6-48ce5bbd0980</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='[AUTOTESTS] JVA Event (do not touch!)']/parent::*</value>
-      <webElementGuid>74fae6ee-dc1f-4f2c-b4ce-c2202b39aae0</webElementGuid>
+      <webElementGuid>4e60c424-5de0-48dc-a762-84bb6f481202</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]/span</value>
-      <webElementGuid>cc3440c2-372c-43a8-926a-383fde10f3fc</webElementGuid>
+      <webElementGuid>b0c02d35-f156-4201-b8da-0909c401e98b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '[AUTOTESTS] JVA Event (do not touch!)' or . = '[AUTOTESTS] JVA Event (do not touch!)')]</value>
-      <webElementGuid>2c29de1b-1588-45bc-9a54-49d8777bf2d0</webElementGuid>
+      <webElementGuid>c4b9c725-3f5a-43e2-a36e-e91345bcb378</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

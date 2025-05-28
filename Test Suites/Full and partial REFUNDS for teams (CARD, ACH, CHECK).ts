@@ -22,7 +22,7 @@
       <guid>5dcc71ea-5d8b-4a96-9281-f8d94524be98</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/111Team payments/Refunds for teams (CARD, ACH, CHECK)</testCaseId>
+      <testCaseId>Test Cases/111Team payments/Full Refunds for teams (CARD, ACH, CHECK)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -33,10 +33,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4af22c96-72fb-46fb-8494-3d61dfaa66d1</guid>
+      <guid>6d2527d7-f221-4826-9e0f-d564ee6544d8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/111Team payments/Refund for teams (CARD)</testCaseId>
+      <testCaseId>Test Cases/111Team payments/Partial teams refund (Card)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

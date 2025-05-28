@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Tickets_caret</name>
+   <tag></tag>
+   <elementGuidId>d794f376-6f22-4f0a-aa54-05b1a81b2ac9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/div[@class=&quot;row rowm0&quot;]/div[@class=&quot;col-lg-12&quot;]/sw-tabmenu-head[1]/ul[@class=&quot;collapse-tabs-sw nav nav-tabs eo-menupanel in collapse&quot;]/li[@class=&quot;dropdown&quot;]/a[@class=&quot;pointer dropdown-toggle&quot;]/span[@class=&quot;caret&quot;][count(. | //span[@class = 'caret']) = count(//span[@class = 'caret'])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[6]/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f04746a9-31c9-4974-9d77-076385aa009e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>caret</value>
+      <webElementGuid>d800b6a3-b9c5-4e68-86c9-98c431c79659</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/div[@class=&quot;row rowm0&quot;]/div[@class=&quot;col-lg-12&quot;]/sw-tabmenu-head[1]/ul[@class=&quot;collapse-tabs-sw nav nav-tabs eo-menupanel in collapse&quot;]/li[@class=&quot;dropdown&quot;]/a[@class=&quot;pointer dropdown-toggle&quot;]/span[@class=&quot;caret&quot;]</value>
+      <webElementGuid>b7d39290-77be-4fe2-9b69-a1886a32e270</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/a/span</value>
+      <webElementGuid>0536747a-06d3-4874-b565-a941379f2d6f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

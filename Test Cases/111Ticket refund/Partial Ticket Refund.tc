@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Partial Ticket Refund</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a6c54aeb-90d1-4a21-95dc-a617a624a5f8</testCaseGuid>
+</TestCaseEntity>

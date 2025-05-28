@@ -67,9 +67,9 @@ WebUI.setText(findTestObject('Object Repository/Ticket payment 1111111111111/Pag
 
 WebUI.click(findTestObject('Object Repository/Ticket payment 1111111111111/Page_Tickets/div_omplete Purchase'))
 
-WebUI.click(findTestObject('Page_Tickets/div_Buy Anyway'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Page_Tickets/div_Buy Anyway'), FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Page_Tickets/div_Confirm Duplicate Purchase'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Page_Tickets/div_Confirm Duplicate Purchase'), FailureHandling.OPTIONAL)
 
 WebUI.verifyTextPresent('was successful', false)
 

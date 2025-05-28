@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Settings</name>
+   <tag></tag>
+   <elementGuidId>8d3d1886-0000-4dbb-8dfd-50133d27cceb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li.dropdown.open > ul.dropdown-menu > li > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Settings')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>cc067bb6-4f9a-4357-abcd-1f389a31a2f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>openTab(s.state, getStateParams(t))</value>
+      <webElementGuid>af519522-d1df-40ec-9fe9-6231a4d39594</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-bind</name>
+      <type>Main</type>
+      <value>s.name</value>
+      <webElementGuid>a7929666-38b5-4a58-a815-1838065f7070</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-if</name>
+      <type>Main</type>
+      <value>!s.isVisible || s.isVisible()</value>
+      <webElementGuid>7aa0dd7a-2493-4457-b7e0-9fa60bfabd30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Settings</value>
+      <webElementGuid>56e4ef1b-9bd2-4283-9339-33deb8d3cec6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/div[@class=&quot;row rowm0&quot;]/div[@class=&quot;col-lg-12&quot;]/sw-tabmenu-head[1]/ul[@class=&quot;collapse-tabs-sw nav nav-tabs eo-menupanel in collapse&quot;]/li[@class=&quot;dropdown open&quot;]/ul[@class=&quot;dropdown-menu&quot;]/li[1]/a[1]</value>
+      <webElementGuid>4d2c68b0-84b5-4af9-95b7-d86cb34fc8c0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Settings')]</value>
+      <webElementGuid>f7c52e24-f069-40eb-9c3c-61174a684762</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accounting'])[1]/following::a[2]</value>
+      <webElementGuid>7d748394-0721-48b0-b602-cf638bf8014d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Payments List'])[1]/preceding::a[1]</value>
+      <webElementGuid>11fe697d-95a0-4a2d-b077-b513a3e68f9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Map'])[1]/preceding::a[2]</value>
+      <webElementGuid>8e9190b1-7e36-4393-b724-ef656acafb0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Settings']/parent::*</value>
+      <webElementGuid>4a3db1a0-76de-49f2-a62d-2c56163101b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '')])[19]</value>
+      <webElementGuid>fd79792f-556d-4052-ae65-541b9cef9231</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/ul/li/a</value>
+      <webElementGuid>11b52718-0f59-4371-a072-571befb4c5aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Settings' or . = 'Settings')]</value>
+      <webElementGuid>18de5fa8-44b6-4f89-af65-5eb86e07ddbb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

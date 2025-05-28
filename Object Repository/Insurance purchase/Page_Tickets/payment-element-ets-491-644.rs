@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>payment-element-ets-491-644</name>
+   <tag></tag>
+   <elementGuidId>b3e61704-33e8-471b-ba12-09136554fde7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#offer-wrapper > #offer-display > payment-element</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='offer-display']/payment-element</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>payment-element</value>
+      <webElementGuid>a1e10e9f-1987-4ed4-83e3-dcfa8bf3886d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/div[@id=&quot;offer-wrapper&quot;]/div[@id=&quot;offer-display&quot;]/payment-element[1]</value>
+      <webElementGuid>3f40479f-512c-468c-8318-c7fd9c8f831a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Insurance purchase/Page_Tickets/ticket-refund-Tickets-491</value>
+      <webElementGuid>dc38535a-60be-4358-847c-92d166588625</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element_is_shadow_root</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>51cca782-309a-4ec4-bf72-8d21692affa0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='offer-display']/payment-element</value>
+      <webElementGuid>84acbe7d-e264-478c-813d-ad5c5166ae85</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

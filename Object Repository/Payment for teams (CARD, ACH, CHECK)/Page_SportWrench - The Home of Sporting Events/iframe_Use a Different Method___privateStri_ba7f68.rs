@@ -10,12 +10,12 @@
          <value>//iframe[@name='__privateStripeFrame87924']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>iframe[name=&quot;__privateStripeFrame87924&quot;]</value>
+         <key>BASIC</key>
+         <value>id(&quot;payment-element&quot;)/div[@class=&quot;__PrivateStripeElement&quot;]/iframe[1]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>CSS</key>
+         <value>iframe[name=&quot;__privateStripeFrame87924&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>iframe</value>
-      <webElementGuid>ffa3e9f7-80ea-41e0-964f-c3b22321e730</webElementGuid>
+      <webElementGuid>9c121b91-e548-42a0-bc9c-edc5a6d8539c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>name</name>
       <type>Main</type>
       <value>__privateStripeFrame87924</value>
-      <webElementGuid>70737096-4ca6-4caa-9262-4ef544452e96</webElementGuid>
+      <webElementGuid>9e191acd-5ab5-4c76-a6fe-47cccbf6b9ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>frameborder</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>f0a8ced1-d1c3-48bc-a4b3-07775f275d85</webElementGuid>
+      <webElementGuid>384efd4b-54d0-4b80-b250-592a41217228</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>allowtransparency</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>45f8de60-f922-458b-ab19-ec11e7c401bb</webElementGuid>
+      <webElementGuid>2a55ff36-32cc-4f76-89ff-28c3a18176f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>scrolling</name>
       <type>Main</type>
       <value>no</value>
-      <webElementGuid>19c22cb8-6d19-40c7-bbb2-74d5fcc77c47</webElementGuid>
+      <webElementGuid>0fc2c3ee-eabe-4761-ac6b-a532c5f5526d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>d637e52c-1070-4742-82c5-13076bcd3b03</webElementGuid>
+      <webElementGuid>91ad9798-b16b-4310-9191-dd8d069b317a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>allow</name>
       <type>Main</type>
       <value>payment *; publickey-credentials-get *</value>
-      <webElementGuid>a0b89349-ae3e-453b-8b85-57f56da2fd5a</webElementGuid>
+      <webElementGuid>fefa604a-f76a-4cc8-9ad7-bcba560f6ccd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>src</name>
       <type>Main</type>
       <value>https://js.stripe.com/v3/elements-inner-payment-fcadf378bc651934b2fe4f4fab820a34.html#__shared_params__[version]=v3&amp;wait=false&amp;rtl=false&amp;publicOptions[paymentMethodOrder][0]=card&amp;publicOptions[paymentMethodOrder][1]=us_bank_account&amp;elementsInitSource=stripe.elements&amp;componentName=payment&amp;keyMode=test&amp;apiKey=pk_test_tFXze1a9YCyUsqvt06bECa8R&amp;referrer=https%3A%2F%2Fmy.dev.swstage.com%2F%23%2Fclub%2Fevent%2F25568%2Fteams%2Fpay&amp;controllerId=__privateStripeController87922</value>
-      <webElementGuid>a23faf1a-8c0e-4fa3-bf79-028ae09ce449</webElementGuid>
+      <webElementGuid>088f723a-e727-488d-872c-cd576354ea8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -97,15 +97,15 @@
       <name>title</name>
       <type>Main</type>
       <value>Secure payment input frame</value>
-      <webElementGuid>64f3be6f-274c-4bff-ba41-a5353193f63a</webElementGuid>
+      <webElementGuid>b8fda21c-0b54-4d4b-b44f-431a2df3acc4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;payment-element&quot;)/div[@class=&quot;__PrivateStripeElement&quot;]/iframe[1]</value>
-      <webElementGuid>46f61fa5-6eef-431b-b351-5c64392996b6</webElementGuid>
+      <webElementGuid>5dd25b0e-22aa-4799-9ccc-edc19b26af10</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//iframe[@name='__privateStripeFrame87924']</value>
-      <webElementGuid>911caee4-917e-4976-a3ba-c4a738002b79</webElementGuid>
+      <webElementGuid>bf42c0c3-3b3f-42b4-9350-b96b67a6614d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +121,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='payment-element']/div/iframe</value>
-      <webElementGuid>724a5ced-417b-4cc2-adc8-9f2c14839869</webElementGuid>
+      <webElementGuid>c485da4d-2038-4d82-8b97-37f49d7479df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,7 +129,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//iframe</value>
-      <webElementGuid>587491ea-a139-4e24-bb1a-35482d470491</webElementGuid>
+      <webElementGuid>e138424e-a59e-4435-b674-90ae591666d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -137,6 +137,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//iframe[@name = '__privateStripeFrame87924' and @src = 'https://js.stripe.com/v3/elements-inner-payment-fcadf378bc651934b2fe4f4fab820a34.html#__shared_params__[version]=v3&amp;wait=false&amp;rtl=false&amp;publicOptions[paymentMethodOrder][0]=card&amp;publicOptions[paymentMethodOrder][1]=us_bank_account&amp;elementsInitSource=stripe.elements&amp;componentName=payment&amp;keyMode=test&amp;apiKey=pk_test_tFXze1a9YCyUsqvt06bECa8R&amp;referrer=https%3A%2F%2Fmy.dev.swstage.com%2F%23%2Fclub%2Fevent%2F25568%2Fteams%2Fpay&amp;controllerId=__privateStripeController87922' and @title = 'Secure payment input frame']</value>
-      <webElementGuid>8bcefdc4-f4b1-411f-a34b-4af3ec7f1c4a</webElementGuid>
+      <webElementGuid>325e4559-7e4a-4abc-8300-c5d743703d6a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

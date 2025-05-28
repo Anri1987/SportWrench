@@ -6,12 +6,12 @@
    <elementGuidId>e07cd664-2be9-48f0-8cd9-ea6f05771ee9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='accordiongroup-625-8056-tab']/h4/a/span/payment-info-accord-heading/span/b/span[3]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'CARD (paid)' or . = 'CARD (paid)')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -33,15 +33,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>62e32891-3bb4-4b81-a655-7a592b34923f</webElementGuid>
+      <webElementGuid>f2e1ad1d-b670-4529-b3fc-15e25c828ebc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>CARD (paid)</value>
-      <webElementGuid>b7345d1e-7e6d-4d61-a3b7-52b90abbb7f3</webElementGuid>
+      <webElementGuid>a702aabf-17f6-4c19-8a5f-6e2e8058a77d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;accordiongroup-625-8056-tab&quot;)/h4[@class=&quot;panel-title&quot;]/a[@class=&quot;accordion-toggle&quot;]/span[1]/payment-info-accord-heading[1]/span[@class=&quot;text-success&quot;]/b[1]/span[3]</value>
-      <webElementGuid>b7d34d8f-a5f2-4d82-8025-5b42e4a11de4</webElementGuid>
+      <webElementGuid>724769b8-5aaa-4b0d-a6ae-e40605623b2d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='accordiongroup-625-8056-tab']/h4/a/span/payment-info-accord-heading/span/b/span[3]</value>
-      <webElementGuid>840f6951-8981-4f96-95f4-b79330cd5d60</webElementGuid>
+      <webElementGuid>3e84e31f-86c7-4601-a639-695fbef220da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/following::span[1]</value>
-      <webElementGuid>5f025d49-c5d1-4dcc-af14-36f1e0b21b6f</webElementGuid>
+      <webElementGuid>3927e55b-b4eb-476f-b46f-8ad589e5ed06</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='#16823166'])[1]/following::span[2]</value>
-      <webElementGuid>36546b19-79a0-4593-8149-168045df8f87</webElementGuid>
+      <webElementGuid>3ca9995f-8ac9-4be6-a800-e1a9ef8d9bd7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$5,000.00'])[1]/preceding::span[3]</value>
-      <webElementGuid>1753489b-01c9-4757-bf8b-b3d8311a1a4d</webElementGuid>
+      <webElementGuid>e45bfe66-3f3d-4517-95d9-9844c6d72774</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Created:'])[1]/preceding::span[4]</value>
-      <webElementGuid>6383bfb8-d9ae-41da-add0-b090f322c617</webElementGuid>
+      <webElementGuid>0e8d272b-d1a8-4662-900f-58006d8914ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='CARD (paid)']/parent::*</value>
-      <webElementGuid>c5b5f457-b5aa-44d2-b18f-6cec7f445dcf</webElementGuid>
+      <webElementGuid>ab2b8f05-c272-4dbf-941d-401524397bfa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span[3]</value>
-      <webElementGuid>dfbc4a5b-8443-4ce3-96e3-fe30f096d0bf</webElementGuid>
+      <webElementGuid>6d780a0a-1e28-4ad0-84d9-8af9c28016d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'CARD (paid)' or . = 'CARD (paid)')]</value>
-      <webElementGuid>560f91b7-fbe6-45ea-9903-d0ec8723e4bf</webElementGuid>
+      <webElementGuid>50450862-65b0-4f63-a728-b5ddd9a96b23</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Admission</name>
+   <tag></tag>
+   <elementGuidId>585b7344-2b60-4a24-8575-fd448d5d2080</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='upcomingRef']/div/div/div[2]/div/div/div/div/div[2]/div/span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.cursor-pointer.admission.solo-btn > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e63fad78-3ba8-44c1-a821-208381efa64c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+     Admission
+   </value>
+      <webElementGuid>9d9654b3-55fa-442f-99b1-2335b4773a0c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;upcomingRef&quot;)/div[@class=&quot;container-fluid wrapper-events-section&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12  col-sm-12 col-md-12 col-lg-10 col-xl-10&quot;]/div[@class=&quot;currentEvents&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-6 col-md-4 col-lg-4 col-xl-4&quot;]/div[@class=&quot;wrapper-event-item&quot;]/div[2]/div[@class=&quot;list-group-events-section&quot;]/span[@class=&quot;cursor-pointer admission solo-btn&quot;]/span[1]</value>
+      <webElementGuid>c4ea608c-bde2-49eb-a3ec-439fa4eace78</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='upcomingRef']/div/div/div[2]/div/div/div/div/div[2]/div/span/span</value>
+      <webElementGuid>4d2344ec-6101-475c-a4d2-8c2908bc58f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upcoming Events'])[2]/following::span[2]</value>
+      <webElementGuid>81374e85-e141-4447-aa40-4a1fe77bec5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LOG IN'])[1]/following::span[2]</value>
+      <webElementGuid>67760bf6-814f-4f82-ae6e-3de529fc168b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Current Events'])[1]/preceding::span[1]</value>
+      <webElementGuid>8a477a14-3e86-45c6-bcab-81e6ca942970</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upcoming Events'])[3]/preceding::span[1]</value>
+      <webElementGuid>62fbc146-a741-470f-8ba7-e8c36606c6c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Admission']/parent::*</value>
+      <webElementGuid>aef97185-0c67-430a-a6d5-0c6af3c4160b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/span</value>
+      <webElementGuid>2cd65527-d7b4-4c7b-9a1b-d146f82a3482</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '
+     Admission
+   ' or . = '
+     Admission
+   ')]</value>
+      <webElementGuid>6d4ec7b5-88fd-4f39-92af-ca56f6af75ef</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

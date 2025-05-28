@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SMOKE test suit for Event" time="274.842" tests="7" failures="0" errors="0">
+   <testsuite name="SMOKE test suit for Event" tests="7" failures="0" errors="0" time="274.842" skipped="0" timestamp="27-05-2025T22:40:44" hostname="LENOVO - DESKTOP-9MN524E" id="Test Suites/SMOKE test suit for Event">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\git\\SportWrench\\Reports\\20250527_224035\\SMOKE test suit for Event\\20250527_224035"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\git\\SportWrench\\Reports\\20250527_224035\\SMOKE test suit for Event\\20250527_224035\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\LENOVO\\git\\SportWrench\\Reports\\20250527_224035\\SMOKE test suit for Event\\20250527_224035\\1748375090583.png"/>
+         <property name="hostName" value="LENOVO - DESKTOP-9MN524E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="browser" value="Chrome 136.0.7103.114"/>
+         <property name="hostAddress" value="26.190.180.74"/>
+         <property name="sessionId" value="44c580c6b564d04778802dd6f8aa8614"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/111Event/Create an Event For Teams" time="65.912" classname="Test Cases/111Event/Create an Event For Teams" status="PASSED">
+         <system-out><![CDATA[27-05-2025T22:40:44 - [TEST_CASE][PASSED] - Test Cases/111Event/Create an Event For Teams: Test Cases/111Event/Create an Event For Teams
+
+27-05-2025T22:40:44 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/"): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+27-05-2025T22:40:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-05-2025T22:40:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-05-2025T22:40:49 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+27-05-2025T22:40:49 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@my.dev.swstage.com/#/"): Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+27-05-2025T22:40:52 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+27-05-2025T22:40:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-05-2025T22:40:52 - [MESSAGE][PASSED] - Current window maximized
+
+27-05-2025T22:40:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Log In_email"), "dcgfcgchfhgvhv@gmail.com"): Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+27-05-2025T22:40:53 - [MESSAGE][PASSED] - Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+27-05-2025T22:40:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_false_password"), "ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"): Text ****** has been set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+27-05-2025T22:40:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+27-05-2025T22:40:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Log In")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+27-05-2025T22:40:53 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+27-05-2025T22:40:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/a_New Event")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/a_New Event' is clicked on
+
+27-05-2025T22:41:05 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/a_New Event' is clicked on
+
+27-05-2025T22:41:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/span_Event Details")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/span_Event Details' is clicked on
+
+27-05-2025T22:41:05 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/span_Event Details' is clicked on
+
+27-05-2025T22:41:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Event Name_long_name"), "123Test Event"): Text '123Test Event' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Event Name_long_name'
+
+27-05-2025T22:41:06 - [MESSAGE][PASSED] - Text '123Test Event' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Event Name_long_name'
+
+27-05-2025T22:41:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Short Name_name"), "TE"): Text 'TE' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Short Name_name'
+
+27-05-2025T22:41:06 - [MESSAGE][PASSED] - Text 'TE' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Short Name_name'
+
+27-05-2025T22:41:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Teams_allow_teams_registration")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Teams_allow_teams_registration' is clicked on
+
+27-05-2025T22:41:07 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Teams_allow_teams_registration' is clicked on
+
+27-05-2025T22:41:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Ticket Sales_allow_ticket_sales")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Ticket Sales_allow_ticket_sales' is clicked on
+
+27-05-2025T22:41:07 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Ticket Sales_allow_ticket_sales' is clicked on
+
+27-05-2025T22:41:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose a Timezone .AmericaNew_YorkAm_0bdf4d"), "America/New_York", true): All options with value 'America/New_York' are selected in object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose a Timezone .AmericaNew_YorkAm_0bdf4d'  using regular expression
+
+27-05-2025T22:41:08 - [MESSAGE][PASSED] - All options with value 'America/New_York' are selected in object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose a Timezone .AmericaNew_YorkAm_0bdf4d'  using regular expression
+
+27-05-2025T22:41:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose Sport .VolleyballBasketballSo_1c54a4"), "2", true): All options with value '2' are selected in object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose Sport .VolleyballBasketballSo_1c54a4'  using regular expression
+
+27-05-2025T22:41:09 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose Sport .VolleyballBasketballSo_1c54a4'  using regular expression
+
+27-05-2025T22:41:09 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose Sport Variation .IndoorDoubles")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose Sport Variation .IndoorDoubles' is clicked on
+
+27-05-2025T22:41:10 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose Sport Variation .IndoorDoubles' is clicked on
+
+27-05-2025T22:41:10 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose Sport Variation .IndoorDoubles"), "number:1", true): All options with value 'number:1' are selected in object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose Sport Variation .IndoorDoubles'  using regular expression
+
+27-05-2025T22:41:10 - [MESSAGE][PASSED] - All options with value 'number:1' are selected in object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose Sport Variation .IndoorDoubles'  using regular expression
+
+27-05-2025T22:41:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Date Start_date_start")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Date Start_date_start' is clicked on
+
+27-05-2025T22:41:11 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Date Start_date_start' is clicked on
+
+27-05-2025T22:41:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81' is clicked on
+
+27-05-2025T22:41:11 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81' is clicked on
+
+27-05-2025T22:41:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81' is clicked on
+
+27-05-2025T22:41:12 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81' is clicked on
+
+27-05-2025T22:41:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_18")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_18' is clicked on
+
+27-05-2025T22:41:12 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_18' is clicked on
+
+27-05-2025T22:41:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Date")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Date' is clicked on
+
+27-05-2025T22:41:13 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Date' is clicked on
+
+27-05-2025T22:41:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Close")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+27-05-2025T22:41:14 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+27-05-2025T22:41:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Date End_date_end")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Date End_date_end' is clicked on
+
+27-05-2025T22:41:14 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Date End_date_end' is clicked on
+
+27-05-2025T22:41:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81' is clicked on
+
+27-05-2025T22:41:15 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81' is clicked on
+
+27-05-2025T22:41:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81' is clicked on
+
+27-05-2025T22:41:15 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81' is clicked on
+
+27-05-2025T22:41:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_20")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_20' is clicked on
+
+27-05-2025T22:41:16 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_20' is clicked on
+
+27-05-2025T22:41:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Date")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Date' is clicked on
+
+27-05-2025T22:41:16 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Date' is clicked on
+
+27-05-2025T22:41:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Close")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+27-05-2025T22:41:17 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+27-05-2025T22:41:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Make Event Live to Public_ng-pristine_2d3249")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Make Event Live to Public_ng-pristine_2d3249' is clicked on
+
+27-05-2025T22:41:17 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Make Event Live to Public_ng-pristine_2d3249' is clicked on
+
+27-05-2025T22:41:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/span_Host Organization Information")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/span_Host Organization Information' is clicked on
+
+27-05-2025T22:41:18 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/span_Host Organization Information' is clicked on
+
+27-05-2025T22:41:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Organization Name_org_name"), "101 North Atlantic Avenue"): Text '101 North Atlantic Avenue' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Organization Name_org_name'
+
+27-05-2025T22:41:18 - [MESSAGE][PASSED] - Text '101 North Atlantic Avenue' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Organization Name_org_name'
+
+27-05-2025T22:41:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Address_host_address"), "101 North Atlantic Avenue"): Text '101 North Atlantic Avenue' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Address_host_address'
+
+27-05-2025T22:41:19 - [MESSAGE][PASSED] - Text '101 North Atlantic Avenue' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Address_host_address'
+
+27-05-2025T22:41:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_City_host_city"), "Daytona Beach"): Text 'Daytona Beach' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_City_host_city'
+
+27-05-2025T22:41:19 - [MESSAGE][PASSED] - Text 'Daytona Beach' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_City_host_city'
+
+27-05-2025T22:41:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Select.AlabamaAlaskaAlbertaArizonaAr_24cd39"), "string:AL", true): All options with value 'string:AL' are selected in object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Select.AlabamaAlaskaAlbertaArizonaAr_24cd39'  using regular expression
+
+27-05-2025T22:41:21 - [MESSAGE][PASSED] - All options with value 'string:AL' are selected in object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Select.AlabamaAlaskaAlbertaArizonaAr_24cd39'  using regular expression
+
+27-05-2025T22:41:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_ZIP_host_zip"), "32218"): Text '32218' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_ZIP_host_zip'
+
+27-05-2025T22:41:21 - [MESSAGE][PASSED] - Text '32218' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_ZIP_host_zip'
+
+27-05-2025T22:41:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Phone_org_phone"), "(111) 111-1111"): Text '(111) 111-1111' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Phone_org_phone'
+
+27-05-2025T22:41:22 - [MESSAGE][PASSED] - Text '(111) 111-1111' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Phone_org_phone'
+
+27-05-2025T22:41:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Website URL_website"), "http://111fapl.ru"): Text 'http://111fapl.ru' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Website URL_website'
+
+27-05-2025T22:41:22 - [MESSAGE][PASSED] - Text 'http://111fapl.ru' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Website URL_website'
+
+27-05-2025T22:41:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Log In_email"), "dhntyjrtjrujtst@gmail.com"): Text 'dhntyjrtjrujtst@gmail.com' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+27-05-2025T22:41:23 - [MESSAGE][PASSED] - Text 'dhntyjrtjrujtst@gmail.com' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+27-05-2025T22:41:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/span_Teams Registration Details")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/span_Teams Registration Details' is clicked on
+
+27-05-2025T22:41:23 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/span_Teams Registration Details' is clicked on
+
+27-05-2025T22:41:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/label_Use Registration")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/label_Use Registration' is clicked on
+
+27-05-2025T22:41:23 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/label_Use Registration' is clicked on
+
+27-05-2025T22:41:23 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/label_Use Registration")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/label_Use Registration' is double clicked on
+
+27-05-2025T22:41:23 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/label_Use Registration' is double clicked on
+
+27-05-2025T22:41:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Activate Teams Registration_live_reg")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Activate Teams Registration_live_reg' is clicked on
+
+27-05-2025T22:41:24 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Activate Teams Registration_live_reg' is clicked on
+
+27-05-2025T22:41:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Open Date_reg_open")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Open Date_reg_open' is clicked on
+
+27-05-2025T22:41:24 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Open Date_reg_open' is clicked on
+
+27-05-2025T22:41:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_31")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_31' is clicked on
+
+27-05-2025T22:41:25 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_31' is clicked on
+
+27-05-2025T22:41:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Date")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Date' is clicked on
+
+27-05-2025T22:41:25 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Date' is clicked on
+
+27-05-2025T22:41:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Close")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+27-05-2025T22:41:26 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+27-05-2025T22:41:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Close Date_reg_close")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Close Date_reg_close' is clicked on
+
+27-05-2025T22:41:26 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Close Date_reg_close' is clicked on
+
+27-05-2025T22:41:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81' is clicked on
+
+27-05-2025T22:41:27 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81' is clicked on
+
+27-05-2025T22:41:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_22")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_22' is clicked on
+
+27-05-2025T22:41:27 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_22' is clicked on
+
+27-05-2025T22:41:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Date")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Date' is clicked on
+
+27-05-2025T22:41:28 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Date' is clicked on
+
+27-05-2025T22:41:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Close")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+27-05-2025T22:41:29 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+27-05-2025T22:41:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Female_female_gender")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Female_female_gender' is clicked on
+
+27-05-2025T22:41:29 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Female_female_gender' is clicked on
+
+27-05-2025T22:41:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Male_male_gender")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Male_male_gender' is clicked on
+
+27-05-2025T22:41:29 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Male_male_gender' is clicked on
+
+27-05-2025T22:41:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Coed_coed_gender")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Coed_coed_gender' is clicked on
+
+27-05-2025T22:41:29 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Coed_coed_gender' is clicked on
+
+27-05-2025T22:41:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose Sanctioning Body .USAVAAUJVA9_9b6f50"), "number:3", true): All options with value 'number:3' are selected in object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose Sanctioning Body .USAVAAUJVA9_9b6f50'  using regular expression
+
+27-05-2025T22:41:30 - [MESSAGE][PASSED] - All options with value 'number:3' are selected in object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose Sanctioning Body .USAVAAUJVA9_9b6f50'  using regular expression
+
+27-05-2025T22:41:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Require USAV Number_usav_req")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Require USAV Number_usav_req' is clicked on
+
+27-05-2025T22:41:31 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Require USAV Number_usav_req' is clicked on
+
+27-05-2025T22:41:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose USAV Region .AlaskaAlohaArizo_c03c28"), "string:AK", true): All options with value 'string:AK' are selected in object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose USAV Region .AlaskaAlohaArizo_c03c28'  using regular expression
+
+27-05-2025T22:41:32 - [MESSAGE][PASSED] - All options with value 'string:AK' are selected in object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose USAV Region .AlaskaAlohaArizo_c03c28'  using regular expression
+
+27-05-2025T22:41:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose Event Type .RegionalNationalQ_75cf81"), "string:regional", true): All options with value 'string:regional' are selected in object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose Event Type .RegionalNationalQ_75cf81'  using regular expression
+
+27-05-2025T22:41:32 - [MESSAGE][PASSED] - All options with value 'string:regional' are selected in object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose Event Type .RegionalNationalQ_75cf81'  using regular expression
+
+27-05-2025T22:41:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Registration Fee_reg_fee"), "1000"): Text '1000' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Registration Fee_reg_fee'
+
+27-05-2025T22:41:33 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Registration Fee_reg_fee'
+
+27-05-2025T22:41:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Hide Seeds_hide_seeds")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Hide Seeds_hide_seeds' is clicked on
+
+27-05-2025T22:41:33 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Hide Seeds_hide_seeds' is clicked on
+
+27-05-2025T22:41:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Roster Deadline_deadline")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Roster Deadline_deadline' is clicked on
+
+27-05-2025T22:41:33 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Roster Deadline_deadline' is clicked on
+
+27-05-2025T22:41:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81_1")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81_1' is clicked on
+
+27-05-2025T22:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81_1' is clicked on
+
+27-05-2025T22:41:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_23")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_23' is clicked on
+
+27-05-2025T22:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_23' is clicked on
+
+27-05-2025T22:41:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Date_1")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Date_1' is clicked on
+
+27-05-2025T22:41:36 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Date_1' is clicked on
+
+27-05-2025T22:41:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Close_1")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Close_1' is clicked on
+
+27-05-2025T22:41:36 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Close_1' is clicked on
+
+27-05-2025T22:41:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/span_Payment Information")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/span_Payment Information' is clicked on
+
+27-05-2025T22:41:36 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/span_Payment Information' is clicked on
+
+27-05-2025T22:41:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Address_address"), "Ut consequatur aliq"): Text 'Ut consequatur aliq' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Address_address'
+
+27-05-2025T22:41:37 - [MESSAGE][PASSED] - Text 'Ut consequatur aliq' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Address_address'
+
+27-05-2025T22:41:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_City_city"), "Eiusmod quo doloribu"): Text 'Eiusmod quo doloribu' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_City_city'
+
+27-05-2025T22:41:37 - [MESSAGE][PASSED] - Text 'Eiusmod quo doloribu' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_City_city'
+
+27-05-2025T22:41:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose a State .AlabamaAlaskaAlberta_e68b6b"), "string:AL", true): All options with value 'string:AL' are selected in object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose a State .AlabamaAlaskaAlberta_e68b6b'  using regular expression
+
+27-05-2025T22:41:39 - [MESSAGE][PASSED] - All options with value 'string:AL' are selected in object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose a State .AlabamaAlaskaAlberta_e68b6b'  using regular expression
+
+27-05-2025T22:41:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Zip_zip (1)"), "11949"): Text '11949' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Zip_zip (1)'
+
+27-05-2025T22:41:39 - [MESSAGE][PASSED] - Text '11949' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Zip_zip (1)'
+
+27-05-2025T22:41:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/label_Checks Payable to")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/label_Checks Payable to' is clicked on
+
+27-05-2025T22:41:39 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/label_Checks Payable to' is clicked on
+
+27-05-2025T22:41:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Checks Payable to_payment_name"), "6565233"): Text '6565233' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Checks Payable to_payment_name'
+
+27-05-2025T22:41:40 - [MESSAGE][PASSED] - Text '6565233' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Checks Payable to_payment_name'
+
+27-05-2025T22:41:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Tournament Uses Card Payments_allow_c_cda1e1")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Tournament Uses Card Payments_allow_c_cda1e1' is clicked on
+
+27-05-2025T22:41:40 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Tournament Uses Card Payments_allow_c_cda1e1' is clicked on
+
+27-05-2025T22:41:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Statement Descriptor_stripe_statement"), "gffcggfccgc"): Text 'gffcggfccgc' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Statement Descriptor_stripe_statement'
+
+27-05-2025T22:41:41 - [MESSAGE][PASSED] - Text 'gffcggfccgc' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Statement Descriptor_stripe_statement'
+
+27-05-2025T22:41:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Credit Surcharge_surcharge"), "0"): Text '0' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Credit Surcharge_surcharge'
+
+27-05-2025T22:41:42 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Credit Surcharge_surcharge'
+
+27-05-2025T22:41:42 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose a Stripe Account .Lev (lev.ku_173092"), "number:16777251", true): All options with value 'number:16777251' are selected in object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose a Stripe Account .Lev (lev.ku_173092'  using regular expression
+
+27-05-2025T22:41:42 - [MESSAGE][PASSED] - All options with value 'number:16777251' are selected in object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose a Stripe Account .Lev (lev.ku_173092'  using regular expression
+
+27-05-2025T22:41:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/span_Main Location")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/span_Main Location' is clicked on
+
+27-05-2025T22:41:43 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/span_Main Location' is clicked on
+
+27-05-2025T22:41:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Location name_name"), "Daytona Beach Ocean Center"): Text 'Daytona Beach Ocean Center' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Location name_name'
+
+27-05-2025T22:41:43 - [MESSAGE][PASSED] - Text 'Daytona Beach Ocean Center' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Location name_name'
+
+27-05-2025T22:41:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Short name_short_name"), "Molly"): Text 'Molly' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Short name_short_name'
+
+27-05-2025T22:41:44 - [MESSAGE][PASSED] - Text 'Molly' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Short name_short_name'
+
+27-05-2025T22:41:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Address_address_1"), "101 North Atlantic Avenue"): Text '101 North Atlantic Avenue' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Address_address_1'
+
+27-05-2025T22:41:44 - [MESSAGE][PASSED] - Text '101 North Atlantic Avenue' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Address_address_1'
+
+27-05-2025T22:41:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_City_city_1"), "Daytona Beach"): Text 'Daytona Beach' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_City_city_1'
+
+27-05-2025T22:41:45 - [MESSAGE][PASSED] - Text 'Daytona Beach' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_City_city_1'
+
+27-05-2025T22:41:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose State .AlabamaAlaskaAlbertaAr_76df04"), "string:AL", true): All options with value 'string:AL' are selected in object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose State .AlabamaAlaskaAlbertaAr_76df04'  using regular expression
+
+27-05-2025T22:41:46 - [MESSAGE][PASSED] - All options with value 'string:AL' are selected in object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose State .AlabamaAlaskaAlbertaAr_76df04'  using regular expression
+
+27-05-2025T22:41:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_ZIP_zip")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_ZIP_zip' is clicked on
+
+27-05-2025T22:41:46 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_ZIP_zip' is clicked on
+
+27-05-2025T22:41:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_ZIP_zip"), "32218"): Text '32218' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_ZIP_zip'
+
+27-05-2025T22:41:47 - [MESSAGE][PASSED] - Text '32218' is set on object 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_ZIP_zip'
+
+27-05-2025T22:41:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Save")): Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Save' is clicked on
+
+27-05-2025T22:41:47 - [MESSAGE][PASSED] - Object: 'Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Save' is clicked on
+
+27-05-2025T22:41:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+27-05-2025T22:41:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-05-2025T22:41:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-05-2025T22:41:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/111Event/Create Divisions" time="29.279" classname="Test Cases/111Event/Create Divisions" status="PASSED">
+         <system-out><![CDATA[27-05-2025T22:41:50 - [TEST_CASE][PASSED] - Test Cases/111Event/Create Divisions: Test Cases/111Event/Create Divisions
+
+27-05-2025T22:41:50 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/ "): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/ '
+
+27-05-2025T22:41:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-05-2025T22:41:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-05-2025T22:41:53 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/ '
+
+27-05-2025T22:41:53 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@my.dev.swstage.com/#/"): Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+27-05-2025T22:41:56 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+27-05-2025T22:41:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-05-2025T22:41:56 - [MESSAGE][PASSED] - Current window maximized
+
+27-05-2025T22:41:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_Log In_email"), "dcgfcgchfhgvhv@gmail.com"): Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+27-05-2025T22:41:56 - [MESSAGE][PASSED] - Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+27-05-2025T22:41:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_false_password"), "ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"): Text ****** has been set on object 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+27-05-2025T22:41:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+27-05-2025T22:41:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/button_Log In")): Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+27-05-2025T22:41:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+27-05-2025T22:41:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox"), "123Test Event"): Text '123Test Event' is set on object 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox'
+
+27-05-2025T22:42:05 - [MESSAGE][PASSED] - Text '123Test Event' is set on object 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox'
+
+27-05-2025T22:42:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/a_Test Event")): Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/a_Test Event' is clicked on
+
+27-05-2025T22:42:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/a_Test Event' is clicked on
+
+27-05-2025T22:42:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/a_Divisions")): Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/a_Divisions' is clicked on
+
+27-05-2025T22:42:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/a_Divisions' is clicked on
+
+27-05-2025T22:42:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/a_Divisions Wizard")): Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/a_Divisions Wizard' is clicked on
+
+27-05-2025T22:42:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/a_Divisions Wizard' is clicked on
+
+27-05-2025T22:42:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_Sort Order_ng-pristine ng-untouched n_10a49a")): Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_Sort Order_ng-pristine ng-untouched n_10a49a' is clicked on
+
+27-05-2025T22:42:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_Sort Order_ng-pristine ng-untouched n_10a49a' is clicked on
+
+27-05-2025T22:42:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_female_ng-pristine ng-untouched ng-va_af5c10")): Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_female_ng-pristine ng-untouched ng-va_af5c10' is clicked on
+
+27-05-2025T22:42:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_female_ng-pristine ng-untouched ng-va_af5c10' is clicked on
+
+27-05-2025T22:42:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_male_ng-pristine ng-untouched ng-vali_863c78")): Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_male_ng-pristine ng-untouched ng-vali_863c78' is clicked on
+
+27-05-2025T22:42:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_male_ng-pristine ng-untouched ng-vali_863c78' is clicked on
+
+27-05-2025T22:42:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0")): Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0' is clicked on
+
+27-05-2025T22:42:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0' is clicked on
+
+27-05-2025T22:42:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1")): Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1' is clicked on
+
+27-05-2025T22:42:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1' is clicked on
+
+27-05-2025T22:42:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2")): Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2' is clicked on
+
+27-05-2025T22:42:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2' is clicked on
+
+27-05-2025T22:42:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2_3")): Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2_3' is clicked on
+
+27-05-2025T22:42:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2_3' is clicked on
+
+27-05-2025T22:42:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2_3_4")): Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2_3_4' is clicked on
+
+27-05-2025T22:42:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2_3_4' is clicked on
+
+27-05-2025T22:42:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2_3_4_5")): Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2_3_4_5' is clicked on
+
+27-05-2025T22:42:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2_3_4_5' is clicked on
+
+27-05-2025T22:42:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2_3_4_5_6")): Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2_3_4_5_6' is clicked on
+
+27-05-2025T22:42:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2_3_4_5_6' is clicked on
+
+27-05-2025T22:42:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2_3_4_5_6_7")): Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2_3_4_5_6_7' is clicked on
+
+27-05-2025T22:42:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2_3_4_5_6_7' is clicked on
+
+27-05-2025T22:42:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2_3_4_5_6_7_8")): Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2_3_4_5_6_7_8' is clicked on
+
+27-05-2025T22:42:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2_3_4_5_6_7_8' is clicked on
+
+27-05-2025T22:42:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2_3_4_5_6_7_8_9")): Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2_3_4_5_6_7_8_9' is clicked on
+
+27-05-2025T22:42:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2_3_4_5_6_7_8_9' is clicked on
+
+27-05-2025T22:42:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_Adult_ng-pristine ng-untouched ng-val_ec79f8")): Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_Adult_ng-pristine ng-untouched ng-val_ec79f8' is clicked on
+
+27-05-2025T22:42:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_Adult_ng-pristine ng-untouched ng-val_ec79f8' is clicked on
+
+27-05-2025T22:42:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/button_Create")): Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/button_Create' is clicked on
+
+27-05-2025T22:42:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/button_Create' is clicked on
+
+27-05-2025T22:42:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/a_Divisions Wizard"), 0): Object 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/a_Divisions Wizard' is present
+
+27-05-2025T22:42:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-05-2025T22:42:19 - [MESSAGE][PASSED] - Object 'Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/a_Divisions Wizard' is present
+
+27-05-2025T22:42:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-05-2025T22:42:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/111Event/Event Supervisor" time="37.605" classname="Test Cases/111Event/Event Supervisor" status="PASSED">
+         <system-out><![CDATA[27-05-2025T22:42:19 - [TEST_CASE][PASSED] - Test Cases/111Event/Event Supervisor: Test Cases/111Event/Event Supervisor
+
+27-05-2025T22:42:19 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/"): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+27-05-2025T22:42:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-05-2025T22:42:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-05-2025T22:42:23 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+27-05-2025T22:42:23 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@my.dev.swstage.com/#/"): Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+27-05-2025T22:42:25 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+27-05-2025T22:42:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-05-2025T22:42:25 - [MESSAGE][PASSED] - Current window maximized
+
+27-05-2025T22:42:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Event Supervisor/Event Supervisor 2/Page_SportWrench - The Home of Sporting Events/input_Log In_email"), "info@sportwrench.com"): Text 'info@sportwrench.com' is set on object 'Object Repository/Event Supervisor/Event Supervisor 2/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+27-05-2025T22:42:26 - [MESSAGE][PASSED] - Text 'info@sportwrench.com' is set on object 'Object Repository/Event Supervisor/Event Supervisor 2/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+27-05-2025T22:42:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Event Supervisor/Event Supervisor 2/Page_SportWrench - The Home of Sporting Events/input_false_password"), "ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"): Text ****** has been set on object 'Object Repository/Event Supervisor/Event Supervisor 2/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+27-05-2025T22:42:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Event Supervisor/Event Supervisor 2/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+27-05-2025T22:42:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Event Supervisor/Event Supervisor 2/Page_SportWrench - The Home of Sporting Events/button_Log In")): Object: 'Object Repository/Event Supervisor/Event Supervisor 2/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+27-05-2025T22:42:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Supervisor/Event Supervisor 2/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+27-05-2025T22:42:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Event Supervisor/Event Supervisor 2/Page_SportWrench - The Home of Sporting Events/a_Event Supervisor")): Object: 'Object Repository/Event Supervisor/Event Supervisor 2/Page_SportWrench - The Home of Sporting Events/a_Event Supervisor' is clicked on
+
+27-05-2025T22:42:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Supervisor/Event Supervisor 2/Page_SportWrench - The Home of Sporting Events/a_Event Supervisor' is clicked on
+
+27-05-2025T22:42:39 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SportWrench - The Home of Sporting Events/div_Undefined")): Object: 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SportWrench - The Home of Sporting Events/div_Undefined' is clicked on
+
+27-05-2025T22:42:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SportWrench - The Home of Sporting Events/div_Undefined' is clicked on
+
+27-05-2025T22:42:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Event Supervisor/Event Supervisor 2/Page_SportWrench - The Home of Sporting Events/input_SW Fee for Teams_teams_sw_fee"), "10"): Text '10' is set on object 'Object Repository/Event Supervisor/Event Supervisor 2/Page_SportWrench - The Home of Sporting Events/input_SW Fee for Teams_teams_sw_fee'
+
+27-05-2025T22:42:53 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Event Supervisor/Event Supervisor 2/Page_SportWrench - The Home of Sporting Events/input_SW Fee for Teams_teams_sw_fee'
+
+27-05-2025T22:42:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+27-05-2025T22:42:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-05-2025T22:42:54 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Object Repository/Event Supervisor/Event Supervisor 2/Page_SportWrench - The Home of Sporting Events/button_Save")): Object: 'Object Repository/Event Supervisor/Event Supervisor 2/Page_SportWrench - The Home of Sporting Events/button_Save' is clicked on
+
+27-05-2025T22:42:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Event Supervisor/Event Supervisor 2/Page_SportWrench - The Home of Sporting Events/button_Save' is clicked on
+
+27-05-2025T22:42:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-05-2025T22:42:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2025T22:42:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-05-2025T22:42:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/111Event/Team purchase" time="29.495" classname="Test Cases/111Event/Team purchase" status="PASSED">
+         <system-out><![CDATA[27-05-2025T22:42:57 - [TEST_CASE][PASSED] - Test Cases/111Event/Team purchase: Test Cases/111Event/Team purchase
+
+27-05-2025T22:42:57 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/ "): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/ '
+
+27-05-2025T22:42:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-05-2025T22:42:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-05-2025T22:43:00 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/ '
+
+27-05-2025T22:43:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-05-2025T22:43:00 - [MESSAGE][PASSED] - Current window maximized
+
+27-05-2025T22:43:00 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@my.dev.swstage.com/#/"): Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+27-05-2025T22:43:03 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+27-05-2025T22:43:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_SportWrench - The Home of Sporting Events/input_Log In_email"), "wendy@mvvclub.com"): Text 'wendy@mvvclub.com' is set on object 'Object Repository/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+27-05-2025T22:43:04 - [MESSAGE][PASSED] - Text 'wendy@mvvclub.com' is set on object 'Object Repository/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+27-05-2025T22:43:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_SportWrench - The Home of Sporting Events/input_false_password"), "ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"): Text ****** has been set on object 'Object Repository/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+27-05-2025T22:43:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+27-05-2025T22:43:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SportWrench - The Home of Sporting Events/button_Log In")): Object: 'Object Repository/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+27-05-2025T22:43:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+27-05-2025T22:43:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SportWrench - The Home of Sporting Events/a_Enter Events")): Object: 'Object Repository/Page_SportWrench - The Home of Sporting Events/a_Enter Events' is clicked on
+
+27-05-2025T22:43:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SportWrench - The Home of Sporting Events/a_Enter Events' is clicked on
+
+27-05-2025T22:43:09 - [TEST_STEP][PASSED] - setText(findTestObject("Spy Web/Page_SportWrench - The Home of Sporting Events/input_Invoices_searchbox"), "123Test Event"): Text '123Test Event' is set on object 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/input_Invoices_searchbox'
+
+27-05-2025T22:43:10 - [MESSAGE][PASSED] - Text '123Test Event' is set on object 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/input_Invoices_searchbox'
+
+27-05-2025T22:43:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-05-2025T22:43:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2025T22:43:12 - [TEST_STEP][PASSED] - click(findTestObject("Spy Web/Page_SportWrench - The Home of Sporting Events/span_123Test Event")): Object: 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/span_123Test Event' is clicked on
+
+27-05-2025T22:43:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/span_123Test Event' is clicked on
+
+27-05-2025T22:43:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SportWrench - The Home of Sporting Events/button_Enter Event and Manage Teams")): Object: 'Object Repository/Page_SportWrench - The Home of Sporting Events/button_Enter Event and Manage Teams' is clicked on
+
+27-05-2025T22:43:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SportWrench - The Home of Sporting Events/button_Enter Event and Manage Teams' is clicked on
+
+27-05-2025T22:43:13 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Object Repository/Page_SportWrench - The Home of Sporting Events/select_18 Club 18 Club Not entered")): Object: 'Object Repository/Page_SportWrench - The Home of Sporting Events/select_18 Club 18 Club Not entered' is clicked on
+
+27-05-2025T22:43:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SportWrench - The Home of Sporting Events/select_18 Club 18 Club Not entered' is clicked on
+
+27-05-2025T22:43:15 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Page_SportWrench - The Home of Sporting Events/select_18 Club 18 Club Not entered"), "♂♀ 18 Club", false): All options with label '♂♀ 18 Club' are selected in object 'Object Repository/Page_SportWrench - The Home of Sporting Events/select_18 Club 18 Club Not entered' 
+
+27-05-2025T22:43:15 - [MESSAGE][PASSED] - All options with label '♂♀ 18 Club' are selected in object 'Object Repository/Page_SportWrench - The Home of Sporting Events/select_18 Club 18 Club Not entered' 
+
+27-05-2025T22:43:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SportWrench - The Home of Sporting Events/button_Pay")): Object: 'Object Repository/Page_SportWrench - The Home of Sporting Events/button_Pay' is clicked on
+
+27-05-2025T22:43:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SportWrench - The Home of Sporting Events/button_Pay' is clicked on
+
+27-05-2025T22:43:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SportWrench - The Home of Sporting Events/div_Proceed to payment_1")): Object: 'Object Repository/Page_SportWrench - The Home of Sporting Events/div_Proceed to payment_1' is clicked on
+
+27-05-2025T22:43:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SportWrench - The Home of Sporting Events/div_Proceed to payment_1' is clicked on
+
+27-05-2025T22:43:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-05-2025T22:43:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2025T22:43:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_SportWrench - The Home of Sporting Events/input_Card number_number (3)"), "4242 4242 4242 4242"): Text '4242 4242 4242 4242' is set on object 'Object Repository/Page_SportWrench - The Home of Sporting Events/input_Card number_number (3)'
+
+27-05-2025T22:43:20 - [MESSAGE][PASSED] - Text '4242 4242 4242 4242' is set on object 'Object Repository/Page_SportWrench - The Home of Sporting Events/input_Card number_number (3)'
+
+27-05-2025T22:43:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_SportWrench - The Home of Sporting Events/input_MM  YY_expiry (3)"), "12 / 26"): Text '12 / 26' is set on object 'Object Repository/Page_SportWrench - The Home of Sporting Events/input_MM  YY_expiry (3)'
+
+27-05-2025T22:43:20 - [MESSAGE][PASSED] - Text '12 / 26' is set on object 'Object Repository/Page_SportWrench - The Home of Sporting Events/input_MM  YY_expiry (3)'
+
+27-05-2025T22:43:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_SportWrench - The Home of Sporting Events/input_Security code_cvc (2)"), "654"): Text '654' is set on object 'Object Repository/Page_SportWrench - The Home of Sporting Events/input_Security code_cvc (2)'
+
+27-05-2025T22:43:21 - [MESSAGE][PASSED] - Text '654' is set on object 'Object Repository/Page_SportWrench - The Home of Sporting Events/input_Security code_cvc (2)'
+
+27-05-2025T22:43:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SportWrench - The Home of Sporting Events/button_Pay 1,000.00")): Object: 'Object Repository/Page_SportWrench - The Home of Sporting Events/button_Pay 1,000.00' is clicked on
+
+27-05-2025T22:43:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SportWrench - The Home of Sporting Events/button_Pay 1,000.00' is clicked on
+
+27-05-2025T22:43:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-05-2025T22:43:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-05-2025T22:43:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_SportWrench - The Home of Sporting Events/span_Your Payment of 1,000.00 succeeded"), 0): Object 'Object Repository/Page_SportWrench - The Home of Sporting Events/span_Your Payment of 1,000.00 succeeded' is present
+
+27-05-2025T22:43:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-05-2025T22:43:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SportWrench - The Home of Sporting Events/span_Your Payment of 1,000.00 succeeded' is present
+
+27-05-2025T22:43:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-05-2025T22:43:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/111Event/Create settings for tickets" time="32.814" classname="Test Cases/111Event/Create settings for tickets" status="PASSED">
+         <system-out><![CDATA[27-05-2025T22:43:26 - [TEST_CASE][PASSED] - Test Cases/111Event/Create settings for tickets: Test Cases/111Event/Create settings for tickets
+
+27-05-2025T22:43:26 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/ "): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/ '
+
+27-05-2025T22:43:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-05-2025T22:43:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-05-2025T22:43:30 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/ '
+
+27-05-2025T22:43:30 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@my.dev.swstage.com/#/"): Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+27-05-2025T22:43:33 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+27-05-2025T22:43:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-05-2025T22:43:33 - [MESSAGE][PASSED] - Current window maximized
+
+27-05-2025T22:43:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_Log In_email (1)"), "dcgfcgchfhgvhv@gmail.com"): Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_Log In_email (1)'
+
+27-05-2025T22:43:33 - [MESSAGE][PASSED] - Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_Log In_email (1)'
+
+27-05-2025T22:43:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_false_password (1)"), "ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"): Text ****** has been set on object 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_false_password (1)'
+
+27-05-2025T22:43:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_false_password (1)'
+
+27-05-2025T22:43:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Log In (1)")): Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Log In (1)' is clicked on
+
+27-05-2025T22:43:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Log In (1)' is clicked on
+
+27-05-2025T22:43:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox (1)"), "123Test Event"): Text '123Test Event' is set on object 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox (1)'
+
+27-05-2025T22:43:43 - [MESSAGE][PASSED] - Text '123Test Event' is set on object 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox (1)'
+
+27-05-2025T22:43:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/a_123Test Event (1)")): Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/a_123Test Event (1)' is clicked on
+
+27-05-2025T22:43:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/a_123Test Event (1)' is clicked on
+
+27-05-2025T22:43:44 - [TEST_STEP][PASSED] - click(findTestObject("Spy Web/Page_SportWrench - The Home of Sporting Events/a_Tickets")): Object: 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/a_Tickets' is clicked on
+
+27-05-2025T22:43:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/a_Tickets' is clicked on
+
+27-05-2025T22:43:45 - [TEST_STEP][PASSED] - click(findTestObject("Spy Web/Page_SportWrench - The Home of Sporting Events/a_Settings")): Object: 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/a_Settings' is clicked on
+
+27-05-2025T22:43:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/a_Settings' is clicked on
+
+27-05-2025T22:43:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/select_Choose a Payment Account .Lev (lev.k_36ed0f (1)"), "number:16777251", true): All options with value 'number:16777251' are selected in object 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/select_Choose a Payment Account .Lev (lev.k_36ed0f (1)'  using regular expression
+
+27-05-2025T22:43:50 - [MESSAGE][PASSED] - All options with value 'number:16777251' are selected in object 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/select_Choose a Payment Account .Lev (lev.k_36ed0f (1)'  using regular expression
+
+27-05-2025T22:43:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Save (1)")): Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Save (1)' is clicked on
+
+27-05-2025T22:43:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Save (1)' is clicked on
+
+27-05-2025T22:43:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_Statement Descriptor_stripe_statement (1)"), "gbhdgdgbgb"): Text 'gbhdgdgbgb' is set on object 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_Statement Descriptor_stripe_statement (1)'
+
+27-05-2025T22:43:51 - [MESSAGE][PASSED] - Text 'gbhdgdgbgb' is set on object 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_Statement Descriptor_stripe_statement (1)'
+
+27-05-2025T22:43:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Save_1 (1)")): Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Save_1 (1)' is clicked on
+
+27-05-2025T22:43:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Save_1 (1)' is clicked on
+
+27-05-2025T22:43:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Add Daily  WeekEnd (1)")): Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Add Daily  WeekEnd (1)' is clicked on
+
+27-05-2025T22:43:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Add Daily  WeekEnd (1)' is clicked on
+
+27-05-2025T22:43:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_edit_form-control input-sm ng-pristin_1ea9ba (1)"), "10"): Text '10' is set on object 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_edit_form-control input-sm ng-pristin_1ea9ba (1)'
+
+27-05-2025T22:43:53 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_edit_form-control input-sm ng-pristin_1ea9ba (1)'
+
+27-05-2025T22:43:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_edit_form-control input-sm ng-pristin_1ea9ba_1 (1)"), "20"): Text '20' is set on object 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_edit_form-control input-sm ng-pristin_1ea9ba_1 (1)'
+
+27-05-2025T22:43:53 - [MESSAGE][PASSED] - Text '20' is set on object 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_edit_form-control input-sm ng-pristin_1ea9ba_1 (1)'
+
+27-05-2025T22:43:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/i_edit_fa fa-floppy-o (1)")): Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/i_edit_fa fa-floppy-o (1)' is clicked on
+
+27-05-2025T22:43:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/i_edit_fa fa-floppy-o (1)' is clicked on
+
+27-05-2025T22:43:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/i_edit_fa fa-floppy-o_1 (1)")): Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/i_edit_fa fa-floppy-o_1 (1)' is clicked on
+
+27-05-2025T22:43:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/i_edit_fa fa-floppy-o_1 (1)' is clicked on
+
+27-05-2025T22:43:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_From_white-ro form-control pointer ng_bc7ee6 (1)")): Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_From_white-ro form-control pointer ng_bc7ee6 (1)' is clicked on
+
+27-05-2025T22:43:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_From_white-ro form-control pointer ng_bc7ee6 (1)' is clicked on
+
+27-05-2025T22:43:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_01 (1)")): Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_01 (1)' is clicked on
+
+27-05-2025T22:43:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_01 (1)' is clicked on
+
+27-05-2025T22:43:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Date (1)")): Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Date (1)' is clicked on
+
+27-05-2025T22:43:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Date (1)' is clicked on
+
+27-05-2025T22:43:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Close (1)")): Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Close (1)' is clicked on
+
+27-05-2025T22:43:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Close (1)' is clicked on
+
+27-05-2025T22:43:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_To_white-ro form-control pointer ng-p_bf3a2b (1)")): Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_To_white-ro form-control pointer ng-p_bf3a2b (1)' is clicked on
+
+27-05-2025T22:43:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_To_white-ro form-control pointer ng-p_bf3a2b (1)' is clicked on
+
+27-05-2025T22:43:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_30 (1)")): Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_30 (1)' is clicked on
+
+27-05-2025T22:43:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_30 (1)' is clicked on
+
+27-05-2025T22:43:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Date (1)")): Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Date (1)' is clicked on
+
+27-05-2025T22:43:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Date (1)' is clicked on
+
+27-05-2025T22:43:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Close (1)")): Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Close (1)' is clicked on
+
+27-05-2025T22:43:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Close (1)' is clicked on
+
+27-05-2025T22:43:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Save_1_2 (1)")): Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Save_1_2 (1)' is clicked on
+
+27-05-2025T22:43:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Save_1_2 (1)' is clicked on
+
+27-05-2025T22:43:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_Published_ng-pristine ng-untouched ng_393040 (1)")): Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_Published_ng-pristine ng-untouched ng_393040 (1)' is clicked on
+
+27-05-2025T22:43:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_Published_ng-pristine ng-untouched ng_393040 (1)' is clicked on
+
+27-05-2025T22:43:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-05-2025T22:43:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/111Event/Ticket purchase" time="52.146" classname="Test Cases/111Event/Ticket purchase" status="PASSED">
+         <system-out><![CDATA[27-05-2025T22:43:59 - [TEST_CASE][PASSED] - Test Cases/111Event/Ticket purchase: Test Cases/111Event/Ticket purchase
+
+27-05-2025T22:43:59 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/"): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+27-05-2025T22:43:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-05-2025T22:43:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-05-2025T22:44:03 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+27-05-2025T22:44:03 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@tickets-dev.swstage.com/"): Navigate to 'http://USAV:demo@tickets-dev.swstage.com/' successfully
+
+27-05-2025T22:44:05 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@tickets-dev.swstage.com/' successfully
+
+27-05-2025T22:44:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket purchase/Page_SW  Tickets/input_Available Events_form-control ng-pris_aaf354"), "123Test Event"): Text '123Test Event' is set on object 'Object Repository/Ticket purchase/Page_SW  Tickets/input_Available Events_form-control ng-pris_aaf354'
+
+27-05-2025T22:44:06 - [MESSAGE][PASSED] - Text '123Test Event' is set on object 'Object Repository/Ticket purchase/Page_SW  Tickets/input_Available Events_form-control ng-pris_aaf354'
+
+27-05-2025T22:44:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-05-2025T22:44:06 - [MESSAGE][PASSED] - Current window maximized
+
+27-05-2025T22:44:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket purchase/Page_SW  Tickets/b_123Test Event")): Object: 'Object Repository/Ticket purchase/Page_SW  Tickets/b_123Test Event' is clicked on
+
+27-05-2025T22:44:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket purchase/Page_SW  Tickets/b_123Test Event' is clicked on
+
+27-05-2025T22:44:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_None")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_None' is clicked on
+
+27-05-2025T22:44:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_None' is clicked on
+
+27-05-2025T22:44:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_1")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_1' is clicked on
+
+27-05-2025T22:44:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_1' is clicked on
+
+27-05-2025T22:44:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Purchaser Info_1")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Purchaser Info_1' is clicked on
+
+27-05-2025T22:44:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Purchaser Info_1' is clicked on
+
+27-05-2025T22:44:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree' is clicked on
+
+27-05-2025T22:44:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree' is clicked on
+
+27-05-2025T22:44:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserFirst"), "Tara"): Text 'Tara' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserFirst'
+
+27-05-2025T22:44:11 - [MESSAGE][PASSED] - Text 'Tara' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserFirst'
+
+27-05-2025T22:44:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserLast"), "Charles"): Text 'Charles' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserLast'
+
+27-05-2025T22:44:12 - [MESSAGE][PASSED] - Text 'Charles' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserLast'
+
+27-05-2025T22:44:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserEmail"), "aaaa@gmail.com"): Text 'aaaa@gmail.com' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserEmail'
+
+27-05-2025T22:44:13 - [MESSAGE][PASSED] - Text 'aaaa@gmail.com' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserEmail'
+
+27-05-2025T22:44:13 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('purchaserPhone').focus(); document.execCommand('insertText', false, '(111) 111-1111');", null): Execute JavaScript 'document.getElementById('purchaserPhone').focus(); document.execCommand('insertText', false, '(111) 111-1111');' successfully
+
+27-05-2025T22:44:13 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('purchaserPhone').focus(); document.execCommand('insertText', false, '(111) 111-1111');' successfully
+
+27-05-2025T22:44:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserZipCode"), "11949"): Text '11949' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserZipCode'
+
+27-05-2025T22:44:13 - [MESSAGE][PASSED] - Text '11949' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserZipCode'
+
+27-05-2025T22:44:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Daily Passes")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Daily Passes' is clicked on
+
+27-05-2025T22:44:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Daily Passes' is clicked on
+
+27-05-2025T22:44:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree' is clicked on
+
+27-05-2025T22:44:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree' is clicked on
+
+27-05-2025T22:44:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Summary")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Summary' is clicked on
+
+27-05-2025T22:44:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Summary' is clicked on
+
+27-05-2025T22:44:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Payment")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Payment' is clicked on
+
+27-05-2025T22:44:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Payment' is clicked on
+
+27-05-2025T22:44:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Card information")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Card information' is clicked on
+
+27-05-2025T22:44:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Card information' is clicked on
+
+27-05-2025T22:44:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cardnumber"), "4242424242424242"): Text '4242424242424242' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cardnumber'
+
+27-05-2025T22:44:16 - [MESSAGE][PASSED] - Text '4242424242424242' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cardnumber'
+
+27-05-2025T22:44:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_exp-date"), "12 / 25"): Text '12 / 25' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_exp-date'
+
+27-05-2025T22:44:17 - [MESSAGE][PASSED] - Text '12 / 25' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_exp-date'
+
+27-05-2025T22:44:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cvc"), "454"): Text '454' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cvc'
+
+27-05-2025T22:44:17 - [MESSAGE][PASSED] - Text '454' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cvc'
+
+27-05-2025T22:44:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_omplete Purchase")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_omplete Purchase' is clicked on
+
+27-05-2025T22:44:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_omplete Purchase' is clicked on
+
+27-05-2025T22:44:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_Tickets/div_Buy Anyway"), OPTIONAL): Object: 'Object Repository/Page_Tickets/div_Buy Anyway' is clicked on
+
+27-05-2025T22:44:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Tickets/div_Buy Anyway' is clicked on
+
+27-05-2025T22:44:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_Tickets/div_Confirm Duplicate Purchase"), OPTIONAL): Unable to click on object 'Object Repository/Page_Tickets/div_Confirm Duplicate Purchase' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Tickets/div_Confirm Duplicate Purchase'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at Ticket purchase.run(Ticket purchase:70)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1748374835177.run(TempTestSuite1748374835177.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Tickets/div_Confirm Duplicate Purchase' located by '//div[@id='root']/div/div/div/div[4]/div[2]/div[3]/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at Script1746994487227.run(Script1746994487227.groovy:70)
+	... 15 more
+)
+
+27-05-2025T22:44:50 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='root']/div/div/div/div[4]/div[2]/div[3]/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-05-2025T22:44:50 - [MESSAGE][WARNING] - Unable to click on object 'Object Repository/Page_Tickets/div_Confirm Duplicate Purchase' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Tickets/div_Confirm Duplicate Purchase'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at Ticket purchase.run(Ticket purchase:70)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1748374835177.run(TempTestSuite1748374835177.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Tickets/div_Confirm Duplicate Purchase' located by '//div[@id='root']/div/div/div/div[4]/div[2]/div[3]/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at Script1746994487227.run(Script1746994487227.groovy:70)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\LENOVO\\git\\SportWrench\\Reports\\20250527_224035\\SMOKE test suit for Event\\20250527_224035\\1748375090583.png]]
+
+27-05-2025T22:44:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Additional data for ticket puchase/Page_Tickets/div_Successful Payment"), 0): Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_Successful Payment' is present
+
+27-05-2025T22:44:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-05-2025T22:44:50 - [MESSAGE][PASSED] - Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_Successful Payment' is present
+
+27-05-2025T22:44:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Additional data for ticket puchase/Page_Tickets/div_1 Daily Passes to 123Test Event"), 0): Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_1 Daily Passes to 123Test Event' is present
+
+27-05-2025T22:44:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-05-2025T22:44:51 - [MESSAGE][PASSED] - Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_1 Daily Passes to 123Test Event' is present
+
+27-05-2025T22:44:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Additional data for ticket puchase/Page_Tickets/div_Payment of 10.00 was successful. A link_c703ef"), 0): Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_Payment of 10.00 was successful. A link_c703ef' is present
+
+27-05-2025T22:44:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-05-2025T22:44:51 - [MESSAGE][PASSED] - Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_Payment of 10.00 was successful. A link_c703ef' is present
+
+27-05-2025T22:44:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Insurance purchase/Page_Tickets/input_radio-491-f95-9a6")): Object: 'Object Repository/Insurance purchase/Page_Tickets/input_radio-491-f95-9a6' is clicked on
+
+27-05-2025T22:44:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Insurance purchase/Page_Tickets/input_radio-491-f95-9a6' is clicked on
+
+27-05-2025T22:44:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-05-2025T22:44:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/111Event/Delete an Event" time="27.427" classname="Test Cases/111Event/Delete an Event" status="PASSED">
+         <system-out><![CDATA[27-05-2025T22:44:51 - [TEST_CASE][PASSED] - Test Cases/111Event/Delete an Event: Test Cases/111Event/Delete an Event
+
+27-05-2025T22:44:51 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/"): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+27-05-2025T22:44:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-05-2025T22:44:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-05-2025T22:44:55 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+27-05-2025T22:44:55 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@my.dev.swstage.com/#/"): Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+27-05-2025T22:44:57 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+27-05-2025T22:44:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-05-2025T22:44:57 - [MESSAGE][PASSED] - Current window maximized
+
+27-05-2025T22:44:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/input_Log In_email"), "dcgfcgchfhgvhv@gmail.com"): Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+27-05-2025T22:44:58 - [MESSAGE][PASSED] - Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+27-05-2025T22:44:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/input_false_password"), "ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"): Text ****** has been set on object 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+27-05-2025T22:44:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+27-05-2025T22:44:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/button_Log In")): Object: 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+27-05-2025T22:44:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+27-05-2025T22:44:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox"), "123Test Event"): Text '123Test Event' is set on object 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox'
+
+27-05-2025T22:45:12 - [MESSAGE][PASSED] - Text '123Test Event' is set on object 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox'
+
+27-05-2025T22:45:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/a_123Test Event")): Object: 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/a_123Test Event' is clicked on
+
+27-05-2025T22:45:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/a_123Test Event' is clicked on
+
+27-05-2025T22:45:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/li_123Test Event")): Object: 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/li_123Test Event' is clicked on
+
+27-05-2025T22:45:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/li_123Test Event' is clicked on
+
+27-05-2025T22:45:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/a_Delete event")): Object: 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/a_Delete event' is clicked on
+
+27-05-2025T22:45:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/a_Delete event' is clicked on
+
+27-05-2025T22:45:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/button_Yes")): Object: 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/button_Yes' is clicked on
+
+27-05-2025T22:45:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/button_Yes' is clicked on
+
+27-05-2025T22:45:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+27-05-2025T22:45:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-05-2025T22:45:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-05-2025T22:45:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-05-2025T22:40:44 - [TEST_SUITE][PASSED] - SMOKE test suit for Event: Test Cases/111Event/Delete an Event]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

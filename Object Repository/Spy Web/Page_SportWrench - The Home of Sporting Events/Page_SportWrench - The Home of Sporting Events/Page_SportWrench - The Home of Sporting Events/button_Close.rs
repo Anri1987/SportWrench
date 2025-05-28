@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Close</name>
+   <tag></tag>
+   <elementGuidId>792fdbcf-f839-4644-97ea-8dbc6a5c0a2d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-default</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='N/A'])[1]/following::button[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[@class=&quot;no-js&quot;]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;modal fade in&quot;]/div[@class=&quot;modal-dialog modal-lg&quot;]/div[@class=&quot;modal-content&quot;]/payment-modal[1]/div[@class=&quot;modal-footer&quot;]/button[@class=&quot;btn btn-default&quot;][count(. | //*[(text() = 'Close' or . = 'Close')]) = count(//*[(text() = 'Close' or . = 'Close')])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c0e2f02b-a76b-4a05-a67f-c69fe47c1ddc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-default</value>
+      <webElementGuid>e960a0c0-f63d-4246-a461-849743b54773</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>$parent.$close()</value>
+      <webElementGuid>f63819a1-1789-4718-a59a-2f418f62eff3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Close</value>
+      <webElementGuid>b8dc8676-5a4e-458a-8d06-cf0902a64989</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;modal fade in&quot;]/div[@class=&quot;modal-dialog modal-lg&quot;]/div[@class=&quot;modal-content&quot;]/payment-modal[1]/div[@class=&quot;modal-footer&quot;]/button[@class=&quot;btn btn-default&quot;]</value>
+      <webElementGuid>0db4bb12-d7ea-4b64-aa2e-9c67cfefded4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='N/A'])[1]/following::button[1]</value>
+      <webElementGuid>99062050-a287-4236-8968-3bb66a6ce937</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Scanning log:'])[1]/following::button[1]</value>
+      <webElementGuid>192ddc26-50d0-45cb-a326-954b61ceb5f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Events'])[1]/preceding::button[2]</value>
+      <webElementGuid>4d642c83-5aa4-40d8-919f-e68884e0e44e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Tickets'])[1]/preceding::button[2]</value>
+      <webElementGuid>a7e32ea8-1859-41a9-ba48-3c96595fc046</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Close']/parent::*</value>
+      <webElementGuid>ac77471f-f174-458c-8815-27a275902e72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button</value>
+      <webElementGuid>cb89e444-e759-49ba-840b-a0e24cd3936a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Close' or . = 'Close')]</value>
+      <webElementGuid>0358eaf2-f281-4fee-ba65-fe707a97fe69</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

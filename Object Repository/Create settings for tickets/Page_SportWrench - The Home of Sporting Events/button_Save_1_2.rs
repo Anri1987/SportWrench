@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Save_1_2</name>
+   <tag></tag>
+   <elementGuidId>d740ed27-55ad-41b1-b7f3-9fae9bdcacd4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-success</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='To'])[1]/following::button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>9e24c360-db0f-4a57-9bcc-45bb5426ebc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-class</name>
+      <type>Main</type>
+      <value>{ 'btn btn-success': true,  'vis-hidden': hideSalesSaveButton() }</value>
+      <webElementGuid>acd1f84e-f00d-4722-823d-9455ebb78c2b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>saveSalesDates(utils.start, utils.end)</value>
+      <webElementGuid>07aa66b2-ada2-40fc-9bc5-2541e4fbfb94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-success</value>
+      <webElementGuid>3c478dad-ad60-4122-b098-7e3d40f5a3c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Save</value>
+      <webElementGuid>ed393833-2c1b-471f-9a2c-7c9a4ff1281a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/div[@class=&quot;row rowm0&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;tab-content eo-dashboard&quot;]/div[@class=&quot;tab-pane active&quot;]/div[1]/div[@class=&quot;row row-space rowm0&quot;]/div[@class=&quot;tickets-settings-form col-xs-12 col-sm-4&quot;]/button[@class=&quot;btn btn-success&quot;]</value>
+      <webElementGuid>3cc30ba5-4d86-4677-9af3-17ee7f07502a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='To'])[1]/following::button[1]</value>
+      <webElementGuid>d9eda9bb-cae1-44d3-9465-71fc6aed6edf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='From'])[1]/following::button[1]</value>
+      <webElementGuid>0c1d8f22-4efc-4cb6-83dc-c6b0368360bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Use coupon codes for selling tickets'])[1]/preceding::button[1]</value>
+      <webElementGuid>18632ef1-0bf3-429f-818a-49b3c3db3662</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Require COVID test for each ticket'])[1]/preceding::button[1]</value>
+      <webElementGuid>7812df81-49cc-4c16-b2a1-f6030600f821</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Save']/parent::*</value>
+      <webElementGuid>64ac66e8-5987-498d-918f-6e07a2ac0102</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/button</value>
+      <webElementGuid>8c5c4e4f-59ba-45da-8940-4f0af022ab31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Save' or . = 'Save')]</value>
+      <webElementGuid>f6e1d1e0-674a-468c-a629-8e61e5942539</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

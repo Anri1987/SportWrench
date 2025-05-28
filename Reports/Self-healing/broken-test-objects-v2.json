@@ -179,6 +179,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Manage Teams_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_Check",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Online\u0027])[1]/following::a[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//a[contains(@href, \u0027\u0027)])[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_Check_href.png"
     }
   ]
 }

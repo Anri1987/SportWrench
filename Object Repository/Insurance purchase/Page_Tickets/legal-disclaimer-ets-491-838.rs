@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>legal-disclaimer-ets-491-838</name>
+   <tag></tag>
+   <elementGuidId>b39383db-dd26-42c4-bea0-b75aed181342</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#offer-wrapper > #offer-display > legal-disclaimer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='offer-display']/legal-disclaimer</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>legal-disclaimer</value>
+      <webElementGuid>09715777-4f25-4fc1-80e7-8d68ace89931</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/div[@id=&quot;offer-wrapper&quot;]/div[@id=&quot;offer-display&quot;]/legal-disclaimer[1]</value>
+      <webElementGuid>daa95ade-db9a-4b68-8a68-99aa1c97a65d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Insurance purchase/Page_Tickets/ticket-refund-Tickets-491</value>
+      <webElementGuid>387730d3-5465-4b96-bb83-79edc5ef57c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element_is_shadow_root</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>efb53bf5-ec7d-4ced-aa4f-965bc8530622</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='offer-display']/legal-disclaimer</value>
+      <webElementGuid>f2598505-62df-448b-8911-4af85fe5a280</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

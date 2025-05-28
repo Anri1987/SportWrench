@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Save</name>
+   <tag></tag>
+   <elementGuidId>2df52c0d-71a5-4249-bd40-271693debe08</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Notes:'])[1]/following::button[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-sm-offset-7.col-sm-5 > button.btn.btn-primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>54f34ddd-90d6-4706-ae20-1bef25d46b0c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary</value>
+      <webElementGuid>7f64b31f-7833-4687-8a3f-e2ae2c83e479</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-if</name>
+      <type>Main</type>
+      <value>!utils.inProgress</value>
+      <webElementGuid>347f6b67-0f42-4d1a-802b-57673184022c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-disabled</name>
+      <type>Main</type>
+      <value>refundDisabled()</value>
+      <webElementGuid>6d14db01-081b-45a4-82e0-ce1978d2d55a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>processRefund()</value>
+      <webElementGuid>5455deb6-f350-4b66-9531-7dbf7edd7311</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Save</value>
+      <webElementGuid>d63dbdec-0284-40ee-9f41-ff5fbb4bfd82</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;modal fade in&quot;]/div[@class=&quot;modal-dialog modal-lg&quot;]/div[@class=&quot;modal-content&quot;]/payment-modal[1]/div[@class=&quot;tickets-payment-modal&quot;]/div[@class=&quot;row-space&quot;]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;tab-pane active&quot;]/div[@class=&quot;row row-space rowm0&quot;]/div[@class=&quot;col-sm-6&quot;]/tickets-refund[1]/div[@class=&quot;panel panel-warning&quot;]/div[@class=&quot;panel-body&quot;]/tickets-partial-refund[1]/div[@class=&quot;form-horizontal&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-offset-7 col-sm-5&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
+      <webElementGuid>c090fc69-34e4-4239-b8fb-71e7db12c555</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notes:'])[1]/following::button[1]</value>
+      <webElementGuid>e6873070-e32e-4a30-b69f-fd95bd768820</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$10.00'])[2]/following::button[1]</value>
+      <webElementGuid>8f96e17c-422d-4ebd-9eef-715e1d356a23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[1]</value>
+      <webElementGuid>e3d0d86f-4aa6-4fe1-81da-132290c52175</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Scanner Info'])[1]/preceding::button[2]</value>
+      <webElementGuid>2982dcae-3fa8-4c3c-96fa-829f53cb7080</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Save']/parent::*</value>
+      <webElementGuid>5f2f3282-335f-4e4a-a935-1359fb0e83a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/button</value>
+      <webElementGuid>b47241a4-9144-4f43-8e6e-5c5524504e48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Save' or . = 'Save')]</value>
+      <webElementGuid>ce6c2bc6-2b44-4731-87aa-f9d1e4d6b876</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

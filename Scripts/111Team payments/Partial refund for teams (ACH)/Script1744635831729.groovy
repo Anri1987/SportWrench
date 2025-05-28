@@ -57,7 +57,7 @@ WebUI.click(findTestObject('Object Repository/Refund for teams (ACH)/Page_SportW
 
 WebUI.click(findTestObject('Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/button_Refund'))
 
-WebUI.click(findTestObject('Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_Partial'))
+WebUI.clickImage(findTestObject('Spy Web/Page_SportWrench - The Home of Sporting Events/a_Partial'))
 
 WebUI.click(findTestObject('Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/input_Team name_ng-pristine ng-untouched ng_75950e'))
 
@@ -90,7 +90,7 @@ WebUI.click(findTestObject('Object Repository/Refund for teams (ACH)/Page_SportW
 
 WebUI.click(findTestObject('Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/button_Refund'))
 
-WebUI.click(findTestObject('Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_Total'))
+WebUI.clickImage(findTestObject('Spy Web/Page_SportWrench - The Home of Sporting Events/a_Total'))
 
 WebUI.click(findTestObject('Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/button_Yes'))
 

@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Club" time="205.41" tests="3" failures="0" errors="0">
+   <testsuite name="Club" tests="3" failures="0" errors="0" time="205.41" skipped="0" timestamp="19-05-2025T22:48:29" hostname="LENOVO - DESKTOP-9MN524E" id="Test Suites/Club">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\git\\SportWrench\\Reports\\20250519_224824\\Club\\20250519_224824"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\git\\SportWrench\\Reports\\20250519_224824\\Club\\20250519_224824\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LENOVO - DESKTOP-9MN524E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="browser" value="Chrome 136.0.7103.93"/>
+         <property name="hostAddress" value="26.190.180.74"/>
+         <property name="sessionId" value="dba6c81f7b443bd3b392db422740c8fd"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/111Club/Upload XLS with members" time="31.406" classname="Test Cases/111Club/Upload XLS with members" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) file":"C:\\\\file for autotest\\\\SportWrench Foreign Team Roster Import(6).xlsx"}]]></property>
+         </properties>
+         <system-out><![CDATA[19-05-2025T22:48:29 - [TEST_CASE][PASSED] - Test Cases/111Club/Upload XLS with members: Test Cases/111Club/Upload XLS with members
+
+19-05-2025T22:48:29 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/ "): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/ '
+
+19-05-2025T22:48:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-05-2025T22:48:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-05-2025T22:48:36 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/ '
+
+19-05-2025T22:48:36 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@my.dev.swstage.com/#/"): Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+19-05-2025T22:48:39 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+19-05-2025T22:48:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+19-05-2025T22:48:39 - [MESSAGE][PASSED] - Current window maximized
+
+19-05-2025T22:48:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/xls/Page_SportWrench - The Home of Sporting Events/input_Log In_email (1)"), "71856test_email_for_club@gmail.com"): Text '71856test_email_for_club@gmail.com' is set on object 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/input_Log In_email (1)'
+
+19-05-2025T22:48:40 - [MESSAGE][PASSED] - Text '71856test_email_for_club@gmail.com' is set on object 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/input_Log In_email (1)'
+
+19-05-2025T22:48:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/xls/Page_SportWrench - The Home of Sporting Events/input_false_password (1)"), "SFTQUhjBfIY="): Text ****** has been set on object 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/input_false_password (1)'
+
+19-05-2025T22:48:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/input_false_password (1)'
+
+19-05-2025T22:48:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xls/Page_SportWrench - The Home of Sporting Events/button_Log In (1)")): Object: 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/button_Log In (1)' is clicked on
+
+19-05-2025T22:48:40 - [MESSAGE][PASSED] - Object: 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/button_Log In (1)' is clicked on
+
+19-05-2025T22:48:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xls/Page_SportWrench - The Home of Sporting Events/a_Athletes (1)")): Object: 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/a_Athletes (1)' is clicked on
+
+19-05-2025T22:48:46 - [MESSAGE][PASSED] - Object: 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/a_Athletes (1)' is clicked on
+
+19-05-2025T22:48:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+19-05-2025T22:48:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+19-05-2025T22:48:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xls/Page_SportWrench - The Home of Sporting Events/input_No current season teams found_pull-le_c33dfe (1)")): Object: 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/input_No current season teams found_pull-le_c33dfe (1)' is clicked on
+
+19-05-2025T22:48:47 - [MESSAGE][PASSED] - Object: 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/input_No current season teams found_pull-le_c33dfe (1)' is clicked on
+
+19-05-2025T22:48:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+19-05-2025T22:48:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+19-05-2025T22:48:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xls/Page_SportWrench - The Home of Sporting Events/button_Remove from teams")): Object: 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/button_Remove from teams' is clicked on
+
+19-05-2025T22:48:49 - [MESSAGE][PASSED] - Object: 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/button_Remove from teams' is clicked on
+
+19-05-2025T22:48:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+19-05-2025T22:48:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+19-05-2025T22:48:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xls/Page_SportWrench - The Home of Sporting Events/a_Staff (1)")): Object: 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/a_Staff (1)' is clicked on
+
+19-05-2025T22:48:51 - [MESSAGE][PASSED] - Object: 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/a_Staff (1)' is clicked on
+
+19-05-2025T22:48:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+19-05-2025T22:48:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+19-05-2025T22:48:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xls/Page_SportWrench - The Home of Sporting Events/input_No current season teams found_ng-pris_4ffcfd")): Object: 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/input_No current season teams found_ng-pris_4ffcfd' is clicked on
+
+19-05-2025T22:48:52 - [MESSAGE][PASSED] - Object: 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/input_No current season teams found_ng-pris_4ffcfd' is clicked on
+
+19-05-2025T22:48:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+19-05-2025T22:48:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+19-05-2025T22:48:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xls/Page_SportWrench - The Home of Sporting Events/button_Remove from teams_1")): Object: 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/button_Remove from teams_1' is clicked on
+
+19-05-2025T22:48:53 - [MESSAGE][PASSED] - Object: 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/button_Remove from teams_1' is clicked on
+
+19-05-2025T22:48:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+19-05-2025T22:48:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+19-05-2025T22:48:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xls/Page_SportWrench - The Home of Sporting Events/a_Athletes (1)")): Object: 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/a_Athletes (1)' is clicked on
+
+19-05-2025T22:48:54 - [MESSAGE][PASSED] - Object: 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/a_Athletes (1)' is clicked on
+
+19-05-2025T22:48:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+19-05-2025T22:48:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+19-05-2025T22:48:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xls/Page_SportWrench - The Home of Sporting Events/a_XLSX Import (1)")): Object: 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/a_XLSX Import (1)' is clicked on
+
+19-05-2025T22:48:56 - [MESSAGE][PASSED] - Object: 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/a_XLSX Import (1)' is clicked on
+
+19-05-2025T22:48:56 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/xls/Page_SportWrench - The Home of Sporting Events/input_here_roster-list (1)"), file): File 'C:\\file for autotest\\SportWrench Foreign Team Roster Import(6).xlsx' sent to object: 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/input_here_roster-list (1)'
+
+19-05-2025T22:48:56 - [MESSAGE][PASSED] - File 'C:\\file for autotest\\SportWrench Foreign Team Roster Import(6).xlsx' sent to object: 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/input_here_roster-list (1)'
+
+19-05-2025T22:48:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xls/Page_SportWrench - The Home of Sporting Events/button_Import (1)")): Object: 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/button_Import (1)' is clicked on
+
+19-05-2025T22:48:57 - [MESSAGE][PASSED] - Object: 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/button_Import (1)' is clicked on
+
+19-05-2025T22:48:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/xls/Page_SportWrench - The Home of Sporting Events/td_cfa 18 10"), 0): Object 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/td_cfa 18 10' is present
+
+19-05-2025T22:48:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:48:59 - [MESSAGE][PASSED] - Object 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/td_cfa 18 10' is present
+
+19-05-2025T22:48:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/xls/Page_SportWrench - The Home of Sporting Events/td_cfa 18 10_1_2"), 0): Object 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/td_cfa 18 10_1_2' is present
+
+19-05-2025T22:48:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:48:59 - [MESSAGE][PASSED] - Object 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/td_cfa 18 10_1_2' is present
+
+19-05-2025T22:48:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/xls/Page_SportWrench - The Home of Sporting Events/td_cfa 18 10_1"), 0): Object 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/td_cfa 18 10_1' is present
+
+19-05-2025T22:48:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:48:59 - [MESSAGE][PASSED] - Object 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/td_cfa 18 10_1' is present
+
+19-05-2025T22:48:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xls/Page_SportWrench - The Home of Sporting Events/a_Staff (1)")): Object: 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/a_Staff (1)' is clicked on
+
+19-05-2025T22:48:59 - [MESSAGE][PASSED] - Object: 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/a_Staff (1)' is clicked on
+
+19-05-2025T22:48:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/xls/Page_SportWrench - The Home of Sporting Events/span_G185007710XX_1_2"), 0): Object 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/span_G185007710XX_1_2' is present
+
+19-05-2025T22:48:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:49:00 - [MESSAGE][PASSED] - Object 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/span_G185007710XX_1_2' is present
+
+19-05-2025T22:49:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/xls/Page_SportWrench - The Home of Sporting Events/span_G185007710XX_1"), 0): Object 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/span_G185007710XX_1' is present
+
+19-05-2025T22:49:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:49:00 - [MESSAGE][PASSED] - Object 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/span_G185007710XX_1' is present
+
+19-05-2025T22:49:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/xls/Page_SportWrench - The Home of Sporting Events/span_G185007710XX"), 0): Object 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/span_G185007710XX' is present
+
+19-05-2025T22:49:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:49:00 - [MESSAGE][PASSED] - Object 'Object Repository/xls/Page_SportWrench - The Home of Sporting Events/span_G185007710XX' is present
+
+19-05-2025T22:49:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+19-05-2025T22:49:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/111Club/Enter and remove members from team" time="43.475" classname="Test Cases/111Club/Enter and remove members from team" status="PASSED">
+         <system-out><![CDATA[19-05-2025T22:49:01 - [TEST_CASE][PASSED] - Test Cases/111Club/Enter and remove members from team: Test Cases/111Club/Enter and remove members from team
+
+19-05-2025T22:49:01 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/ "): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/ '
+
+19-05-2025T22:49:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-05-2025T22:49:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-05-2025T22:49:04 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/ '
+
+19-05-2025T22:49:04 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@my.dev.swstage.com/#/"): Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+19-05-2025T22:49:07 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+19-05-2025T22:49:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+19-05-2025T22:49:07 - [MESSAGE][PASSED] - Current window maximized
+
+19-05-2025T22:49:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_Log In_email"), "hghh@gmail.com"): Text 'hghh@gmail.com' is set on object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+19-05-2025T22:49:08 - [MESSAGE][PASSED] - Text 'hghh@gmail.com' is set on object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+19-05-2025T22:49:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_false_password"), "ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"): Text ****** has been set on object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+19-05-2025T22:49:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+19-05-2025T22:49:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/button_Log In")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+19-05-2025T22:49:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+19-05-2025T22:49:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_My lub")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_My lub' is clicked on
+
+19-05-2025T22:49:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_My lub' is clicked on
+
+19-05-2025T22:49:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Athletes")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Athletes' is clicked on
+
+19-05-2025T22:49:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Athletes' is clicked on
+
+19-05-2025T22:49:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_Webpoint_ng-pristine ng-untouched ng-_67f57a")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_Webpoint_ng-pristine ng-untouched ng-_67f57a' is clicked on
+
+19-05-2025T22:49:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_Webpoint_ng-pristine ng-untouched ng-_67f57a' is clicked on
+
+19-05-2025T22:49:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0' is clicked on
+
+19-05-2025T22:49:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0' is clicked on
+
+19-05-2025T22:49:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1' is clicked on
+
+19-05-2025T22:49:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1' is clicked on
+
+19-05-2025T22:49:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2' is clicked on
+
+19-05-2025T22:49:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2' is clicked on
+
+19-05-2025T22:49:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3' is clicked on
+
+19-05-2025T22:49:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3' is clicked on
+
+19-05-2025T22:49:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_Add to Team_caret")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_Add to Team_caret' is clicked on
+
+19-05-2025T22:49:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_Add to Team_caret' is clicked on
+
+19-05-2025T22:49:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/div_G18LAVAW10SC")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/div_G18LAVAW10SC' is clicked on
+
+19-05-2025T22:49:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/div_G18LAVAW10SC' is clicked on
+
+19-05-2025T22:49:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_The Athletes Zoey Yu, Ariana Zapata, C_1ab2e4"), 0): Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_The Athletes Zoey Yu, Ariana Zapata, C_1ab2e4' is present
+
+19-05-2025T22:49:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:49:20 - [MESSAGE][PASSED] - Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_The Athletes Zoey Yu, Ariana Zapata, C_1ab2e4' is present
+
+19-05-2025T22:49:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Staff")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Staff' is clicked on
+
+19-05-2025T22:49:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Staff' is clicked on
+
+19-05-2025T22:49:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_Sanctioned body_ng-pristine ng-untouc_34dc9e")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_Sanctioned body_ng-pristine ng-untouc_34dc9e' is clicked on
+
+19-05-2025T22:49:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_Sanctioned body_ng-pristine ng-untouc_34dc9e' is clicked on
+
+19-05-2025T22:49:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4' is clicked on
+
+19-05-2025T22:49:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4' is clicked on
+
+19-05-2025T22:49:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4_5")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4_5' is clicked on
+
+19-05-2025T22:49:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4_5' is clicked on
+
+19-05-2025T22:49:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4_5_6")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4_5_6' is clicked on
+
+19-05-2025T22:49:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4_5_6' is clicked on
+
+19-05-2025T22:49:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4_5_6_7")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4_5_6_7' is clicked on
+
+19-05-2025T22:49:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4_5_6_7' is clicked on
+
+19-05-2025T22:49:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/button_Add to Team")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/button_Add to Team' is clicked on
+
+19-05-2025T22:49:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/button_Add to Team' is clicked on
+
+19-05-2025T22:49:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/div_G18LAVAW10SC")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/div_G18LAVAW10SC' is clicked on
+
+19-05-2025T22:49:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/div_G18LAVAW10SC' is clicked on
+
+19-05-2025T22:49:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/div_Successful Operation"), 0): Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/div_Successful Operation' is present
+
+19-05-2025T22:49:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:49:25 - [MESSAGE][PASSED] - Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/div_Successful Operation' is present
+
+19-05-2025T22:49:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_G18LAVAW10SC"), 0): Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_G18LAVAW10SC' is present
+
+19-05-2025T22:49:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:49:25 - [MESSAGE][PASSED] - Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_G18LAVAW10SC' is present
+
+19-05-2025T22:49:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_G18LAVAW10SC_1"), 0): Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_G18LAVAW10SC_1' is present
+
+19-05-2025T22:49:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:49:25 - [MESSAGE][PASSED] - Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_G18LAVAW10SC_1' is present
+
+19-05-2025T22:49:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_G18LAVAW10SC_1_2"), 0): Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_G18LAVAW10SC_1_2' is present
+
+19-05-2025T22:49:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:49:25 - [MESSAGE][PASSED] - Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_G18LAVAW10SC_1_2' is present
+
+19-05-2025T22:49:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_G18LAVAW10SC_1_2_3"), 0): Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_G18LAVAW10SC_1_2_3' is present
+
+19-05-2025T22:49:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:49:26 - [MESSAGE][PASSED] - Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_G18LAVAW10SC_1_2_3' is present
+
+19-05-2025T22:49:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_G18LAVAW10SC_1_2_3_4"), 0): Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_G18LAVAW10SC_1_2_3_4' is present
+
+19-05-2025T22:49:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:49:26 - [MESSAGE][PASSED] - Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_G18LAVAW10SC_1_2_3_4' is present
+
+19-05-2025T22:49:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Athletes")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Athletes' is clicked on
+
+19-05-2025T22:49:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Athletes' is clicked on
+
+19-05-2025T22:49:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/td_LAVA West 18 10"), 0): Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/td_LAVA West 18 10' is present
+
+19-05-2025T22:49:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:49:28 - [MESSAGE][PASSED] - Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/td_LAVA West 18 10' is present
+
+19-05-2025T22:49:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/td_LAVA West 18 10_1"), 0): Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/td_LAVA West 18 10_1' is present
+
+19-05-2025T22:49:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:49:29 - [MESSAGE][PASSED] - Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/td_LAVA West 18 10_1' is present
+
+19-05-2025T22:49:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/td_LAVA West 18 10_1_2"), 0): Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/td_LAVA West 18 10_1_2' is present
+
+19-05-2025T22:49:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:49:29 - [MESSAGE][PASSED] - Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/td_LAVA West 18 10_1_2' is present
+
+19-05-2025T22:49:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/td_LAVA West 18 10_1_2_3"), 0): Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/td_LAVA West 18 10_1_2_3' is present
+
+19-05-2025T22:49:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:49:29 - [MESSAGE][PASSED] - Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/td_LAVA West 18 10_1_2_3' is present
+
+19-05-2025T22:49:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/td_LAVA West 18 10_1_2_3_4"), 0): Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/td_LAVA West 18 10_1_2_3_4' is present
+
+19-05-2025T22:49:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:49:29 - [MESSAGE][PASSED] - Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/td_LAVA West 18 10_1_2_3_4' is present
+
+19-05-2025T22:49:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Teams")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Teams' is clicked on
+
+19-05-2025T22:49:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Teams' is clicked on
+
+19-05-2025T22:49:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_LAVA West 18 10")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_LAVA West 18 10' is clicked on
+
+19-05-2025T22:49:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_LAVA West 18 10' is clicked on
+
+19-05-2025T22:49:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Athletes")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Athletes' is clicked on
+
+19-05-2025T22:49:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Athletes' is clicked on
+
+19-05-2025T22:49:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV"), 0): Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV' is present
+
+19-05-2025T22:49:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:49:32 - [MESSAGE][PASSED] - Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV' is present
+
+19-05-2025T22:49:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1"), 0): Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1' is present
+
+19-05-2025T22:49:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:49:32 - [MESSAGE][PASSED] - Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1' is present
+
+19-05-2025T22:49:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2"), 0): Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2' is present
+
+19-05-2025T22:49:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:49:32 - [MESSAGE][PASSED] - Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2' is present
+
+19-05-2025T22:49:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2_3"), 0): Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2_3' is present
+
+19-05-2025T22:49:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:49:32 - [MESSAGE][PASSED] - Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2_3' is present
+
+19-05-2025T22:49:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2_3_4"), 0): Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2_3_4' is present
+
+19-05-2025T22:49:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:49:33 - [MESSAGE][PASSED] - Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2_3_4' is present
+
+19-05-2025T22:49:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Staff")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Staff' is clicked on
+
+19-05-2025T22:49:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Staff' is clicked on
+
+19-05-2025T22:49:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2_3_4_5"), 0): Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2_3_4_5' is present
+
+19-05-2025T22:49:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:49:34 - [MESSAGE][PASSED] - Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2_3_4_5' is present
+
+19-05-2025T22:49:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2_3_4_5_6"), 0): Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2_3_4_5_6' is present
+
+19-05-2025T22:49:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:49:34 - [MESSAGE][PASSED] - Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2_3_4_5_6' is present
+
+19-05-2025T22:49:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2_3_4_5_6_7"), 0): Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2_3_4_5_6_7' is present
+
+19-05-2025T22:49:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:49:34 - [MESSAGE][PASSED] - Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2_3_4_5_6_7' is present
+
+19-05-2025T22:49:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2_3_4_5_6_7_8"), 0): Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2_3_4_5_6_7_8' is present
+
+19-05-2025T22:49:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:49:34 - [MESSAGE][PASSED] - Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2_3_4_5_6_7_8' is present
+
+19-05-2025T22:49:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2_3_4_5_6_7_8_9"), 0): Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2_3_4_5_6_7_8_9' is present
+
+19-05-2025T22:49:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:49:34 - [MESSAGE][PASSED] - Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_USAV_1_2_3_4_5_6_7_8_9' is present
+
+19-05-2025T22:49:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/button_Close")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+19-05-2025T22:49:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+19-05-2025T22:49:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Athletes")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Athletes' is clicked on
+
+19-05-2025T22:49:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Athletes' is clicked on
+
+19-05-2025T22:49:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_Webpoint_ng-pristine ng-untouched ng-_67f57a")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_Webpoint_ng-pristine ng-untouched ng-_67f57a' is clicked on
+
+19-05-2025T22:49:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_Webpoint_ng-pristine ng-untouched ng-_67f57a' is clicked on
+
+19-05-2025T22:49:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0' is clicked on
+
+19-05-2025T22:49:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0' is clicked on
+
+19-05-2025T22:49:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1' is clicked on
+
+19-05-2025T22:49:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1' is clicked on
+
+19-05-2025T22:49:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2' is clicked on
+
+19-05-2025T22:49:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2' is clicked on
+
+19-05-2025T22:49:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3' is clicked on
+
+19-05-2025T22:49:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3' is clicked on
+
+19-05-2025T22:49:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/button_Remove from teams")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/button_Remove from teams' is clicked on
+
+19-05-2025T22:49:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/button_Remove from teams' is clicked on
+
+19-05-2025T22:49:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_The Athletes Zoey Yu, Ariana Zapata, C_82d841"), 0): Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_The Athletes Zoey Yu, Ariana Zapata, C_82d841' is present
+
+19-05-2025T22:49:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:49:40 - [MESSAGE][PASSED] - Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/span_The Athletes Zoey Yu, Ariana Zapata, C_82d841' is present
+
+19-05-2025T22:49:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Staff")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Staff' is clicked on
+
+19-05-2025T22:49:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/a_Staff' is clicked on
+
+19-05-2025T22:49:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_Sanctioned body_ng-pristine ng-untouc_34dc9e")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_Sanctioned body_ng-pristine ng-untouc_34dc9e' is clicked on
+
+19-05-2025T22:49:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_Sanctioned body_ng-pristine ng-untouc_34dc9e' is clicked on
+
+19-05-2025T22:49:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4' is clicked on
+
+19-05-2025T22:49:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4' is clicked on
+
+19-05-2025T22:49:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4_5")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4_5' is clicked on
+
+19-05-2025T22:49:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4_5' is clicked on
+
+19-05-2025T22:49:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4_5_6")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4_5_6' is clicked on
+
+19-05-2025T22:49:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4_5_6' is clicked on
+
+19-05-2025T22:49:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4_5_6_7")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4_5_6_7' is clicked on
+
+19-05-2025T22:49:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/input_USAV_ng-pristine ng-untouched ng-vali_2bf2f0_1_2_3_4_5_6_7' is clicked on
+
+19-05-2025T22:49:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/button_Remove from teams_1")): Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/button_Remove from teams_1' is clicked on
+
+19-05-2025T22:49:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/button_Remove from teams_1' is clicked on
+
+19-05-2025T22:49:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/div_Successful Operation"), 0): Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/div_Successful Operation' is present
+
+19-05-2025T22:49:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:49:44 - [MESSAGE][PASSED] - Object 'Object Repository/Enter and delete members from team/Page_SportWrench - The Home of Sporting Events/div_Successful Operation' is present
+
+19-05-2025T22:49:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+19-05-2025T22:49:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/111Club/USAV and AAU import" time="130.382" classname="Test Cases/111Club/USAV and AAU import" status="PASSED">
+         <system-out><![CDATA[19-05-2025T22:49:44 - [TEST_CASE][PASSED] - Test Cases/111Club/USAV and AAU import: Test Cases/111Club/USAV and AAU import
+
+19-05-2025T22:49:44 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/"): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+19-05-2025T22:49:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-05-2025T22:49:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-05-2025T22:49:48 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+19-05-2025T22:49:48 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@my.dev.swstage.com/#/"): Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+19-05-2025T22:49:51 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+19-05-2025T22:49:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+19-05-2025T22:49:51 - [MESSAGE][PASSED] - Current window maximized
+
+19-05-2025T22:49:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/input_Log In_email"), "wendy@mvvclub.com"): Text 'wendy@mvvclub.com' is set on object 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+19-05-2025T22:49:52 - [MESSAGE][PASSED] - Text 'wendy@mvvclub.com' is set on object 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+19-05-2025T22:49:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/input_false_password"), "ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"): Text ****** has been set on object 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+19-05-2025T22:49:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+19-05-2025T22:49:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/button_Log In")): Object: 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+19-05-2025T22:49:52 - [MESSAGE][PASSED] - Object: 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+19-05-2025T22:49:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/a_Athletes")): Object: 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/a_Athletes' is clicked on
+
+19-05-2025T22:49:55 - [MESSAGE][PASSED] - Object: 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/a_Athletes' is clicked on
+
+19-05-2025T22:49:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/a_Import from SportEngine")): Object: 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/a_Import from SportEngine' is clicked on
+
+19-05-2025T22:49:56 - [MESSAGE][PASSED] - Object: 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/a_Import from SportEngine' is clicked on
+
+19-05-2025T22:49:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/button_Start Import")): Object: 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/button_Start Import' is clicked on
+
+19-05-2025T22:49:58 - [MESSAGE][PASSED] - Object: 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/button_Start Import' is clicked on
+
+19-05-2025T22:49:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/div_Import started"), 0): Object 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/div_Import started' is present
+
+19-05-2025T22:49:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:50:00 - [MESSAGE][PASSED] - Object 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/div_Import started' is present
+
+19-05-2025T22:50:00 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+19-05-2025T22:50:01 - [MESSAGE][PASSED] - Refresh successfully
+
+19-05-2025T22:50:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait"), 0): Object 'Object Repository/Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait' is present
+
+19-05-2025T22:50:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:50:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait' is present
+
+19-05-2025T22:50:02 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait"), 30): Web element with id: 'Object Repository/Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait' located by 'By.xpath: /html[@class="no-js"]/body[1]/div[@class="container-fluid block-height-min"]/div[@class="container club-menu-container"]/div[@class="tab-content clubownermenucontent"]/div[@class="tab-pane active"]/div[1]/div[@class="alert alert-warning"]/div[@class="row"]/div[@class="col-xs-12 text-center"][count(. | //div[@class = 'col-xs-12 text-center' and (text() = 'Import is still in progress, please wait...' or . = 'Import is still in progress, please wait...')]) = count(//div[@class = 'col-xs-12 text-center' and (text() = 'Import is still in progress, please wait...' or . = 'Import is still in progress, please wait...')])]' is not present after '30' second(s)
+
+19-05-2025T22:50:30 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait' located by 'By.xpath: /html[@class="no-js"]/body[1]/div[@class="container-fluid block-height-min"]/div[@class="container club-menu-container"]/div[@class="tab-content clubownermenucontent"]/div[@class="tab-pane active"]/div[1]/div[@class="alert alert-warning"]/div[@class="row"]/div[@class="col-xs-12 text-center"][count(. | //div[@class = 'col-xs-12 text-center' and (text() = 'Import is still in progress, please wait...' or . = 'Import is still in progress, please wait...')]) = count(//div[@class = 'col-xs-12 text-center' and (text() = 'Import is still in progress, please wait...' or . = 'Import is still in progress, please wait...')])]' is not present after '30' second(s)
+
+19-05-2025T22:50:30 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+19-05-2025T22:50:31 - [MESSAGE][PASSED] - Refresh successfully
+
+19-05-2025T22:50:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/a_Import from SportEngine")): Object: 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/a_Import from SportEngine' is clicked on
+
+19-05-2025T22:50:31 - [MESSAGE][PASSED] - Object: 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/a_Import from SportEngine' is clicked on
+
+19-05-2025T22:50:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/input_Import New AthleteStaff and Update Cu_a5a4d5")): Object: 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/input_Import New AthleteStaff and Update Cu_a5a4d5' is clicked on
+
+19-05-2025T22:50:33 - [MESSAGE][PASSED] - Object: 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/input_Import New AthleteStaff and Update Cu_a5a4d5' is clicked on
+
+19-05-2025T22:50:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/button_Start Import"), STOP_ON_FAILURE): Object: 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/button_Start Import' is clicked on
+
+19-05-2025T22:50:33 - [MESSAGE][PASSED] - Object: 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/button_Start Import' is clicked on
+
+19-05-2025T22:50:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/div_Import started"), 0): Object 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/div_Import started' is present
+
+19-05-2025T22:50:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:50:35 - [MESSAGE][PASSED] - Object 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/div_Import started' is present
+
+19-05-2025T22:50:35 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+19-05-2025T22:50:35 - [MESSAGE][PASSED] - Refresh successfully
+
+19-05-2025T22:50:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait"), 0): Object 'Object Repository/Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait' is present
+
+19-05-2025T22:50:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:50:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait' is present
+
+19-05-2025T22:50:37 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait"), 30): Web element with id: 'Object Repository/Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait' located by 'By.xpath: /html[@class="no-js"]/body[1]/div[@class="container-fluid block-height-min"]/div[@class="container club-menu-container"]/div[@class="tab-content clubownermenucontent"]/div[@class="tab-pane active"]/div[1]/div[@class="alert alert-warning"]/div[@class="row"]/div[@class="col-xs-12 text-center"][count(. | //div[@class = 'col-xs-12 text-center' and (text() = 'Import is still in progress, please wait...' or . = 'Import is still in progress, please wait...')]) = count(//div[@class = 'col-xs-12 text-center' and (text() = 'Import is still in progress, please wait...' or . = 'Import is still in progress, please wait...')])]' is not present after '30' second(s)
+
+19-05-2025T22:50:53 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait' located by 'By.xpath: /html[@class="no-js"]/body[1]/div[@class="container-fluid block-height-min"]/div[@class="container club-menu-container"]/div[@class="tab-content clubownermenucontent"]/div[@class="tab-pane active"]/div[1]/div[@class="alert alert-warning"]/div[@class="row"]/div[@class="col-xs-12 text-center"][count(. | //div[@class = 'col-xs-12 text-center' and (text() = 'Import is still in progress, please wait...' or . = 'Import is still in progress, please wait...')]) = count(//div[@class = 'col-xs-12 text-center' and (text() = 'Import is still in progress, please wait...' or . = 'Import is still in progress, please wait...')])]' is not present after '30' second(s)
+
+19-05-2025T22:50:53 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+19-05-2025T22:50:54 - [MESSAGE][PASSED] - Refresh successfully
+
+19-05-2025T22:50:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/a_Import from AAU")): Object: 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/a_Import from AAU' is clicked on
+
+19-05-2025T22:50:54 - [MESSAGE][PASSED] - Object: 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/a_Import from AAU' is clicked on
+
+19-05-2025T22:50:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/button_Start Import")): Object: 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/button_Start Import' is clicked on
+
+19-05-2025T22:50:56 - [MESSAGE][PASSED] - Object: 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/button_Start Import' is clicked on
+
+19-05-2025T22:50:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/div_Import started"), 0): Object 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/div_Import started' is present
+
+19-05-2025T22:50:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:51:00 - [MESSAGE][PASSED] - Object 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/div_Import started' is present
+
+19-05-2025T22:51:00 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+19-05-2025T22:51:01 - [MESSAGE][PASSED] - Refresh successfully
+
+19-05-2025T22:51:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait"), 0): Object 'Object Repository/Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait' is present
+
+19-05-2025T22:51:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:51:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait' is present
+
+19-05-2025T22:51:02 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait"), 30): Web element with id: 'Object Repository/Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait' located by 'By.xpath: /html[@class="no-js"]/body[1]/div[@class="container-fluid block-height-min"]/div[@class="container club-menu-container"]/div[@class="tab-content clubownermenucontent"]/div[@class="tab-pane active"]/div[1]/div[@class="alert alert-warning"]/div[@class="row"]/div[@class="col-xs-12 text-center"][count(. | //div[@class = 'col-xs-12 text-center' and (text() = 'Import is still in progress, please wait...' or . = 'Import is still in progress, please wait...')]) = count(//div[@class = 'col-xs-12 text-center' and (text() = 'Import is still in progress, please wait...' or . = 'Import is still in progress, please wait...')])]' is not present after '30' second(s)
+
+19-05-2025T22:51:24 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait' located by 'By.xpath: /html[@class="no-js"]/body[1]/div[@class="container-fluid block-height-min"]/div[@class="container club-menu-container"]/div[@class="tab-content clubownermenucontent"]/div[@class="tab-pane active"]/div[1]/div[@class="alert alert-warning"]/div[@class="row"]/div[@class="col-xs-12 text-center"][count(. | //div[@class = 'col-xs-12 text-center' and (text() = 'Import is still in progress, please wait...' or . = 'Import is still in progress, please wait...')]) = count(//div[@class = 'col-xs-12 text-center' and (text() = 'Import is still in progress, please wait...' or . = 'Import is still in progress, please wait...')])]' is not present after '30' second(s)
+
+19-05-2025T22:51:24 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+19-05-2025T22:51:24 - [MESSAGE][PASSED] - Refresh successfully
+
+19-05-2025T22:51:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/a_Import from AAU")): Object: 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/a_Import from AAU' is clicked on
+
+19-05-2025T22:51:25 - [MESSAGE][PASSED] - Object: 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/a_Import from AAU' is clicked on
+
+19-05-2025T22:51:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/input_Import New AthleteStaff and Update Cu_a5a4d5")): Object: 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/input_Import New AthleteStaff and Update Cu_a5a4d5' is clicked on
+
+19-05-2025T22:51:27 - [MESSAGE][PASSED] - Object: 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/input_Import New AthleteStaff and Update Cu_a5a4d5' is clicked on
+
+19-05-2025T22:51:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/button_Start Import")): Object: 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/button_Start Import' is clicked on
+
+19-05-2025T22:51:27 - [MESSAGE][PASSED] - Object: 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/button_Start Import' is clicked on
+
+19-05-2025T22:51:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/div_Import started"), 0): Object 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/div_Import started' is present
+
+19-05-2025T22:51:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:51:31 - [MESSAGE][PASSED] - Object 'Object Repository/USAV and AAU import/Page_SportWrench - The Home of Sporting Events/div_Import started' is present
+
+19-05-2025T22:51:31 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+19-05-2025T22:51:32 - [MESSAGE][PASSED] - Refresh successfully
+
+19-05-2025T22:51:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait"), 0): Object 'Object Repository/Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait' is present
+
+19-05-2025T22:51:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-05-2025T22:51:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait' is present
+
+19-05-2025T22:51:33 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait"), 30): Web element with id: 'Object Repository/Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait' located by 'By.xpath: /html[@class="no-js"]/body[1]/div[@class="container-fluid block-height-min"]/div[@class="container club-menu-container"]/div[@class="tab-content clubownermenucontent"]/div[@class="tab-pane active"]/div[1]/div[@class="alert alert-warning"]/div[@class="row"]/div[@class="col-xs-12 text-center"][count(. | //div[@class = 'col-xs-12 text-center' and (text() = 'Import is still in progress, please wait...' or . = 'Import is still in progress, please wait...')]) = count(//div[@class = 'col-xs-12 text-center' and (text() = 'Import is still in progress, please wait...' or . = 'Import is still in progress, please wait...')])]' is not present after '30' second(s)
+
+19-05-2025T22:51:54 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_SportWrench - The Home of Sporting Events/div_Import is still in progress, please wait' located by 'By.xpath: /html[@class="no-js"]/body[1]/div[@class="container-fluid block-height-min"]/div[@class="container club-menu-container"]/div[@class="tab-content clubownermenucontent"]/div[@class="tab-pane active"]/div[1]/div[@class="alert alert-warning"]/div[@class="row"]/div[@class="col-xs-12 text-center"][count(. | //div[@class = 'col-xs-12 text-center' and (text() = 'Import is still in progress, please wait...' or . = 'Import is still in progress, please wait...')]) = count(//div[@class = 'col-xs-12 text-center' and (text() = 'Import is still in progress, please wait...' or . = 'Import is still in progress, please wait...')])]' is not present after '30' second(s)
+
+19-05-2025T22:51:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+19-05-2025T22:51:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-05-2025T22:48:29 - [TEST_SUITE][PASSED] - Club: Test Cases/111Club/USAV and AAU import]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

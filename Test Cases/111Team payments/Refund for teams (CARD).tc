@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Refund for teams (CARD)</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>04f3a023-da8a-4f24-b54d-c4854e76d91c</testCaseGuid>
-</TestCaseEntity>

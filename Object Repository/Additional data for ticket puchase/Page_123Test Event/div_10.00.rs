@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_10.00</name>
+   <tag></tag>
+   <elementGuidId>3ffa5cd5-c88c-420b-8151-dea1fb34ae01</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Price:'])[1]/following::div[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.receipt_participant_information-body_item-value.text-bold</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d03938c1-0204-4f05-b3be-aa700ab350ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>receipt_participant_information-body_item-value text-bold</value>
+      <webElementGuid>49dfaf44-9d6c-4af3-9c4a-7a979378f582</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$10.00</value>
+      <webElementGuid>e2277484-a886-4514-90f5-9f88576840ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;receipt_wrapper&quot;]/div[@class=&quot;receipt_participant&quot;]/div[@class=&quot;receipt_participant_information&quot;]/div[@class=&quot;receipt_participant_information-body&quot;]/div[@class=&quot;receipt_participant_information-body_item receipt_price&quot;]/div[@class=&quot;receipt_participant_information-body_item-value text-bold&quot;]</value>
+      <webElementGuid>fcea9cd2-e21f-45ba-ba3e-14ed196370d0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Price:'])[1]/following::div[1]</value>
+      <webElementGuid>78a4b24e-a2e5-4849-9e35-7bf17eee5c4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='May 11, 2025, 05:37 PM'])[1]/following::div[4]</value>
+      <webElementGuid>450dd757-441b-45d1-bb6c-dfaab3671f74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tara Charles'])[1]/preceding::div[1]</value>
+      <webElementGuid>6ca70121-2dab-4f67-bda7-de9eea56eba4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Government photo ID'])[2]/preceding::div[5]</value>
+      <webElementGuid>6bf14503-e946-461a-932e-a0aff836f14e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='$10.00']/parent::*</value>
+      <webElementGuid>8886548d-34b6-458c-b334-fc056a7f86ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[7]/div[2]</value>
+      <webElementGuid>379671f5-5cbf-414f-aea5-1fe9fa87324e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '$10.00' or . = '$10.00')]</value>
+      <webElementGuid>f77bfd83-3dcd-4137-a293-7f8af928bc66</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

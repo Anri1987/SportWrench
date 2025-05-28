@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Make A Full Refund</name>
+   <tag></tag>
+   <elementGuidId>abcbde31-e03e-4222-b13e-1aaf02645aa6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='refund-type']/ul/li/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#refund-type > ul.dropdown-menu > li > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>18410798-002f-45e8-908b-eb11cdf07638</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>sw-confirm</name>
+      <type>Main</type>
+      <value>Confirm a Full Refund</value>
+      <webElementGuid>a681b2ab-e336-4a30-b4a7-3bdcbece80f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>sw-confirm-do</name>
+      <type>Main</type>
+      <value>fullRefund</value>
+      <webElementGuid>654d0a17-5534-49d7-8e5f-94a1dfe473c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Make A Full Refund</value>
+      <webElementGuid>ca333469-881a-49c0-a5d5-85ad1a1eee8c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;refund-type&quot;)/ul[@class=&quot;dropdown-menu&quot;]/li[1]/a[1]</value>
+      <webElementGuid>6d1010f7-ba48-422d-b511-c40edb76e797</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='refund-type']/ul/li/a</value>
+      <webElementGuid>aeaa9ddb-8fe7-41c6-ba88-07ba16c9bbe2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Make A Full Refund')]</value>
+      <webElementGuid>d6053fa5-44b8-4295-8c31-634c1ad8d550</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Refund'])[1]/following::a[1]</value>
+      <webElementGuid>572d757e-6ce6-44a5-a5e9-2bb2037b0c9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Price: $10.00'])[1]/following::a[1]</value>
+      <webElementGuid>677d0976-140a-463a-80a8-d5ab68d8d1d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Partial Refund'])[1]/preceding::a[1]</value>
+      <webElementGuid>98063c0c-c5f4-4b3b-9fc9-502c80546afc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Scanner Info'])[1]/preceding::a[2]</value>
+      <webElementGuid>481ad0b1-653c-4c5a-93d0-1aa2cafa6377</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Make A Full Refund']/parent::*</value>
+      <webElementGuid>24a00ada-0f14-478a-981c-325f36101449</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '')])[9]</value>
+      <webElementGuid>e78e0fda-cbff-4494-bd14-3e88f1eea640</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/ul/li/a</value>
+      <webElementGuid>e6ae5f8b-15d0-40b5-b4e8-f465e265bccd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Make A Full Refund' or . = 'Make A Full Refund')]</value>
+      <webElementGuid>0310e5ff-4792-4950-b929-7a66af8afd14</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

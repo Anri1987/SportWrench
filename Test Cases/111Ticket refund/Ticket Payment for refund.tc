@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Ticket Payment for refund</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>68ab173a-88e1-4ab4-9990-5aa6cae3c612</testCaseGuid>
+</TestCaseEntity>

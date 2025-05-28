@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Save</name>
+   <tag></tag>
+   <elementGuidId>647d6905-1154-47ea-a231-ca4bfcb089f2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-sm-2 > button.btn.btn-success</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Stripe Account'])[1]/following::button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b4d53b1f-8885-49ae-918f-213dfd1e52e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-success</value>
+      <webElementGuid>44edfc16-b1fb-4b5f-be9c-c49c9cbfa03b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-if</name>
+      <type>Main</type>
+      <value>hasPaymentAccountChanged()</value>
+      <webElementGuid>bf9d810a-8cd5-4372-b8dd-95db0aec1b46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>savePaymentAccount()</value>
+      <webElementGuid>75838839-8f0a-4116-8e62-440e5a9a4da2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Save</value>
+      <webElementGuid>369f536b-1a9a-473e-91cc-d228a4063213</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/div[@class=&quot;row rowm0&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;tab-content eo-dashboard&quot;]/div[@class=&quot;tab-pane active&quot;]/div[1]/div[@class=&quot;row row-space rowm0&quot;]/div[@class=&quot;col-xs-12 col-sm-offset-1 col-sm-7&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-body&quot;]/div[@class=&quot;row row-space&quot;]/div[@class=&quot;col-sm-2&quot;]/button[@class=&quot;btn btn-success&quot;]</value>
+      <webElementGuid>0a169e63-26f2-4d22-a30e-109a4f7c3972</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stripe Account'])[1]/following::button[1]</value>
+      <webElementGuid>d4da509f-feff-463f-8e35-39bd34372cc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tickets Payment Settings'])[1]/following::button[1]</value>
+      <webElementGuid>8555490f-5d25-4afe-9f49-35636cac1823</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SW Application Fee'])[1]/preceding::button[1]</value>
+      <webElementGuid>50dbdd6f-b641-4b26-88c1-e0b5f1462130</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$1.10'])[1]/preceding::button[1]</value>
+      <webElementGuid>fc4d11e9-ed61-4bde-85dc-3b7801a7c307</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[3]/button</value>
+      <webElementGuid>ce369554-45bc-4890-9266-6e83c6a7116e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Save' or . = 'Save')]</value>
+      <webElementGuid>0ae79505-f879-483f-9007-4259534af232</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

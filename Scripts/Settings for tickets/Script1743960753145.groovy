@@ -30,9 +30,9 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Settings for tickets/Pa
 WebUI.click(findTestObject('Object Repository/Settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Log In'))
 
 WebUI.setText(findTestObject('Object Repository/Settings for tickets/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox'), 
-    '123 Ticket test event')
+    '123Test Event')
 
-WebUI.click(findTestObject('Object Repository/Settings for tickets/Page_SportWrench - The Home of Sporting Events/a_123 Ticket test event'))
+WebUI.click(findTestObject('Create settings for tickets/Page_SportWrench - The Home of Sporting Events/a_123Test Event'))
 
 WebUI.click(findTestObject('Object Repository/Settings for tickets/Page_SportWrench - The Home of Sporting Events/span_Tickets_caret'))
 

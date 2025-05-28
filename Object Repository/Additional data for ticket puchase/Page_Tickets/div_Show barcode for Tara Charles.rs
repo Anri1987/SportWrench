@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Show barcode for Tara Charles</name>
+   <tag></tag>
+   <elementGuidId>2335ffb3-9222-4238-a664-33f081cdb4a3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div/div/div/div[7]/div[3]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.rn-13yce4e.rn-fnigne.rn-ndvcnb.rn-gxnn5r.rn-deolkf.rn-jwli3a.rn-1471scf.rn-tzz3ar.rn-14xgk7a.rn-o11vmf.rn-ebii48.rn-gul640.rn-t9a87b.rn-1mnahxq.rn-61z16t.rn-p1pxzi.rn-11wrixw.rn-dnmrzs.rn-11yh6sk.rn-buy8e9.rn-wk8lta.rn-9aemit.rn-1mdbw0j.rn-gy4na3.rn-q4m81j.rn-bauka4.rn-1udbk01.rn-3s2u2q.rn-qvutc0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e13ceee2-c5cd-4114-9e03-edd6ae849f60</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>auto</value>
+      <webElementGuid>3c16b639-872d-4645-b6d7-26a2d2b1914a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rn-13yce4e rn-fnigne rn-ndvcnb rn-gxnn5r rn-deolkf rn-jwli3a rn-1471scf rn-tzz3ar rn-14xgk7a rn-o11vmf rn-ebii48 rn-gul640 rn-t9a87b rn-1mnahxq rn-61z16t rn-p1pxzi rn-11wrixw rn-dnmrzs rn-11yh6sk rn-buy8e9 rn-wk8lta rn-9aemit rn-1mdbw0j rn-gy4na3 rn-q4m81j rn-bauka4 rn-1udbk01 rn-3s2u2q rn-qvutc0</value>
+      <webElementGuid>7f29a37e-0ed1-4a1a-a2c3-59c19e97db07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Show barcode for Tara Charles</value>
+      <webElementGuid>1a6960dc-ec25-4997-91b6-484e759b8f4a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;rn-1oszu61 rn-1efd50x rn-14skgim rn-rull8r rn-mm0ijv rn-13yce4e rn-fnigne rn-ndvcnb rn-gxnn5r rn-deolkf rn-6koalj rn-16y2uox rn-1wbh5a2 rn-1ro0kt6 rn-eqz5dr rn-1mnahxq rn-61z16t rn-p1pxzi rn-11wrixw rn-ifefl9 rn-bcqeeo rn-wk8lta rn-9aemit rn-1mdbw0j rn-gy4na3 rn-12vffkv rn-bnwqim rn-1lgpqti&quot;]/div[@class=&quot;rn-1oszu61 rn-1efd50x rn-14skgim rn-rull8r rn-mm0ijv rn-13yce4e rn-fnigne rn-ndvcnb rn-gxnn5r rn-deolkf rn-6koalj rn-16y2uox rn-1wbh5a2 rn-1ro0kt6 rn-eqz5dr rn-1mnahxq rn-61z16t rn-p1pxzi rn-11wrixw rn-ifefl9 rn-bcqeeo rn-wk8lta rn-9aemit rn-1mdbw0j rn-gy4na3 rn-12vffkv rn-bnwqim rn-1lgpqti&quot;]/div[@class=&quot;rn-1oszu61 rn-6qh97a rn-1efd50x rn-14skgim rn-rull8r rn-mm0ijv rn-13yce4e rn-fnigne rn-ndvcnb rn-gxnn5r rn-deolkf rn-6koalj rn-1qe8dj5 rn-1mlwlqe rn-eqz5dr rn-1mnahxq rn-61z16t rn-p1pxzi rn-11wrixw rn-ifefl9 rn-bcqeeo rn-9aemit rn-1mdbw0j rn-gy4na3 rn-bnwqim rn-1lgpqti&quot;]/div[@class=&quot;rn-1oszu61 rn-6qh97a rn-1efd50x rn-14skgim rn-rull8r rn-mm0ijv rn-13yce4e rn-fnigne rn-ndvcnb rn-gxnn5r rn-deolkf rn-6koalj rn-1qe8dj5 rn-1mlwlqe rn-eqz5dr rn-1mnahxq rn-61z16t rn-p1pxzi rn-11wrixw rn-bcqeeo rn-wk8lta rn-bnwqim rn-1lgpqti&quot;]/div[@class=&quot;rn-1oszu61 rn-1efd50x rn-14skgim rn-rull8r rn-mm0ijv rn-13yce4e rn-fnigne rn-ndvcnb rn-gxnn5r rn-deolkf rn-6koalj rn-1qe8dj5 rn-1mlwlqe rn-eqz5dr rn-1mnahxq rn-61z16t rn-p1pxzi rn-11wrixw rn-ifefl9 rn-bcqeeo rn-wk8lta rn-9aemit rn-gy4na3 rn-bnwqim rn-1lgpqti&quot;]/div[@class=&quot;rn-1oszu61 rn-1efd50x rn-14skgim rn-rull8r rn-mm0ijv rn-13yce4e rn-fnigne rn-ndvcnb rn-gxnn5r rn-deolkf rn-6koalj rn-1qe8dj5 rn-1mlwlqe rn-eqz5dr rn-61z16t rn-p1pxzi rn-11wrixw rn-ifefl9 rn-bcqeeo rn-wk8lta rn-9aemit rn-1mdbw0j rn-gy4na3 rn-bnwqim rn-1lgpqti&quot;]/div[@class=&quot;rn-1oszu61 rn-6qh97a rn-1efd50x rn-14skgim rn-rull8r rn-mm0ijv rn-13yce4e rn-fnigne rn-ndvcnb rn-gxnn5r rn-deolkf rn-6koalj rn-1qe8dj5 rn-1mlwlqe rn-eqz5dr rn-1mnahxq rn-61z16t rn-p1pxzi rn-11wrixw rn-ifefl9 rn-bcqeeo rn-wk8lta rn-9aemit rn-1mdbw0j rn-gy4na3 rn-bnwqim rn-1lgpqti&quot;]/div[@class=&quot;rn-1oszu61 rn-1efd50x rn-14skgim rn-rull8r rn-mm0ijv rn-13yce4e rn-fnigne rn-ndvcnb rn-gxnn5r rn-deolkf rn-6koalj rn-1qe8dj5 rn-1mlwlqe rn-eqz5dr rn-1mnahxq rn-61z16t rn-p1pxzi rn-11wrixw rn-ifefl9 rn-bcqeeo rn-wk8lta rn-9aemit rn-1mdbw0j rn-gy4na3 rn-bnwqim rn-1lgpqti&quot;]/div[@class=&quot;rn-1oszu61 rn-1efd50x rn-14skgim rn-rull8r rn-mm0ijv rn-13yce4e rn-fnigne rn-ndvcnb rn-gxnn5r rn-deolkf rn-6koalj rn-1qe8dj5 rn-1mlwlqe rn-eqz5dr rn-1mnahxq rn-61z16t rn-p1pxzi rn-11wrixw rn-ifefl9 rn-bcqeeo rn-wk8lta rn-9aemit rn-1mdbw0j rn-gy4na3 rn-bnwqim rn-1lgpqti&quot;]/div[@class=&quot;rn-1oszu61 rn-1efd50x rn-14skgim rn-rull8r rn-mm0ijv rn-13yce4e rn-fnigne rn-ndvcnb rn-gxnn5r rn-deolkf rn-6koalj rn-1qe8dj5 rn-1mlwlqe rn-eqz5dr rn-1mnahxq rn-61z16t rn-p1pxzi rn-11wrixw rn-ifefl9 rn-bcqeeo rn-9aemit rn-1mdbw0j rn-gy4na3 rn-bnwqim rn-1lgpqti&quot;]/div[@class=&quot;rn-1oszu61 rn-1kihuf0 rn-1efd50x rn-14skgim rn-rull8r rn-mm0ijv rn-13yce4e rn-fnigne rn-ndvcnb rn-gxnn5r rn-deolkf rn-6koalj rn-16y2uox rn-1wbh5a2 rn-1ro0kt6 rn-eqz5dr rn-1mnahxq rn-61z16t rn-p1pxzi rn-11wrixw rn-ifefl9 rn-bcqeeo rn-wk8lta rn-1qfoi16 rn-1mdbw0j rn-1hfyk0a rn-bnwqim rn-1lgpqti&quot;]/div[@class=&quot;rn-1oszu61 rn-1efd50x rn-14skgim rn-rull8r rn-mm0ijv rn-13yce4e rn-fnigne rn-ndvcnb rn-gxnn5r rn-deolkf rn-6koalj rn-1qe8dj5 rn-1mlwlqe rn-eqz5dr rn-1mnahxq rn-61z16t rn-p1pxzi rn-11wrixw rn-ifefl9 rn-bcqeeo rn-wk8lta rn-9aemit rn-1mdbw0j rn-gy4na3 rn-bnwqim rn-1lgpqti&quot;]/div[@class=&quot;rn-1oszu61 rn-1efd50x rn-14skgim rn-rull8r rn-mm0ijv rn-13yce4e rn-fnigne rn-ndvcnb rn-gxnn5r rn-deolkf rn-6koalj rn-1qe8dj5 rn-1mlwlqe rn-eqz5dr rn-1mnahxq rn-61z16t rn-p1pxzi rn-11wrixw rn-ifefl9 rn-bcqeeo rn-wk8lta rn-9aemit rn-gy4na3 rn-1mi0q7o rn-bnwqim rn-1lgpqti&quot;]/div[@class=&quot;rn-1awozwy rn-12d86ix rn-rull8r rn-ndvcnb rn-mm0ijv rn-gxnn5r rn-14skgim rn-fnigne rn-1efd50x rn-13yce4e rn-deolkf rn-1loqt21 rn-6koalj rn-1mlwlqe rn-18u37iz rn-1qe8dj5 rn-1777fci rn-11wrixw rn-61z16t rn-1mnahxq rn-ifefl9 rn-bcqeeo rn-1mi0q7o rn-1hfyk0a rn-1qfoi16 rn-m611by rn-bnwqim rn-1otgn73 rn-1i6wzkk rn-lrvibr rn-1lgpqti&quot;]/div[@class=&quot;rn-13yce4e rn-fnigne rn-ndvcnb rn-gxnn5r rn-deolkf rn-jwli3a rn-1471scf rn-tzz3ar rn-14xgk7a rn-o11vmf rn-ebii48 rn-gul640 rn-t9a87b rn-1mnahxq rn-61z16t rn-p1pxzi rn-11wrixw rn-dnmrzs rn-11yh6sk rn-buy8e9 rn-wk8lta rn-9aemit rn-1mdbw0j rn-gy4na3 rn-q4m81j rn-bauka4 rn-1udbk01 rn-3s2u2q rn-qvutc0&quot;]</value>
+      <webElementGuid>f6777c85-37e6-4c94-8478-fce8ffc60218</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div/div/div/div[7]/div[3]/div</value>
+      <webElementGuid>f96e30fb-6e93-4686-877d-8363fc592494</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='List of all ticket holders on this purchase:'])[2]/following::div[2]</value>
+      <webElementGuid>c78f1153-9c02-44fd-834a-1d119509172d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='List of all ticket holders on this purchase:'])[1]/following::div[3]</value>
+      <webElementGuid>f3f21d6d-7793-4630-8a1b-cbc8ee29a1b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send a Message to Support'])[1]/preceding::div[1]</value>
+      <webElementGuid>15cf9920-8072-4c83-80b7-b403d64e0fd3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dev. 0.4.81'])[1]/preceding::div[2]</value>
+      <webElementGuid>12106df6-f81a-40af-9d49-705571083d71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Show barcode for Tara Charles']/parent::*</value>
+      <webElementGuid>c5bd0e87-4404-430e-a2ef-6f6ed5f26ffb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div[3]/div</value>
+      <webElementGuid>5bde01db-0476-4569-8a24-16b073f73b87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Show barcode for Tara Charles' or . = 'Show barcode for Tara Charles')]</value>
+      <webElementGuid>e8412276-0a7f-4107-ae06-1843b62fe493</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

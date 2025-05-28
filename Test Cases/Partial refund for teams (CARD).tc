@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Partial refund for teams (CARD)</name>
-   <tag>team, refund</tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>8c3065f5-600d-48dd-ab01-d26d3e14d112</testCaseGuid>
-</TestCaseEntity>

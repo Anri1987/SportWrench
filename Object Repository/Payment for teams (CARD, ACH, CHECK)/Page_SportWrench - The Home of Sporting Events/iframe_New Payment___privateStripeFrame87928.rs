@@ -10,12 +10,12 @@
          <value>//iframe[@name='__privateStripeFrame87928']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>iframe[name=&quot;__privateStripeFrame87928&quot;]</value>
+         <key>BASIC</key>
+         <value>/html[@class=&quot;no-js&quot;]/body[@class=&quot;modal-open&quot;]/div[1]/iframe[1]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>CSS</key>
+         <value>iframe[name=&quot;__privateStripeFrame87928&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>iframe</value>
-      <webElementGuid>36854ef3-50b3-4e85-ad29-78da6775fd7c</webElementGuid>
+      <webElementGuid>007ab597-0ffe-4bea-8232-f6556ae1bb43</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>name</name>
       <type>Main</type>
       <value>__privateStripeFrame87928</value>
-      <webElementGuid>c2790739-be0a-4e0f-a806-d3355d5ae112</webElementGuid>
+      <webElementGuid>470544c5-b86b-48e9-b284-023ef692d4df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>frameborder</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>95b9cc55-4167-4019-ab54-b3ec2f605976</webElementGuid>
+      <webElementGuid>d45819be-d51e-4266-8e64-bddbb9c57b64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>allowtransparency</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>688e2c48-079f-43e9-9a52-46241f82e8bf</webElementGuid>
+      <webElementGuid>8d511a7f-f249-4806-a6e6-0c74ee296058</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>scrolling</name>
       <type>Main</type>
       <value>no</value>
-      <webElementGuid>1693d585-a8db-4a9d-bbb0-12404e69e51a</webElementGuid>
+      <webElementGuid>2d1643a4-c8b6-4f92-8fe1-2eb24a7e267c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>4d16d306-6712-4cd2-adce-ba8535651760</webElementGuid>
+      <webElementGuid>31a3dae2-12be-4653-a80e-87e1012325f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>allow</name>
       <type>Main</type>
       <value>payment *; clipboard-write</value>
-      <webElementGuid>0f7fd799-4d7a-44e6-a840-0883820eea77</webElementGuid>
+      <webElementGuid>f5d62660-e1a1-4ff3-a230-fab20b1cfe42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -89,15 +89,15 @@
       <name>src</name>
       <type>Main</type>
       <value>https://js.stripe.com/v3/linked-accounts-inner-736f6e2af3f866808426a222d2a40aab.html#clientSecret=pi_3RC5AK2Yt0RbUG0q1dP4VaBV_secret_xkIRTzgzAmzm3a5MU8pBt78Jc&amp;linkAccountSessionCreatorType=payment_intent&amp;linkAccountSessionCreatorId=pi_3RC5AK2Yt0RbUG0q1dP4VaBV&amp;linkAccountSessionCreationParams[attach_required]=false&amp;linkAccountSessionCreationParams[initial_institution]=bcinst_Jg18xEfPHevfHP&amp;linkAccountSessionCreationParams[payment_method_data][type]=us_bank_account&amp;linkAccountSessionCreationParams[manual_entry_only]=false&amp;linkAccountSessionCreationParams[search_session]=0af6eb4f-01d5-4609-96ea-8c2258cc6ca2&amp;linkAccountSessionCreationParams[hosted_surface]=payment_element&amp;linkAccountSessionCreationParams[link_mode]=PASSTHROUGH&amp;linkAccountSessionCreationParams[request_surface_id]=2f4dedfe-d0e0-4e8c-8608-2550a2800b47&amp;apiKey=pk_test_tFXze1a9YCyUsqvt06bECa8R&amp;sharedSessionContext[publishableKey]=pk_test_tFXze1a9YCyUsqvt06bECa8R&amp;sharedSessionContext[routing][type]=frame_to_frame&amp;sharedSessionContext[routing][sharedId]=11953822-a598-4667-bf9f-999a3ae2b3de&amp;sharedSessionContext[routing][frameId]=__privateStripeController87922&amp;sharedSessionContext[routing][origin]=https%3A%2F%2Fjs.stripe.com&amp;groupId=elements-00fea8cf-ea0b-44cb-867f-8b7cf2f2e6e9-87923&amp;useContinueButtonOnSuccess=true&amp;merchantToken=acct_1O2YIbJqzlSpNBAh&amp;hasExistingConsumerSession=false&amp;emitEvents=true&amp;stripeJsId=2f4dedfe-d0e0-4e8c-8608-2550a2800b47&amp;primaryFrameId=__privateStripeFrame87924&amp;referrer=https%3A%2F%2Fmy.dev.swstage.com%2F%23%2Fclub%2Fevent%2F25568%2Fteams%2Fpay&amp;controllerId=__privateStripeController87922</value>
-      <webElementGuid>399e0ecc-e528-4bf5-b650-8344b949135f</webElementGuid>
+      <webElementGuid>38a3d00f-f017-4b91-b02d-08f9b2fe8caa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;no-js&quot;]/body[@class=&quot;modal-open&quot;]/div[1]/iframe[1]</value>
-      <webElementGuid>55b50e71-8899-4401-8375-f5c513e47406</webElementGuid>
+      <webElementGuid>0bb13d8b-7989-40b0-b8d9-275ed4d9edcf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//iframe[@name='__privateStripeFrame87928']</value>
-      <webElementGuid>b65a21f4-ef11-4402-b787-4f01c5f38e18</webElementGuid>
+      <webElementGuid>b3524022-75f0-4253-b6fc-5139254d907e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//iframe</value>
-      <webElementGuid>ea5d2340-6895-470a-ae3f-fe16217bb57b</webElementGuid>
+      <webElementGuid>b13f89ac-40f0-4f33-ba44-5d772c401007</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,6 +121,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//iframe[@name = '__privateStripeFrame87928' and @src = 'https://js.stripe.com/v3/linked-accounts-inner-736f6e2af3f866808426a222d2a40aab.html#clientSecret=pi_3RC5AK2Yt0RbUG0q1dP4VaBV_secret_xkIRTzgzAmzm3a5MU8pBt78Jc&amp;linkAccountSessionCreatorType=payment_intent&amp;linkAccountSessionCreatorId=pi_3RC5AK2Yt0RbUG0q1dP4VaBV&amp;linkAccountSessionCreationParams[attach_required]=false&amp;linkAccountSessionCreationParams[initial_institution]=bcinst_Jg18xEfPHevfHP&amp;linkAccountSessionCreationParams[payment_method_data][type]=us_bank_account&amp;linkAccountSessionCreationParams[manual_entry_only]=false&amp;linkAccountSessionCreationParams[search_session]=0af6eb4f-01d5-4609-96ea-8c2258cc6ca2&amp;linkAccountSessionCreationParams[hosted_surface]=payment_element&amp;linkAccountSessionCreationParams[link_mode]=PASSTHROUGH&amp;linkAccountSessionCreationParams[request_surface_id]=2f4dedfe-d0e0-4e8c-8608-2550a2800b47&amp;apiKey=pk_test_tFXze1a9YCyUsqvt06bECa8R&amp;sharedSessionContext[publishableKey]=pk_test_tFXze1a9YCyUsqvt06bECa8R&amp;sharedSessionContext[routing][type]=frame_to_frame&amp;sharedSessionContext[routing][sharedId]=11953822-a598-4667-bf9f-999a3ae2b3de&amp;sharedSessionContext[routing][frameId]=__privateStripeController87922&amp;sharedSessionContext[routing][origin]=https%3A%2F%2Fjs.stripe.com&amp;groupId=elements-00fea8cf-ea0b-44cb-867f-8b7cf2f2e6e9-87923&amp;useContinueButtonOnSuccess=true&amp;merchantToken=acct_1O2YIbJqzlSpNBAh&amp;hasExistingConsumerSession=false&amp;emitEvents=true&amp;stripeJsId=2f4dedfe-d0e0-4e8c-8608-2550a2800b47&amp;primaryFrameId=__privateStripeFrame87924&amp;referrer=https%3A%2F%2Fmy.dev.swstage.com%2F%23%2Fclub%2Fevent%2F25568%2Fteams%2Fpay&amp;controllerId=__privateStripeController87922']</value>
-      <webElementGuid>38f98884-910b-44d5-b4c4-8ed9f9fc27ad</webElementGuid>
+      <webElementGuid>b0368186-7982-4c63-aa39-a2c9266ba4dd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

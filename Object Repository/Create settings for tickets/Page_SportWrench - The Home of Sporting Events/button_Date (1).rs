@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Date (1)</name>
+   <tag></tag>
+   <elementGuidId>6a1eea9d-89c6-4fbd-bc81-243565804d7b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-sm.btn-default</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[8]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b488ac42-36cd-4372-96f9-5a7248c91f47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>2e7b8785-1c5e-4330-acfd-6d6484713d42</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-sm btn-default</value>
+      <webElementGuid>8c24c09d-c7b3-467a-97fc-fd44b4abe80d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-if</name>
+      <type>Main</type>
+      <value>doShow('date') &amp;&amp; enableDate</value>
+      <webElementGuid>5c74d37d-98d7-4c9f-b8dc-64cd9a210922</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>open('date', $event)</value>
+      <webElementGuid>1a350f78-224c-4bf3-afff-a12ced70553d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Date</value>
+      <webElementGuid>75fa517d-a483-4f6b-b434-6f64c43e6a1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/div[@class=&quot;row rowm0&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;tab-content eo-dashboard&quot;]/div[@class=&quot;tab-pane active&quot;]/div[1]/div[@class=&quot;row row-space rowm0&quot;]/div[@class=&quot;tickets-settings-form col-xs-12 col-sm-4&quot;]/div[@class=&quot;input-group date-time-control col-md-8 col-sm-10&quot;]/ul[@class=&quot;dropdown-menu dropdown-menu-left datetime-picker-dropdown ng-pristine ng-untouched ng-valid ng-not-empty ng-valid-time&quot;]/li[2]/span[@class=&quot;btn-group pull-right&quot;]/button[@class=&quot;btn btn-sm btn-default&quot;]</value>
+      <webElementGuid>2c526ebf-5a47-446c-be14-1558f90cbd1b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[8]</value>
+      <webElementGuid>830341df-54cb-408d-a3ae-b901350515db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear'])[1]/following::button[1]</value>
+      <webElementGuid>1adca1d5-de12-420d-b6dd-33d1e83e9d7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Now'])[1]/following::button[2]</value>
+      <webElementGuid>2441f26f-42ec-47cd-ba57-94ef4dbe8e8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[5]/preceding::button[1]</value>
+      <webElementGuid>7a41a8a1-a8d3-4493-a8a1-dc703ae404f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='To'])[1]/preceding::button[2]</value>
+      <webElementGuid>174fcccd-0d8e-4cd8-878e-07783e5306ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Date']/parent::*</value>
+      <webElementGuid>d1265ba3-c281-4af1-b30d-15a22fe897a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]/button</value>
+      <webElementGuid>1cf84a2e-503f-470b-b605-b2bf41048cb1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Date' or . = 'Date')]</value>
+      <webElementGuid>b88bad6c-e524-46d7-b8f3-1788349d55f6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

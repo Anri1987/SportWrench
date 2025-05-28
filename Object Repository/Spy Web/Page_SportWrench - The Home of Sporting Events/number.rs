@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>number</name>
+   <tag></tag>
+   <elementGuidId>9fbf2f91-d6ab-488f-b0d8-782eb89e9c5e</elementGuidId>
+   <imagePath>../../Desktop/SCREENS/Screenshot_2.png</imagePath>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/form/div[1]/div/div/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#number</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value>../../Desktop/SCREENS/Screenshot_2.png</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'number' and @type = 'tel' and @placeholder = '1234 1234 1234 1234' and @id = 'number']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>IMAGE</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>number</value>
+      <webElementGuid>cd793c1b-9d47-4545-961e-179d2ac5e931</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>tel</value>
+      <webElementGuid>b8bd4d8c-268c-4496-9394-6f1d7e4e0877</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>1234 1234 1234 1234</value>
+      <webElementGuid>fdda9ee0-f9ff-4de7-a64d-b58631ed2321</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>number</value>
+      <webElementGuid>0eaf0b68-084d-4957-817b-1b9cc21ee861</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>id(&quot;accordiongroup-4236-514-panel&quot;)/div[@class=&quot;panel-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-3&quot;]/div[@class=&quot;btn-group dropdown open&quot;]/ul[@class=&quot;dropdown-menu&quot;]/li[1]/a[1][count(. | //a[@ng-click = 'partialRefundMenu(payment)' and (text() = 'Partial' or . = 'Partial')]) = count(//a[@ng-click = 'partialRefundMenu(payment)' and (text() = 'Partial' or . = 'Partial')])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -33,31 +33,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>bd0dda13-5b3d-4685-adac-60f3dde75612</webElementGuid>
+      <webElementGuid>dbfae337-6b0f-4f9f-907e-8e9e8ffac883</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-click</name>
       <type>Main</type>
       <value>partialRefundMenu(payment)</value>
-      <webElementGuid>56d5a240-2233-4ad3-a6d0-1ceb05bcc5fa</webElementGuid>
+      <webElementGuid>007e2bbd-c698-47c1-af40-690b8d81d699</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Partial</value>
-      <webElementGuid>856815bd-2eac-47f6-a1c6-96eddc96400f</webElementGuid>
+      <webElementGuid>c734a55c-060f-4b6e-85db-7d78f3602a2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;accordiongroup-4236-514-panel&quot;)/div[@class=&quot;panel-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-3&quot;]/div[@class=&quot;btn-group dropdown open&quot;]/ul[@class=&quot;dropdown-menu&quot;]/li[1]/a[1]</value>
-      <webElementGuid>ab592f01-6b9e-46fb-a5f4-eab8d3183db4</webElementGuid>
+      <webElementGuid>94dfd1b2-59cd-4631-803b-b5fbeb80db89</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='accordiongroup-4236-514-panel']/div/div/div/div/div[2]/div/ul/li/a</value>
-      <webElementGuid>12e034ea-4eeb-417f-9d76-7376c1456ee6</webElementGuid>
+      <webElementGuid>398931ed-61a0-44b8-9f9e-4f50a7a66968</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Partial')])[2]</value>
-      <webElementGuid>12203bbf-b35d-46bf-b266-747b7719eb11</webElementGuid>
+      <webElementGuid>0c02690a-7c9c-4f5b-8d16-35a17de063e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Refund'])[2]/following::a[1]</value>
-      <webElementGuid>388b70f8-5935-411b-a544-2e37a256d843</webElementGuid>
+      <webElementGuid>7a8284c2-0261-43d6-b7e7-11f6a94dfe10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='#16823251'])[2]/following::a[1]</value>
-      <webElementGuid>091db72a-d646-43a0-882f-f4b7e3f0f0dc</webElementGuid>
+      <webElementGuid>e21ff93b-9685-44a5-91d5-33c7c0a37ee9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[2]/preceding::a[1]</value>
-      <webElementGuid>b56a0a80-9902-4e4a-90a1-f84af31302b9</webElementGuid>
+      <webElementGuid>056e8ee5-557f-4b55-b26d-688da5ea2627</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Amount'])[3]/preceding::a[2]</value>
-      <webElementGuid>9329ce10-29d0-44c4-96cd-9ad16956da8a</webElementGuid>
+      <webElementGuid>b7929d91-87d5-4e8c-a67c-cacdc6d2ab30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '')])[17]</value>
-      <webElementGuid>2e2334d6-d770-4b3c-8213-feeb1177b31b</webElementGuid>
+      <webElementGuid>15059503-78d4-439e-9ee9-c37bbbe05cc7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +121,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/div/div/div/div/div[2]/div/ul/li/a</value>
-      <webElementGuid>271ba5f0-2de9-40e1-9399-0e4dd4b77eba</webElementGuid>
+      <webElementGuid>7d684fef-d419-4145-825f-fd9b54a1f85b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,6 +129,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[(text() = 'Partial' or . = 'Partial')]</value>
-      <webElementGuid>ce4db475-a75f-44ae-9b74-7a059111e77f</webElementGuid>
+      <webElementGuid>f91bb55a-4ffd-464a-ba8a-5ef9c2a1b8ac</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

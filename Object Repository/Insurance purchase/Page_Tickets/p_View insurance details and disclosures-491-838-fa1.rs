@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_View insurance details and disclosures-491-838-fa1</name>
+   <tag></tag>
+   <elementGuidId>de0996d4-11fb-4d50-93b1-e69830604de5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='legal-disclaimer']/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#legal-disclaimer > p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>83a047bf-f74d-402d-a3b4-f40be1b73fe0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>View insurance details and disclosures ❐</value>
+      <webElementGuid>733ab5bd-4232-42eb-9a13-d653f1c986e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/section[@id=&quot;legal-disclaimer&quot;]/p[1]</value>
+      <webElementGuid>e587522f-c91a-4ccc-8285-9819813dfbf2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Insurance purchase/Page_Tickets/legal-disclaimer-ets-491-838</value>
+      <webElementGuid>bfbe0c05-7720-4c94-a1ec-45dbb3ab3113</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element_is_shadow_root</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>c8a5824b-0e36-412e-a1dd-a1ec3e82e684</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='legal-disclaimer']/p</value>
+      <webElementGuid>99b4cd38-711a-47de-a0fc-2371dcfb8bb1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='']/parent::*</value>
+      <webElementGuid>5b235160-d866-4bca-b0fa-a1b89bc7427f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'View insurance details and disclosures ❐' or . = 'View insurance details and disclosures ❐')]</value>
+      <webElementGuid>a5de82c7-008e-45c3-9b1a-9e32d8ae4844</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

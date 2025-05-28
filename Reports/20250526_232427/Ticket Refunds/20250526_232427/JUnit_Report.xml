@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Ticket Refunds" time="109.891" tests="4" failures="1" errors="0">
+   <testsuite name="Ticket Refunds" tests="4" failures="1" errors="0" time="109.891" skipped="0" timestamp="26-05-2025T23:24:31" hostname="LENOVO - DESKTOP-9MN524E" id="Test Suites/Ticket Refunds">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\git\\SportWrench\\Reports\\20250526_232427\\Ticket Refunds\\20250526_232427"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\git\\SportWrench\\Reports\\20250526_232427\\Ticket Refunds\\20250526_232427\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\LENOVO\\git\\SportWrench\\Reports\\20250526_232427\\Ticket Refunds\\20250526_232427\\1748291173199.png"/>
+         <property name="hostName" value="LENOVO - DESKTOP-9MN524E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="browser" value="Chrome 136.0.7103.114"/>
+         <property name="hostAddress" value="26.190.180.74"/>
+         <property name="sessionId" value="4bc1d50c019da230e864469ee9240692"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/111Ticket refund/Ticket Payment for refund" time="21.637" classname="Test Cases/111Ticket refund/Ticket Payment for refund" status="PASSED">
+         <system-out><![CDATA[26-05-2025T23:24:31 - [TEST_CASE][PASSED] - Test Cases/111Ticket refund/Ticket Payment for refund: Test Cases/111Ticket refund/Ticket Payment for refund
+
+26-05-2025T23:24:31 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/"): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+26-05-2025T23:24:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-05-2025T23:24:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-05-2025T23:24:36 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+26-05-2025T23:24:36 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@tickets-dev.swstage.com/"): Navigate to 'http://USAV:demo@tickets-dev.swstage.com/' successfully
+
+26-05-2025T23:24:38 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@tickets-dev.swstage.com/' successfully
+
+26-05-2025T23:24:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-05-2025T23:24:38 - [MESSAGE][PASSED] - Current window maximized
+
+26-05-2025T23:24:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket purchase/Page_SW  Tickets/input_Available Events_form-control ng-pris_aaf354"), "[AUTOTESTS] Tickets refunds (do not touch!)"): Text '[AUTOTESTS] Tickets refunds (do not touch!)' is set on object 'Object Repository/Ticket purchase/Page_SW  Tickets/input_Available Events_form-control ng-pris_aaf354'
+
+26-05-2025T23:24:39 - [MESSAGE][PASSED] - Text '[AUTOTESTS] Tickets refunds (do not touch!)' is set on object 'Object Repository/Ticket purchase/Page_SW  Tickets/input_Available Events_form-control ng-pris_aaf354'
+
+26-05-2025T23:24:39 - [TEST_STEP][PASSED] - click(findTestObject("Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SW  Tickets/b_AUTOTESTS Tickets refunds (do not touch)")): Object: 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SW  Tickets/b_AUTOTESTS Tickets refunds (do not touch)' is clicked on
+
+26-05-2025T23:24:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SW  Tickets/b_AUTOTESTS Tickets refunds (do not touch)' is clicked on
+
+26-05-2025T23:24:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_None")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_None' is clicked on
+
+26-05-2025T23:24:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_None' is clicked on
+
+26-05-2025T23:24:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_1")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_1' is clicked on
+
+26-05-2025T23:24:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_1' is clicked on
+
+26-05-2025T23:24:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Purchaser Info_1")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Purchaser Info_1' is clicked on
+
+26-05-2025T23:24:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Purchaser Info_1' is clicked on
+
+26-05-2025T23:24:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree' is clicked on
+
+26-05-2025T23:24:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree' is clicked on
+
+26-05-2025T23:24:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserFirst"), "Tara"): Text 'Tara' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserFirst'
+
+26-05-2025T23:24:44 - [MESSAGE][PASSED] - Text 'Tara' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserFirst'
+
+26-05-2025T23:24:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserLast"), "Charles"): Text 'Charles' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserLast'
+
+26-05-2025T23:24:44 - [MESSAGE][PASSED] - Text 'Charles' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserLast'
+
+26-05-2025T23:24:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserEmail"), "aaaa@gmail.com"): Text 'aaaa@gmail.com' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserEmail'
+
+26-05-2025T23:24:45 - [MESSAGE][PASSED] - Text 'aaaa@gmail.com' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserEmail'
+
+26-05-2025T23:24:45 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('purchaserPhone').focus(); document.execCommand('insertText', false, '(111) 111-1111');", null): Execute JavaScript 'document.getElementById('purchaserPhone').focus(); document.execCommand('insertText', false, '(111) 111-1111');' successfully
+
+26-05-2025T23:24:45 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('purchaserPhone').focus(); document.execCommand('insertText', false, '(111) 111-1111');' successfully
+
+26-05-2025T23:24:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserZipCode"), "11949"): Text '11949' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserZipCode'
+
+26-05-2025T23:24:46 - [MESSAGE][PASSED] - Text '11949' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserZipCode'
+
+26-05-2025T23:24:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Daily Passes")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Daily Passes' is clicked on
+
+26-05-2025T23:24:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Daily Passes' is clicked on
+
+26-05-2025T23:24:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree' is clicked on
+
+26-05-2025T23:24:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree' is clicked on
+
+26-05-2025T23:24:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Summary")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Summary' is clicked on
+
+26-05-2025T23:24:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Summary' is clicked on
+
+26-05-2025T23:24:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Payment")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Payment' is clicked on
+
+26-05-2025T23:24:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Payment' is clicked on
+
+26-05-2025T23:24:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Card information")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Card information' is clicked on
+
+26-05-2025T23:24:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Card information' is clicked on
+
+26-05-2025T23:24:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cardnumber"), "4242424242424242"): Text '4242424242424242' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cardnumber'
+
+26-05-2025T23:24:49 - [MESSAGE][PASSED] - Text '4242424242424242' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cardnumber'
+
+26-05-2025T23:24:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_exp-date"), "12 / 25"): Text '12 / 25' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_exp-date'
+
+26-05-2025T23:24:49 - [MESSAGE][PASSED] - Text '12 / 25' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_exp-date'
+
+26-05-2025T23:24:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cvc"), "454"): Text '454' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cvc'
+
+26-05-2025T23:24:50 - [MESSAGE][PASSED] - Text '454' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cvc'
+
+26-05-2025T23:24:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_omplete Purchase")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_omplete Purchase' is clicked on
+
+26-05-2025T23:24:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_omplete Purchase' is clicked on
+
+26-05-2025T23:24:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_Tickets/div_Buy Anyway"), OPTIONAL): Object: 'Object Repository/Page_Tickets/div_Buy Anyway' is clicked on
+
+26-05-2025T23:24:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Tickets/div_Buy Anyway' is clicked on
+
+26-05-2025T23:24:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Additional data for ticket puchase/Page_Tickets/div_Successful Payment"), 0): Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_Successful Payment' is present
+
+26-05-2025T23:24:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-05-2025T23:24:52 - [MESSAGE][PASSED] - Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_Successful Payment' is present
+
+26-05-2025T23:24:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Additional data for ticket puchase/Page_Tickets/div_1 Daily Passes to 123Test Event"), 0): Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_1 Daily Passes to 123Test Event' is present
+
+26-05-2025T23:24:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-05-2025T23:24:53 - [MESSAGE][PASSED] - Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_1 Daily Passes to 123Test Event' is present
+
+26-05-2025T23:24:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Additional data for ticket puchase/Page_Tickets/div_Payment of 10.00 was successful. A link_c703ef"), 0): Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_Payment of 10.00 was successful. A link_c703ef' is present
+
+26-05-2025T23:24:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-05-2025T23:24:53 - [MESSAGE][PASSED] - Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_Payment of 10.00 was successful. A link_c703ef' is present
+
+26-05-2025T23:24:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-05-2025T23:24:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/111Ticket refund/Full Ticket Refund" time="31.258" classname="Test Cases/111Ticket refund/Full Ticket Refund" status="PASSED">
+         <system-out><![CDATA[26-05-2025T23:24:53 - [TEST_CASE][PASSED] - Test Cases/111Ticket refund/Full Ticket Refund: Test Cases/111Ticket refund/Full Ticket Refund
+
+26-05-2025T23:24:53 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/ "): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/ '
+
+26-05-2025T23:24:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-05-2025T23:24:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-05-2025T23:24:56 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/ '
+
+26-05-2025T23:24:56 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@my.dev.swstage.com/#/"): Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+26-05-2025T23:24:59 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+26-05-2025T23:24:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-05-2025T23:24:59 - [MESSAGE][PASSED] - Current window maximized
+
+26-05-2025T23:24:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Log In_email"), "dcgfcgchfhgvhv@gmail.com"): Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+26-05-2025T23:25:00 - [MESSAGE][PASSED] - Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+26-05-2025T23:25:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_false_password"), "ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"): Text ****** has been set on object 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+26-05-2025T23:25:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+26-05-2025T23:25:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Log In")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+26-05-2025T23:25:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+26-05-2025T23:25:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox"), "[AUTOTESTS] Tickets refunds (do not touch!)"): Text '[AUTOTESTS] Tickets refunds (do not touch!)' is set on object 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox'
+
+26-05-2025T23:25:10 - [MESSAGE][PASSED] - Text '[AUTOTESTS] Tickets refunds (do not touch!)' is set on object 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox'
+
+26-05-2025T23:25:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_AUTOTESTS Tickets refunds (do not touch)")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_AUTOTESTS Tickets refunds (do not touch)' is clicked on
+
+26-05-2025T23:25:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_AUTOTESTS Tickets refunds (do not touch)' is clicked on
+
+26-05-2025T23:25:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Accounting")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+26-05-2025T23:25:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+26-05-2025T23:25:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_20.00")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_20.00' is clicked on
+
+26-05-2025T23:25:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_20.00' is clicked on
+
+26-05-2025T23:25:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.88")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.88' is clicked on
+
+26-05-2025T23:25:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.88' is clicked on
+
+26-05-2025T23:25:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_1.10")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_1.10' is clicked on
+
+26-05-2025T23:25:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_1.10' is clicked on
+
+26-05-2025T23:25:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_18.02")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_18.02' is clicked on
+
+26-05-2025T23:25:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_18.02' is clicked on
+
+26-05-2025T23:25:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Tickets")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Tickets' is clicked on
+
+26-05-2025T23:25:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Tickets' is clicked on
+
+26-05-2025T23:25:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Payments List")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Payments List' is clicked on
+
+26-05-2025T23:25:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Payments List' is clicked on
+
+26-05-2025T23:25:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/td_11949")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/td_11949' is clicked on
+
+26-05-2025T23:25:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/td_11949' is clicked on
+
+26-05-2025T23:25:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund' is clicked on
+
+26-05-2025T23:25:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund' is clicked on
+
+26-05-2025T23:25:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Make A Full Refund")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Make A Full Refund' is clicked on
+
+26-05-2025T23:25:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Make A Full Refund' is clicked on
+
+26-05-2025T23:25:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Yes")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Yes' is clicked on
+
+26-05-2025T23:25:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Yes' is clicked on
+
+26-05-2025T23:25:16 - [TEST_STEP][PASSED] - click(findTestObject("Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SportWrench - The Home of Sporting Events/Page_SportWrench - The Home of Sporting Events/button_Close")): Object: 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SportWrench - The Home of Sporting Events/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+26-05-2025T23:25:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SportWrench - The Home of Sporting Events/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+26-05-2025T23:25:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Accounting")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+26-05-2025T23:25:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+26-05-2025T23:25:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00' is clicked on
+
+26-05-2025T23:25:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00' is clicked on
+
+26-05-2025T23:25:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00_1")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00_1' is clicked on
+
+26-05-2025T23:25:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00_1' is clicked on
+
+26-05-2025T23:25:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2' is clicked on
+
+26-05-2025T23:25:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2' is clicked on
+
+26-05-2025T23:25:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-05-2025T23:25:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/111Ticket refund/Ticket Payment for refund" time="49.438" classname="Test Cases/111Ticket refund/Ticket Payment for refund" status="PASSED">
+         <system-out><![CDATA[26-05-2025T23:25:24 - [TEST_CASE][PASSED] - Test Cases/111Ticket refund/Ticket Payment for refund: Test Cases/111Ticket refund/Ticket Payment for refund
+
+26-05-2025T23:25:24 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/"): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+26-05-2025T23:25:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-05-2025T23:25:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-05-2025T23:25:28 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+26-05-2025T23:25:28 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@tickets-dev.swstage.com/"): Navigate to 'http://USAV:demo@tickets-dev.swstage.com/' successfully
+
+26-05-2025T23:25:30 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@tickets-dev.swstage.com/' successfully
+
+26-05-2025T23:25:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-05-2025T23:25:30 - [MESSAGE][PASSED] - Current window maximized
+
+26-05-2025T23:25:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket purchase/Page_SW  Tickets/input_Available Events_form-control ng-pris_aaf354"), "[AUTOTESTS] Tickets refunds (do not touch!)"): Text '[AUTOTESTS] Tickets refunds (do not touch!)' is set on object 'Object Repository/Ticket purchase/Page_SW  Tickets/input_Available Events_form-control ng-pris_aaf354'
+
+26-05-2025T23:25:31 - [MESSAGE][PASSED] - Text '[AUTOTESTS] Tickets refunds (do not touch!)' is set on object 'Object Repository/Ticket purchase/Page_SW  Tickets/input_Available Events_form-control ng-pris_aaf354'
+
+26-05-2025T23:25:31 - [TEST_STEP][PASSED] - click(findTestObject("Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SW  Tickets/b_AUTOTESTS Tickets refunds (do not touch)")): Object: 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SW  Tickets/b_AUTOTESTS Tickets refunds (do not touch)' is clicked on
+
+26-05-2025T23:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SW  Tickets/b_AUTOTESTS Tickets refunds (do not touch)' is clicked on
+
+26-05-2025T23:25:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_None")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_None' is clicked on
+
+26-05-2025T23:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_None' is clicked on
+
+26-05-2025T23:25:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_1")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_1' is clicked on
+
+26-05-2025T23:25:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_1' is clicked on
+
+26-05-2025T23:25:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Purchaser Info_1")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Purchaser Info_1' is clicked on
+
+26-05-2025T23:25:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Purchaser Info_1' is clicked on
+
+26-05-2025T23:25:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree' is clicked on
+
+26-05-2025T23:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree' is clicked on
+
+26-05-2025T23:25:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserFirst"), "Tara"): Text 'Tara' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserFirst'
+
+26-05-2025T23:25:35 - [MESSAGE][PASSED] - Text 'Tara' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserFirst'
+
+26-05-2025T23:25:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserLast"), "Charles"): Text 'Charles' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserLast'
+
+26-05-2025T23:25:36 - [MESSAGE][PASSED] - Text 'Charles' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserLast'
+
+26-05-2025T23:25:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserEmail"), "aaaa@gmail.com"): Text 'aaaa@gmail.com' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserEmail'
+
+26-05-2025T23:25:37 - [MESSAGE][PASSED] - Text 'aaaa@gmail.com' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserEmail'
+
+26-05-2025T23:25:37 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('purchaserPhone').focus(); document.execCommand('insertText', false, '(111) 111-1111');", null): Execute JavaScript 'document.getElementById('purchaserPhone').focus(); document.execCommand('insertText', false, '(111) 111-1111');' successfully
+
+26-05-2025T23:25:37 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('purchaserPhone').focus(); document.execCommand('insertText', false, '(111) 111-1111');' successfully
+
+26-05-2025T23:25:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserZipCode"), "11949"): Text '11949' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserZipCode'
+
+26-05-2025T23:25:37 - [MESSAGE][PASSED] - Text '11949' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserZipCode'
+
+26-05-2025T23:25:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Daily Passes")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Daily Passes' is clicked on
+
+26-05-2025T23:25:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Daily Passes' is clicked on
+
+26-05-2025T23:25:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree' is clicked on
+
+26-05-2025T23:25:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree' is clicked on
+
+26-05-2025T23:25:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Summary")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Summary' is clicked on
+
+26-05-2025T23:25:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Summary' is clicked on
+
+26-05-2025T23:25:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Payment")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Payment' is clicked on
+
+26-05-2025T23:25:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Payment' is clicked on
+
+26-05-2025T23:25:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Card information")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Card information' is clicked on
+
+26-05-2025T23:25:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Card information' is clicked on
+
+26-05-2025T23:25:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cardnumber"), "4242424242424242"): Text '4242424242424242' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cardnumber'
+
+26-05-2025T23:25:40 - [MESSAGE][PASSED] - Text '4242424242424242' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cardnumber'
+
+26-05-2025T23:25:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_exp-date"), "12 / 25"): Text '12 / 25' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_exp-date'
+
+26-05-2025T23:25:41 - [MESSAGE][PASSED] - Text '12 / 25' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_exp-date'
+
+26-05-2025T23:25:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cvc"), "454"): Text '454' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cvc'
+
+26-05-2025T23:25:41 - [MESSAGE][PASSED] - Text '454' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cvc'
+
+26-05-2025T23:25:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_omplete Purchase")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_omplete Purchase' is clicked on
+
+26-05-2025T23:25:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_omplete Purchase' is clicked on
+
+26-05-2025T23:25:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_Tickets/div_Buy Anyway"), OPTIONAL): Unable to click on object 'Object Repository/Page_Tickets/div_Buy Anyway' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Tickets/div_Buy Anyway'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at Ticket Payment for refund.run(Ticket Payment for refund:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1748291067099.run(TempTestSuite1748291067099.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Tickets/div_Buy Anyway' located by '//div[@id='root']/div/div/div/div[4]/div[2]/div[3]/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at Script1747940089081.run(Script1747940089081.groovy:68)
+	... 15 more
+)
+
+26-05-2025T23:26:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='root']/div/div/div/div[4]/div[2]/div[3]/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+26-05-2025T23:26:13 - [MESSAGE][WARNING] - Unable to click on object 'Object Repository/Page_Tickets/div_Buy Anyway' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Tickets/div_Buy Anyway'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at Ticket Payment for refund.run(Ticket Payment for refund:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1748291067099.run(TempTestSuite1748291067099.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Tickets/div_Buy Anyway' located by '//div[@id='root']/div/div/div/div[4]/div[2]/div[3]/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at Script1747940089081.run(Script1747940089081.groovy:68)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\LENOVO\\git\\SportWrench\\Reports\\20250526_232427\\Ticket Refunds\\20250526_232427\\1748291173199.png]]
+
+26-05-2025T23:26:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Additional data for ticket puchase/Page_Tickets/div_Successful Payment"), 0): Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_Successful Payment' is present
+
+26-05-2025T23:26:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-05-2025T23:26:13 - [MESSAGE][PASSED] - Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_Successful Payment' is present
+
+26-05-2025T23:26:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Additional data for ticket puchase/Page_Tickets/div_1 Daily Passes to 123Test Event"), 0): Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_1 Daily Passes to 123Test Event' is present
+
+26-05-2025T23:26:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-05-2025T23:26:13 - [MESSAGE][PASSED] - Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_1 Daily Passes to 123Test Event' is present
+
+26-05-2025T23:26:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Additional data for ticket puchase/Page_Tickets/div_Payment of 10.00 was successful. A link_c703ef"), 0): Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_Payment of 10.00 was successful. A link_c703ef' is present
+
+26-05-2025T23:26:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-05-2025T23:26:13 - [MESSAGE][PASSED] - Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_Payment of 10.00 was successful. A link_c703ef' is present
+
+26-05-2025T23:26:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-05-2025T23:26:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/111Ticket refund/Partial Ticket Refund" time="7.402" classname="Test Cases/111Ticket refund/Partial Ticket Refund" status="FAILED">
+         <failure type="FAILED" message="Test Cases/111Ticket refund/Partial Ticket Refund FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Log In'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)&#xa;	at Partial Ticket Refund.run(Partial Ticket Refund:32)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1748291067099.run(TempTestSuite1748291067099.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id&#xa;Build info: version: '4.22.0', revision: 'c5f3146703'&#xa;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Command: [4bc1d50c019da230e864469ee9240692, findElements {value=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1], using=xpath}]&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54019}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54019/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:9710/session..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: 4bc1d50c019da230e864469ee9240692&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)&#xa;	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)&#xa;	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)&#xa;	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)&#xa;	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:368)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:362)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)&#xa;	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$w9APN6Eh.findElements(Unknown Source)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1063)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:954)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:936)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:931)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:927)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:759)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1447)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[26-05-2025T23:26:14 - [TEST_CASE][FAILED] - Test Cases/111Ticket refund/Partial Ticket Refund: Test Cases/111Ticket refund/Partial Ticket Refund FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Log In'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Partial Ticket Refund.run(Partial Ticket Refund:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1748291067099.run(TempTestSuite1748291067099.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [4bc1d50c019da230e864469ee9240692, findElements {value=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54019}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54019/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:9710/session..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bc1d50c019da230e864469ee9240692
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:362)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$w9APN6Eh.findElements(Unknown Source)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1063)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:954)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:936)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:931)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:927)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:759)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1447)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+
+26-05-2025T23:26:14 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/ "): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/ '
+
+26-05-2025T23:26:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-05-2025T23:26:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-05-2025T23:26:17 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/ '
+
+26-05-2025T23:26:17 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@my.dev.swstage.com/#/"): Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+26-05-2025T23:26:20 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+26-05-2025T23:26:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-05-2025T23:26:20 - [MESSAGE][PASSED] - Current window maximized
+
+26-05-2025T23:26:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Log In_email"), "dcgfcgchfhgvhv@gmail.com"): Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+26-05-2025T23:26:20 - [MESSAGE][PASSED] - Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+26-05-2025T23:26:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_false_password"), "ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"): Text ****** has been set on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+26-05-2025T23:26:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+26-05-2025T23:26:21 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Log In")): Unable to click on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Log In' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Log In'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Partial Ticket Refund.run(Partial Ticket Refund:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1748291067099.run(TempTestSuite1748291067099.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [4bc1d50c019da230e864469ee9240692, findElements {value=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54019}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54019/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:9710/session..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bc1d50c019da230e864469ee9240692
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:362)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$w9APN6Eh.findElements(Unknown Source)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1063)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:954)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:936)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:931)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:927)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:759)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1447)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1748287215666.run(Script1748287215666.groovy:32)
+	... 15 more
+)
+
+26-05-2025T23:26:21 - [MESSAGE][WARNING] - Cannot take screenshot
+
+26-05-2025T23:26:21 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Log In' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Log In'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Partial Ticket Refund.run(Partial Ticket Refund:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1748291067099.run(TempTestSuite1748291067099.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [4bc1d50c019da230e864469ee9240692, findElements {value=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54019}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54019/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:9710/session..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bc1d50c019da230e864469ee9240692
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:362)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$w9APN6Eh.findElements(Unknown Source)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1063)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:954)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:936)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:931)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:927)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:759)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1447)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1748287215666.run(Script1748287215666.groovy:32)
+	... 15 more
+)]]></system-out>
+         <system-err><![CDATA[26-05-2025T23:26:14 - [TEST_CASE][FAILED] - Test Cases/111Ticket refund/Partial Ticket Refund: Test Cases/111Ticket refund/Partial Ticket Refund FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Log In'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Partial Ticket Refund.run(Partial Ticket Refund:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1748291067099.run(TempTestSuite1748291067099.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [4bc1d50c019da230e864469ee9240692, findElements {value=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54019}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54019/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:9710/session..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bc1d50c019da230e864469ee9240692
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:362)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$w9APN6Eh.findElements(Unknown Source)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1063)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:954)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:936)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:931)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:927)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:759)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1447)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-05-2025T23:24:31 - [TEST_SUITE][FAILED] - Ticket Refunds: Test Cases/111Ticket refund/Partial Ticket Refund FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Log In'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Partial Ticket Refund.run(Partial Ticket Refund:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1748291067099.run(TempTestSuite1748291067099.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [4bc1d50c019da230e864469ee9240692, findElements {value=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54019}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54019/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:9710/session..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bc1d50c019da230e864469ee9240692
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:362)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$w9APN6Eh.findElements(Unknown Source)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1063)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:954)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:936)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:931)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:927)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:759)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1447)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[26-05-2025T23:24:31 - [TEST_SUITE][FAILED] - Ticket Refunds: Test Cases/111Ticket refund/Partial Ticket Refund FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Log In'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Partial Ticket Refund.run(Partial Ticket Refund:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1748291067099.run(TempTestSuite1748291067099.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [4bc1d50c019da230e864469ee9240692, findElements {value=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54019}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54019/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:9710/session..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bc1d50c019da230e864469ee9240692
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:362)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$w9APN6Eh.findElements(Unknown Source)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1063)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:954)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:936)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:931)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:927)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:759)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1447)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

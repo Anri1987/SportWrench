@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_radio-491-f95-9a6</name>
+   <tag></tag>
+   <elementGuidId>15a79886-6e92-4556-ad5b-a3daf5eb8ff9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type = 'radio']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.type-accept > input[type=&quot;radio&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>602d5e8a-0893-4846-8792-c360933c87b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>radio</value>
+      <webElementGuid>dc3740ac-e41e-440c-9bd4-48b098279f12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/label[@class=&quot;type-accept&quot;]/input[1]</value>
+      <webElementGuid>3c31d04f-164a-4d06-a7fd-37769b2936fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Insurance purchase/Page_Tickets/offer-radio-button_Accept Coverage for 0.72_3a8635</value>
+      <webElementGuid>821f3382-827d-43c9-853c-eefc05701872</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element_is_shadow_root</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>b9af105e-2072-4d22-81f5-cc17e9a8dcf8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'radio']</value>
+      <webElementGuid>4955fb63-039b-4894-a65b-9f9b866ccd0f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

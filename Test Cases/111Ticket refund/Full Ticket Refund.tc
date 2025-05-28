@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Full Ticket Refund</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f8173e70-353e-4df8-a859-723cbfd2be0a</testCaseGuid>
+</TestCaseEntity>

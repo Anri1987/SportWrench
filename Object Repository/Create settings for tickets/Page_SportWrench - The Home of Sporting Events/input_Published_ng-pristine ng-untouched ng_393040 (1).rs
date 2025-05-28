@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Published_ng-pristine ng-untouched ng_393040 (1)</name>
+   <tag></tag>
+   <elementGuidId>0f95928a-cad8-44c3-86eb-c689d2b67fe4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.tickets-settings-form.col-xs-12.col-sm-4 > div.form-group > label > input.ng-pristine.ng-untouched.ng-valid.ng-empty</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='checkbox'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>abb837e5-f7d2-456b-b665-c29d1b7c3936</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>5f15c141-8682-4035-9db4-0ff195717b70</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>event.tickets_published</value>
+      <webElementGuid>1182dfed-8213-4645-b322-fd674874244b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-change</name>
+      <type>Main</type>
+      <value>setTicketsPublished()</value>
+      <webElementGuid>4a6df616-a342-4428-886d-3be8d5efd36e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-pristine ng-untouched ng-valid ng-empty</value>
+      <webElementGuid>754e3231-b34b-401a-b5f7-75d21a6baf90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/div[@class=&quot;row rowm0&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;tab-content eo-dashboard&quot;]/div[@class=&quot;tab-pane active&quot;]/div[1]/div[@class=&quot;row row-space rowm0&quot;]/div[@class=&quot;tickets-settings-form col-xs-12 col-sm-4&quot;]/div[@class=&quot;form-group&quot;]/label[1]/input[@class=&quot;ng-pristine ng-untouched ng-valid ng-empty&quot;]</value>
+      <webElementGuid>334d14a5-4e61-4015-ad8a-ef1199758919</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='checkbox'])[2]</value>
+      <webElementGuid>132ef917-b477-41a3-ab69-57bb643587b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/label/input</value>
+      <webElementGuid>8d4889e1-67ee-42ef-bb74-d6ef1df35226</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'checkbox']</value>
+      <webElementGuid>045bca37-197d-4d2c-8930-4846de181e99</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

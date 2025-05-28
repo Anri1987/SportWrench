@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Available Events_form-control ng-pris_aaf354</name>
+   <tag></tag>
+   <elementGuidId>b47fd0fe-92df-42d2-853a-fa9ca2925220</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='text']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.form-control.ng-pristine.ng-untouched.ng-valid</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>84873c90-9c76-441b-970a-794339fd380c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>0a40ba69-6be9-4fe1-96d1-1b1cb6d75ad3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine ng-untouched ng-valid</value>
+      <webElementGuid>00aa805c-306c-427d-b195-83a49b0f4152</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Type an event name here ...</value>
+      <webElementGuid>c9e63cf1-6fd5-4240-8073-4b1f8ab05936</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>eventsData.search.name</value>
+      <webElementGuid>97835bce-e4b2-4aae-bd56-577450eb79c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container root-container&quot;]/div[@class=&quot;row events&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;row spacer-vertical&quot;]/div[@class=&quot;col-sm-6&quot;]/div[@class=&quot;form-group search-box&quot;]/div[@class=&quot;input-group&quot;]/input[@class=&quot;form-control ng-pristine ng-untouched ng-valid&quot;]</value>
+      <webElementGuid>4e8834c6-3fdc-4c85-ba88-c1957f1f4953</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@type='text']</value>
+      <webElementGuid>ebb71bef-2ffe-4415-b91f-061ac09ce0ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>bbcfc1df-b192-4112-959c-33e3568f3adc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Type an event name here ...']</value>
+      <webElementGuid>60aa918c-f4ab-43f0-850f-395bc529c2f3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

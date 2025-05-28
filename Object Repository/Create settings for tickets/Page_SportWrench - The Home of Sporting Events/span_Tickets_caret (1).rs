@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Tickets_caret (1)</name>
+   <tag></tag>
+   <elementGuidId>8729ed86-a2a5-47b5-975b-392e792789d5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[6]/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e137dcc4-70ca-4513-8e52-99ff2ce91e27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>caret</value>
+      <webElementGuid>8db63f0f-f85b-4e15-b5ff-42aa9c86c7d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/div[@class=&quot;row rowm0&quot;]/div[@class=&quot;col-lg-12&quot;]/sw-tabmenu-head[1]/ul[@class=&quot;collapse-tabs-sw nav nav-tabs eo-menupanel in collapse&quot;]/li[@class=&quot;dropdown&quot;]/a[@class=&quot;pointer dropdown-toggle&quot;]/span[@class=&quot;caret&quot;]</value>
+      <webElementGuid>108e1ea5-68c2-4e7a-a3e3-ef761d43798a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/a/span</value>
+      <webElementGuid>1380116e-d248-498c-bd3a-93913596f5d2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

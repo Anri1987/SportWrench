@@ -4,9 +4,14 @@
    <name>span_CARD (paid)_1</name>
    <tag></tag>
    <elementGuidId>767d8548-dcc6-484a-a891-4d1198ee2f1c</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value>//span[(text() = 'CARD (paid)' or . = 'CARD (paid)')]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
          <value></value>
       </entry>
       <entry>
@@ -33,15 +38,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>f0daefe4-bdd1-46bd-89bf-93fb8cce985a</webElementGuid>
+      <webElementGuid>a28551df-ee99-4d33-8b56-23fb4c376c9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>CARD (paid)</value>
-      <webElementGuid>4bf1bb5a-d08e-411f-9e11-e085a0beeda5</webElementGuid>
+      <webElementGuid>42b80e69-e034-4933-a530-1685d4e3d6b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;accordiongroup-10870-366-tab&quot;)/h4[@class=&quot;panel-title&quot;]/a[@class=&quot;accordion-toggle&quot;]/span[1]/payment-info-accord-heading[1]/span[@class=&quot;text-success&quot;]/b[1]/span[3]</value>
-      <webElementGuid>12c68cc7-afbf-49c6-93c1-45dde820da94</webElementGuid>
+      <webElementGuid>1712a5f1-097b-4652-939d-32ea9bd23e60</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='accordiongroup-10870-366-tab']/h4/a/span/payment-info-accord-heading/span/b/span[3]</value>
-      <webElementGuid>8b715c1e-1691-4d0d-9384-eb2c9ca92c9e</webElementGuid>
+      <webElementGuid>068a134c-909b-47d7-919a-484049ade378</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[10]/following::span[1]</value>
-      <webElementGuid>32e60d65-6328-44f7-a3ba-d9e168b67e96</webElementGuid>
+      <webElementGuid>fa346b6a-b8e9-46de-9bb1-9b4ab5c66b82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='#16823251'])[1]/following::span[2]</value>
-      <webElementGuid>9efe7630-eca4-4a87-b494-7447761368ae</webElementGuid>
+      <webElementGuid>e870517d-dbb0-47f8-a990-ecccd7e1b6c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$2,500.00'])[1]/preceding::span[3]</value>
-      <webElementGuid>8fb4c6d6-e9ac-4708-a154-17f71b6304d7</webElementGuid>
+      <webElementGuid>89f1ef95-286b-414f-8863-ad1bc2529bec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='CARD (paid)']/parent::*</value>
-      <webElementGuid>a9f6adbe-c202-4ed1-9533-09a90ad0a6ff</webElementGuid>
+      <webElementGuid>0539bfe4-f283-401a-9c08-bfdaee5511de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/h4/a/span/payment-info-accord-heading/span/b/span[3]</value>
-      <webElementGuid>6d9f0704-0546-4047-af19-e59a82623e81</webElementGuid>
+      <webElementGuid>be736c3e-683a-4540-88c9-2a5a7f03f328</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'CARD (paid)' or . = 'CARD (paid)')]</value>
-      <webElementGuid>1cd97647-2dd8-4394-bdc8-1c2378354eec</webElementGuid>
+      <webElementGuid>8117be95-52c6-474d-9e50-c012c4dee8b3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

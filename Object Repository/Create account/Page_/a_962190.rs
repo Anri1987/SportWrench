@@ -6,16 +6,16 @@
    <elementGuidId>640aa320-2ba5-4de6-a7c2-cf85acf61a7a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>tr:nth-of-type(3) > td > a</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'962190')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>/html[1]/body[1]/table[1]/tbody[1]/tr[3]/td[1]/a[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(3) > td > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,12 +28,12 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>9968e659-076e-4615-a926-911b3ab476a2</webElementGuid>
+      <webElementGuid>e3718d33-c0d9-4490-8d9c-735a57b53227</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/mail/962190</value>
-      <webElementGuid>d852789b-ef91-492b-a2ba-4310fc20638f</webElementGuid>
+      <webElementGuid>aeb7e7f5-4ae7-4e02-a6c9-c41182cdfa3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,15 +49,15 @@
       <name>text</name>
       <type>Main</type>
       <value>962190</value>
-      <webElementGuid>87ab3111-4f90-4912-8a70-cdc0745be9ce</webElementGuid>
+      <webElementGuid>027d5e32-8bdb-4f8f-a2e4-edfd5706c460</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/table[1]/tbody[1]/tr[3]/td[1]/a[1]</value>
-      <webElementGuid>3139ce37-1da1-4b25-af34-e4ade3cf24d9</webElementGuid>
+      <webElementGuid>b5b23e39-7d72-49c2-97e7-519e360a19fa</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'962190')]</value>
-      <webElementGuid>58fdab05-43cc-4f8b-8428-b7c01648f2a0</webElementGuid>
+      <webElementGuid>5f9ef889-2c09-4630-8c00-4eb53b09a403</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sonja Adams &lt;gtvqamanual@gmail.com>'])[1]/following::a[1]</value>
-      <webElementGuid>5532a196-4f96-4aee-87a8-928ef7c35443</webElementGuid>
+      <webElementGuid>4267b4d9-43cc-4195-a79c-1f82bf104ac1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SportWrench &lt;info@sportwrench.com>'])[1]/following::a[1]</value>
-      <webElementGuid>37d4448c-2e46-4494-814c-5e3fa3dea742</webElementGuid>
+      <webElementGuid>ec341b7f-902b-4ccc-8f89-cc646fbae8af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Account Activation for Tara Charles'])[1]/preceding::a[1]</value>
-      <webElementGuid>6b65956c-c2b1-406d-a387-cc1e1ae7b54b</webElementGuid>
+      <webElementGuid>0843f639-0903-42ab-a112-7ac992aa24a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SportWrench &lt;info@sportwrench.com>'])[2]/preceding::a[1]</value>
-      <webElementGuid>23cb9015-a0a5-4347-9923-9e236c93a418</webElementGuid>
+      <webElementGuid>0033703a-0ebd-4dbb-bf58-c3df17e3690f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='962190']/parent::*</value>
-      <webElementGuid>8104eb2d-ec6a-4710-9542-20f186535e9a</webElementGuid>
+      <webElementGuid>4d0c81f7-42f7-4a91-ad69-54f0a7dfc6b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/mail/962190')]</value>
-      <webElementGuid>a815bd9f-da28-49e8-ad02-7ba9d274a8b0</webElementGuid>
+      <webElementGuid>ca42cea4-27e9-4549-b21e-f172da847a03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +121,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td/a</value>
-      <webElementGuid>61ecfe34-155f-42d9-a4ce-5fdafdfcae3b</webElementGuid>
+      <webElementGuid>bcf44050-a2c9-4ce7-9546-f63e048b85f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,6 +129,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/mail/962190' and (text() = '962190' or . = '962190')]</value>
-      <webElementGuid>ab0306af-472f-45d0-8907-63ade737a88e</webElementGuid>
+      <webElementGuid>2728e401-cbf4-49d3-af19-22f7380248d5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Ticket Refunds" time="123.472" tests="4" failures="1" errors="0">
+   <testsuite name="Ticket Refunds" tests="4" failures="1" errors="0" time="123.472" skipped="0" timestamp="26-05-2025T23:05:39" hostname="LENOVO - DESKTOP-9MN524E" id="Test Suites/Ticket Refunds">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\git\\SportWrench\\Reports\\20250526_230534\\Ticket Refunds\\20250526_230534"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\git\\SportWrench\\Reports\\20250526_230534\\Ticket Refunds\\20250526_230534\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\LENOVO\\git\\SportWrench\\Reports\\20250526_230534\\Ticket Refunds\\20250526_230534\\1748290062972.png"/>
+         <property name="hostName" value="LENOVO - DESKTOP-9MN524E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="browser" value="Chrome 136.0.7103.114"/>
+         <property name="hostAddress" value="26.190.180.74"/>
+         <property name="sessionId" value="25f6a9bf4aabe9373d2f8453fa15c960"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/111Ticket refund/Ticket Payment for refund" time="26.049" classname="Test Cases/111Ticket refund/Ticket Payment for refund" status="PASSED">
+         <system-out><![CDATA[26-05-2025T23:05:39 - [TEST_CASE][PASSED] - Test Cases/111Ticket refund/Ticket Payment for refund: Test Cases/111Ticket refund/Ticket Payment for refund
+
+26-05-2025T23:05:39 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/"): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+26-05-2025T23:05:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-05-2025T23:05:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-05-2025T23:05:45 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+26-05-2025T23:05:45 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@tickets-dev.swstage.com/"): Navigate to 'http://USAV:demo@tickets-dev.swstage.com/' successfully
+
+26-05-2025T23:05:47 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@tickets-dev.swstage.com/' successfully
+
+26-05-2025T23:05:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-05-2025T23:05:47 - [MESSAGE][PASSED] - Current window maximized
+
+26-05-2025T23:05:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket purchase/Page_SW  Tickets/input_Available Events_form-control ng-pris_aaf354"), "[AUTOTESTS] Tickets refunds (do not touch!)"): Text '[AUTOTESTS] Tickets refunds (do not touch!)' is set on object 'Object Repository/Ticket purchase/Page_SW  Tickets/input_Available Events_form-control ng-pris_aaf354'
+
+26-05-2025T23:05:48 - [MESSAGE][PASSED] - Text '[AUTOTESTS] Tickets refunds (do not touch!)' is set on object 'Object Repository/Ticket purchase/Page_SW  Tickets/input_Available Events_form-control ng-pris_aaf354'
+
+26-05-2025T23:05:48 - [TEST_STEP][PASSED] - click(findTestObject("Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SW  Tickets/b_AUTOTESTS Tickets refunds (do not touch)")): Object: 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SW  Tickets/b_AUTOTESTS Tickets refunds (do not touch)' is clicked on
+
+26-05-2025T23:05:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SW  Tickets/b_AUTOTESTS Tickets refunds (do not touch)' is clicked on
+
+26-05-2025T23:05:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_None")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_None' is clicked on
+
+26-05-2025T23:05:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_None' is clicked on
+
+26-05-2025T23:05:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_1")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_1' is clicked on
+
+26-05-2025T23:05:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_1' is clicked on
+
+26-05-2025T23:05:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Purchaser Info_1")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Purchaser Info_1' is clicked on
+
+26-05-2025T23:05:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Purchaser Info_1' is clicked on
+
+26-05-2025T23:05:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree' is clicked on
+
+26-05-2025T23:05:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree' is clicked on
+
+26-05-2025T23:05:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserFirst"), "Tara"): Text 'Tara' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserFirst'
+
+26-05-2025T23:05:53 - [MESSAGE][PASSED] - Text 'Tara' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserFirst'
+
+26-05-2025T23:05:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserLast"), "Charles"): Text 'Charles' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserLast'
+
+26-05-2025T23:05:53 - [MESSAGE][PASSED] - Text 'Charles' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserLast'
+
+26-05-2025T23:05:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserEmail"), "aaaa@gmail.com"): Text 'aaaa@gmail.com' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserEmail'
+
+26-05-2025T23:05:54 - [MESSAGE][PASSED] - Text 'aaaa@gmail.com' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserEmail'
+
+26-05-2025T23:05:54 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('purchaserPhone').focus(); document.execCommand('insertText', false, '(111) 111-1111');", null): Execute JavaScript 'document.getElementById('purchaserPhone').focus(); document.execCommand('insertText', false, '(111) 111-1111');' successfully
+
+26-05-2025T23:05:54 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('purchaserPhone').focus(); document.execCommand('insertText', false, '(111) 111-1111');' successfully
+
+26-05-2025T23:05:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserZipCode"), "11949"): Text '11949' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserZipCode'
+
+26-05-2025T23:05:55 - [MESSAGE][PASSED] - Text '11949' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserZipCode'
+
+26-05-2025T23:05:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Daily Passes")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Daily Passes' is clicked on
+
+26-05-2025T23:05:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Daily Passes' is clicked on
+
+26-05-2025T23:05:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree' is clicked on
+
+26-05-2025T23:05:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree' is clicked on
+
+26-05-2025T23:05:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Summary")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Summary' is clicked on
+
+26-05-2025T23:05:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Summary' is clicked on
+
+26-05-2025T23:05:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Payment")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Payment' is clicked on
+
+26-05-2025T23:05:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Payment' is clicked on
+
+26-05-2025T23:05:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Card information")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Card information' is clicked on
+
+26-05-2025T23:05:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Card information' is clicked on
+
+26-05-2025T23:05:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cardnumber"), "4242424242424242"): Text '4242424242424242' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cardnumber'
+
+26-05-2025T23:05:58 - [MESSAGE][PASSED] - Text '4242424242424242' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cardnumber'
+
+26-05-2025T23:05:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_exp-date"), "12 / 25"): Text '12 / 25' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_exp-date'
+
+26-05-2025T23:05:58 - [MESSAGE][PASSED] - Text '12 / 25' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_exp-date'
+
+26-05-2025T23:05:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cvc"), "454"): Text '454' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cvc'
+
+26-05-2025T23:05:59 - [MESSAGE][PASSED] - Text '454' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cvc'
+
+26-05-2025T23:05:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_omplete Purchase")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_omplete Purchase' is clicked on
+
+26-05-2025T23:05:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_omplete Purchase' is clicked on
+
+26-05-2025T23:05:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_Tickets/div_Buy Anyway"), OPTIONAL): Object: 'Object Repository/Page_Tickets/div_Buy Anyway' is clicked on
+
+26-05-2025T23:06:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Tickets/div_Buy Anyway' is clicked on
+
+26-05-2025T23:06:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Additional data for ticket puchase/Page_Tickets/div_Successful Payment"), 0): Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_Successful Payment' is present
+
+26-05-2025T23:06:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-05-2025T23:06:05 - [MESSAGE][PASSED] - Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_Successful Payment' is present
+
+26-05-2025T23:06:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Additional data for ticket puchase/Page_Tickets/div_1 Daily Passes to 123Test Event"), 0): Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_1 Daily Passes to 123Test Event' is present
+
+26-05-2025T23:06:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-05-2025T23:06:05 - [MESSAGE][PASSED] - Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_1 Daily Passes to 123Test Event' is present
+
+26-05-2025T23:06:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Additional data for ticket puchase/Page_Tickets/div_Payment of 10.00 was successful. A link_c703ef"), 0): Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_Payment of 10.00 was successful. A link_c703ef' is present
+
+26-05-2025T23:06:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-05-2025T23:06:05 - [MESSAGE][PASSED] - Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_Payment of 10.00 was successful. A link_c703ef' is present
+
+26-05-2025T23:06:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-05-2025T23:06:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/111Ticket refund/Full Ticket Refund" time="28.011" classname="Test Cases/111Ticket refund/Full Ticket Refund" status="PASSED">
+         <system-out><![CDATA[26-05-2025T23:06:05 - [TEST_CASE][PASSED] - Test Cases/111Ticket refund/Full Ticket Refund: Test Cases/111Ticket refund/Full Ticket Refund
+
+26-05-2025T23:06:05 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/ "): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/ '
+
+26-05-2025T23:06:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-05-2025T23:06:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-05-2025T23:06:09 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/ '
+
+26-05-2025T23:06:09 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@my.dev.swstage.com/#/"): Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+26-05-2025T23:06:12 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+26-05-2025T23:06:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-05-2025T23:06:12 - [MESSAGE][PASSED] - Current window maximized
+
+26-05-2025T23:06:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Log In_email"), "dcgfcgchfhgvhv@gmail.com"): Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+26-05-2025T23:06:13 - [MESSAGE][PASSED] - Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+26-05-2025T23:06:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_false_password"), "ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"): Text ****** has been set on object 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+26-05-2025T23:06:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+26-05-2025T23:06:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Log In")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+26-05-2025T23:06:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+26-05-2025T23:06:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox"), "[AUTOTESTS] Tickets refunds (do not touch!)"): Text '[AUTOTESTS] Tickets refunds (do not touch!)' is set on object 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox'
+
+26-05-2025T23:06:19 - [MESSAGE][PASSED] - Text '[AUTOTESTS] Tickets refunds (do not touch!)' is set on object 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox'
+
+26-05-2025T23:06:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_AUTOTESTS Tickets refunds (do not touch)")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_AUTOTESTS Tickets refunds (do not touch)' is clicked on
+
+26-05-2025T23:06:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_AUTOTESTS Tickets refunds (do not touch)' is clicked on
+
+26-05-2025T23:06:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Accounting")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+26-05-2025T23:06:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+26-05-2025T23:06:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_20.00")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_20.00' is clicked on
+
+26-05-2025T23:06:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_20.00' is clicked on
+
+26-05-2025T23:06:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.88")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.88' is clicked on
+
+26-05-2025T23:06:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.88' is clicked on
+
+26-05-2025T23:06:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_1.10")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_1.10' is clicked on
+
+26-05-2025T23:06:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_1.10' is clicked on
+
+26-05-2025T23:06:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_18.02")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_18.02' is clicked on
+
+26-05-2025T23:06:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_18.02' is clicked on
+
+26-05-2025T23:06:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Tickets")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Tickets' is clicked on
+
+26-05-2025T23:06:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Tickets' is clicked on
+
+26-05-2025T23:06:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Payments List")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Payments List' is clicked on
+
+26-05-2025T23:06:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Payments List' is clicked on
+
+26-05-2025T23:06:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/td_11949")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/td_11949' is clicked on
+
+26-05-2025T23:06:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/td_11949' is clicked on
+
+26-05-2025T23:06:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund' is clicked on
+
+26-05-2025T23:06:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund' is clicked on
+
+26-05-2025T23:06:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Make A Full Refund")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Make A Full Refund' is clicked on
+
+26-05-2025T23:06:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Make A Full Refund' is clicked on
+
+26-05-2025T23:06:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Yes")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Yes' is clicked on
+
+26-05-2025T23:06:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Yes' is clicked on
+
+26-05-2025T23:06:26 - [TEST_STEP][PASSED] - click(findTestObject("Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SportWrench - The Home of Sporting Events/Page_SportWrench - The Home of Sporting Events/button_Close")): Object: 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SportWrench - The Home of Sporting Events/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+26-05-2025T23:06:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SportWrench - The Home of Sporting Events/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+26-05-2025T23:06:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Accounting")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+26-05-2025T23:06:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+26-05-2025T23:06:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00' is clicked on
+
+26-05-2025T23:06:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00' is clicked on
+
+26-05-2025T23:06:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00_1")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00_1' is clicked on
+
+26-05-2025T23:06:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00_1' is clicked on
+
+26-05-2025T23:06:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2' is clicked on
+
+26-05-2025T23:06:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2' is clicked on
+
+26-05-2025T23:06:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-05-2025T23:06:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/111Ticket refund/Ticket Payment for refund" time="20.933" classname="Test Cases/111Ticket refund/Ticket Payment for refund" status="PASSED">
+         <system-out><![CDATA[26-05-2025T23:06:33 - [TEST_CASE][PASSED] - Test Cases/111Ticket refund/Ticket Payment for refund: Test Cases/111Ticket refund/Ticket Payment for refund
+
+26-05-2025T23:06:33 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/"): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+26-05-2025T23:06:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-05-2025T23:06:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-05-2025T23:06:37 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+26-05-2025T23:06:37 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@tickets-dev.swstage.com/"): Navigate to 'http://USAV:demo@tickets-dev.swstage.com/' successfully
+
+26-05-2025T23:06:39 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@tickets-dev.swstage.com/' successfully
+
+26-05-2025T23:06:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-05-2025T23:06:39 - [MESSAGE][PASSED] - Current window maximized
+
+26-05-2025T23:06:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket purchase/Page_SW  Tickets/input_Available Events_form-control ng-pris_aaf354"), "[AUTOTESTS] Tickets refunds (do not touch!)"): Text '[AUTOTESTS] Tickets refunds (do not touch!)' is set on object 'Object Repository/Ticket purchase/Page_SW  Tickets/input_Available Events_form-control ng-pris_aaf354'
+
+26-05-2025T23:06:40 - [MESSAGE][PASSED] - Text '[AUTOTESTS] Tickets refunds (do not touch!)' is set on object 'Object Repository/Ticket purchase/Page_SW  Tickets/input_Available Events_form-control ng-pris_aaf354'
+
+26-05-2025T23:06:40 - [TEST_STEP][PASSED] - click(findTestObject("Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SW  Tickets/b_AUTOTESTS Tickets refunds (do not touch)")): Object: 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SW  Tickets/b_AUTOTESTS Tickets refunds (do not touch)' is clicked on
+
+26-05-2025T23:06:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SW  Tickets/b_AUTOTESTS Tickets refunds (do not touch)' is clicked on
+
+26-05-2025T23:06:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_None")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_None' is clicked on
+
+26-05-2025T23:06:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_None' is clicked on
+
+26-05-2025T23:06:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_1")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_1' is clicked on
+
+26-05-2025T23:06:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_1' is clicked on
+
+26-05-2025T23:06:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Purchaser Info_1")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Purchaser Info_1' is clicked on
+
+26-05-2025T23:06:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Purchaser Info_1' is clicked on
+
+26-05-2025T23:06:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree' is clicked on
+
+26-05-2025T23:06:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree' is clicked on
+
+26-05-2025T23:06:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserFirst"), "Tara"): Text 'Tara' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserFirst'
+
+26-05-2025T23:06:45 - [MESSAGE][PASSED] - Text 'Tara' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserFirst'
+
+26-05-2025T23:06:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserLast"), "Charles"): Text 'Charles' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserLast'
+
+26-05-2025T23:06:45 - [MESSAGE][PASSED] - Text 'Charles' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserLast'
+
+26-05-2025T23:06:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserEmail"), "aaaa@gmail.com"): Text 'aaaa@gmail.com' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserEmail'
+
+26-05-2025T23:06:46 - [MESSAGE][PASSED] - Text 'aaaa@gmail.com' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserEmail'
+
+26-05-2025T23:06:46 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('purchaserPhone').focus(); document.execCommand('insertText', false, '(111) 111-1111');", null): Execute JavaScript 'document.getElementById('purchaserPhone').focus(); document.execCommand('insertText', false, '(111) 111-1111');' successfully
+
+26-05-2025T23:06:46 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('purchaserPhone').focus(); document.execCommand('insertText', false, '(111) 111-1111');' successfully
+
+26-05-2025T23:06:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserZipCode"), "11949"): Text '11949' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserZipCode'
+
+26-05-2025T23:06:47 - [MESSAGE][PASSED] - Text '11949' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserZipCode'
+
+26-05-2025T23:06:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Daily Passes")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Daily Passes' is clicked on
+
+26-05-2025T23:06:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Daily Passes' is clicked on
+
+26-05-2025T23:06:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree' is clicked on
+
+26-05-2025T23:06:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree' is clicked on
+
+26-05-2025T23:06:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Summary")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Summary' is clicked on
+
+26-05-2025T23:06:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Summary' is clicked on
+
+26-05-2025T23:06:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Payment")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Payment' is clicked on
+
+26-05-2025T23:06:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Payment' is clicked on
+
+26-05-2025T23:06:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Card information")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Card information' is clicked on
+
+26-05-2025T23:06:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Card information' is clicked on
+
+26-05-2025T23:06:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cardnumber"), "4242424242424242"): Text '4242424242424242' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cardnumber'
+
+26-05-2025T23:06:50 - [MESSAGE][PASSED] - Text '4242424242424242' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cardnumber'
+
+26-05-2025T23:06:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_exp-date"), "12 / 25"): Text '12 / 25' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_exp-date'
+
+26-05-2025T23:06:50 - [MESSAGE][PASSED] - Text '12 / 25' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_exp-date'
+
+26-05-2025T23:06:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cvc"), "454"): Text '454' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cvc'
+
+26-05-2025T23:06:51 - [MESSAGE][PASSED] - Text '454' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cvc'
+
+26-05-2025T23:06:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_omplete Purchase")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_omplete Purchase' is clicked on
+
+26-05-2025T23:06:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_omplete Purchase' is clicked on
+
+26-05-2025T23:06:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_Tickets/div_Buy Anyway"), OPTIONAL): Object: 'Object Repository/Page_Tickets/div_Buy Anyway' is clicked on
+
+26-05-2025T23:06:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Tickets/div_Buy Anyway' is clicked on
+
+26-05-2025T23:06:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Additional data for ticket puchase/Page_Tickets/div_Successful Payment"), 0): Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_Successful Payment' is present
+
+26-05-2025T23:06:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-05-2025T23:06:53 - [MESSAGE][PASSED] - Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_Successful Payment' is present
+
+26-05-2025T23:06:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Additional data for ticket puchase/Page_Tickets/div_1 Daily Passes to 123Test Event"), 0): Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_1 Daily Passes to 123Test Event' is present
+
+26-05-2025T23:06:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-05-2025T23:06:53 - [MESSAGE][PASSED] - Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_1 Daily Passes to 123Test Event' is present
+
+26-05-2025T23:06:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Additional data for ticket puchase/Page_Tickets/div_Payment of 10.00 was successful. A link_c703ef"), 0): Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_Payment of 10.00 was successful. A link_c703ef' is present
+
+26-05-2025T23:06:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-05-2025T23:06:54 - [MESSAGE][PASSED] - Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_Payment of 10.00 was successful. A link_c703ef' is present
+
+26-05-2025T23:06:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-05-2025T23:06:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/111Ticket refund/Partial Ticket Refund" time="48.332" classname="Test Cases/111Ticket refund/Partial Ticket Refund" status="FAILED">
+         <failure type="FAILED" message="Test Cases/111Ticket refund/Partial Ticket Refund FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)&#xa;	at Partial Ticket Refund.run(Partial Ticket Refund:45)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1748289934929.run(TempTestSuite1748289934929.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund' located by '(//button[@type='button'])[3]' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[26-05-2025T23:06:54 - [TEST_CASE][FAILED] - Test Cases/111Ticket refund/Partial Ticket Refund: Test Cases/111Ticket refund/Partial Ticket Refund FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Partial Ticket Refund.run(Partial Ticket Refund:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1748289934929.run(TempTestSuite1748289934929.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund' located by '(//button[@type='button'])[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+
+26-05-2025T23:06:54 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/ "): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/ '
+
+26-05-2025T23:06:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-05-2025T23:06:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-05-2025T23:06:58 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/ '
+
+26-05-2025T23:06:58 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@my.dev.swstage.com/#/"): Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+26-05-2025T23:07:01 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+26-05-2025T23:07:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-05-2025T23:07:01 - [MESSAGE][PASSED] - Current window maximized
+
+26-05-2025T23:07:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Log In_email"), "dcgfcgchfhgvhv@gmail.com"): Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+26-05-2025T23:07:01 - [MESSAGE][PASSED] - Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+26-05-2025T23:07:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_false_password"), "ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"): Text ****** has been set on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+26-05-2025T23:07:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+26-05-2025T23:07:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Log In")): Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+26-05-2025T23:07:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+26-05-2025T23:07:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox"), "[AUTOTESTS] Tickets refunds (do not touch!)"): Text '[AUTOTESTS] Tickets refunds (do not touch!)' is set on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox'
+
+26-05-2025T23:07:08 - [MESSAGE][PASSED] - Text '[AUTOTESTS] Tickets refunds (do not touch!)' is set on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox'
+
+26-05-2025T23:07:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_AUTOTESTS Tickets refunds (do not touch)")): Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_AUTOTESTS Tickets refunds (do not touch)' is clicked on
+
+26-05-2025T23:07:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_AUTOTESTS Tickets refunds (do not touch)' is clicked on
+
+26-05-2025T23:07:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Tickets")): Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Tickets' is clicked on
+
+26-05-2025T23:07:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Tickets' is clicked on
+
+26-05-2025T23:07:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Payments List")): Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Payments List' is clicked on
+
+26-05-2025T23:07:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Payments List' is clicked on
+
+26-05-2025T23:07:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/td_11949")): Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/td_11949' is clicked on
+
+26-05-2025T23:07:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/td_11949' is clicked on
+
+26-05-2025T23:07:11 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund")): Unable to click on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Partial Ticket Refund.run(Partial Ticket Refund:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1748289934929.run(TempTestSuite1748289934929.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund' located by '(//button[@type='button'])[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1748287215666.run(Script1748287215666.groovy:45)
+	... 15 more
+)
+
+26-05-2025T23:07:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@type='button'])[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+26-05-2025T23:07:43 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Partial Ticket Refund.run(Partial Ticket Refund:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1748289934929.run(TempTestSuite1748289934929.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund' located by '(//button[@type='button'])[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1748287215666.run(Script1748287215666.groovy:45)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\LENOVO\\git\\SportWrench\\Reports\\20250526_230534\\Ticket Refunds\\20250526_230534\\1748290062972.png]]]]></system-out>
+         <system-err><![CDATA[26-05-2025T23:06:54 - [TEST_CASE][FAILED] - Test Cases/111Ticket refund/Partial Ticket Refund: Test Cases/111Ticket refund/Partial Ticket Refund FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Partial Ticket Refund.run(Partial Ticket Refund:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1748289934929.run(TempTestSuite1748289934929.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund' located by '(//button[@type='button'])[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-05-2025T23:05:39 - [TEST_SUITE][FAILED] - Ticket Refunds: Test Cases/111Ticket refund/Partial Ticket Refund FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Partial Ticket Refund.run(Partial Ticket Refund:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1748289934929.run(TempTestSuite1748289934929.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund' located by '(//button[@type='button'])[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[26-05-2025T23:05:39 - [TEST_SUITE][FAILED] - Ticket Refunds: Test Cases/111Ticket refund/Partial Ticket Refund FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Partial Ticket Refund.run(Partial Ticket Refund:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1748289934929.run(TempTestSuite1748289934929.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund' located by '(//button[@type='button'])[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

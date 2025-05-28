@@ -1,0 +1,239 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SMOKE test suit for Event,Chrome 136.0.7103.114,,,22-05-2025 21:55:15,22-05-2025 21:59:35,"4m - 20,429s",PASSED
+,,,,,,,
+Test Cases/111Event/Create an Event For Teams,Chrome 136.0.7103.114,,,22-05-2025 21:55:15,22-05-2025 21:56:18,"1m - 3,157s",PASSED
+"openBrowser(""http://USAV:demo@dev.swstage.com/"")",Chrome 136.0.7103.114,,,22-05-2025 21:55:15,22-05-2025 21:55:21,"5,445s",PASSED
+"navigateToUrl(""http://USAV:demo@my.dev.swstage.com/#/"")",Chrome 136.0.7103.114,,,22-05-2025 21:55:21,22-05-2025 21:55:24,"2,925s",PASSED
+maximizeWindow(),Chrome 136.0.7103.114,,,22-05-2025 21:55:24,22-05-2025 21:55:24,"0,070s",PASSED
+"setText(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Log In_email""), ""dcgfcgchfhgvhv@gmail.com"")",Chrome 136.0.7103.114,,,22-05-2025 21:55:24,22-05-2025 21:55:24,"0,682s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_false_password""), ""ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"")",Chrome 136.0.7103.114,,,22-05-2025 21:55:24,22-05-2025 21:55:25,"0,316s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Log In""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:25,22-05-2025 21:55:25,"0,288s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/a_New Event""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:25,22-05-2025 21:55:29,"4,345s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/span_Event Details""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:29,22-05-2025 21:55:33,"3,867s",PASSED
+"setText(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Event Name_long_name""), ""123Test Event"")",Chrome 136.0.7103.114,,,22-05-2025 21:55:33,22-05-2025 21:55:34,"0,526s",PASSED
+"setText(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Short Name_name""), ""TE"")",Chrome 136.0.7103.114,,,22-05-2025 21:55:34,22-05-2025 21:55:34,"0,509s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Teams_allow_teams_registration""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:34,22-05-2025 21:55:35,"0,364s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Ticket Sales_allow_ticket_sales""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:35,22-05-2025 21:55:35,"0,581s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose a Timezone .AmericaNew_YorkAm_0bdf4d""), ""America/New_York"", true)",Chrome 136.0.7103.114,,,22-05-2025 21:55:35,22-05-2025 21:55:36,"0,881s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose Sport .VolleyballBasketballSo_1c54a4""), ""2"", true)",Chrome 136.0.7103.114,,,22-05-2025 21:55:36,22-05-2025 21:55:37,"0,801s",PASSED
+"enhancedClick(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose Sport Variation .IndoorDoubles""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:37,22-05-2025 21:55:38,"0,814s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose Sport Variation .IndoorDoubles""), ""number:1"", true)",Chrome 136.0.7103.114,,,22-05-2025 21:55:38,22-05-2025 21:55:38,"0,739s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Date Start_date_start""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:38,22-05-2025 21:55:39,"0,541s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:39,22-05-2025 21:55:39,"0,499s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:39,22-05-2025 21:55:40,"0,483s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_18""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:40,22-05-2025 21:55:40,"0,501s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Date""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:40,22-05-2025 21:55:41,"0,908s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Close""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:41,22-05-2025 21:55:42,"0,485s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Date End_date_end""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:42,22-05-2025 21:55:42,"0,288s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:42,22-05-2025 21:55:43,"0,484s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:43,22-05-2025 21:55:43,"0,487s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_20""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:43,22-05-2025 21:55:44,"0,523s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Date""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:44,22-05-2025 21:55:44,"0,912s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Close""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:44,22-05-2025 21:55:45,"0,473s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Make Event Live to Public_ng-pristine_2d3249""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:45,22-05-2025 21:55:45,"0,265s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/span_Host Organization Information""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:45,22-05-2025 21:55:46,"0,484s",PASSED
+"setText(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Organization Name_org_name""), ""101 North Atlantic Avenue"")",Chrome 136.0.7103.114,,,22-05-2025 21:55:46,22-05-2025 21:55:46,"0,528s",PASSED
+"setText(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Address_host_address""), ""101 North Atlantic Avenue"")",Chrome 136.0.7103.114,,,22-05-2025 21:55:46,22-05-2025 21:55:47,"0,521s",PASSED
+"setText(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_City_host_city""), ""Daytona Beach"")",Chrome 136.0.7103.114,,,22-05-2025 21:55:47,22-05-2025 21:55:47,"0,508s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Select.AlabamaAlaskaAlbertaArizonaAr_24cd39""), ""string:AL"", true)",Chrome 136.0.7103.114,,,22-05-2025 21:55:47,22-05-2025 21:55:49,"1,271s",PASSED
+"setText(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_ZIP_host_zip""), ""32218"")",Chrome 136.0.7103.114,,,22-05-2025 21:55:49,22-05-2025 21:55:49,"0,492s",PASSED
+"setText(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Phone_org_phone""), ""(111) 111-1111"")",Chrome 136.0.7103.114,,,22-05-2025 21:55:49,22-05-2025 21:55:50,"0,512s",PASSED
+"setText(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Website URL_website""), ""http://111fapl.ru"")",Chrome 136.0.7103.114,,,22-05-2025 21:55:50,22-05-2025 21:55:50,"0,516s",PASSED
+"setText(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Log In_email""), ""dhntyjrtjrujtst@gmail.com"")",Chrome 136.0.7103.114,,,22-05-2025 21:55:50,22-05-2025 21:55:51,"0,510s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/span_Teams Registration Details""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:51,22-05-2025 21:55:51,"0,288s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/label_Use Registration""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:51,22-05-2025 21:55:51,"0,274s",PASSED
+"doubleClick(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/label_Use Registration""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:51,22-05-2025 21:55:51,"0,366s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Activate Teams Registration_live_reg""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:51,22-05-2025 21:55:52,"0,271s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Open Date_reg_open""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:52,22-05-2025 21:55:52,"0,286s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_31""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:52,22-05-2025 21:55:53,"0,499s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Date""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:53,22-05-2025 21:55:53,"0,908s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Close""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:53,22-05-2025 21:55:54,"0,470s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Close Date_reg_close""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:54,22-05-2025 21:55:54,"0,291s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:54,22-05-2025 21:55:55,"0,484s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_22""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:55,22-05-2025 21:55:55,"0,497s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Date""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:55,22-05-2025 21:55:56,"0,900s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Close""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:56,22-05-2025 21:55:57,"0,462s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Female_female_gender""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:57,22-05-2025 21:55:57,"0,264s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Male_male_gender""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:57,22-05-2025 21:55:57,"0,261s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Coed_coed_gender""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:57,22-05-2025 21:55:57,"0,267s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose Sanctioning Body .USAVAAUJVA9_9b6f50""), ""number:3"", true)",Chrome 136.0.7103.114,,,22-05-2025 21:55:57,22-05-2025 21:55:58,"0,766s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Require USAV Number_usav_req""))",Chrome 136.0.7103.114,,,22-05-2025 21:55:58,22-05-2025 21:55:59,"0,478s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose USAV Region .AlaskaAlohaArizo_c03c28""), ""string:AK"", true)",Chrome 136.0.7103.114,,,22-05-2025 21:55:59,22-05-2025 21:56:00,"0,993s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose Event Type .RegionalNationalQ_75cf81""), ""string:regional"", true)",Chrome 136.0.7103.114,,,22-05-2025 21:56:00,22-05-2025 21:56:00,"0,737s",PASSED
+"setText(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Registration Fee_reg_fee""), ""1000"")",Chrome 136.0.7103.114,,,22-05-2025 21:56:00,22-05-2025 21:56:01,"0,503s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Hide Seeds_hide_seeds""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:01,22-05-2025 21:56:01,"0,259s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Roster Deadline_deadline""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:01,22-05-2025 21:56:01,"0,306s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_April 2025_btn btn-default btn-sm pu_492a81_1""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:01,22-05-2025 21:56:02,"0,511s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_23""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:02,22-05-2025 21:56:02,"0,495s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Date_1""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:02,22-05-2025 21:56:04,"1,282s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Close_1""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:04,22-05-2025 21:56:04,"0,505s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/span_Payment Information""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:04,22-05-2025 21:56:04,"0,271s",PASSED
+"setText(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Address_address""), ""Ut consequatur aliq"")",Chrome 136.0.7103.114,,,22-05-2025 21:56:04,22-05-2025 21:56:05,"0,519s",PASSED
+"setText(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_City_city""), ""Eiusmod quo doloribu"")",Chrome 136.0.7103.114,,,22-05-2025 21:56:05,22-05-2025 21:56:05,"0,511s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose a State .AlabamaAlaskaAlberta_e68b6b""), ""string:AL"", true)",Chrome 136.0.7103.114,,,22-05-2025 21:56:05,22-05-2025 21:56:07,"1,133s",PASSED
+"setText(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Zip_zip (1)""), ""11949"")",Chrome 136.0.7103.114,,,22-05-2025 21:56:07,22-05-2025 21:56:07,"0,506s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/label_Checks Payable to""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:07,22-05-2025 21:56:07,"0,268s",PASSED
+"setText(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Checks Payable to_payment_name""), ""6565233"")",Chrome 136.0.7103.114,,,22-05-2025 21:56:07,22-05-2025 21:56:08,"0,499s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Tournament Uses Card Payments_allow_c_cda1e1""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:08,22-05-2025 21:56:08,"0,287s",PASSED
+"setText(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Statement Descriptor_stripe_statement""), ""gffcggfccgc"")",Chrome 136.0.7103.114,,,22-05-2025 21:56:08,22-05-2025 21:56:09,"1,139s",PASSED
+"setText(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Credit Surcharge_surcharge""), ""0"")",Chrome 136.0.7103.114,,,22-05-2025 21:56:09,22-05-2025 21:56:10,"0,496s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose a Stripe Account .Lev (lev.ku_173092""), ""number:16777251"", true)",Chrome 136.0.7103.114,,,22-05-2025 21:56:10,22-05-2025 21:56:11,"0,736s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/span_Main Location""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:11,22-05-2025 21:56:11,"0,273s",PASSED
+"setText(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Location name_name""), ""Daytona Beach Ocean Center"")",Chrome 136.0.7103.114,,,22-05-2025 21:56:11,22-05-2025 21:56:11,"0,512s",PASSED
+"setText(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Short name_short_name""), ""Molly"")",Chrome 136.0.7103.114,,,22-05-2025 21:56:11,22-05-2025 21:56:12,"0,494s",PASSED
+"setText(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_Address_address_1""), ""101 North Atlantic Avenue"")",Chrome 136.0.7103.114,,,22-05-2025 21:56:12,22-05-2025 21:56:12,"0,513s",PASSED
+"setText(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_City_city_1""), ""Daytona Beach"")",Chrome 136.0.7103.114,,,22-05-2025 21:56:12,22-05-2025 21:56:13,"0,497s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/select_Choose State .AlabamaAlaskaAlbertaAr_76df04""), ""string:AL"", true)",Chrome 136.0.7103.114,,,22-05-2025 21:56:13,22-05-2025 21:56:14,"1,104s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_ZIP_zip""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:14,22-05-2025 21:56:14,"0,269s",PASSED
+"setText(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/input_ZIP_zip""), ""32218"")",Chrome 136.0.7103.114,,,22-05-2025 21:56:14,22-05-2025 21:56:15,"0,477s",PASSED
+"click(findTestObject(""Object Repository/EVENT FOR TEAMS/Page_SportWrench - The Home of Sporting Events/button_Save""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:15,22-05-2025 21:56:15,"0,265s",PASSED
+delay(3),Chrome 136.0.7103.114,,,22-05-2025 21:56:15,22-05-2025 21:56:18,"3,024s",PASSED
+closeBrowser(),Chrome 136.0.7103.114,,,22-05-2025 21:56:18,22-05-2025 21:56:18,"0,126s",PASSED
+,,,,,,,
+Test Cases/111Event/Create Divisions,Chrome 136.0.7103.114,,,22-05-2025 21:56:18,22-05-2025 21:56:48,"29,884s",PASSED
+"openBrowser(""http://USAV:demo@dev.swstage.com/ "")",Chrome 136.0.7103.114,,,22-05-2025 21:56:18,22-05-2025 21:56:22,"4,183s",PASSED
+"navigateToUrl(""http://USAV:demo@my.dev.swstage.com/#/"")",Chrome 136.0.7103.114,,,22-05-2025 21:56:22,22-05-2025 21:56:27,"4,528s",PASSED
+maximizeWindow(),Chrome 136.0.7103.114,,,22-05-2025 21:56:27,22-05-2025 21:56:27,"0,042s",PASSED
+"setText(findTestObject(""Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_Log In_email""), ""dcgfcgchfhgvhv@gmail.com"")",Chrome 136.0.7103.114,,,22-05-2025 21:56:27,22-05-2025 21:56:28,"0,718s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_false_password""), ""ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"")",Chrome 136.0.7103.114,,,22-05-2025 21:56:28,22-05-2025 21:56:28,"0,275s",PASSED
+"click(findTestObject(""Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/button_Log In""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:28,22-05-2025 21:56:28,"0,269s",PASSED
+"setText(findTestObject(""Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox""), ""123Test Event"")",Chrome 136.0.7103.114,,,22-05-2025 21:56:28,22-05-2025 21:56:35,"6,436s",PASSED
+"click(findTestObject(""Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/a_Test Event""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:35,22-05-2025 21:56:35,"0,478s",PASSED
+"click(findTestObject(""Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/a_Divisions""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:35,22-05-2025 21:56:37,"1,520s",PASSED
+"click(findTestObject(""Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/a_Divisions Wizard""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:37,22-05-2025 21:56:37,"0,526s",PASSED
+"click(findTestObject(""Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_Sort Order_ng-pristine ng-untouched n_10a49a""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:37,22-05-2025 21:56:38,"0,559s",PASSED
+"click(findTestObject(""Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_female_ng-pristine ng-untouched ng-va_af5c10""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:38,22-05-2025 21:56:38,"0,266s",PASSED
+"click(findTestObject(""Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_male_ng-pristine ng-untouched ng-vali_863c78""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:38,22-05-2025 21:56:38,"0,265s",PASSED
+"click(findTestObject(""Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:38,22-05-2025 21:56:39,"0,292s",PASSED
+"click(findTestObject(""Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:39,22-05-2025 21:56:39,"0,265s",PASSED
+"click(findTestObject(""Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:39,22-05-2025 21:56:39,"0,265s",PASSED
+"click(findTestObject(""Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2_3""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:39,22-05-2025 21:56:39,"0,266s",PASSED
+"click(findTestObject(""Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2_3_4""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:39,22-05-2025 21:56:40,"0,264s",PASSED
+"click(findTestObject(""Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2_3_4_5""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:40,22-05-2025 21:56:40,"0,260s",PASSED
+"click(findTestObject(""Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2_3_4_5_6""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:40,22-05-2025 21:56:40,"0,265s",PASSED
+"click(findTestObject(""Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2_3_4_5_6_7""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:40,22-05-2025 21:56:40,"0,266s",PASSED
+"click(findTestObject(""Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2_3_4_5_6_7_8""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:40,22-05-2025 21:56:41,"0,269s",PASSED
+"click(findTestObject(""Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_coed_input-inline ng-pristine ng-unto_3df5b0_1_2_3_4_5_6_7_8_9""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:41,22-05-2025 21:56:41,"0,263s",PASSED
+"click(findTestObject(""Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/input_Adult_ng-pristine ng-untouched ng-val_ec79f8""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:41,22-05-2025 21:56:41,"0,268s",PASSED
+"click(findTestObject(""Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/button_Create""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:41,22-05-2025 21:56:42,"0,468s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Create Division/Page_SportWrench - The Home of Sporting Events/a_Divisions Wizard""), 0)",Chrome 136.0.7103.114,,,22-05-2025 21:56:42,22-05-2025 21:56:48,"6,226s",PASSED
+closeBrowser(),Chrome 136.0.7103.114,,,22-05-2025 21:56:48,22-05-2025 21:56:48,"0,117s",PASSED
+,,,,,,,
+Test Cases/111Event/Event Supervisor,Chrome 136.0.7103.114,,,22-05-2025 21:56:48,22-05-2025 21:57:20,"32,243s",PASSED
+"openBrowser(""http://USAV:demo@dev.swstage.com/"")",Chrome 136.0.7103.114,,,22-05-2025 21:56:48,22-05-2025 21:56:53,"4,729s",PASSED
+"navigateToUrl(""http://USAV:demo@my.dev.swstage.com/#/"")",Chrome 136.0.7103.114,,,22-05-2025 21:56:53,22-05-2025 21:56:56,"2,940s",PASSED
+maximizeWindow(),Chrome 136.0.7103.114,,,22-05-2025 21:56:56,22-05-2025 21:56:56,"0,031s",PASSED
+"setText(findTestObject(""Object Repository/Event Supervisor/Event Supervisor 2/Page_SportWrench - The Home of Sporting Events/input_Log In_email""), ""info@sportwrench.com"")",Chrome 136.0.7103.114,,,22-05-2025 21:56:56,22-05-2025 21:56:56,"0,732s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Event Supervisor/Event Supervisor 2/Page_SportWrench - The Home of Sporting Events/input_false_password""), ""ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"")",Chrome 136.0.7103.114,,,22-05-2025 21:56:56,22-05-2025 21:56:57,"0,283s",PASSED
+"click(findTestObject(""Object Repository/Event Supervisor/Event Supervisor 2/Page_SportWrench - The Home of Sporting Events/button_Log In""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:57,22-05-2025 21:56:57,"0,265s",PASSED
+"click(findTestObject(""Object Repository/Event Supervisor/Event Supervisor 2/Page_SportWrench - The Home of Sporting Events/a_Event Supervisor""))",Chrome 136.0.7103.114,,,22-05-2025 21:56:57,22-05-2025 21:57:01,"3,731s",PASSED
+"click(findTestObject(""Object Repository/Event Supervisor/Event Supervisor 2/Page_SportWrench - The Home of Sporting Events/div_Undefined""))",Chrome 136.0.7103.114,,,22-05-2025 21:57:01,22-05-2025 21:57:16,"15,081s",PASSED
+"setText(findTestObject(""Object Repository/Event Supervisor/Event Supervisor 2/Page_SportWrench - The Home of Sporting Events/input_SW Fee for Teams_teams_sw_fee""), ""10"")",Chrome 136.0.7103.114,,,22-05-2025 21:57:16,22-05-2025 21:57:17,"0,964s",PASSED
+delay(1),Chrome 136.0.7103.114,,,22-05-2025 21:57:17,22-05-2025 21:57:18,"1,005s",PASSED
+"enhancedClick(findTestObject(""Object Repository/Event Supervisor/Event Supervisor 2/Page_SportWrench - The Home of Sporting Events/button_Save""))",Chrome 136.0.7103.114,,,22-05-2025 21:57:18,22-05-2025 21:57:18,"0,300s",PASSED
+delay(2),Chrome 136.0.7103.114,,,22-05-2025 21:57:18,22-05-2025 21:57:20,"2,016s",PASSED
+closeBrowser(),Chrome 136.0.7103.114,,,22-05-2025 21:57:20,22-05-2025 21:57:20,"0,119s",PASSED
+,,,,,,,
+Test Cases/111Event/Team purchase,Chrome 136.0.7103.114,,,22-05-2025 21:57:20,22-05-2025 21:57:48,"28,011s",PASSED
+"openBrowser(""http://USAV:demo@dev.swstage.com/ "")",Chrome 136.0.7103.114,,,22-05-2025 21:57:20,22-05-2025 21:57:24,"3,622s",PASSED
+maximizeWindow(),Chrome 136.0.7103.114,,,22-05-2025 21:57:24,22-05-2025 21:57:24,"0,047s",PASSED
+"navigateToUrl(""http://USAV:demo@my.dev.swstage.com/#/"")",Chrome 136.0.7103.114,,,22-05-2025 21:57:24,22-05-2025 21:57:26,"2,490s",PASSED
+"setText(findTestObject(""Object Repository/Page_SportWrench - The Home of Sporting Events/input_Log In_email""), ""wendy@mvvclub.com"")",Chrome 136.0.7103.114,,,22-05-2025 21:57:26,22-05-2025 21:57:27,"0,725s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_SportWrench - The Home of Sporting Events/input_false_password""), ""ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"")",Chrome 136.0.7103.114,,,22-05-2025 21:57:27,22-05-2025 21:57:27,"0,273s",PASSED
+"click(findTestObject(""Object Repository/Page_SportWrench - The Home of Sporting Events/button_Log In""))",Chrome 136.0.7103.114,,,22-05-2025 21:57:27,22-05-2025 21:57:28,"0,270s",PASSED
+"click(findTestObject(""Object Repository/Page_SportWrench - The Home of Sporting Events/a_Enter Events""))",Chrome 136.0.7103.114,,,22-05-2025 21:57:28,22-05-2025 21:57:32,"3,977s",PASSED
+"setText(findTestObject(""Spy Web/Page_SportWrench - The Home of Sporting Events/input_Invoices_searchbox""), ""123Test Event"")",Chrome 136.0.7103.114,,,22-05-2025 21:57:32,22-05-2025 21:57:33,"0,919s",PASSED
+delay(2),Chrome 136.0.7103.114,,,22-05-2025 21:57:33,22-05-2025 21:57:35,"2,014s",PASSED
+"click(findTestObject(""Spy Web/Page_SportWrench - The Home of Sporting Events/span_123Test Event""))",Chrome 136.0.7103.114,,,22-05-2025 21:57:35,22-05-2025 21:57:35,"0,292s",PASSED
+"click(findTestObject(""Object Repository/Page_SportWrench - The Home of Sporting Events/button_Enter Event and Manage Teams""))",Chrome 136.0.7103.114,,,22-05-2025 21:57:35,22-05-2025 21:57:36,"0,691s",PASSED
+"enhancedClick(findTestObject(""Object Repository/Page_SportWrench - The Home of Sporting Events/select_18 Club 18 Club Not entered""))",Chrome 136.0.7103.114,,,22-05-2025 21:57:36,22-05-2025 21:57:37,"1,452s",PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Page_SportWrench - The Home of Sporting Events/select_18 Club 18 Club Not entered""), ""♂♀ 18 Club"", false)",Chrome 136.0.7103.114,,,22-05-2025 21:57:37,22-05-2025 21:57:38,"0,510s",PASSED
+"click(findTestObject(""Object Repository/Page_SportWrench - The Home of Sporting Events/button_Pay""))",Chrome 136.0.7103.114,,,22-05-2025 21:57:38,22-05-2025 21:57:39,"0,997s",PASSED
+"click(findTestObject(""Object Repository/Page_SportWrench - The Home of Sporting Events/div_Proceed to payment_1""))",Chrome 136.0.7103.114,,,22-05-2025 21:57:39,22-05-2025 21:57:40,"0,931s",PASSED
+delay(2),Chrome 136.0.7103.114,,,22-05-2025 21:57:40,22-05-2025 21:57:42,"2,003s",PASSED
+"setText(findTestObject(""Object Repository/Page_SportWrench - The Home of Sporting Events/input_Card number_number (3)""), ""4242 4242 4242 4242"")",Chrome 136.0.7103.114,,,22-05-2025 21:57:42,22-05-2025 21:57:42,"0,386s",PASSED
+"setText(findTestObject(""Object Repository/Page_SportWrench - The Home of Sporting Events/input_MM  YY_expiry (3)""), ""12 / 26"")",Chrome 136.0.7103.114,,,22-05-2025 21:57:42,22-05-2025 21:57:42,"0,347s",PASSED
+"setText(findTestObject(""Object Repository/Page_SportWrench - The Home of Sporting Events/input_Security code_cvc (2)""), ""654"")",Chrome 136.0.7103.114,,,22-05-2025 21:57:42,22-05-2025 21:57:43,"0,330s",PASSED
+"click(findTestObject(""Object Repository/Page_SportWrench - The Home of Sporting Events/button_Pay 1,000.00""))",Chrome 136.0.7103.114,,,22-05-2025 21:57:43,22-05-2025 21:57:43,"0,284s",PASSED
+delay(5),Chrome 136.0.7103.114,,,22-05-2025 21:57:43,22-05-2025 21:57:48,"5,011s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_SportWrench - The Home of Sporting Events/span_Your Payment of 1,000.00 succeeded""), 0)",Chrome 136.0.7103.114,,,22-05-2025 21:57:48,22-05-2025 21:57:48,"0,236s",PASSED
+closeBrowser(),Chrome 136.0.7103.114,,,22-05-2025 21:57:48,22-05-2025 21:57:48,"0,123s",PASSED
+,,,,,,,
+Test Cases/111Event/Create settings for tickets,Chrome 136.0.7103.114,,"event, tickets",22-05-2025 21:57:48,22-05-2025 21:58:20,"31,330s",PASSED
+"openBrowser(""http://USAV:demo@dev.swstage.com/ "")",Chrome 136.0.7103.114,,,22-05-2025 21:57:48,22-05-2025 21:57:52,"3,772s",PASSED
+"navigateToUrl(""http://USAV:demo@my.dev.swstage.com/#/"")",Chrome 136.0.7103.114,,,22-05-2025 21:57:52,22-05-2025 21:57:55,"2,527s",PASSED
+maximizeWindow(),Chrome 136.0.7103.114,,,22-05-2025 21:57:55,22-05-2025 21:57:55,"0,044s",PASSED
+"setText(findTestObject(""Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_Log In_email (1)""), ""dcgfcgchfhgvhv@gmail.com"")",Chrome 136.0.7103.114,,,22-05-2025 21:57:55,22-05-2025 21:57:55,"0,716s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_false_password (1)""), ""ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"")",Chrome 136.0.7103.114,,,22-05-2025 21:57:55,22-05-2025 21:57:56,"0,277s",PASSED
+"click(findTestObject(""Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Log In (1)""))",Chrome 136.0.7103.114,,,22-05-2025 21:57:56,22-05-2025 21:57:56,"0,274s",PASSED
+"setText(findTestObject(""Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox (1)""), ""123Test Event"")",Chrome 136.0.7103.114,,,22-05-2025 21:57:56,22-05-2025 21:58:04,"7,581s",PASSED
+"click(findTestObject(""Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/a_123Test Event (1)""))",Chrome 136.0.7103.114,,,22-05-2025 21:58:04,22-05-2025 21:58:04,"0,490s",PASSED
+"click(findTestObject(""Spy Web/Page_SportWrench - The Home of Sporting Events/a_Tickets""))",Chrome 136.0.7103.114,,,22-05-2025 21:58:04,22-05-2025 21:58:05,"1,394s",PASSED
+"click(findTestObject(""Spy Web/Page_SportWrench - The Home of Sporting Events/a_Settings""))",Chrome 136.0.7103.114,,,22-05-2025 21:58:05,22-05-2025 21:58:06,"0,260s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/select_Choose a Payment Account .Lev (lev.k_36ed0f (1)""), ""number:16777251"", true)",Chrome 136.0.7103.114,,,22-05-2025 21:58:06,22-05-2025 21:58:10,"3,879s",PASSED
+"click(findTestObject(""Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Save (1)""))",Chrome 136.0.7103.114,,,22-05-2025 21:58:10,22-05-2025 21:58:10,"0,466s",PASSED
+"setText(findTestObject(""Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_Statement Descriptor_stripe_statement (1)""), ""gbhdgdgbgb"")",Chrome 136.0.7103.114,,,22-05-2025 21:58:10,22-05-2025 21:58:11,"0,924s",PASSED
+"click(findTestObject(""Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Save_1 (1)""))",Chrome 136.0.7103.114,,,22-05-2025 21:58:11,22-05-2025 21:58:11,"0,473s",PASSED
+"click(findTestObject(""Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Add Daily  WeekEnd (1)""))",Chrome 136.0.7103.114,,,22-05-2025 21:58:11,22-05-2025 21:58:12,"0,723s",PASSED
+"setText(findTestObject(""Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_edit_form-control input-sm ng-pristin_1ea9ba (1)""), ""10"")",Chrome 136.0.7103.114,,,22-05-2025 21:58:12,22-05-2025 21:58:13,"0,700s",PASSED
+"setText(findTestObject(""Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_edit_form-control input-sm ng-pristin_1ea9ba_1 (1)""), ""20"")",Chrome 136.0.7103.114,,,22-05-2025 21:58:13,22-05-2025 21:58:13,"0,490s",PASSED
+"click(findTestObject(""Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/i_edit_fa fa-floppy-o (1)""))",Chrome 136.0.7103.114,,,22-05-2025 21:58:13,22-05-2025 21:58:14,"0,267s",PASSED
+"click(findTestObject(""Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/i_edit_fa fa-floppy-o_1 (1)""))",Chrome 136.0.7103.114,,,22-05-2025 21:58:14,22-05-2025 21:58:14,"0,896s",PASSED
+"click(findTestObject(""Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_From_white-ro form-control pointer ng_bc7ee6 (1)""))",Chrome 136.0.7103.114,,,22-05-2025 21:58:14,22-05-2025 21:58:15,"0,751s",PASSED
+"click(findTestObject(""Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_01 (1)""))",Chrome 136.0.7103.114,,,22-05-2025 21:58:15,22-05-2025 21:58:16,"0,513s",PASSED
+"click(findTestObject(""Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Date (1)""))",Chrome 136.0.7103.114,,,22-05-2025 21:58:16,22-05-2025 21:58:16,"0,486s",PASSED
+"click(findTestObject(""Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Close (1)""))",Chrome 136.0.7103.114,,,22-05-2025 21:58:16,22-05-2025 21:58:17,"0,471s",PASSED
+"click(findTestObject(""Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_To_white-ro form-control pointer ng-p_bf3a2b (1)""))",Chrome 136.0.7103.114,,,22-05-2025 21:58:17,22-05-2025 21:58:17,"0,287s",PASSED
+"click(findTestObject(""Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_30 (1)""))",Chrome 136.0.7103.114,,,22-05-2025 21:58:17,22-05-2025 21:58:17,"0,498s",PASSED
+"click(findTestObject(""Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Date (1)""))",Chrome 136.0.7103.114,,,22-05-2025 21:58:17,22-05-2025 21:58:18,"0,482s",PASSED
+"click(findTestObject(""Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Close (1)""))",Chrome 136.0.7103.114,,,22-05-2025 21:58:18,22-05-2025 21:58:18,"0,467s",PASSED
+"click(findTestObject(""Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/button_Save_1_2 (1)""))",Chrome 136.0.7103.114,,,22-05-2025 21:58:18,22-05-2025 21:58:19,"0,266s",PASSED
+"click(findTestObject(""Object Repository/Create settings for tickets/Page_SportWrench - The Home of Sporting Events/input_Published_ng-pristine ng-untouched ng_393040 (1)""))",Chrome 136.0.7103.114,,,22-05-2025 21:58:19,22-05-2025 21:58:19,"0,798s",PASSED
+closeBrowser(),Chrome 136.0.7103.114,,,22-05-2025 21:58:19,22-05-2025 21:58:20,"0,108s",PASSED
+,,,,,,,
+Test Cases/111Event/Ticket purchase,Chrome 136.0.7103.114,,"ticket, event",22-05-2025 21:58:20,22-05-2025 21:59:15,"55,821s",PASSED
+"openBrowser(""http://USAV:demo@dev.swstage.com/"")",Chrome 136.0.7103.114,,,22-05-2025 21:58:20,22-05-2025 21:58:27,"6,871s",PASSED
+"navigateToUrl(""http://USAV:demo@tickets-dev.swstage.com/"")",Chrome 136.0.7103.114,,,22-05-2025 21:58:27,22-05-2025 21:58:29,"2,022s",PASSED
+"setText(findTestObject(""Object Repository/Ticket purchase/Page_SW  Tickets/input_Available Events_form-control ng-pris_aaf354""), ""123Test Event"")",Chrome 136.0.7103.114,,,22-05-2025 21:58:29,22-05-2025 21:58:30,"1,292s",PASSED
+maximizeWindow(),Chrome 136.0.7103.114,,,22-05-2025 21:58:30,22-05-2025 21:58:30,"0,043s",PASSED
+"click(findTestObject(""Object Repository/Ticket purchase/Page_SW  Tickets/b_123Test Event""))",Chrome 136.0.7103.114,,,22-05-2025 21:58:30,22-05-2025 21:58:33,"2,778s",PASSED
+"click(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/div_None""))",Chrome 136.0.7103.114,,,22-05-2025 21:58:33,22-05-2025 21:58:33,"0,275s",PASSED
+"click(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/div_1""))",Chrome 136.0.7103.114,,,22-05-2025 21:58:33,22-05-2025 21:58:33,"0,295s",PASSED
+"click(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Purchaser Info_1""))",Chrome 136.0.7103.114,,,22-05-2025 21:58:33,22-05-2025 21:58:34,"0,489s",PASSED
+"click(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree""))",Chrome 136.0.7103.114,,,22-05-2025 21:58:34,22-05-2025 21:58:34,"0,509s",PASSED
+"setText(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserFirst""), ""Tara"")",Chrome 136.0.7103.114,,,22-05-2025 21:58:34,22-05-2025 21:58:35,"0,750s",PASSED
+"setText(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserLast""), ""Charles"")",Chrome 136.0.7103.114,,,22-05-2025 21:58:35,22-05-2025 21:58:36,"0,977s",PASSED
+"setText(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserEmail""), ""aaaa@gmail.com"")",Chrome 136.0.7103.114,,,22-05-2025 21:58:36,22-05-2025 21:58:37,"0,544s",PASSED
+"executeJavaScript(""document.getElementById('purchaserPhone').focus(); document.execCommand('insertText', false, '(111) 111-1111');"", null)",Chrome 136.0.7103.114,,,22-05-2025 21:58:37,22-05-2025 21:58:37,"0,029s",PASSED
+"setText(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserZipCode""), ""11949"")",Chrome 136.0.7103.114,,,22-05-2025 21:58:37,22-05-2025 21:58:37,"0,518s",PASSED
+"click(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Daily Passes""))",Chrome 136.0.7103.114,,,22-05-2025 21:58:37,22-05-2025 21:58:37,"0,279s",PASSED
+"click(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree""))",Chrome 136.0.7103.114,,,22-05-2025 21:58:37,22-05-2025 21:58:38,"0,479s",PASSED
+"click(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Summary""))",Chrome 136.0.7103.114,,,22-05-2025 21:58:38,22-05-2025 21:58:38,"0,272s",PASSED
+"click(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Payment""))",Chrome 136.0.7103.114,,,22-05-2025 21:58:38,22-05-2025 21:58:39,"0,494s",PASSED
+"click(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Card information""))",Chrome 136.0.7103.114,,,22-05-2025 21:58:39,22-05-2025 21:58:40,"0,946s",PASSED
+"setText(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cardnumber""), ""4242424242424242"")",Chrome 136.0.7103.114,,,22-05-2025 21:58:40,22-05-2025 21:58:40,"0,958s",PASSED
+"setText(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_exp-date""), ""12 / 25"")",Chrome 136.0.7103.114,,,22-05-2025 21:58:40,22-05-2025 21:58:41,"0,324s",PASSED
+"setText(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cvc""), ""454"")",Chrome 136.0.7103.114,,,22-05-2025 21:58:41,22-05-2025 21:58:41,"0,318s",PASSED
+"click(findTestObject(""Object Repository/Ticket payment 1111111111111/Page_Tickets/div_omplete Purchase""))",Chrome 136.0.7103.114,,,22-05-2025 21:58:41,22-05-2025 21:58:41,"0,274s",PASSED
+"click(findTestObject(""Page_Tickets/div_Buy Anyway""), OPTIONAL)",Chrome 136.0.7103.114,,,22-05-2025 21:58:41,22-05-2025 21:58:43,"1,615s",PASSED
+"click(findTestObject(""Page_Tickets/div_Confirm Duplicate Purchase""), OPTIONAL)",Chrome 136.0.7103.114,,,22-05-2025 21:58:43,22-05-2025 21:59:14,"31,240s",PASSED
+"verifyElementPresent(findTestObject(""Additional data for ticket puchase/Page_Tickets/div_Successful Payment""), 0)",Chrome 136.0.7103.114,,,22-05-2025 21:59:14,22-05-2025 21:59:15,"0,246s",PASSED
+"verifyElementPresent(findTestObject(""Additional data for ticket puchase/Page_Tickets/div_1 Daily Passes to 123Test Event""), 0)",Chrome 136.0.7103.114,,,22-05-2025 21:59:15,22-05-2025 21:59:15,"0,245s",PASSED
+"verifyElementPresent(findTestObject(""Additional data for ticket puchase/Page_Tickets/div_Payment of 10.00 was successful. A link_c703ef""), 0)",Chrome 136.0.7103.114,,,22-05-2025 21:59:15,22-05-2025 21:59:15,"0,237s",PASSED
+"click(findTestObject(""Object Repository/Insurance purchase/Page_Tickets/input_radio-491-f95-9a6""))",Chrome 136.0.7103.114,,,22-05-2025 21:59:15,22-05-2025 21:59:15,"0,303s",PASSED
+closeBrowser(),Chrome 136.0.7103.114,,,22-05-2025 21:59:15,22-05-2025 21:59:15,"0,133s",PASSED
+,,,,,,,
+Test Cases/111Event/Delete an Event,Chrome 136.0.7103.114,,,22-05-2025 21:59:15,22-05-2025 21:59:35,"19,818s",PASSED
+"openBrowser(""http://USAV:demo@dev.swstage.com/"")",Chrome 136.0.7103.114,,,22-05-2025 21:59:15,22-05-2025 21:59:19,"3,410s",PASSED
+"navigateToUrl(""http://USAV:demo@my.dev.swstage.com/#/"")",Chrome 136.0.7103.114,,,22-05-2025 21:59:19,22-05-2025 21:59:22,"3,232s",PASSED
+maximizeWindow(),Chrome 136.0.7103.114,,,22-05-2025 21:59:22,22-05-2025 21:59:22,"0,035s",PASSED
+"setText(findTestObject(""Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/input_Log In_email""), ""dcgfcgchfhgvhv@gmail.com"")",Chrome 136.0.7103.114,,,22-05-2025 21:59:22,22-05-2025 21:59:23,"0,731s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/input_false_password""), ""ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"")",Chrome 136.0.7103.114,,,22-05-2025 21:59:23,22-05-2025 21:59:23,"0,281s",PASSED
+"click(findTestObject(""Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/button_Log In""))",Chrome 136.0.7103.114,,,22-05-2025 21:59:23,22-05-2025 21:59:23,"0,268s",PASSED
+"setText(findTestObject(""Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox""), ""123Test Event"")",Chrome 136.0.7103.114,,,22-05-2025 21:59:23,22-05-2025 21:59:29,"5,722s",PASSED
+"click(findTestObject(""Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/a_123Test Event""))",Chrome 136.0.7103.114,,,22-05-2025 21:59:29,22-05-2025 21:59:30,"0,484s",PASSED
+"click(findTestObject(""Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/li_123Test Event""))",Chrome 136.0.7103.114,,,22-05-2025 21:59:30,22-05-2025 21:59:30,"0,775s",PASSED
+"click(findTestObject(""Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/a_Delete event""))",Chrome 136.0.7103.114,,,22-05-2025 21:59:30,22-05-2025 21:59:31,"1,014s",PASSED
+"click(findTestObject(""Object Repository/Delete an Event/Page_SportWrench - The Home of Sporting Events/button_Yes""))",Chrome 136.0.7103.114,,,22-05-2025 21:59:31,22-05-2025 21:59:32,"0,476s",PASSED
+delay(3),Chrome 136.0.7103.114,,,22-05-2025 21:59:32,22-05-2025 21:59:35,"3,001s",PASSED
+closeBrowser(),Chrome 136.0.7103.114,,,22-05-2025 21:59:35,22-05-2025 21:59:35,"0,349s",PASSED

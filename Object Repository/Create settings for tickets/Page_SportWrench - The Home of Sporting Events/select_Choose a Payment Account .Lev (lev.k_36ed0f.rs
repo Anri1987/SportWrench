@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Choose a Payment Account .Lev (lev.k_36ed0f</name>
+   <tag></tag>
+   <elementGuidId>97db45f0-d354-441c-bc0b-08bf95e03e4c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;stripe_account&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@name='stripe_account']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>04593b5f-3cad-425c-87d8-29835c9a65c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-if</name>
+      <type>Main</type>
+      <value>!event.block_tickets_keys_edit &amp;&amp; isStripeProvider()</value>
+      <webElementGuid>d8fea1d0-54e0-4337-8ae7-2b70ed77dcdb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>stripe_account</value>
+      <webElementGuid>920d9325-ac00-42a3-8189-e6ebf67c5481</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required</value>
+      <webElementGuid>add33d58-e4dc-4bb9-9b7f-b98b328e090b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>event.account_id</value>
+      <webElementGuid>1853742c-eaf1-4158-8f34-710a3c374cdd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-options</name>
+      <type>Main</type>
+      <value>acc.account_id as accLabel(acc) for acc in stripeAccounts</value>
+      <webElementGuid>e429f517-9565-434a-a9cd-5346d142f064</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Choose a Payment Account ...Lev (lev.kuzmenko11@gmail.com)TEST: fapl.ru (null)</value>
+      <webElementGuid>3b360310-e2db-4788-8ff7-46b0b5b7df24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[1]/div[@class=&quot;container-fluid block-height-min&quot;]/div[@class=&quot;row rowm0&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;tab-content eo-dashboard&quot;]/div[@class=&quot;tab-pane active&quot;]/div[1]/div[@class=&quot;row row-space rowm0&quot;]/div[@class=&quot;col-xs-12 col-sm-offset-1 col-sm-7&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-body&quot;]/div[@class=&quot;row row-space&quot;]/div[@class=&quot;col-sm-7&quot;]/select[@class=&quot;form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required&quot;]</value>
+      <webElementGuid>20d5d466-0a0c-4240-a0a1-b56a6281597a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@name='stripe_account']</value>
+      <webElementGuid>a4174f30-57cd-43c8-8c8c-2819d7a12033</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stripe Account'])[1]/following::select[1]</value>
+      <webElementGuid>9d25f87d-cff4-4871-91b6-c289fc27b602</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tickets Payment Settings'])[1]/following::select[1]</value>
+      <webElementGuid>cbe106e6-d2a8-4dcd-84df-17f68633a1e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SW Application Fee'])[1]/preceding::select[1]</value>
+      <webElementGuid>d0411869-b822-45a6-b7ef-15f43ca9cd1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$1.10'])[1]/preceding::select[1]</value>
+      <webElementGuid>02b7878e-5bfb-4204-9636-8c524ebfad1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/select</value>
+      <webElementGuid>64c557b8-7b2b-409f-ae54-a4aec05dd303</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'stripe_account' and (text() = 'Choose a Payment Account ...Lev (lev.kuzmenko11@gmail.com)TEST: fapl.ru (null)' or . = 'Choose a Payment Account ...Lev (lev.kuzmenko11@gmail.com)TEST: fapl.ru (null)')]</value>
+      <webElementGuid>9d03aa21-a4d9-439e-a6b4-a2832aaa45a8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

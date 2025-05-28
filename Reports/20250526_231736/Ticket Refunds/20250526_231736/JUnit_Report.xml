@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Ticket Refunds" time="112.75" tests="4" failures="0" errors="0">
+   <testsuite name="Ticket Refunds" tests="4" failures="0" errors="0" time="112.75" skipped="0" timestamp="26-05-2025T23:17:40" hostname="LENOVO - DESKTOP-9MN524E" id="Test Suites/Ticket Refunds">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\git\\SportWrench\\Reports\\20250526_231736\\Ticket Refunds\\20250526_231736"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\git\\SportWrench\\Reports\\20250526_231736\\Ticket Refunds\\20250526_231736\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LENOVO - DESKTOP-9MN524E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="browser" value="Chrome 136.0.7103.114"/>
+         <property name="hostAddress" value="26.190.180.74"/>
+         <property name="sessionId" value="e0274653bc80c114e03fe05d67b09cde"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/111Ticket refund/Ticket Payment for refund" time="22.085" classname="Test Cases/111Ticket refund/Ticket Payment for refund" status="PASSED">
+         <system-out><![CDATA[26-05-2025T23:17:41 - [TEST_CASE][PASSED] - Test Cases/111Ticket refund/Ticket Payment for refund: Test Cases/111Ticket refund/Ticket Payment for refund
+
+26-05-2025T23:17:41 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/"): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+26-05-2025T23:17:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-05-2025T23:17:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-05-2025T23:17:45 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+26-05-2025T23:17:45 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@tickets-dev.swstage.com/"): Navigate to 'http://USAV:demo@tickets-dev.swstage.com/' successfully
+
+26-05-2025T23:17:47 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@tickets-dev.swstage.com/' successfully
+
+26-05-2025T23:17:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-05-2025T23:17:47 - [MESSAGE][PASSED] - Current window maximized
+
+26-05-2025T23:17:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket purchase/Page_SW  Tickets/input_Available Events_form-control ng-pris_aaf354"), "[AUTOTESTS] Tickets refunds (do not touch!)"): Text '[AUTOTESTS] Tickets refunds (do not touch!)' is set on object 'Object Repository/Ticket purchase/Page_SW  Tickets/input_Available Events_form-control ng-pris_aaf354'
+
+26-05-2025T23:17:49 - [MESSAGE][PASSED] - Text '[AUTOTESTS] Tickets refunds (do not touch!)' is set on object 'Object Repository/Ticket purchase/Page_SW  Tickets/input_Available Events_form-control ng-pris_aaf354'
+
+26-05-2025T23:17:49 - [TEST_STEP][PASSED] - click(findTestObject("Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SW  Tickets/b_AUTOTESTS Tickets refunds (do not touch)")): Object: 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SW  Tickets/b_AUTOTESTS Tickets refunds (do not touch)' is clicked on
+
+26-05-2025T23:17:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SW  Tickets/b_AUTOTESTS Tickets refunds (do not touch)' is clicked on
+
+26-05-2025T23:17:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_None")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_None' is clicked on
+
+26-05-2025T23:17:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_None' is clicked on
+
+26-05-2025T23:17:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_1")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_1' is clicked on
+
+26-05-2025T23:17:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_1' is clicked on
+
+26-05-2025T23:17:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Purchaser Info_1")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Purchaser Info_1' is clicked on
+
+26-05-2025T23:17:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Purchaser Info_1' is clicked on
+
+26-05-2025T23:17:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree' is clicked on
+
+26-05-2025T23:17:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree' is clicked on
+
+26-05-2025T23:17:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserFirst"), "Tara"): Text 'Tara' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserFirst'
+
+26-05-2025T23:17:53 - [MESSAGE][PASSED] - Text 'Tara' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserFirst'
+
+26-05-2025T23:17:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserLast"), "Charles"): Text 'Charles' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserLast'
+
+26-05-2025T23:17:54 - [MESSAGE][PASSED] - Text 'Charles' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserLast'
+
+26-05-2025T23:17:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserEmail"), "aaaa@gmail.com"): Text 'aaaa@gmail.com' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserEmail'
+
+26-05-2025T23:17:55 - [MESSAGE][PASSED] - Text 'aaaa@gmail.com' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserEmail'
+
+26-05-2025T23:17:55 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('purchaserPhone').focus(); document.execCommand('insertText', false, '(111) 111-1111');", null): Execute JavaScript 'document.getElementById('purchaserPhone').focus(); document.execCommand('insertText', false, '(111) 111-1111');' successfully
+
+26-05-2025T23:17:55 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('purchaserPhone').focus(); document.execCommand('insertText', false, '(111) 111-1111');' successfully
+
+26-05-2025T23:17:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserZipCode"), "11949"): Text '11949' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserZipCode'
+
+26-05-2025T23:17:55 - [MESSAGE][PASSED] - Text '11949' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserZipCode'
+
+26-05-2025T23:17:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Daily Passes")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Daily Passes' is clicked on
+
+26-05-2025T23:17:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Daily Passes' is clicked on
+
+26-05-2025T23:17:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree' is clicked on
+
+26-05-2025T23:17:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree' is clicked on
+
+26-05-2025T23:17:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Summary")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Summary' is clicked on
+
+26-05-2025T23:17:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Summary' is clicked on
+
+26-05-2025T23:17:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Payment")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Payment' is clicked on
+
+26-05-2025T23:17:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Payment' is clicked on
+
+26-05-2025T23:17:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Card information")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Card information' is clicked on
+
+26-05-2025T23:17:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Card information' is clicked on
+
+26-05-2025T23:17:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cardnumber"), "4242424242424242"): Text '4242424242424242' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cardnumber'
+
+26-05-2025T23:17:59 - [MESSAGE][PASSED] - Text '4242424242424242' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cardnumber'
+
+26-05-2025T23:17:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_exp-date"), "12 / 25"): Text '12 / 25' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_exp-date'
+
+26-05-2025T23:17:59 - [MESSAGE][PASSED] - Text '12 / 25' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_exp-date'
+
+26-05-2025T23:17:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cvc"), "454"): Text '454' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cvc'
+
+26-05-2025T23:18:00 - [MESSAGE][PASSED] - Text '454' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cvc'
+
+26-05-2025T23:18:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_omplete Purchase")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_omplete Purchase' is clicked on
+
+26-05-2025T23:18:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_omplete Purchase' is clicked on
+
+26-05-2025T23:18:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_Tickets/div_Buy Anyway"), OPTIONAL): Object: 'Object Repository/Page_Tickets/div_Buy Anyway' is clicked on
+
+26-05-2025T23:18:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Tickets/div_Buy Anyway' is clicked on
+
+26-05-2025T23:18:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Additional data for ticket puchase/Page_Tickets/div_Successful Payment"), 0): Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_Successful Payment' is present
+
+26-05-2025T23:18:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-05-2025T23:18:02 - [MESSAGE][PASSED] - Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_Successful Payment' is present
+
+26-05-2025T23:18:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Additional data for ticket puchase/Page_Tickets/div_1 Daily Passes to 123Test Event"), 0): Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_1 Daily Passes to 123Test Event' is present
+
+26-05-2025T23:18:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-05-2025T23:18:02 - [MESSAGE][PASSED] - Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_1 Daily Passes to 123Test Event' is present
+
+26-05-2025T23:18:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Additional data for ticket puchase/Page_Tickets/div_Payment of 10.00 was successful. A link_c703ef"), 0): Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_Payment of 10.00 was successful. A link_c703ef' is present
+
+26-05-2025T23:18:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-05-2025T23:18:03 - [MESSAGE][PASSED] - Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_Payment of 10.00 was successful. A link_c703ef' is present
+
+26-05-2025T23:18:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-05-2025T23:18:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/111Ticket refund/Full Ticket Refund" time="28.642" classname="Test Cases/111Ticket refund/Full Ticket Refund" status="PASSED">
+         <system-out><![CDATA[26-05-2025T23:18:03 - [TEST_CASE][PASSED] - Test Cases/111Ticket refund/Full Ticket Refund: Test Cases/111Ticket refund/Full Ticket Refund
+
+26-05-2025T23:18:03 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/ "): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/ '
+
+26-05-2025T23:18:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-05-2025T23:18:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-05-2025T23:18:06 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/ '
+
+26-05-2025T23:18:06 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@my.dev.swstage.com/#/"): Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+26-05-2025T23:18:09 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+26-05-2025T23:18:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-05-2025T23:18:09 - [MESSAGE][PASSED] - Current window maximized
+
+26-05-2025T23:18:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Log In_email"), "dcgfcgchfhgvhv@gmail.com"): Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+26-05-2025T23:18:10 - [MESSAGE][PASSED] - Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+26-05-2025T23:18:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_false_password"), "ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"): Text ****** has been set on object 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+26-05-2025T23:18:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+26-05-2025T23:18:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Log In")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+26-05-2025T23:18:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+26-05-2025T23:18:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox"), "[AUTOTESTS] Tickets refunds (do not touch!)"): Text '[AUTOTESTS] Tickets refunds (do not touch!)' is set on object 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox'
+
+26-05-2025T23:18:17 - [MESSAGE][PASSED] - Text '[AUTOTESTS] Tickets refunds (do not touch!)' is set on object 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox'
+
+26-05-2025T23:18:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_AUTOTESTS Tickets refunds (do not touch)")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_AUTOTESTS Tickets refunds (do not touch)' is clicked on
+
+26-05-2025T23:18:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_AUTOTESTS Tickets refunds (do not touch)' is clicked on
+
+26-05-2025T23:18:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Accounting")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+26-05-2025T23:18:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+26-05-2025T23:18:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_20.00")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_20.00' is clicked on
+
+26-05-2025T23:18:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_20.00' is clicked on
+
+26-05-2025T23:18:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.88")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.88' is clicked on
+
+26-05-2025T23:18:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.88' is clicked on
+
+26-05-2025T23:18:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_1.10")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_1.10' is clicked on
+
+26-05-2025T23:18:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_1.10' is clicked on
+
+26-05-2025T23:18:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_18.02")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_18.02' is clicked on
+
+26-05-2025T23:18:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_18.02' is clicked on
+
+26-05-2025T23:18:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Tickets")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Tickets' is clicked on
+
+26-05-2025T23:18:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Tickets' is clicked on
+
+26-05-2025T23:18:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Payments List")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Payments List' is clicked on
+
+26-05-2025T23:18:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Payments List' is clicked on
+
+26-05-2025T23:18:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/td_11949")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/td_11949' is clicked on
+
+26-05-2025T23:18:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/td_11949' is clicked on
+
+26-05-2025T23:18:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund' is clicked on
+
+26-05-2025T23:18:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund' is clicked on
+
+26-05-2025T23:18:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Make A Full Refund")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Make A Full Refund' is clicked on
+
+26-05-2025T23:18:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Make A Full Refund' is clicked on
+
+26-05-2025T23:18:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Yes")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Yes' is clicked on
+
+26-05-2025T23:18:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Yes' is clicked on
+
+26-05-2025T23:18:24 - [TEST_STEP][PASSED] - click(findTestObject("Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SportWrench - The Home of Sporting Events/Page_SportWrench - The Home of Sporting Events/button_Close")): Object: 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SportWrench - The Home of Sporting Events/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+26-05-2025T23:18:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SportWrench - The Home of Sporting Events/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+26-05-2025T23:18:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Accounting")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+26-05-2025T23:18:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+26-05-2025T23:18:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00' is clicked on
+
+26-05-2025T23:18:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00' is clicked on
+
+26-05-2025T23:18:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00_1")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00_1' is clicked on
+
+26-05-2025T23:18:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00_1' is clicked on
+
+26-05-2025T23:18:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2")): Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2' is clicked on
+
+26-05-2025T23:18:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2' is clicked on
+
+26-05-2025T23:18:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-05-2025T23:18:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/111Ticket refund/Ticket Payment for refund" time="24.668" classname="Test Cases/111Ticket refund/Ticket Payment for refund" status="PASSED">
+         <system-out><![CDATA[26-05-2025T23:18:31 - [TEST_CASE][PASSED] - Test Cases/111Ticket refund/Ticket Payment for refund: Test Cases/111Ticket refund/Ticket Payment for refund
+
+26-05-2025T23:18:31 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/"): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+26-05-2025T23:18:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-05-2025T23:18:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-05-2025T23:18:35 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+26-05-2025T23:18:35 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@tickets-dev.swstage.com/"): Navigate to 'http://USAV:demo@tickets-dev.swstage.com/' successfully
+
+26-05-2025T23:18:37 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@tickets-dev.swstage.com/' successfully
+
+26-05-2025T23:18:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-05-2025T23:18:37 - [MESSAGE][PASSED] - Current window maximized
+
+26-05-2025T23:18:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket purchase/Page_SW  Tickets/input_Available Events_form-control ng-pris_aaf354"), "[AUTOTESTS] Tickets refunds (do not touch!)"): Text '[AUTOTESTS] Tickets refunds (do not touch!)' is set on object 'Object Repository/Ticket purchase/Page_SW  Tickets/input_Available Events_form-control ng-pris_aaf354'
+
+26-05-2025T23:18:38 - [MESSAGE][PASSED] - Text '[AUTOTESTS] Tickets refunds (do not touch!)' is set on object 'Object Repository/Ticket purchase/Page_SW  Tickets/input_Available Events_form-control ng-pris_aaf354'
+
+26-05-2025T23:18:38 - [TEST_STEP][PASSED] - click(findTestObject("Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SW  Tickets/b_AUTOTESTS Tickets refunds (do not touch)")): Object: 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SW  Tickets/b_AUTOTESTS Tickets refunds (do not touch)' is clicked on
+
+26-05-2025T23:18:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/Page_SW  Tickets/b_AUTOTESTS Tickets refunds (do not touch)' is clicked on
+
+26-05-2025T23:18:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_None")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_None' is clicked on
+
+26-05-2025T23:18:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_None' is clicked on
+
+26-05-2025T23:18:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_1")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_1' is clicked on
+
+26-05-2025T23:18:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_1' is clicked on
+
+26-05-2025T23:18:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Purchaser Info_1")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Purchaser Info_1' is clicked on
+
+26-05-2025T23:18:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Purchaser Info_1' is clicked on
+
+26-05-2025T23:18:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree' is clicked on
+
+26-05-2025T23:18:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree' is clicked on
+
+26-05-2025T23:18:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserFirst"), "Tara"): Text 'Tara' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserFirst'
+
+26-05-2025T23:18:43 - [MESSAGE][PASSED] - Text 'Tara' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserFirst'
+
+26-05-2025T23:18:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserLast"), "Charles"): Text 'Charles' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserLast'
+
+26-05-2025T23:18:43 - [MESSAGE][PASSED] - Text 'Charles' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserLast'
+
+26-05-2025T23:18:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserEmail"), "aaaa@gmail.com"): Text 'aaaa@gmail.com' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserEmail'
+
+26-05-2025T23:18:44 - [MESSAGE][PASSED] - Text 'aaaa@gmail.com' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserEmail'
+
+26-05-2025T23:18:44 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('purchaserPhone').focus(); document.execCommand('insertText', false, '(111) 111-1111');", null): Execute JavaScript 'document.getElementById('purchaserPhone').focus(); document.execCommand('insertText', false, '(111) 111-1111');' successfully
+
+26-05-2025T23:18:44 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('purchaserPhone').focus(); document.execCommand('insertText', false, '(111) 111-1111');' successfully
+
+26-05-2025T23:18:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserZipCode"), "11949"): Text '11949' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserZipCode'
+
+26-05-2025T23:18:45 - [MESSAGE][PASSED] - Text '11949' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input__purchaserZipCode'
+
+26-05-2025T23:18:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Daily Passes")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Daily Passes' is clicked on
+
+26-05-2025T23:18:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Daily Passes' is clicked on
+
+26-05-2025T23:18:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree' is clicked on
+
+26-05-2025T23:18:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_I Agree' is clicked on
+
+26-05-2025T23:18:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Summary")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Summary' is clicked on
+
+26-05-2025T23:18:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Summary' is clicked on
+
+26-05-2025T23:18:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Payment")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Payment' is clicked on
+
+26-05-2025T23:18:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Payment' is clicked on
+
+26-05-2025T23:18:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Card information")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Card information' is clicked on
+
+26-05-2025T23:18:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_Card information' is clicked on
+
+26-05-2025T23:18:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cardnumber"), "4242424242424242"): Text '4242424242424242' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cardnumber'
+
+26-05-2025T23:18:48 - [MESSAGE][PASSED] - Text '4242424242424242' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cardnumber'
+
+26-05-2025T23:18:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_exp-date"), "12 / 25"): Text '12 / 25' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_exp-date'
+
+26-05-2025T23:18:48 - [MESSAGE][PASSED] - Text '12 / 25' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_exp-date'
+
+26-05-2025T23:18:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cvc"), "454"): Text '454' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cvc'
+
+26-05-2025T23:18:49 - [MESSAGE][PASSED] - Text '454' is set on object 'Object Repository/Ticket payment 1111111111111/Page_Tickets/input_Number_cvc'
+
+26-05-2025T23:18:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ticket payment 1111111111111/Page_Tickets/div_omplete Purchase")): Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_omplete Purchase' is clicked on
+
+26-05-2025T23:18:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Ticket payment 1111111111111/Page_Tickets/div_omplete Purchase' is clicked on
+
+26-05-2025T23:18:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_Tickets/div_Buy Anyway"), OPTIONAL): Object: 'Object Repository/Page_Tickets/div_Buy Anyway' is clicked on
+
+26-05-2025T23:18:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Tickets/div_Buy Anyway' is clicked on
+
+26-05-2025T23:18:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Additional data for ticket puchase/Page_Tickets/div_Successful Payment"), 0): Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_Successful Payment' is present
+
+26-05-2025T23:18:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-05-2025T23:18:55 - [MESSAGE][PASSED] - Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_Successful Payment' is present
+
+26-05-2025T23:18:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Additional data for ticket puchase/Page_Tickets/div_1 Daily Passes to 123Test Event"), 0): Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_1 Daily Passes to 123Test Event' is present
+
+26-05-2025T23:18:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-05-2025T23:18:56 - [MESSAGE][PASSED] - Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_1 Daily Passes to 123Test Event' is present
+
+26-05-2025T23:18:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Additional data for ticket puchase/Page_Tickets/div_Payment of 10.00 was successful. A link_c703ef"), 0): Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_Payment of 10.00 was successful. A link_c703ef' is present
+
+26-05-2025T23:18:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-05-2025T23:18:56 - [MESSAGE][PASSED] - Object 'Object Repository/Additional data for ticket puchase/Page_Tickets/div_Payment of 10.00 was successful. A link_c703ef' is present
+
+26-05-2025T23:18:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-05-2025T23:18:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/111Ticket refund/Partial Ticket Refund" time="37.2" classname="Test Cases/111Ticket refund/Partial Ticket Refund" status="PASSED">
+         <system-out><![CDATA[26-05-2025T23:18:56 - [TEST_CASE][PASSED] - Test Cases/111Ticket refund/Partial Ticket Refund: Test Cases/111Ticket refund/Partial Ticket Refund
+
+26-05-2025T23:18:56 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/ "): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/ '
+
+26-05-2025T23:18:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-05-2025T23:18:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-05-2025T23:19:00 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/ '
+
+26-05-2025T23:19:00 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@my.dev.swstage.com/#/"): Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+26-05-2025T23:19:03 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+26-05-2025T23:19:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-05-2025T23:19:03 - [MESSAGE][PASSED] - Current window maximized
+
+26-05-2025T23:19:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Log In_email"), "dcgfcgchfhgvhv@gmail.com"): Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+26-05-2025T23:19:03 - [MESSAGE][PASSED] - Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+26-05-2025T23:19:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_false_password"), "ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"): Text ****** has been set on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+26-05-2025T23:19:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+26-05-2025T23:19:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Log In")): Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+26-05-2025T23:19:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+26-05-2025T23:19:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox"), "[AUTOTESTS] Tickets refunds (do not touch!)"): Text '[AUTOTESTS] Tickets refunds (do not touch!)' is set on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox'
+
+26-05-2025T23:19:10 - [MESSAGE][PASSED] - Text '[AUTOTESTS] Tickets refunds (do not touch!)' is set on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox'
+
+26-05-2025T23:19:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_AUTOTESTS Tickets refunds (do not touch)")): Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_AUTOTESTS Tickets refunds (do not touch)' is clicked on
+
+26-05-2025T23:19:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_AUTOTESTS Tickets refunds (do not touch)' is clicked on
+
+26-05-2025T23:19:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Tickets")): Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Tickets' is clicked on
+
+26-05-2025T23:19:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Tickets' is clicked on
+
+26-05-2025T23:19:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Payments List")): Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Payments List' is clicked on
+
+26-05-2025T23:19:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Payments List' is clicked on
+
+26-05-2025T23:19:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/td_11949")): Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/td_11949' is clicked on
+
+26-05-2025T23:19:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/td_11949' is clicked on
+
+26-05-2025T23:19:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund")): Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund' is clicked on
+
+26-05-2025T23:19:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund' is clicked on
+
+26-05-2025T23:19:14 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Partial Refund")): Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Partial Refund' is clicked on
+
+26-05-2025T23:19:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Partial Refund' is clicked on
+
+26-05-2025T23:19:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Discount_form-control form-control-in_cd2c09"), "10"): Text '10' is set on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Discount_form-control form-control-in_cd2c09'
+
+26-05-2025T23:19:15 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/input_Discount_form-control form-control-in_cd2c09'
+
+26-05-2025T23:19:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Save")): Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Save' is clicked on
+
+26-05-2025T23:19:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Save' is clicked on
+
+26-05-2025T23:19:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Close")): Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+26-05-2025T23:19:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+26-05-2025T23:19:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Accounting")): Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+26-05-2025T23:19:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+26-05-2025T23:19:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_10.00")): Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_10.00' is clicked on
+
+26-05-2025T23:19:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_10.00' is clicked on
+
+26-05-2025T23:19:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_10.00_1")): Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_10.00_1' is clicked on
+
+26-05-2025T23:19:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_10.00_1' is clicked on
+
+26-05-2025T23:19:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.59")): Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.59' is clicked on
+
+26-05-2025T23:19:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.59' is clicked on
+
+26-05-2025T23:19:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_1.10")): Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_1.10' is clicked on
+
+26-05-2025T23:19:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_1.10' is clicked on
+
+26-05-2025T23:19:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_8.31")): Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_8.31' is clicked on
+
+26-05-2025T23:19:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_8.31' is clicked on
+
+26-05-2025T23:19:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Tickets")): Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Tickets' is clicked on
+
+26-05-2025T23:19:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Tickets' is clicked on
+
+26-05-2025T23:19:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Payments List")): Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Payments List' is clicked on
+
+26-05-2025T23:19:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Payments List' is clicked on
+
+26-05-2025T23:19:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/td_11949")): Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/td_11949' is clicked on
+
+26-05-2025T23:19:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/td_11949' is clicked on
+
+26-05-2025T23:19:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund")): Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund' is clicked on
+
+26-05-2025T23:19:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Refund' is clicked on
+
+26-05-2025T23:19:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Make A Full Refund")): Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Make A Full Refund' is clicked on
+
+26-05-2025T23:19:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Make A Full Refund' is clicked on
+
+26-05-2025T23:19:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Yes")): Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Yes' is clicked on
+
+26-05-2025T23:19:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Yes' is clicked on
+
+26-05-2025T23:19:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Close")): Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+26-05-2025T23:19:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+26-05-2025T23:19:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Accounting")): Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+26-05-2025T23:19:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+26-05-2025T23:19:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00")): Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00' is clicked on
+
+26-05-2025T23:19:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Partial Ticket Refund/Page_SportWrench - The Home of Sporting Events/div_0.00' is clicked on
+
+26-05-2025T23:19:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-05-2025T23:19:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-05-2025T23:17:40 - [TEST_SUITE][PASSED] - Ticket Refunds: Test Cases/111Ticket refund/Partial Ticket Refund]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

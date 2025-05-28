@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Pay insurance</name>
+   <tag></tag>
+   <elementGuidId>2ebcd661-c918-42b7-9b46-a003c9244d51</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='vertical-insurance-container']/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e7420ffe-9195-4051-ad0d-5c605b19b7aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pay insurance</value>
+      <webElementGuid>68eca0a1-11b8-45cf-b0d7-bccd426ea9c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vertical-insurance-container&quot;)/button[1]</value>
+      <webElementGuid>5a553618-e087-427e-aa4d-1d3f6f315d36</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vertical-insurance-container']/button</value>
+      <webElementGuid>8b07db57-add8-42b4-b88a-7657448b0ebd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='info@sportwrench.com'])[1]/following::button[1]</value>
+      <webElementGuid>f62fc3f4-8d02-497f-a734-ccc155901e3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='.'])[1]/following::button[1]</value>
+      <webElementGuid>42c5901b-411c-4736-93ac-f7ea4cde2358</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=''])[1]/preceding::button[1]</value>
+      <webElementGuid>99df755f-8da0-4753-a829-a743233e6c56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='List of all ticket holders on this purchase:'])[1]/preceding::button[1]</value>
+      <webElementGuid>9a136c52-d361-4db5-a921-752a4699e4b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pay insurance']/parent::*</value>
+      <webElementGuid>7ae45ae7-fa80-42e5-9675-781768a1c268</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>81c4a79d-ea9f-41fd-a59c-ca0a35a90b49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Pay insurance' or . = 'Pay insurance')]</value>
+      <webElementGuid>18a42af4-1ef5-4bce-a2e4-98b2c1ff050c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

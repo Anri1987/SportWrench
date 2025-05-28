@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_123Test Event</name>
+   <tag></tag>
+   <elementGuidId>2898fa3c-7df7-4627-b694-e70726ed1ae8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Print Ticket'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.receipt_event_info-text_event-name</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>923d6789-4577-45c2-aa6e-cdaf193858e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>receipt_event_info-text_event-name</value>
+      <webElementGuid>f2b50680-a539-4dc8-afb6-6174f5ed5256</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>123Test Event</value>
+      <webElementGuid>b9e0aaa6-05dd-4ece-95e0-6f851b9c23a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;receipt_wrapper&quot;]/div[@class=&quot;receipt_event_info&quot;]/div[@class=&quot;receipt_event_info-text&quot;]/span[@class=&quot;receipt_event_info-text_event-name&quot;]</value>
+      <webElementGuid>a4befa0c-7f94-4ec5-9085-cc11647a3e65</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Print Ticket'])[1]/following::span[1]</value>
+      <webElementGuid>d0dd8792-7e5a-4172-91b9-e903122424dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daily pass good for entire day on available date listed below'])[1]/following::span[1]</value>
+      <webElementGuid>2065d5fc-46fe-4e80-a3cd-384b08d75323</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jul 16—18, 2025 Daytona Beach, AL'])[1]/preceding::span[1]</value>
+      <webElementGuid>4a791d9f-04d8-444a-8eb3-37b8b82cf1fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Government photo ID'])[1]/preceding::span[2]</value>
+      <webElementGuid>e91bdb63-c861-4c7b-90f2-d1a948fcd79e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>68769125-34a0-49bb-b0b2-9d165c5dac0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '123Test Event' or . = '123Test Event')]</value>
+      <webElementGuid>420282e5-e006-46e8-972a-13a666193a4a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
