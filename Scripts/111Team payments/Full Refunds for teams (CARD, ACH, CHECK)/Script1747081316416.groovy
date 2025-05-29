@@ -62,7 +62,7 @@ WebUI.click(findTestObject('Object Repository/Refunds for teams (CARD, ACH, CHEC
 
 WebUI.click(findTestObject('Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_B09TRNTY7FL'))
 
-WebUI.click(findTestObject('Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_ACH (paid)'))
+WebUI.enhancedClick(findTestObject('Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_ACH (paid)'))
 
 WebUI.click(findTestObject('Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Refund_caret_1'))
 

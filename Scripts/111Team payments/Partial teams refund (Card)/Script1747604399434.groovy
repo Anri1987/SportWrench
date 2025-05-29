@@ -57,6 +57,8 @@ WebUI.click(findTestObject('Refund for teams (CARD)/Page_SportWrench - The Home 
 
 WebUI.click(findTestObject('Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/button_Refund'))
 
+WebUI.delay(2)
+
 WebUI.typeOnImage(findTestObject('Spy Web/Page_SportWrench - The Home of Sporting Events/a_Partial'), 'Partial')
 
 WebUI.delay(2)

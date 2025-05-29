@@ -1,0 +1,1227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Full and partial REFUNDS for teams (CARD, ACH, CHECK)" time="333.989" tests="6" failures="0" errors="0">
+   <testsuite name="Full and partial REFUNDS for teams (CARD, ACH, CHECK)" tests="6" failures="0" errors="0" time="333.989" skipped="0" timestamp="29-05-2025T00:44:06" hostname="LENOVO - DESKTOP-9MN524E" id="Test Suites/Full and partial REFUNDS for teams (CARD, ACH, CHECK)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\git\\SportWrench\\Reports\\20250529_004402\\Full and partial REFUNDS for teams (CARD, ACH, CHECK)\\20250529_004402"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\git\\SportWrench\\Reports\\20250529_004402\\Full and partial REFUNDS for teams (CARD, ACH, CHECK)\\20250529_004402\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\LENOVO\\git\\SportWrench\\Reports\\20250529_004402\\Full and partial REFUNDS for teams (CARD, ACH, CHECK)\\20250529_004402\\1748468840721.png"/>
+         <property name="hostName" value="LENOVO - DESKTOP-9MN524E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="browser" value="Chrome 136.0.7103.114"/>
+         <property name="hostAddress" value="26.190.180.74"/>
+         <property name="sessionId" value="86084e5c2cfbc759afa1473f09df238d"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/111Team payments/Payments for teams (CARD, ACH, CHECK)" time="61.598" classname="Test Cases/111Team payments/Payments for teams (CARD, ACH, CHECK)" status="PASSED">
+         <system-out><![CDATA[29-05-2025T00:44:06 - [TEST_CASE][PASSED] - Test Cases/111Team payments/Payments for teams (CARD, ACH, CHECK): Test Cases/111Team payments/Payments for teams (CARD, ACH, CHECK)
+
+29-05-2025T00:44:07 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/"): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+29-05-2025T00:44:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2025T00:44:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2025T00:44:11 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+29-05-2025T00:44:11 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@my.dev.swstage.com/#/"): Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+29-05-2025T00:44:14 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+29-05-2025T00:44:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Log In_email"), "coachjon@trinityvolleyball.com"): Text 'coachjon@trinityvolleyball.com' is set on object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+29-05-2025T00:44:14 - [MESSAGE][PASSED] - Text 'coachjon@trinityvolleyball.com' is set on object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+29-05-2025T00:44:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_false_password"), "ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"): Text ****** has been set on object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+29-05-2025T00:44:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+29-05-2025T00:44:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Log In")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+29-05-2025T00:44:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+29-05-2025T00:44:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_Enter Events")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_Enter Events' is clicked on
+
+29-05-2025T00:44:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_Enter Events' is clicked on
+
+29-05-2025T00:44:20 - [TEST_STEP][PASSED] - setText(findTestObject("Spy Web/Page_SportWrench - The Home of Sporting Events/input_Invoices_searchbox"), "ULTIMATE TEAMS REFUND"): Text 'ULTIMATE TEAMS REFUND' is set on object 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/input_Invoices_searchbox'
+
+29-05-2025T00:44:21 - [MESSAGE][PASSED] - Text 'ULTIMATE TEAMS REFUND' is set on object 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/input_Invoices_searchbox'
+
+29-05-2025T00:44:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+29-05-2025T00:44:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-05-2025T00:44:23 - [TEST_STEP][PASSED] - click(findTestObject("Spy Web/Page_SportWrench - The Home of Sporting Events/span_ULTIMATE TEAMS REFUND")): Object: 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/span_ULTIMATE TEAMS REFUND' is clicked on
+
+29-05-2025T00:44:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/span_ULTIMATE TEAMS REFUND' is clicked on
+
+29-05-2025T00:44:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+29-05-2025T00:44:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-05-2025T00:44:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Manage Teams")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Manage Teams' is clicked on
+
+29-05-2025T00:44:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Manage Teams' is clicked on
+
+29-05-2025T00:44:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay' is clicked on
+
+29-05-2025T00:44:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay' is clicked on
+
+29-05-2025T00:44:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+29-05-2025T00:44:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-05-2025T00:44:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Payment history_ng-pristine ng-untouc_97ddf2")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Payment history_ng-pristine ng-untouc_97ddf2' is clicked on
+
+29-05-2025T00:44:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Payment history_ng-pristine ng-untouc_97ddf2' is clicked on
+
+29-05-2025T00:44:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_To Pay_ng-pristine ng-untouched ng-va_e7e142")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_To Pay_ng-pristine ng-untouched ng-va_e7e142' is clicked on
+
+29-05-2025T00:44:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_To Pay_ng-pristine ng-untouched ng-va_e7e142' is clicked on
+
+29-05-2025T00:44:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc' is clicked on
+
+29-05-2025T00:44:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc' is clicked on
+
+29-05-2025T00:44:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc_1")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc_1' is clicked on
+
+29-05-2025T00:44:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc_1' is clicked on
+
+29-05-2025T00:44:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc_1_2")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc_1_2' is clicked on
+
+29-05-2025T00:44:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc_1_2' is clicked on
+
+29-05-2025T00:44:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc_1_2_3")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc_1_2_3' is clicked on
+
+29-05-2025T00:44:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc_1_2_3' is clicked on
+
+29-05-2025T00:44:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_Proceed to payment")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_Proceed to payment' is clicked on
+
+29-05-2025T00:44:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_Proceed to payment' is clicked on
+
+29-05-2025T00:44:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+29-05-2025T00:44:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-05-2025T00:44:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Card number_number"), "4242 4242 4242 4242"): Text '4242 4242 4242 4242' is set on object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Card number_number'
+
+29-05-2025T00:44:35 - [MESSAGE][PASSED] - Text '4242 4242 4242 4242' is set on object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Card number_number'
+
+29-05-2025T00:44:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_MM  YY_expiry"), "12 / 26"): Text '12 / 26' is set on object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_MM  YY_expiry'
+
+29-05-2025T00:44:35 - [MESSAGE][PASSED] - Text '12 / 26' is set on object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_MM  YY_expiry'
+
+29-05-2025T00:44:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Security code_cvc"), "345"): Text '345' is set on object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Security code_cvc'
+
+29-05-2025T00:44:36 - [MESSAGE][PASSED] - Text '345' is set on object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Security code_cvc'
+
+29-05-2025T00:44:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay 5,000.00")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay 5,000.00' is clicked on
+
+29-05-2025T00:44:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay 5,000.00' is clicked on
+
+29-05-2025T00:44:36 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-05-2025T00:44:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+29-05-2025T00:44:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Your Payment of 5,000.00 succeeded"), 1): Object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Your Payment of 5,000.00 succeeded' is present
+
+29-05-2025T00:44:41 - [MESSAGE][PASSED] - Object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Your Payment of 5,000.00 succeeded' is present
+
+29-05-2025T00:44:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Close")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+29-05-2025T00:44:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+29-05-2025T00:44:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay' is clicked on
+
+29-05-2025T00:44:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay' is clicked on
+
+29-05-2025T00:44:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Payment history_ng-pristine ng-untouc_97ddf2")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Payment history_ng-pristine ng-untouc_97ddf2' is clicked on
+
+29-05-2025T00:44:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Payment history_ng-pristine ng-untouc_97ddf2' is clicked on
+
+29-05-2025T00:44:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_To Pay_ng-pristine ng-untouched ng-va_e7e142")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_To Pay_ng-pristine ng-untouched ng-va_e7e142' is clicked on
+
+29-05-2025T00:44:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_To Pay_ng-pristine ng-untouched ng-va_e7e142' is clicked on
+
+29-05-2025T00:44:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc' is clicked on
+
+29-05-2025T00:44:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc' is clicked on
+
+29-05-2025T00:44:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc_1")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc_1' is clicked on
+
+29-05-2025T00:44:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc_1' is clicked on
+
+29-05-2025T00:44:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_Proceed to payment_1")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_Proceed to payment_1' is clicked on
+
+29-05-2025T00:44:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_Proceed to payment_1' is clicked on
+
+29-05-2025T00:44:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_Check")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_Check' is clicked on
+
+29-05-2025T00:44:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_Check' is clicked on
+
+29-05-2025T00:44:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Confirm 3,000.00")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Confirm 3,000.00' is clicked on
+
+29-05-2025T00:44:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Confirm 3,000.00' is clicked on
+
+29-05-2025T00:44:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Your Payment of 3,000.00 is pending re_a194a2"), 0): Object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Your Payment of 3,000.00 is pending re_a194a2' is present
+
+29-05-2025T00:44:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2025T00:44:52 - [MESSAGE][PASSED] - Object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Your Payment of 3,000.00 is pending re_a194a2' is present
+
+29-05-2025T00:44:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Close")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+29-05-2025T00:44:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+29-05-2025T00:44:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay' is clicked on
+
+29-05-2025T00:44:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay' is clicked on
+
+29-05-2025T00:44:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_Proceed to payment_1_2")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_Proceed to payment_1_2' is clicked on
+
+29-05-2025T00:44:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_Proceed to payment_1_2' is clicked on
+
+29-05-2025T00:44:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_US bank account")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_US bank account' is clicked on
+
+29-05-2025T00:44:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_US bank account' is clicked on
+
+29-05-2025T00:44:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Email_email"), "ddfdfgf@gmail.com"): Text 'ddfdfgf@gmail.com' is set on object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Email_email'
+
+29-05-2025T00:44:56 - [MESSAGE][PASSED] - Text 'ddfdfgf@gmail.com' is set on object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Email_email'
+
+29-05-2025T00:44:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Full name_name"), "ddfddf fgffgfg"): Text 'ddfddf fgffgfg' is set on object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Full name_name'
+
+29-05-2025T00:44:56 - [MESSAGE][PASSED] - Text 'ddfddf fgffgfg' is set on object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Full name_name'
+
+29-05-2025T00:44:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/p_Test Institution")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/p_Test Institution' is clicked on
+
+29-05-2025T00:44:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/p_Test Institution' is clicked on
+
+29-05-2025T00:44:57 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Agree and continue")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Agree and continue' is clicked on
+
+29-05-2025T00:44:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Agree and continue' is clicked on
+
+29-05-2025T00:44:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Connect account")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Connect account' is clicked on
+
+29-05-2025T00:45:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Connect account' is clicked on
+
+29-05-2025T00:45:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Back to SportWrench Inc")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Back to SportWrench Inc' is clicked on
+
+29-05-2025T00:45:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Back to SportWrench Inc' is clicked on
+
+29-05-2025T00:45:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay 4,000.00")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay 4,000.00' is clicked on
+
+29-05-2025T00:45:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay 4,000.00' is clicked on
+
+29-05-2025T00:45:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Your Payment of 4,000.00 is pending ba_433985"), 0): Object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Your Payment of 4,000.00 is pending ba_433985' is present
+
+29-05-2025T00:45:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2025T00:45:08 - [MESSAGE][PASSED] - Object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Your Payment of 4,000.00 is pending ba_433985' is present
+
+29-05-2025T00:45:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2025T00:45:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/111Team payments/Full Refunds for teams (CARD, ACH, CHECK)" time="47.89" classname="Test Cases/111Team payments/Full Refunds for teams (CARD, ACH, CHECK)" status="PASSED">
+         <system-out><![CDATA[29-05-2025T00:45:08 - [TEST_CASE][PASSED] - Test Cases/111Team payments/Full Refunds for teams (CARD, ACH, CHECK): Test Cases/111Team payments/Full Refunds for teams (CARD, ACH, CHECK)
+
+29-05-2025T00:45:08 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/"): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+29-05-2025T00:45:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2025T00:45:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2025T00:45:12 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+29-05-2025T00:45:12 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@my.dev.swstage.com/#/"): Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+29-05-2025T00:45:14 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+29-05-2025T00:45:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Log In_email"), "dcgfcgchfhgvhv@gmail.com"): Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+29-05-2025T00:45:15 - [MESSAGE][PASSED] - Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+29-05-2025T00:45:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_false_password"), "ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"): Text ****** has been set on object 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+29-05-2025T00:45:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+29-05-2025T00:45:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Log In")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+29-05-2025T00:45:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+29-05-2025T00:45:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox"), "ULTIMATE TEAMS REFUND"): Text 'ULTIMATE TEAMS REFUND' is set on object 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox'
+
+29-05-2025T00:45:23 - [MESSAGE][PASSED] - Text 'ULTIMATE TEAMS REFUND' is set on object 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox'
+
+29-05-2025T00:45:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_ULTIMATE TEAMS REFUND")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_ULTIMATE TEAMS REFUND' is clicked on
+
+29-05-2025T00:45:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_ULTIMATE TEAMS REFUND' is clicked on
+
+29-05-2025T00:45:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+29-05-2025T00:45:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-05-2025T00:45:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_Teams")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_Teams' is clicked on
+
+29-05-2025T00:45:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_Teams' is clicked on
+
+29-05-2025T00:45:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+29-05-2025T00:45:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-05-2025T00:45:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_Payments")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_Payments' is clicked on
+
+29-05-2025T00:45:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_Payments' is clicked on
+
+29-05-2025T00:45:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+29-05-2025T00:45:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-05-2025T00:45:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/td_5")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/td_5' is clicked on
+
+29-05-2025T00:45:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/td_5' is clicked on
+
+29-05-2025T00:45:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_B09TRNTY4FL")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_B09TRNTY4FL' is clicked on
+
+29-05-2025T00:45:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_B09TRNTY4FL' is clicked on
+
+29-05-2025T00:45:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_CARD (paid)")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_CARD (paid)' is clicked on
+
+29-05-2025T00:45:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_CARD (paid)' is clicked on
+
+29-05-2025T00:45:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Refund_caret")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Refund_caret' is clicked on
+
+29-05-2025T00:45:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Refund_caret' is clicked on
+
+29-05-2025T00:45:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_Total")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_Total' is clicked on
+
+29-05-2025T00:45:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_Total' is clicked on
+
+29-05-2025T00:45:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Yes")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Yes' is clicked on
+
+29-05-2025T00:45:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Yes' is clicked on
+
+29-05-2025T00:45:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Close")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+29-05-2025T00:45:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+29-05-2025T00:45:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/td_4")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/td_4' is clicked on
+
+29-05-2025T00:45:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/td_4' is clicked on
+
+29-05-2025T00:45:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_B09TRNTY7FL")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_B09TRNTY7FL' is clicked on
+
+29-05-2025T00:45:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_B09TRNTY7FL' is clicked on
+
+29-05-2025T00:45:37 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_ACH (paid)")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_ACH (paid)' is clicked on
+
+29-05-2025T00:45:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_ACH (paid)' is clicked on
+
+29-05-2025T00:45:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Refund_caret_1")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Refund_caret_1' is clicked on
+
+29-05-2025T00:45:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Refund_caret_1' is clicked on
+
+29-05-2025T00:45:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_Total_1")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_Total_1' is clicked on
+
+29-05-2025T00:45:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_Total_1' is clicked on
+
+29-05-2025T00:45:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Yes")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Yes' is clicked on
+
+29-05-2025T00:45:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Yes' is clicked on
+
+29-05-2025T00:45:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Close")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+29-05-2025T00:45:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+29-05-2025T00:45:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/td_3")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/td_3' is clicked on
+
+29-05-2025T00:45:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/td_3' is clicked on
+
+29-05-2025T00:45:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_B09TRNTY16FL")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_B09TRNTY16FL' is clicked on
+
+29-05-2025T00:45:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_B09TRNTY16FL' is clicked on
+
+29-05-2025T00:45:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_CHECK (pending)")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_CHECK (pending)' is clicked on
+
+29-05-2025T00:45:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_CHECK (pending)' is clicked on
+
+29-05-2025T00:45:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Received_is_received")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Received_is_received' is clicked on
+
+29-05-2025T00:45:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Received_is_received' is clicked on
+
+29-05-2025T00:45:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input__check_num"), "1234567"): Text '1234567' is set on object 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input__check_num'
+
+29-05-2025T00:45:48 - [MESSAGE][PASSED] - Text '1234567' is set on object 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input__check_num'
+
+29-05-2025T00:45:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Save")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Save' is clicked on
+
+29-05-2025T00:45:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Save' is clicked on
+
+29-05-2025T00:45:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Void Invoice")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Void Invoice' is clicked on
+
+29-05-2025T00:45:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Void Invoice' is clicked on
+
+29-05-2025T00:45:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Yes")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Yes' is clicked on
+
+29-05-2025T00:45:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Yes' is clicked on
+
+29-05-2025T00:45:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Close")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+29-05-2025T00:45:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+29-05-2025T00:45:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_Accounting")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+29-05-2025T00:45:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+29-05-2025T00:45:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00' is clicked on
+
+29-05-2025T00:45:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00' is clicked on
+
+29-05-2025T00:45:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1' is clicked on
+
+29-05-2025T00:45:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1' is clicked on
+
+29-05-2025T00:45:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2' is clicked on
+
+29-05-2025T00:45:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2' is clicked on
+
+29-05-2025T00:45:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2_3")): Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2_3' is clicked on
+
+29-05-2025T00:45:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2_3' is clicked on
+
+29-05-2025T00:45:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00"), 0): Object 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00' is present
+
+29-05-2025T00:45:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2025T00:45:55 - [MESSAGE][PASSED] - Object 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00' is present
+
+29-05-2025T00:45:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1"), 0): Object 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1' is present
+
+29-05-2025T00:45:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2025T00:45:55 - [MESSAGE][PASSED] - Object 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1' is present
+
+29-05-2025T00:45:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2"), 0): Object 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2' is present
+
+29-05-2025T00:45:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2025T00:45:55 - [MESSAGE][PASSED] - Object 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2' is present
+
+29-05-2025T00:45:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2_3"), 0): Object 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2_3' is present
+
+29-05-2025T00:45:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2025T00:45:56 - [MESSAGE][PASSED] - Object 'Object Repository/Refunds for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2_3' is present
+
+29-05-2025T00:45:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2025T00:45:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/111Team payments/Payments for teams (CARD, ACH, CHECK)" time="58.729" classname="Test Cases/111Team payments/Payments for teams (CARD, ACH, CHECK)" status="PASSED">
+         <system-out><![CDATA[29-05-2025T00:45:56 - [TEST_CASE][PASSED] - Test Cases/111Team payments/Payments for teams (CARD, ACH, CHECK): Test Cases/111Team payments/Payments for teams (CARD, ACH, CHECK)
+
+29-05-2025T00:45:56 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/"): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+29-05-2025T00:45:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2025T00:45:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2025T00:45:59 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+29-05-2025T00:45:59 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@my.dev.swstage.com/#/"): Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+29-05-2025T00:46:02 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+29-05-2025T00:46:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Log In_email"), "coachjon@trinityvolleyball.com"): Text 'coachjon@trinityvolleyball.com' is set on object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+29-05-2025T00:46:02 - [MESSAGE][PASSED] - Text 'coachjon@trinityvolleyball.com' is set on object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+29-05-2025T00:46:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_false_password"), "ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"): Text ****** has been set on object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+29-05-2025T00:46:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+29-05-2025T00:46:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Log In")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+29-05-2025T00:46:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+29-05-2025T00:46:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_Enter Events")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_Enter Events' is clicked on
+
+29-05-2025T00:46:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_Enter Events' is clicked on
+
+29-05-2025T00:46:08 - [TEST_STEP][PASSED] - setText(findTestObject("Spy Web/Page_SportWrench - The Home of Sporting Events/input_Invoices_searchbox"), "ULTIMATE TEAMS REFUND"): Text 'ULTIMATE TEAMS REFUND' is set on object 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/input_Invoices_searchbox'
+
+29-05-2025T00:46:09 - [MESSAGE][PASSED] - Text 'ULTIMATE TEAMS REFUND' is set on object 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/input_Invoices_searchbox'
+
+29-05-2025T00:46:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+29-05-2025T00:46:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-05-2025T00:46:11 - [TEST_STEP][PASSED] - click(findTestObject("Spy Web/Page_SportWrench - The Home of Sporting Events/span_ULTIMATE TEAMS REFUND")): Object: 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/span_ULTIMATE TEAMS REFUND' is clicked on
+
+29-05-2025T00:46:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy Web/Page_SportWrench - The Home of Sporting Events/span_ULTIMATE TEAMS REFUND' is clicked on
+
+29-05-2025T00:46:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+29-05-2025T00:46:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-05-2025T00:46:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Manage Teams")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Manage Teams' is clicked on
+
+29-05-2025T00:46:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Manage Teams' is clicked on
+
+29-05-2025T00:46:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay' is clicked on
+
+29-05-2025T00:46:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay' is clicked on
+
+29-05-2025T00:46:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+29-05-2025T00:46:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-05-2025T00:46:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Payment history_ng-pristine ng-untouc_97ddf2")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Payment history_ng-pristine ng-untouc_97ddf2' is clicked on
+
+29-05-2025T00:46:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Payment history_ng-pristine ng-untouc_97ddf2' is clicked on
+
+29-05-2025T00:46:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_To Pay_ng-pristine ng-untouched ng-va_e7e142")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_To Pay_ng-pristine ng-untouched ng-va_e7e142' is clicked on
+
+29-05-2025T00:46:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_To Pay_ng-pristine ng-untouched ng-va_e7e142' is clicked on
+
+29-05-2025T00:46:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc' is clicked on
+
+29-05-2025T00:46:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc' is clicked on
+
+29-05-2025T00:46:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc_1")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc_1' is clicked on
+
+29-05-2025T00:46:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc_1' is clicked on
+
+29-05-2025T00:46:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc_1_2")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc_1_2' is clicked on
+
+29-05-2025T00:46:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc_1_2' is clicked on
+
+29-05-2025T00:46:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc_1_2_3")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc_1_2_3' is clicked on
+
+29-05-2025T00:46:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc_1_2_3' is clicked on
+
+29-05-2025T00:46:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_Proceed to payment")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_Proceed to payment' is clicked on
+
+29-05-2025T00:46:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_Proceed to payment' is clicked on
+
+29-05-2025T00:46:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+29-05-2025T00:46:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-05-2025T00:46:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Card number_number"), "4242 4242 4242 4242"): Text '4242 4242 4242 4242' is set on object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Card number_number'
+
+29-05-2025T00:46:23 - [MESSAGE][PASSED] - Text '4242 4242 4242 4242' is set on object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Card number_number'
+
+29-05-2025T00:46:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_MM  YY_expiry"), "12 / 26"): Text '12 / 26' is set on object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_MM  YY_expiry'
+
+29-05-2025T00:46:23 - [MESSAGE][PASSED] - Text '12 / 26' is set on object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_MM  YY_expiry'
+
+29-05-2025T00:46:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Security code_cvc"), "345"): Text '345' is set on object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Security code_cvc'
+
+29-05-2025T00:46:23 - [MESSAGE][PASSED] - Text '345' is set on object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Security code_cvc'
+
+29-05-2025T00:46:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay 5,000.00")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay 5,000.00' is clicked on
+
+29-05-2025T00:46:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay 5,000.00' is clicked on
+
+29-05-2025T00:46:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-05-2025T00:46:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+29-05-2025T00:46:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Your Payment of 5,000.00 succeeded"), 1): Object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Your Payment of 5,000.00 succeeded' is present
+
+29-05-2025T00:46:29 - [MESSAGE][PASSED] - Object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Your Payment of 5,000.00 succeeded' is present
+
+29-05-2025T00:46:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Close")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+29-05-2025T00:46:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+29-05-2025T00:46:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay' is clicked on
+
+29-05-2025T00:46:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay' is clicked on
+
+29-05-2025T00:46:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Payment history_ng-pristine ng-untouc_97ddf2")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Payment history_ng-pristine ng-untouc_97ddf2' is clicked on
+
+29-05-2025T00:46:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Payment history_ng-pristine ng-untouc_97ddf2' is clicked on
+
+29-05-2025T00:46:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_To Pay_ng-pristine ng-untouched ng-va_e7e142")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_To Pay_ng-pristine ng-untouched ng-va_e7e142' is clicked on
+
+29-05-2025T00:46:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_To Pay_ng-pristine ng-untouched ng-va_e7e142' is clicked on
+
+29-05-2025T00:46:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc' is clicked on
+
+29-05-2025T00:46:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc' is clicked on
+
+29-05-2025T00:46:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc_1")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc_1' is clicked on
+
+29-05-2025T00:46:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc_1' is clicked on
+
+29-05-2025T00:46:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_Proceed to payment_1")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_Proceed to payment_1' is clicked on
+
+29-05-2025T00:46:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_Proceed to payment_1' is clicked on
+
+29-05-2025T00:46:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_Check")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_Check' is clicked on
+
+29-05-2025T00:46:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/a_Check' is clicked on
+
+29-05-2025T00:46:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Confirm 3,000.00")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Confirm 3,000.00' is clicked on
+
+29-05-2025T00:46:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Confirm 3,000.00' is clicked on
+
+29-05-2025T00:46:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Your Payment of 3,000.00 is pending re_a194a2"), 0): Object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Your Payment of 3,000.00 is pending re_a194a2' is present
+
+29-05-2025T00:46:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2025T00:46:39 - [MESSAGE][PASSED] - Object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Your Payment of 3,000.00 is pending re_a194a2' is present
+
+29-05-2025T00:46:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Close")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+29-05-2025T00:46:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Close' is clicked on
+
+29-05-2025T00:46:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay' is clicked on
+
+29-05-2025T00:46:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay' is clicked on
+
+29-05-2025T00:46:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_Proceed to payment_1_2")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_Proceed to payment_1_2' is clicked on
+
+29-05-2025T00:46:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_Proceed to payment_1_2' is clicked on
+
+29-05-2025T00:46:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_US bank account")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_US bank account' is clicked on
+
+29-05-2025T00:46:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_US bank account' is clicked on
+
+29-05-2025T00:46:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Email_email"), "ddfdfgf@gmail.com"): Text 'ddfdfgf@gmail.com' is set on object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Email_email'
+
+29-05-2025T00:46:42 - [MESSAGE][PASSED] - Text 'ddfdfgf@gmail.com' is set on object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Email_email'
+
+29-05-2025T00:46:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Full name_name"), "ddfddf fgffgfg"): Text 'ddfddf fgffgfg' is set on object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Full name_name'
+
+29-05-2025T00:46:43 - [MESSAGE][PASSED] - Text 'ddfddf fgffgfg' is set on object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_Full name_name'
+
+29-05-2025T00:46:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/p_Test Institution")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/p_Test Institution' is clicked on
+
+29-05-2025T00:46:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/p_Test Institution' is clicked on
+
+29-05-2025T00:46:44 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Agree and continue")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Agree and continue' is clicked on
+
+29-05-2025T00:46:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Agree and continue' is clicked on
+
+29-05-2025T00:46:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Connect account")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Connect account' is clicked on
+
+29-05-2025T00:46:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Connect account' is clicked on
+
+29-05-2025T00:46:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Back to SportWrench Inc")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Back to SportWrench Inc' is clicked on
+
+29-05-2025T00:46:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Back to SportWrench Inc' is clicked on
+
+29-05-2025T00:46:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay 4,000.00")): Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay 4,000.00' is clicked on
+
+29-05-2025T00:46:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/button_Pay 4,000.00' is clicked on
+
+29-05-2025T00:46:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Your Payment of 4,000.00 is pending ba_433985"), 0): Object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Your Payment of 4,000.00 is pending ba_433985' is present
+
+29-05-2025T00:46:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2025T00:46:54 - [MESSAGE][PASSED] - Object 'Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/span_Your Payment of 4,000.00 is pending ba_433985' is present
+
+29-05-2025T00:46:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2025T00:46:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/111Team payments/Partial teams refund (Card)" time="48.219" classname="Test Cases/111Team payments/Partial teams refund (Card)" status="PASSED">
+         <system-out><![CDATA[29-05-2025T00:47:20 - [TEST_CASE][PASSED] - Test Cases/111Team payments/Partial teams refund (Card): Test Cases/111Team payments/Partial teams refund (Card)
+
+29-05-2025T00:47:20 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/"): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+29-05-2025T00:47:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-05-2025T00:47:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2025T00:47:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2025T00:47:24 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+29-05-2025T00:47:24 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@my.dev.swstage.com/#/"): Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+29-05-2025T00:47:27 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+29-05-2025T00:47:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/input_Log In_email"), "dcgfcgchfhgvhv@gmail.com"): Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+29-05-2025T00:47:28 - [MESSAGE][PASSED] - Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+29-05-2025T00:47:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/input_false_password"), "ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"): Text ****** has been set on object 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+29-05-2025T00:47:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+29-05-2025T00:47:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/button_Log In")): Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+29-05-2025T00:47:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+29-05-2025T00:47:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox"), "ULTIMATE TEAMS REFUND"): Text 'ULTIMATE TEAMS REFUND' is set on object 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox'
+
+29-05-2025T00:47:37 - [MESSAGE][PASSED] - Text 'ULTIMATE TEAMS REFUND' is set on object 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox'
+
+29-05-2025T00:47:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_ULTIMATE TEAMS REFUND")): Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_ULTIMATE TEAMS REFUND' is clicked on
+
+29-05-2025T00:47:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_ULTIMATE TEAMS REFUND' is clicked on
+
+29-05-2025T00:47:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_Accounting")): Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+29-05-2025T00:47:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+29-05-2025T00:47:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/div_5,000.00"), 0): Object 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/div_5,000.00' is present
+
+29-05-2025T00:47:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2025T00:47:40 - [MESSAGE][PASSED] - Object 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/div_5,000.00' is present
+
+29-05-2025T00:47:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/div_145.30"), 0): Object 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/div_145.30' is present
+
+29-05-2025T00:47:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2025T00:47:40 - [MESSAGE][PASSED] - Object 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/div_145.30' is present
+
+29-05-2025T00:47:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/div_8,704.70"), 0): Object 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/div_8,704.70' is present
+
+29-05-2025T00:47:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2025T00:47:40 - [MESSAGE][PASSED] - Object 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/div_8,704.70' is present
+
+29-05-2025T00:47:40 - [TEST_STEP][PASSED] - click(findTestObject("Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/a_Teams")): Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/a_Teams' is clicked on
+
+29-05-2025T00:47:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/a_Teams' is clicked on
+
+29-05-2025T00:47:40 - [TEST_STEP][PASSED] - click(findTestObject("Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/a_Teams List")): Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/a_Teams List' is clicked on
+
+29-05-2025T00:47:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/a_Teams List' is clicked on
+
+29-05-2025T00:47:41 - [TEST_STEP][PASSED] - click(findTestObject("Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/span_Trinity 8 1")): Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/span_Trinity 8 1' is clicked on
+
+29-05-2025T00:47:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/span_Trinity 8 1' is clicked on
+
+29-05-2025T00:47:42 - [TEST_STEP][PASSED] - click(findTestObject("Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/a_Payments")): Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/a_Payments' is clicked on
+
+29-05-2025T00:47:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/a_Payments' is clicked on
+
+29-05-2025T00:47:43 - [TEST_STEP][PASSED] - click(findTestObject("Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/span_CARD (paid)")): Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/span_CARD (paid)' is clicked on
+
+29-05-2025T00:47:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/span_CARD (paid)' is clicked on
+
+29-05-2025T00:47:45 - [TEST_STEP][PASSED] - click(findTestObject("Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/button_Refund")): Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/button_Refund' is clicked on
+
+29-05-2025T00:47:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/button_Refund' is clicked on
+
+29-05-2025T00:47:46 - [TEST_STEP][PASSED] - typeOnImage(findTestObject("Spy Web/Page_SportWrench - The Home of Sporting Events/a_Partial"), "Partial"): Image: 'C:\Users\LENOVO\git\SportWrench\Screenshots\Targets\Page_SportWrench - The Home of Sporting Events\a_Partial.png' is typed on
+
+29-05-2025T00:47:47 - [MESSAGE][PASSED] - Image: 'C:\Users\LENOVO\git\SportWrench\Screenshots\Targets\Page_SportWrench - The Home of Sporting Events\a_Partial.png' is typed on
+
+29-05-2025T00:47:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+29-05-2025T00:47:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-05-2025T00:47:49 - [TEST_STEP][PASSED] - click(findTestObject("Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/input_Team name_ng-pristine ng-untouched ng_75950e")): Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/input_Team name_ng-pristine ng-untouched ng_75950e' is clicked on
+
+29-05-2025T00:47:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/input_Team name_ng-pristine ng-untouched ng_75950e' is clicked on
+
+29-05-2025T00:47:49 - [TEST_STEP][PASSED] - click(findTestObject("Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/input_Trinity 9 11_ng-pristine ng-untouched_6875e5")): Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/input_Trinity 9 11_ng-pristine ng-untouched_6875e5' is clicked on
+
+29-05-2025T00:47:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/input_Trinity 9 11_ng-pristine ng-untouched_6875e5' is clicked on
+
+29-05-2025T00:47:50 - [TEST_STEP][PASSED] - setText(findTestObject("Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/input__form-control form-control-4digits ng_fc52e6"), "500"): Text '500' is set on object 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/input__form-control form-control-4digits ng_fc52e6'
+
+29-05-2025T00:47:50 - [MESSAGE][PASSED] - Text '500' is set on object 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/input__form-control form-control-4digits ng_fc52e6'
+
+29-05-2025T00:47:50 - [TEST_STEP][PASSED] - click(findTestObject("Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/button_Refund 2,500.00")): Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/button_Refund 2,500.00' is clicked on
+
+29-05-2025T00:47:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/button_Refund 2,500.00' is clicked on
+
+29-05-2025T00:47:51 - [TEST_STEP][PASSED] - click(findTestObject("Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/button_")): Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/button_' is clicked on
+
+29-05-2025T00:47:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/button_' is clicked on
+
+29-05-2025T00:47:55 - [TEST_STEP][PASSED] - click(findTestObject("Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/a_Accounting")): Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+29-05-2025T00:47:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+29-05-2025T00:47:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/div_2,500.00"), 0): Object 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/div_2,500.00' is present
+
+29-05-2025T00:47:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2025T00:47:57 - [MESSAGE][PASSED] - Object 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/div_2,500.00' is present
+
+29-05-2025T00:47:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/div_72.80"), 0): Object 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/div_72.80' is present
+
+29-05-2025T00:47:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2025T00:47:57 - [MESSAGE][PASSED] - Object 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/div_72.80' is present
+
+29-05-2025T00:47:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/div_6,297.20"), 0): Object 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/div_6,297.20' is present
+
+29-05-2025T00:47:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2025T00:47:57 - [MESSAGE][PASSED] - Object 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/div_6,297.20' is present
+
+29-05-2025T00:47:57 - [TEST_STEP][PASSED] - click(findTestObject("Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/a_Teams")): Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/a_Teams' is clicked on
+
+29-05-2025T00:47:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/a_Teams' is clicked on
+
+29-05-2025T00:47:57 - [TEST_STEP][PASSED] - click(findTestObject("Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/a_Teams List")): Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/a_Teams List' is clicked on
+
+29-05-2025T00:47:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/a_Teams List' is clicked on
+
+29-05-2025T00:47:58 - [TEST_STEP][PASSED] - click(findTestObject("Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/span_Trinity 8 1")): Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/span_Trinity 8 1' is clicked on
+
+29-05-2025T00:47:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/span_Trinity 8 1' is clicked on
+
+29-05-2025T00:47:58 - [TEST_STEP][PASSED] - click(findTestObject("Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/a_Payments")): Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/a_Payments' is clicked on
+
+29-05-2025T00:47:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/a_Payments' is clicked on
+
+29-05-2025T00:47:59 - [TEST_STEP][PASSED] - click(findTestObject("Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/span_CARD (paid)_1")): Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/span_CARD (paid)_1' is clicked on
+
+29-05-2025T00:48:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/span_CARD (paid)_1' is clicked on
+
+29-05-2025T00:48:01 - [TEST_STEP][PASSED] - click(findTestObject("Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/button_Refund")): Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/button_Refund' is clicked on
+
+29-05-2025T00:48:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/button_Refund' is clicked on
+
+29-05-2025T00:48:02 - [TEST_STEP][PASSED] - clickImage(findTestObject("Spy Web/Page_SportWrench - The Home of Sporting Events/a_Total")): Image: 'C:\Users\LENOVO\git\SportWrench\Screenshots/Targets/Page_SportWrench - The Home of Sporting Events/a_Total.png' is clicked on
+
+29-05-2025T00:48:03 - [MESSAGE][PASSED] - Image: 'C:\Users\LENOVO\git\SportWrench\Screenshots/Targets/Page_SportWrench - The Home of Sporting Events/a_Total.png' is clicked on
+
+29-05-2025T00:48:03 - [TEST_STEP][PASSED] - click(findTestObject("Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/button_Yes")): Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/button_Yes' is clicked on
+
+29-05-2025T00:48:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/button_Yes' is clicked on
+
+29-05-2025T00:48:04 - [TEST_STEP][PASSED] - click(findTestObject("Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/button_")): Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/button_' is clicked on
+
+29-05-2025T00:48:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CARD)/Page_SportWrench - The Home of Sporting Events/button_' is clicked on
+
+29-05-2025T00:48:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2025T00:48:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/111Team payments/Partial refund for teams (ACH)" time="44.676" classname="Test Cases/111Team payments/Partial refund for teams (ACH)" status="PASSED">
+         <system-out><![CDATA[29-05-2025T00:48:09 - [TEST_CASE][PASSED] - Test Cases/111Team payments/Partial refund for teams (ACH): Test Cases/111Team payments/Partial refund for teams (ACH)
+
+29-05-2025T00:48:09 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/"): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+29-05-2025T00:48:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2025T00:48:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2025T00:48:12 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/'
+
+29-05-2025T00:48:12 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@my.dev.swstage.com/#/"): Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+29-05-2025T00:48:15 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+29-05-2025T00:48:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/input_Log In_email"), "dcgfcgchfhgvhv@gmail.com"): Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+29-05-2025T00:48:16 - [MESSAGE][PASSED] - Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+29-05-2025T00:48:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/input_false_password"), "ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"): Text ****** has been set on object 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+29-05-2025T00:48:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+29-05-2025T00:48:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/button_Log In")): Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+29-05-2025T00:48:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+29-05-2025T00:48:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox"), "ULTIMATE TEAMS REFUND"): Text 'ULTIMATE TEAMS REFUND' is set on object 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox'
+
+29-05-2025T00:48:24 - [MESSAGE][PASSED] - Text 'ULTIMATE TEAMS REFUND' is set on object 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox'
+
+29-05-2025T00:48:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_ULTIMATE TEAMS REFUND")): Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_ULTIMATE TEAMS REFUND' is clicked on
+
+29-05-2025T00:48:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_ULTIMATE TEAMS REFUND' is clicked on
+
+29-05-2025T00:48:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_Accounting")): Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+29-05-2025T00:48:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+29-05-2025T00:48:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/div_4,000.00"), 0): Object 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/div_4,000.00' is present
+
+29-05-2025T00:48:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2025T00:48:27 - [MESSAGE][PASSED] - Object 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/div_4,000.00' is present
+
+29-05-2025T00:48:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/div_60.00"), 0): Object 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/div_60.00' is present
+
+29-05-2025T00:48:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2025T00:48:27 - [MESSAGE][PASSED] - Object 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/div_60.00' is present
+
+29-05-2025T00:48:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/div_3,900.00"), 0): Object 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/div_3,900.00' is present
+
+29-05-2025T00:48:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2025T00:48:27 - [MESSAGE][PASSED] - Object 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/div_3,900.00' is present
+
+29-05-2025T00:48:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_Teams")): Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_Teams' is clicked on
+
+29-05-2025T00:48:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_Teams' is clicked on
+
+29-05-2025T00:48:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_Teams List")): Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_Teams List' is clicked on
+
+29-05-2025T00:48:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_Teams List' is clicked on
+
+29-05-2025T00:48:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/span_Trinity 9 7")): Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/span_Trinity 9 7' is clicked on
+
+29-05-2025T00:48:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/span_Trinity 9 7' is clicked on
+
+29-05-2025T00:48:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_Payments")): Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_Payments' is clicked on
+
+29-05-2025T00:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_Payments' is clicked on
+
+29-05-2025T00:48:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/span_ACH (paid)")): Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/span_ACH (paid)' is clicked on
+
+29-05-2025T00:48:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/span_ACH (paid)' is clicked on
+
+29-05-2025T00:48:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/button_Refund")): Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/button_Refund' is clicked on
+
+29-05-2025T00:48:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/button_Refund' is clicked on
+
+29-05-2025T00:48:33 - [TEST_STEP][PASSED] - clickImage(findTestObject("Spy Web/Page_SportWrench - The Home of Sporting Events/a_Partial")): Image: 'C:\Users\LENOVO\git\SportWrench\Screenshots/Targets/Page_SportWrench - The Home of Sporting Events/a_Partial.png' is clicked on
+
+29-05-2025T00:48:34 - [MESSAGE][PASSED] - Image: 'C:\Users\LENOVO\git\SportWrench\Screenshots/Targets/Page_SportWrench - The Home of Sporting Events/a_Partial.png' is clicked on
+
+29-05-2025T00:48:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/input_Team name_ng-pristine ng-untouched ng_75950e")): Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/input_Team name_ng-pristine ng-untouched ng_75950e' is clicked on
+
+29-05-2025T00:48:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/input_Team name_ng-pristine ng-untouched ng_75950e' is clicked on
+
+29-05-2025T00:48:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/input_Trinity 9 12_ng-pristine ng-untouched_83e02a")): Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/input_Trinity 9 12_ng-pristine ng-untouched_83e02a' is clicked on
+
+29-05-2025T00:48:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/input_Trinity 9 12_ng-pristine ng-untouched_83e02a' is clicked on
+
+29-05-2025T00:48:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/input__form-control form-control-4digits ng_b55883"), "500"): Text '500' is set on object 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/input__form-control form-control-4digits ng_b55883'
+
+29-05-2025T00:48:35 - [MESSAGE][PASSED] - Text '500' is set on object 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/input__form-control form-control-4digits ng_b55883'
+
+29-05-2025T00:48:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/button_Refund 2,500.00")): Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/button_Refund 2,500.00' is clicked on
+
+29-05-2025T00:48:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/button_Refund 2,500.00' is clicked on
+
+29-05-2025T00:48:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/button_")): Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/button_' is clicked on
+
+29-05-2025T00:48:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/button_' is clicked on
+
+29-05-2025T00:48:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_Accounting")): Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+29-05-2025T00:48:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+29-05-2025T00:48:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/div_1,500.00")): Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/div_1,500.00' is clicked on
+
+29-05-2025T00:48:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/div_1,500.00' is clicked on
+
+29-05-2025T00:48:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/div_22.50")): Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/div_22.50' is clicked on
+
+29-05-2025T00:48:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/div_22.50' is clicked on
+
+29-05-2025T00:48:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/div_1,457.50")): Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/div_1,457.50' is clicked on
+
+29-05-2025T00:48:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/div_1,457.50' is clicked on
+
+29-05-2025T00:48:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_Teams")): Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_Teams' is clicked on
+
+29-05-2025T00:48:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_Teams' is clicked on
+
+29-05-2025T00:48:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_Teams List")): Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_Teams List' is clicked on
+
+29-05-2025T00:48:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_Teams List' is clicked on
+
+29-05-2025T00:48:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/span_Trinity 9 7")): Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/span_Trinity 9 7' is clicked on
+
+29-05-2025T00:48:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/span_Trinity 9 7' is clicked on
+
+29-05-2025T00:48:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_Payments")): Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_Payments' is clicked on
+
+29-05-2025T00:48:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/a_Payments' is clicked on
+
+29-05-2025T00:48:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/span_ACH (paid)_1")): Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/span_ACH (paid)_1' is clicked on
+
+29-05-2025T00:48:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/span_ACH (paid)_1' is clicked on
+
+29-05-2025T00:48:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/button_Refund")): Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/button_Refund' is clicked on
+
+29-05-2025T00:48:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/button_Refund' is clicked on
+
+29-05-2025T00:48:47 - [TEST_STEP][PASSED] - clickImage(findTestObject("Spy Web/Page_SportWrench - The Home of Sporting Events/a_Total")): Image: 'C:\Users\LENOVO\git\SportWrench\Screenshots/Targets/Page_SportWrench - The Home of Sporting Events/a_Total.png' is clicked on
+
+29-05-2025T00:48:48 - [MESSAGE][PASSED] - Image: 'C:\Users\LENOVO\git\SportWrench\Screenshots/Targets/Page_SportWrench - The Home of Sporting Events/a_Total.png' is clicked on
+
+29-05-2025T00:48:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/button_Yes")): Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/button_Yes' is clicked on
+
+29-05-2025T00:48:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/button_Yes' is clicked on
+
+29-05-2025T00:48:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/button_")): Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/button_' is clicked on
+
+29-05-2025T00:48:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (ACH)/Page_SportWrench - The Home of Sporting Events/button_' is clicked on
+
+29-05-2025T00:48:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2025T00:48:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/111Team payments/Refund for teams (Check)" time="47.033" classname="Test Cases/111Team payments/Refund for teams (Check)" status="PASSED">
+         <system-out><![CDATA[29-05-2025T00:48:53 - [TEST_CASE][PASSED] - Test Cases/111Team payments/Refund for teams (Check): Test Cases/111Team payments/Refund for teams (Check)
+
+29-05-2025T00:48:53 - [TEST_STEP][PASSED] - openBrowser("http://USAV:demo@dev.swstage.com/ "): Browser is opened with url: 'http://USAV:demo@dev.swstage.com/ '
+
+29-05-2025T00:48:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2025T00:48:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2025T00:48:57 - [MESSAGE][PASSED] - Browser is opened with url: 'http://USAV:demo@dev.swstage.com/ '
+
+29-05-2025T00:48:57 - [TEST_STEP][PASSED] - navigateToUrl("http://USAV:demo@my.dev.swstage.com/#/"): Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+29-05-2025T00:49:00 - [MESSAGE][PASSED] - Navigate to 'http://USAV:demo@my.dev.swstage.com/#/' successfully
+
+29-05-2025T00:49:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/input_Log In_email"), "dcgfcgchfhgvhv@gmail.com"): Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+29-05-2025T00:49:01 - [MESSAGE][PASSED] - Text 'dcgfcgchfhgvhv@gmail.com' is set on object 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/input_Log In_email'
+
+29-05-2025T00:49:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/input_false_password"), "ugkk24xDMrWrlVpEbACuNZEQlZ6qfcdw"): Text ****** has been set on object 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+29-05-2025T00:49:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/input_false_password'
+
+29-05-2025T00:49:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/button_Log In")): Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+29-05-2025T00:49:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/button_Log In' is clicked on
+
+29-05-2025T00:49:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox"), "ULTIMATE TEAMS REFUND"): Text 'ULTIMATE TEAMS REFUND' is set on object 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox'
+
+29-05-2025T00:49:09 - [MESSAGE][PASSED] - Text 'ULTIMATE TEAMS REFUND' is set on object 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/input_Other Events_searchbox'
+
+29-05-2025T00:49:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/a_ULTIMATE TEAMS REFUND")): Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/a_ULTIMATE TEAMS REFUND' is clicked on
+
+29-05-2025T00:49:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/a_ULTIMATE TEAMS REFUND' is clicked on
+
+29-05-2025T00:49:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/a_Accounting")): Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+29-05-2025T00:49:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+29-05-2025T00:49:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00"), 0): Object 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00' is present
+
+29-05-2025T00:49:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2025T00:49:12 - [MESSAGE][PASSED] - Object 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00' is present
+
+29-05-2025T00:49:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1"), 0): Object 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1' is present
+
+29-05-2025T00:49:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2025T00:49:13 - [MESSAGE][PASSED] - Object 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1' is present
+
+29-05-2025T00:49:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2"), 0): Object 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2' is present
+
+29-05-2025T00:49:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2025T00:49:13 - [MESSAGE][PASSED] - Object 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2' is present
+
+29-05-2025T00:49:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2_3"), 0): Object 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2_3' is present
+
+29-05-2025T00:49:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2025T00:49:13 - [MESSAGE][PASSED] - Object 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2_3' is present
+
+29-05-2025T00:49:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/a_Teams")): Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/a_Teams' is clicked on
+
+29-05-2025T00:49:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/a_Teams' is clicked on
+
+29-05-2025T00:49:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/a_Teams List")): Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/a_Teams List' is clicked on
+
+29-05-2025T00:49:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/a_Teams List' is clicked on
+
+29-05-2025T00:49:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/span_Trinity 9 16")): Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/span_Trinity 9 16' is clicked on
+
+29-05-2025T00:49:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/span_Trinity 9 16' is clicked on
+
+29-05-2025T00:49:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/a_Payments")): Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/a_Payments' is clicked on
+
+29-05-2025T00:49:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/a_Payments' is clicked on
+
+29-05-2025T00:49:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/span_CHECK (pending)")): Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/span_CHECK (pending)' is clicked on
+
+29-05-2025T00:49:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/span_CHECK (pending)' is clicked on
+
+29-05-2025T00:49:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/input_Received_is_received")): Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/input_Received_is_received' is clicked on
+
+29-05-2025T00:49:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/input_Received_is_received' is clicked on
+
+29-05-2025T00:49:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/input__check_num"), "1234567"): Text '1234567' is set on object 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/input__check_num'
+
+29-05-2025T00:49:19 - [MESSAGE][PASSED] - Text '1234567' is set on object 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/input__check_num'
+
+29-05-2025T00:49:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/button_Save")): Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/button_Save' is clicked on
+
+29-05-2025T00:49:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/button_Save' is clicked on
+
+29-05-2025T00:49:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/button_")): Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/button_' is clicked on
+
+29-05-2025T00:49:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/button_' is clicked on
+
+29-05-2025T00:49:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/a_Accounting")): Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+29-05-2025T00:49:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+29-05-2025T00:49:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_3,000.00"), 0): Object 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_3,000.00' is present
+
+29-05-2025T00:49:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2025T00:49:29 - [MESSAGE][PASSED] - Object 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_3,000.00' is present
+
+29-05-2025T00:49:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_3,000.00_1"), 0): Object 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_3,000.00_1' is present
+
+29-05-2025T00:49:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2025T00:49:30 - [MESSAGE][PASSED] - Object 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_3,000.00_1' is present
+
+29-05-2025T00:49:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_30.00"), 0): Object 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_30.00' is present
+
+29-05-2025T00:49:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2025T00:49:30 - [MESSAGE][PASSED] - Object 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_30.00' is present
+
+29-05-2025T00:49:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_2,970.00"), 0): Object 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_2,970.00' is present
+
+29-05-2025T00:49:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2025T00:49:30 - [MESSAGE][PASSED] - Object 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_2,970.00' is present
+
+29-05-2025T00:49:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_-30.00"), 0): Object 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_-30.00' is present
+
+29-05-2025T00:49:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2025T00:49:30 - [MESSAGE][PASSED] - Object 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_-30.00' is present
+
+29-05-2025T00:49:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/a_Teams")): Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/a_Teams' is clicked on
+
+29-05-2025T00:49:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/a_Teams' is clicked on
+
+29-05-2025T00:49:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/a_Teams List")): Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/a_Teams List' is clicked on
+
+29-05-2025T00:49:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/a_Teams List' is clicked on
+
+29-05-2025T00:49:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/span_Trinity 9 16")): Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/span_Trinity 9 16' is clicked on
+
+29-05-2025T00:49:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/span_Trinity 9 16' is clicked on
+
+29-05-2025T00:49:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/a_Payments")): Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/a_Payments' is clicked on
+
+29-05-2025T00:49:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/a_Payments' is clicked on
+
+29-05-2025T00:49:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/span_CHECK (paid)")): Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/span_CHECK (paid)' is clicked on
+
+29-05-2025T00:49:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/span_CHECK (paid)' is clicked on
+
+29-05-2025T00:49:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/button_Void Invoice_1")): Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/button_Void Invoice_1' is clicked on
+
+29-05-2025T00:49:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/button_Void Invoice_1' is clicked on
+
+29-05-2025T00:49:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/button_Yes")): Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/button_Yes' is clicked on
+
+29-05-2025T00:49:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/button_Yes' is clicked on
+
+29-05-2025T00:49:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/button_")): Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/button_' is clicked on
+
+29-05-2025T00:49:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/button_' is clicked on
+
+29-05-2025T00:49:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/a_Accounting")): Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+29-05-2025T00:49:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/a_Accounting' is clicked on
+
+29-05-2025T00:49:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2"), 0): Object 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2' is present
+
+29-05-2025T00:49:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2025T00:49:40 - [MESSAGE][PASSED] - Object 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2' is present
+
+29-05-2025T00:49:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2_3"), 0): Object 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2_3' is present
+
+29-05-2025T00:49:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2025T00:49:40 - [MESSAGE][PASSED] - Object 'Object Repository/Refund for teams (CHECK)/Page_SportWrench - The Home of Sporting Events/div_0.00_1_2_3' is present
+
+29-05-2025T00:49:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2025T00:49:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-05-2025T00:44:06 - [TEST_SUITE][FAILED] - Full and partial REFUNDS for teams (CARD, ACH, CHECK): Test Cases/111Team payments/Partial teams refund (Card) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to type on image 'Screenshots/Targets/Page_SportWrench - The Home of Sporting Events/a_Partial.png'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.TypeOnImageKeyword.typeOnImage(TypeOnImageKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.TypeOnImageKeyword.execute(TypeOnImageKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.typeOnImage(WebUiBuiltInKeywords.groovy:2843)
+	at Partial teams refund (Card).run(Partial teams refund (Card):60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1748468642337.run(TempTestSuite1748468642337.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.Exception: Cannot recognise image on screen
+	at com.kms.katalon.core.webui.common.ScreenUtil.clickImage(ScreenUtil.java:41)
+	at com.kms.katalon.core.webui.common.ScreenUtil.typeOnImage(ScreenUtil.java:58)
+	at com.kms.katalon.core.webui.keyword.builtin.TypeOnImageKeyword$_typeOnImage_closure1.doCall(TypeOnImageKeyword.groovy:54)
+	at com.kms.katalon.core.webui.keyword.builtin.TypeOnImageKeyword$_typeOnImage_closure1.call(TypeOnImageKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[29-05-2025T00:44:06 - [TEST_SUITE][FAILED] - Full and partial REFUNDS for teams (CARD, ACH, CHECK): Test Cases/111Team payments/Partial teams refund (Card) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to type on image 'Screenshots/Targets/Page_SportWrench - The Home of Sporting Events/a_Partial.png'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.TypeOnImageKeyword.typeOnImage(TypeOnImageKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.TypeOnImageKeyword.execute(TypeOnImageKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.typeOnImage(WebUiBuiltInKeywords.groovy:2843)
+	at Partial teams refund (Card).run(Partial teams refund (Card):60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1748468642337.run(TempTestSuite1748468642337.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.Exception: Cannot recognise image on screen
+	at com.kms.katalon.core.webui.common.ScreenUtil.clickImage(ScreenUtil.java:41)
+	at com.kms.katalon.core.webui.common.ScreenUtil.typeOnImage(ScreenUtil.java:58)
+	at com.kms.katalon.core.webui.keyword.builtin.TypeOnImageKeyword$_typeOnImage_closure1.doCall(TypeOnImageKeyword.groovy:54)
+	at com.kms.katalon.core.webui.keyword.builtin.TypeOnImageKeyword$_typeOnImage_closure1.call(TypeOnImageKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -6,16 +6,16 @@
    <elementGuidId>e29c64e4-f1d9-4948-a50e-b1358aa3185a</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>span:nth-of-type(3)</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='accordiongroup-1305-4115-tab']/h4/a/span/payment-info-accord-heading/span/b/span[3]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//span[(text() = 'ACH (paid)' or . = 'ACH (paid)')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>span:nth-of-type(3)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>8be2e94f-95ae-4047-811a-35caffb2f01a</webElementGuid>
+      <webElementGuid>5a1e9ac0-f305-4413-b151-cbc3d228e817</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>ACH (paid)</value>
-      <webElementGuid>7064efd1-2de1-4c5c-86cb-a45bc63fb467</webElementGuid>
+      <webElementGuid>4bc1cf25-a106-417a-b755-2cf38a68d12b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;accordiongroup-1305-4115-tab&quot;)/h4[@class=&quot;panel-title&quot;]/a[@class=&quot;accordion-toggle&quot;]/span[1]/payment-info-accord-heading[1]/span[@class=&quot;text-success&quot;]/b[1]/span[3]</value>
-      <webElementGuid>2dc166da-93c6-44e9-b02f-bb5150623bb6</webElementGuid>
+      <webElementGuid>78da283e-f4e8-46c1-a916-1a0c8bc1513d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='accordiongroup-1305-4115-tab']/h4/a/span/payment-info-accord-heading/span/b/span[3]</value>
-      <webElementGuid>0f0ef085-a882-41f5-9b9e-8fe99448ddf9</webElementGuid>
+      <webElementGuid>e0fe1b08-bd34-4fb0-8ae3-8288ecd2f716</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/following::span[1]</value>
-      <webElementGuid>faed0623-34f3-4d14-a137-f89f922fc14f</webElementGuid>
+      <webElementGuid>8732b540-93d5-444f-a325-e4c8d1046482</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='#16823168'])[1]/following::span[2]</value>
-      <webElementGuid>65ec5386-9c89-4c11-b342-4998f7516a7e</webElementGuid>
+      <webElementGuid>a52cbc39-a59d-421c-bc3e-d162dd857da2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$4,000.00'])[1]/preceding::span[3]</value>
-      <webElementGuid>beb3b007-c2a3-4160-9774-c45000b393fa</webElementGuid>
+      <webElementGuid>ad03b390-45ac-4ecb-b4ce-358ec11f5b3c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Created:'])[1]/preceding::span[4]</value>
-      <webElementGuid>2fe32794-d4ec-479b-8118-a4ceebc47670</webElementGuid>
+      <webElementGuid>f0440378-c211-443b-a518-0236610bb2c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='ACH (paid)']/parent::*</value>
-      <webElementGuid>8e2dab9d-a4c3-465f-85a2-8864e63723d3</webElementGuid>
+      <webElementGuid>5ee30456-dae7-4d6c-8e4e-6918a6b14848</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span[3]</value>
-      <webElementGuid>b728678d-aeae-48b8-ac1a-17032179771d</webElementGuid>
+      <webElementGuid>26dc1812-4c76-49b0-b45d-9ee7213f6c0a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'ACH (paid)' or . = 'ACH (paid)')]</value>
-      <webElementGuid>1e40f1cc-1681-4f90-88d2-319ea156e204</webElementGuid>
+      <webElementGuid>9b42be25-8d22-497a-9e3b-34e234b0aea4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

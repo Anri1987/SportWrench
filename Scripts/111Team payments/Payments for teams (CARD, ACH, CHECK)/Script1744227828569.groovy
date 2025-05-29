@@ -57,7 +57,9 @@ WebUI.click(findTestObject('Object Repository/Payment for teams (CARD, ACH, CHEC
 
 WebUI.click(findTestObject('Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/input_1,000.00_ng-pristine ng-untouched ng-_714ebc_1_2_3'))
 
-WebUI.click(findTestObject('Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_Proceed to payment'))
+WebUI.delay(1)
+
+WebUI.enhancedClick(findTestObject('Object Repository/Payment for teams (CARD, ACH, CHECK)/Page_SportWrench - The Home of Sporting Events/div_Proceed to payment'))
 
 WebUI.delay(2)
 
